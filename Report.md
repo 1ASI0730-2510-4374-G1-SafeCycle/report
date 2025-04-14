@@ -97,8 +97,8 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design | Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design | Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Giancarlo Santiago:*TB1*** ...| Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Giancarlo Santiago:*TB1*** ...| Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. |
 
 # 1. Capítulo I: Introducción
 
@@ -151,19 +151,18 @@ Creemos que los usuarios se sentirán más seguros usando las bicicletas sabiend
 
 ## 1.3 Segmentos objetivo.
 ### 1.3.1 Segmento objetivo 1: Estudiantes pregrado
-Descripción: 
+**Descripción:** 
 Los estudiantes tienen una vida agitada, una rutina dinámica y ajustada a horarios específicos. Por las mañanas muchos deben desplazarse desde sus residencias hacia sus centros de educación en poco tiempo, además del agobiante tráfico y algunos teniendo que lidiar con el transporte público.
-Caracteristicas:
-Edad: 18 a 30 años 
-Ubicación: Zonas urbanas, suelen vivir cerca de sus centros de educación 
-Nivel socioeconomico: Clase Media	    
+**Caracteristicas:**
+- Edad: 18 a 30 años 
+- Ubicación: Zonas urbanas, suelen vivir cerca de sus centros de educación 
+- Nivel socioeconomico: Clase Media	    
 ### 1.3.2. Segmento Objetivo 2: Turistas
-Descripción: 
+**Descripción:** 
 Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de una manera cómoda y accesible, ya sean centros turísticos como museos, atracciones o centros históricos. Para ello requiere gastar e invertir un buen capital, además considerando el tráfico en el Perú esto no puede ser tanto del agrado del turista. 
-Caracteristicas:
-Edad: 18 a 50 años 
-Ubicación: Zonas urbanas con alto índice de turismo, puntos de intereses históricos o culturales
-Nivel socioeconomico: Clase Media - Alta
-
+**Caracteristicas:**
+- Edad: 18 a 50 años 
+- Ubicación: Zonas urbanas con alto índice de turismo, puntos de intereses históricos o culturales
+- Nivel socioeconomico: Clase Media - Alta
 
 
