@@ -103,6 +103,7 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 # 1. Capítulo I: Introducción
 
 ## 1.1. Startup Profile
+Nuestra Startup “Cuys ™” ofrece una aplicación innovadora de préstamos de bicicletas “Safecycle” enfocadas a ayudar a estudiantes y turistas brindando una alternativa sostenible, accesible y segura para llegar a su destino. Ofrecemos una solución independiente al ofrecer las bicicletas como producto principal y contaremos con un modelo de negocio basado en los pagos que se realizarán en la aplicación por el préstamo de las bicicletas. Para ello investigaremos cómo cumplir con esta meta recolectando fuentes sobre modelos de negocios similares y planificamos el diseño y la codificación de nuestra solución.
 
 ### 1.1.1. Descripción de la Startup
 
@@ -111,6 +112,9 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 #### 1.1.2.1 Gabriel Sánchez Gonzales
 
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el 5to ciclo de la carrera de Ingeniería de Software. Soy una persona comprometida con mi desarrollo académico y profesional. Con esa responsabilidad, aspiro a proveer soluciones tecnológicas a aquellos que las requieran para facilitar su área de trabajo. Junto con mi equipo de trabajo tendré la oportunidad de poner mis conocimientos y habilidades en uso con el proyecto “Safecycle” con el fin de disminuir la problemática identificada. 
+
+#### 1.1.2.2 Giancarlo Santiago Castañeda Guimas
+Estudiante de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas cursando el 5to ciclo. Me considero una persona activa y que siempre busca terminar las cosas bien y de ser posible rápidamente. También me gusta la responsabilidad y el buen ambiente entre mis compañeros de grupo. 
 
 ## 1.2. Solution Profile
 
@@ -146,4 +150,20 @@ Creemos que los usuarios se sentirán más seguros usando las bicicletas sabiend
 |  | Determinar si los estudiantes y turistas están dispuestos a pagar por el servicio propuesto. Verificar que los usuarios de estas bicicletas no les den un mal uso a las mismas. | Diseñar entrevista con preguntas concretas a una estadística Desplegar una versión de prueba con pocas bicicletas en puntos estratégicos para detectar posibles problemas iniciales |
 
 ## 1.3 Segmentos objetivo.
+### 1.3.1 Segmento objetivo 1: Estudiantes pregrado
+Descripción: 
+Los estudiantes tienen una vida agitada, una rutina dinámica y ajustada a horarios específicos. Por las mañanas muchos deben desplazarse desde sus residencias hacia sus centros de educación en poco tiempo, además del agobiante tráfico y algunos teniendo que lidiar con el transporte público.
+Caracteristicas:
+Edad: 18 a 30 años 
+Ubicación: Zonas urbanas, suelen vivir cerca de sus centros de educación 
+Nivel socioeconomico: Clase Media	    
+### 1.3.2. Segmento Objetivo 2: Turistas
+Descripción: 
+Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de una manera cómoda y accesible, ya sean centros turísticos como museos, atracciones o centros históricos. Para ello requiere gastar e invertir un buen capital, además considerando el tráfico en el Perú esto no puede ser tanto del agrado del turista. 
+Caracteristicas:
+Edad: 18 a 50 años 
+Ubicación: Zonas urbanas con alto índice de turismo, puntos de intereses históricos o culturales
+Nivel socioeconomico: Clase Media - Alta
+
+
 
