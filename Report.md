@@ -119,6 +119,8 @@ Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el
 #### 1.1.2.2 Giancarlo Santiago Castañeda Guimas
 Estudiante de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas cursando el 5to ciclo. Me considero una persona activa y que siempre busca terminar las cosas bien y de ser posible rápidamente. También me gusta la responsabilidad y el buen ambiente entre mis compañeros de grupo. 
 
+<img src="assets/images/profile-pictures/Giancarlo Castañeda.jpg" width="180" />
+
 #### 1.1.2.3 Diego Alonzo Mora Blas
 Estudiante de la carrera de ingeniería de software en la UPC, cuento con habilidades como el aprendizaje rápido el cual me ha llevado a practicar y conocer diversas áreas como lo son la programación, la ciberseguridad y redes. Tengo el honor de trabajar con mi equipo el cual estoy seguro que nos aseguraremos de presentar un trabajo al nivel.
 
