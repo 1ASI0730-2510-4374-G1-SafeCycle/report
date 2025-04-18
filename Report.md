@@ -248,6 +248,55 @@ Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de
 ### 2.1.2 Estrategias y tácticas frente a competidores
 ## 2.2 Entrevistas
 ### 2.2.1 Diseño de entrevistas
+Como se mencionó anteriormente, nuestros segmentos objetivos están conformados por estudiantes universitarios de pregrado, principalmente aquellos que viven en cercanías de la universidad y turistas.
+
+Después de solicitarles sus datos personales básicos como nombres, apellidos, edad y distrito de estadía, se les preguntará lo siguiente a los entrevistados.
+
+**Preguntas a realizar:**
+
+**Estudiantes:**
+
+- ¿Cómo te transportas habitualmente en tu día a día?
+
+- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+
+- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+
+- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+
+- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+
+- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+
+- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
+
+- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
+
+**Turistas:**
+
+- ¿Cómo te transportas habitualmente en tu estadía?
+
+- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+
+- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+
+- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+
+- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+
+- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+
+- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
+
+- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
 ### 2.2.2 Registro de entrevistas.
 ### 2.2.3 Análisis de entrevistas.
 ## 2.3 Needfinding
