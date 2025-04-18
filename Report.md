@@ -116,9 +116,42 @@ Soy estudiante en la Universidad Peruana de Ciencias Aplicadas (UPC) cursando el
 #### 1.1.2.2 Giancarlo Santiago Castañeda Guimas
 Estudiante de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas cursando el 5to ciclo. Me considero una persona activa y que siempre busca terminar las cosas bien y de ser posible rápidamente. También me gusta la responsabilidad y el buen ambiente entre mis compañeros de grupo. 
 
+#### 1.1.2.3 Diego Alonzo Mora Blas
+Estudiante de la carrera de ingeniería de software en la UPC, cuento con habilidades como el aprendizaje rápido el cual me ha llevado a practicar y conocer diversas áreas como lo son la programación, la ciberseguridad y redes. Tengo el honor de trabajar con mi equipo el cual estoy seguro que nos aseguraremos de presentar un trabajo al nivel.
+
+#### 1.1.2.4 Gonzales Valverde Carlos Matthew
+Estudiante de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+1\. **What:** ¿Qué queremos ofrecer?
+
+Queremos ofrecer un servicio de alquiler de bicicletas, estas se pueden alquilar durante un periodo de tiempo dictaminado por una aplicación, esta se trata de una aplicación web que se puede acceder por computadora y/o celular.
+
+2\.      **Who:** ¿A quiénes queremos brindar nuestros servicios?
+
+Queremos brindar nuestros servicios a estudiantes que requieren de un medio barato y rápido y turistas que necesitan de un transporte barato o uno que puedan utilizar durante un corto periodo de tiempo.
+
+3\.      **Where:** ¿Dónde se pueden recoger las bicicletas?
+
+Las bicicletas se pueden recoger de lugares específicos, estos se llamarán almacenes. Se encontrarán en diversas posiciones estratégicas alrededor de Lima metropolitana.
+
+4\.      **When:** ¿Cuándo se tienen que devolver las bicicletas?
+
+Esto se decide una vez se alquila la bicicleta, el cliente podrá decidir durante cuántas horas va a alquilar la bicicleta, esto afectará el precio. Al final el cliente tendrá que devolver la bicicleta hacia la estación más cercana.
+
+5\.      **Why:** ¿Por qué el cliente usaría nuestros servicios?
+
+El cliente utiliza nuestros servicios, porque necesita transportarse rápido y barato.
+
+6\.      **How:** ¿Cómo conseguimos que los clientes devuelvan las bicicletas a tiempo?
+
+Una vez se decida la cantidad de horas la cantidad de horas por las que se va a alquilar la bici, si la hora establecida es excedida el cliente tendrá que pagar una mora por cada hora/minuto que se exceda.
+
+7\.      **How much:** ¿Cuánto tiempo se les permitirá a los clientes alquilar una bicicleta?
+
+Se les permitirá alquilar un mínimo de 1 hora y un máximo de 24 horas, dependiendo del tipo de usuario. Además, se pueden alquilar las bicicletas con antelación mediante una reserva.
 
 ### 1.2.2. Lean UX Process
 
@@ -131,6 +164,9 @@ Notamos que los estudiantes y turistas no desean pagar por un medio de transport
 
 
 #### 1.2.2.2. Lean UX Assumptions
+
+Creemos que los estudiantes y turistas en Lima enfrentan una falta de transporte fiable y económico, lo que genera retrasos e incomodidad, al ofrecer bicicletas accesibles mediante una app, creemos firmemente que  resolveremos esta necesidad. Nuestros segmentos objetivos priorizan el ahorro, prefiriendo nuestro servicio frente a taxis o transporte público costoso,además percibirán las bicicletas como una opción más cómoda al evitar el tráfico.La seguridad será clave, por lo que el sistema de bloqueo automático reducirá el miedo a robos, aumentando la confianza. Asumimos que la app será adoptada fácilmente ya que es intuitiva y garantiza transacciones seguras. Validamos estas suposiciones mediante encuestas de satisfacción, análisis de datos de uso, comparación de costos, entrevistas sobre seguridad y monitoreo de la reducción de congestión en zonas clave.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 Creemos que la eficacia con la que se movilizan los estudiantes y turistas aumentaría en un 80% debido a que se les proporcionará con una herramienta de transporte de acceso libre , como son las bicicletas, a través de un pago mínimo. Sabremos que estamos en lo correcto cuando se visualice un aumento de puntualidad hacia ciertos eventos.
