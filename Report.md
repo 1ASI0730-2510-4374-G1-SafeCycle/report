@@ -124,7 +124,7 @@ Estudiante de la carrera de ingeniería de software en la Universidad Peruana de
 #### 1.1.2.3 Diego Alonzo Mora Blas
 Estudiante de la carrera de ingeniería de software en la UPC, cuento con habilidades como el aprendizaje rápido el cual me ha llevado a practicar y conocer diversas áreas como lo son la programación, la ciberseguridad y redes. Tengo el honor de trabajar con mi equipo el cual estoy seguro que nos aseguraremos de presentar un trabajo al nivel.
 
-<img src="assets/images/profile-pictures/DiegoMora.PNG" width="180" />
+<img src="assets/images/profile-pictures/DiegoMora.PNG"  width="180" />
 
 #### 1.1.2.4 Gonzales Valverde Carlos Matthew
 Estudiante de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas, me destaco en poder trabajar bajo a presion, tener una
