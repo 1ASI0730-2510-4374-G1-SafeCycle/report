@@ -309,6 +309,26 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 ![User Persona Mateo Smith](/assets/images/user-personas/Mateo%20Smith.png)
 [Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
 ## 2.3.2 User Task Matrix.
+### **Estudiantes**
+
+| Actividades | Frecuencia | Importancia |
+| ----- | ----- | ----- |
+| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
+| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
+| Planificar el costo del viaje a realizar | Media | Alta |
+| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
+| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
+
+### **Turistas**
+
+| Actividades | Frecuencia | Importancia |
+| ----- | ----- | ----- |
+| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
+| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
+| Planificar el costo del viaje a realizar | Media | Alta |
+| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
+| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
+| Programar visitas y turismo evitando las horas más congestionadas del tráfico | Baja | Media |
 ## 2.3.3 User Journey Mapping.
 ## 2.3.4 Empathy Mapping.
 ## 2.3.5 As-is Scenario Mapping.
