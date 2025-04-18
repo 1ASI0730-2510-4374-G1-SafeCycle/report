@@ -129,6 +129,8 @@ Estudiante de la carrera de ingeniería de software en la Universidad Peruana de
 escucha activa y apoyar a mis compañeros cuando mas lo necesiten, esto tambien me ayudo a explorar mas el mundo de la programacion y ahora la ciberseguridad
 que quiero especializarme en ello. Agradezco a todo el grupo porque tenemos un ambiente adecuado y estoy seguro que podremos presentar un excelente trabajo.
 
+<img src="assets/images/profile-pictures/Carlos Gonzales.png" width="180" />
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
