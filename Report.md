@@ -92,7 +92,7 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
   - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)  
   - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)  
 - [2.3 Needfinding](#23-needfinding)  
-  - [2.3.1 User Personas - MARTES 8 DE ABRIL](#231-user-personas---martes-8-de-abril)  
+  - [2.3.1 User Personas](#231-user-personas)  
   - [2.3.2 User Task Matrix](#232-user-task-matrix)  
   - [2.3.3 User Journey Mapping](#233-user-journey-mapping)  
   - [2.3.4 Empathy Mapping](#234-empathy-mapping)  
@@ -300,7 +300,7 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 ### 2.2.2 Registro de entrevistas.
 ### 2.2.3 Análisis de entrevistas.
 ## 2.3 Needfinding
-## 2.3.1 User Personas. - MARTES 8 DE ABRIL
+## 2.3.1 User Personas.
 ### **Estudiante**: 
 ![User Persona Anne Guillen](/assets/images/user-personas/Anne%20Guillen%20(2).png)
 [Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
