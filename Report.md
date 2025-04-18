@@ -133,6 +133,11 @@ que quiero especializarme en ello. Agradezco a todo el grupo porque tenemos un a
 
 <img src="assets/images/profile-pictures/Carlos Gonzales.png" width="180" />
 
+#### 1.1.2.5 Oliver Jonseck Choque
+Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, actualmente en el quinto ciclo. Me destaco por ser proactivo y enfocado en cumplir con mis responsabilidades de manera eficiente. Valoro el trabajo bien hecho y disfruto colaborar en entornos donde reina el respeto y la buena comunicación entre compañeros.
+
+<img src="assets/images/profile-pictures/OliverJonseck.PNG" width="180" />
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
