@@ -84,9 +84,71 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 [Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [**TP1**](#tp1)
+- [Tabla de contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+      - [1.1.2.1 Gabriel Sánchez Gonzales](#1121-gabriel-sánchez-gonzales)
+      - [1.1.2.2 Giancarlo Santiago Castañeda Guimas](#1122-giancarlo-santiago-castañeda-guimas)
+      - [1.1.2.3 Diego Alonzo Mora Blas](#1123-diego-alonzo-mora-blas)
+      - [1.1.2.4 Gonzales Valverde Carlos Matthew](#1124-gonzales-valverde-carlos-matthew)
+      - [1.1.2.5 Oliver Jonseck Choque](#1125-oliver-jonseck-choque)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
+  - [1.3 Segmentos objetivo.](#13-segmentos-objetivo)
+    - [1.3.1 Segmento objetivo 1: Estudiantes pregrado](#131-segmento-objetivo-1-estudiantes-pregrado)
+    - [1.3.2. Segmento Objetivo 2: Turistas](#132-segmento-objetivo-2-turistas)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1 Competidores.](#21-competidores)
+    - [2.1.1 Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2 Entrevistas](#22-entrevistas)
+    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2 Registro de entrevistas.](#222-registro-de-entrevistas)
+    - [2.2.3 Análisis de entrevistas.](#223-análisis-de-entrevistas)
+  - [2.3 Needfinding](#23-needfinding)
+  - [2.3.1 User Personas.](#231-user-personas)
+    - [**Estudiante**:](#estudiante)
+    - [**Turista**:](#turista)
+  - [2.3.2 User Task Matrix.](#232-user-task-matrix)
+    - [**Estudiantes**](#estudiantes)
+    - [**Turistas**](#turistas)
+  - [2.3.3 User Journey Mapping.](#233-user-journey-mapping)
+  - [2.3.4 Empathy Mapping.](#234-empathy-mapping)
+  - [2.3.5 As-is Scenario Mapping.](#235-as-is-scenario-mapping)
+  - [2.4 Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.1.1.1 Colores](#4111-colores)
+    - [4.1.1.2 Tipografía](#4112-tipografía)
+      - [4.1.1.2.1 Escala](#41121-escala)
+      - [4.1.1.2.2 Weights](#41122-weights)
+      - [4.1.1.2.3 Nomenclatura](#41123-nomenclatura)
+      - [4.1.1.2.4 Ejemplos](#41124-ejemplos)
+    - [4.1.1.3 Branding](#4113-branding)
+      - [4.1.1.3.1 Claro:](#41131-claro)
+      - [4.1.1.3.2 Oscuro:](#41132-oscuro)
+    - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
+      - [4.1.2.1 Estilos de letra](#4121-estilos-de-letra)
+        - [4.1.2.1.1 Headings](#41211-headings)
+        - [4.1.2.1.2 Captions](#41212-captions)
+        - [4.1.2.1.3 Forms](#41213-forms)
+        - [4.1.2.1.5 Buttons](#41215-buttons)
+      - [4.1.2.2 Botones](#4122-botones)
+      - [4.1.2.3 Caja de texto](#4123-caja-de-texto)
+      - [4.1.2.4 Ventanas desplegables](#4124-ventanas-desplegables)
+      - [4.1.2.5 Ventanas Emergentes](#4125-ventanas-emergentes)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
@@ -359,7 +421,93 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
+
+### 4.1.1.1 Colores
+
+   Para SafeCycle hemos escogido una paleta de colores que cuenta con una variación de tonalidades de verdes que se oponen a comparación del azul, blanco grisáceo y naranja agregados para brindar contraste y hacer totalmente visibles los elementos incluidos. Optamos por escoger los colores verdes y azul como base dado el significado que estos poseen y lo que transmiten. En el caso del primero y principal, el verde se ve relacionado con la naturaleza, sabiendo que nosotros nos enfocamos en las bicicletas, lo cual es un medio de transporte amigable con el medio ambiente, queremos reflejar esa acción por la naturaleza a través de este color. Por otro lado, el azul se encuentra relacionado con la confianza, puesto que queremos que nuestros usuarios se sientan confiados en esta plataforma, el rol que cumple es muy importante. Consideramos que estos dos colores son ideales para mostrar en primer plano el mensaje de sinceridad y entorno eco-amigable que deseamos brindar.
+
+<img src="assets/images/styles/Colores Clarostyles-.png" alt="Paleta de colores SafeCycle claros " width=500>
+<img src="assets/images/styles/Colores Oscurostyles-.png" alt="Paleta de colores SafeCycle oscuros" width=500>
+
+### 4.1.1.2 Tipografía
+
+La fuente que estamos empleando para el texto es Inria Sans. Esta cuenta con un aspecto limpio. Asimismo, consideramos que su diseño amigable a la vista logrará que los usuarios puedan leer cada uno de los textos incluídos en la página y aplicación sin dificultades. Para lograr un mejor diseño ajustaremos el tamaño, grosor y color dependiendo del caso en que se utilice.
+
+#### 4.1.1.2.1 Escala
+
+<img src="assets/images/styles/Escalastyles-.png" alt="Escalas de texto">
+
+#### 4.1.1.2.2 Weights
+
+<img src="assets/images/styles/Weightsstyles-.png" alt="Weights de texto">
+
+#### 4.1.1.2.3 Nomenclatura
+
+<img src="assets/images/styles/Nomenclatura.png" alt="nomenclatura de texto">
+
+#### 4.1.1.2.4 Ejemplos
+
+<img src="assets/images/styles/Ejemplosstyles-.png" alt="ejemplo de texto">
+
+               
+### 4.1.1.3 Branding
+
+Para el logo que representará a la plataforma optamos por utilizar su característico color verde y un fondo en blanco para generar su contraste.
+  
+<img src="assets/images/Logos/LogoSafeCycle.png" alt="Logo Safecycle" height=300>
+
+Para asegurar que nuestro logo sea visible en cualquier situación, adecuamos el logo para que sea visible tanto en un fondo oscuro como claro.
+
+#### 4.1.1.3.1 Claro:
+
+<img src="assets/images/styles/Logostyles-.png" alt="Logo SafeCycle" width=400>         
+<img src="assets/images/styles/Logo2styles-.png" alt="Logo SafeCycle" width=400>         
+
+
+#### 4.1.1.3.2 Oscuro:
+
+<img src="assets/images/styles/LogoNstyles-.png" alt="Logo SafeCycle" width=400>         
+<img src="assets/images/styles/LogoN2styles-.png" alt="Logo SafeCycle" width=400>       
+
+### 4.1.2 Web Style Guidelines
+
+Para nuestro diseño de página web, estaremos utilizando la misma paleta de colores característicos de SafeCycle. Además, a través de las formas que usaremos para las ventanas emergentes o botones, se notará el uso de formas redondeadas. Además utilizaremos variaciones de tamaño para evitar sobrecargar la pantalla y tener un espacio en blanco para brindar un descanso visual al usuario. De esta forma, lograremos tener un estilo que sea fácil de leer y atractivo para que cualquier usuario pueda adaptarse rápidamente a este.
+Paleta de colores
+
+#### 4.1.2.1 Estilos de letra
+##### 4.1.2.1.1 Headings
+<img src="assets/images/styles/Headingsstyles-.png" alt="Estilo de letra" width=400>   
+
+##### 4.1.2.1.2 Captions
+
+<img src="assets/images/styles/Captionsstyles-.png" alt="Estilo de letra" width=400>   
+
+##### 4.1.2.1.3 Forms
+<img src="assets/images/styles/formsstyles-.png" alt="Estilo de letra" width=400>   
+
+##### 4.1.2.1.5 Buttons
+
+<img src="assets/images/styles/buttons-stylestyles-.png" alt="Estilo de letra" width=400>   
+
+#### 4.1.2.2 Botones
+
+<img src="assets/images/styles/Botonesstyles--1.png" alt="Botones" width=400>   
+<img src="assets/images/styles/Botonesstyles-.png" alt="Botones" width=400>   
+
+#### 4.1.2.3 Caja de texto
+
+<img src="assets/images/styles/Cajastexto2styles-.png" alt="Caja de texto" width=400>  
+<img src="assets/images/styles/Cajastextostyles-.png" alt="Caja de texto" width=400> 
+
+#### 4.1.2.4 Ventanas desplegables
+<img src="assets/images/styles/VentanaDesplegable2styles-.png" alt="Ventana desplegable" width=400>  
+<img src="assets/images/styles/VentanaDesplegablestyles-.png" alt="Ventana desplegable" width=400>  
+
+
+#### 4.1.2.5 Ventanas Emergentes
+<img src="assets/images/styles/VentanaEmergenteClarostyles-.png" alt="Ventana emergente" width=400>
+<img src="assets/images/styles/VentanaEmergenteOscurostyles-.png" alt="Ventana emergente" width=400>    
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
