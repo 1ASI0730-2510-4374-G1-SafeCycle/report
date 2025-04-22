@@ -69,6 +69,7 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 # Tabla de contenidos
 
+
 [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -81,6 +82,7 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
 
 # Student Outcome
 
@@ -205,5 +207,124 @@ Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de
 - Edad: 18 a 50 años 
 - Ubicación: Zonas urbanas con alto índice de turismo, puntos de intereses históricos o culturales
 - Nivel socioeconomico: Clase Media - Alta
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1 Competidores.
+### 2.1.1 Análisis competitivo.
+
+| **Competitive Analysis Landscape** | **Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.** |
+| :---- | :---- |
+| ¿Por qué llevar a cabo este análisis?  | Deseamos analizar a nuestros competidores para buscar en qué puntos podemos mejorar, contra que nos estamos enfrentando en el mercado y como nos distinguimos de estos |
+
+|  |  | ![Logo Safe Cycle](/assets/images/Logos/LogoSafeCycle.png)  Safecycle | ![Logo City Bike Lima](/assets/images/Logos/CityBikeLimaLogo.png) CityBikeLima | ![Logo Barranco Bikes](/assets/images/Logos/BarrancoBikesLogo.jpg) Barrancobikes | ![Logo Mira Bici](/assets/images/Logos/MiraBiciLogo.png) Mirabiciperu |
+| :---- | :---- | ----- | :---- | :---- | :---- |
+| Perfil | Overview Ventaja competitiva  | Plataforma direccionada hacia la renta por minuto de las bicicletas, las cuales se pueden reservar desde la aplicación y posteriormente. | Servicio presencial en el cual se rentan bicicletas por un tiempo de 30 minutos gratis a través de pases mensuales, anuales o diarios y pagados por la pantalla de la bicicleta. | Una plataforma en la que puedes pagar por una bicicleta por horas, días o semanas alrededor de Barranco | Plataforma que ofrece una reservas de bicicletas a través de rutas turísticas |
+|  | ¿Qué valor ofrece a los clientes? | • Devolución de bicicletas en cualquier estación. <br>• Cobro por minuto. <br>• Seguro automatico. <br>• Paquetes de descuento a estudiantes <br>• Planes por horas | • Tarjeta con pases anuales <br>• Desbloqueo de bicicleta con código o tarjeta <br>• Devolución de bicicletas en cualquier estación. <br>• Servicio de pausa de la bicicleta | • Renta de bicicletas por horas, días y semanas <br>• Proporciona elementos de seguridad Delivery de bicicleta | • 3 rutas de turismo  <br>• Ofrece una renta de bicicleta por duración de tour  |
+| Perfil de Marketing | Mercado objetivo  | • Estudiantes de pregrado Turistas | • Residentes de San Isidro | • Residentes de Barranco Turistas | • Turistas |
+|  | Estrategias de marketing | • Códigos de referencia por parte de otros usuarios para descuentos <br>• Descuentos hacia los estudiantes <br>• Tutoriales acerca de uso | • Registro a través de pases y tarjetas 30 primeros minutos gratis <br>• Tutoriales acerca de uso | • Añade un descuento de consumo a un restaurante afiliado | • Tours en grupo <br>• Opiniones de otros usuario en la misma página web |
+| Perfil de Producto | • Productos & Servicios  | • Renta de Bicicleta | • Tarjeta de pago para bici <br>• Renta de Bicicleta | • Casco y cadena incluido con la renta <br>• Renta de Bicicleta | • Tours en zonas culturales, con explicación en bicicleta <br>• Servicios técnico y de repuesto |
+|  | Precios & Costos  | • **Estudiantes:**  S/. 0.035 / minuto <br>• **Tarifa General:**  S/. 0.045 / minuto <br>• **Tarifa Inicial:**  S/. 1.00 / minuto | • **Minuto 0 al 30:** Sin costo <br>•**31 al 120:**  S/ 2.00 cada 30 minutos o fracción <br>• **121 a más:**  S/ 7.00 cada hora o fracción | • **02 horas:**  S/. 25.00 <br>• **03 horas:**  S/ 30.00 <br>• **05 horas:**  S/ 45.00 <br>• **Más de 05 horas:**  S/ 55.00 | • **Ruta 1:** USD 35 S/. 133 <br>• **Ruta 2:** USD 25 S/. 95 <br>• **Ruta 3:** USD 35 S/. 133 |
+|  | Canales de distribución (Web y/o Móvil)  | Web y Móvil | Presencial Web y Móvil | Web | Web |
+| Análisis SWOT | Fortalezas | • Tarifa accessible Adaptable a otros dispositivos | Diferentes formas de renta <br>• Prueba gratuita para atraer clientes <br>•  Tarifa accessible | • Delivery a la puerta de tu casa <br>• Elementos extra proporcionados  | • Tours con guia turistico. <br>• Función para rentar en grupo |
+|  | Debilidades | • Dependencia a internet Dependencia a disponibilidad <br>• Riesgo de vandalismo <br>• Bajo conocimiento de marca inicial. | • Riesgo de vandalismo <br>• Dificultad de uso para personas sin mucho conocimiento tecnológico <br>• Reubicación de bicicletas por congestión | • Dependencia a disponibilidad Bajo conocimiento de marca inicial. | • Dependencia a disponibilidad <br>• Falta de confianza de usuario |
+|  | Oportunidades | • Alianzas con centros educativos o cadenas de turismo Subvención gubernamental por negocio eco-friendly <br>• Incorporar nuevos tipos de transporte | • Incorporar nuevos tipos de transporte <br>• Expansión de distritos disponibles | • Expansión de distritos disponibles | • Mayor cantidad de tours disponibles <br>• Alianza con hoteles |
+|  | Amenazas | • Competencia en el mercado alta<br>• Robo o hackeos | • Problemas por clima o infraestructura | • Quejas por demora de renta | • Cambios de normativas de rutas <br>• Poca retención de usuarios |
+
+### 2.1.2 Estrategias y tácticas frente a competidores
+## 2.2 Entrevistas
+### 2.2.1 Diseño de entrevistas
+Como se mencionó anteriormente, nuestros segmentos objetivos están conformados por estudiantes universitarios de pregrado, principalmente aquellos que viven en cercanías de la universidad y turistas.
+
+Después de solicitarles sus datos personales básicos como nombres, apellidos, edad y distrito de estadía, se les preguntará lo siguiente a los entrevistados.
+
+**Preguntas a realizar:**
+
+**Generales:**
+
+¿Cuál es tu nombre y apellidos?
+
+¿Cuántos años tienes?
+
+¿Cuál es tu lugar de nacimiento?
+
+**Estudiantes:**
+
+- ¿Cómo te transportas habitualmente en tu día a día?
+
+- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+
+- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+
+- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+
+- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+
+- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+
+- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
+
+- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
+
+**Turistas:**
+
+- ¿Cómo te transportas habitualmente en tu estadía?
+
+- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+
+- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+
+- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+
+- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+
+- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+
+- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
+
+- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
+### 2.2.2 Registro de entrevistas.
+### 2.2.3 Análisis de entrevistas.
+## 2.3 Needfinding
+## 2.3.1 User Personas.
+### **Estudiante**: 
+![User Persona Anne Guillen](/assets/images/user-personas/Anne%20Guillen%20(2).png)
+[Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
+<br>
+### **Turista**: 
+![User Persona Mateo Smith](/assets/images/user-personas/Mateo%20Smith.png)
+[Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+## 2.3.2 User Task Matrix.
+### **Estudiantes**
+
+| Actividades | Frecuencia | Importancia |
+| ----- | ----- | ----- |
+| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
+| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
+| Planificar el costo del viaje a realizar | Media | Alta |
+| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
+| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
+
+### **Turistas**
+
+| Actividades | Frecuencia | Importancia |
+| ----- | ----- | ----- |
+| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
+| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
+| Planificar el costo del viaje a realizar | Media | Alta |
+| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
+| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
+| Programar visitas y turismo evitando las horas más congestionadas del tráfico | Baja | Media |
+## 2.3.3 User Journey Mapping.
+## 2.3.4 Empathy Mapping.
+## 2.3.5 As-is Scenario Mapping.
+## 2.4 Ubiquitous Language
 
 
