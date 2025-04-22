@@ -254,6 +254,14 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 
 **Preguntas a realizar:**
 
+**Generales:**
+
+¿Cuál es tu nombre y apellidos?
+
+¿Cuántos años tienes?
+
+¿Cuál es tu lugar de nacimiento?
+
 **Estudiantes:**
 
 - ¿Cómo te transportas habitualmente en tu día a día?
