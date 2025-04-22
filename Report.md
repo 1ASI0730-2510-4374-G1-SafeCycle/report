@@ -69,35 +69,20 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 # Tabla de contenidos
 
-[1. Capítulo I: Introducción](#1-capítulo-i-introducción)
 
-- [1.1. Startup Profile](#11-startup-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)
-  - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-  - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-  - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-  - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-  
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1 Competidores](#21-competidores)  
-  - [2.1.1 Análisis competitivo](#211-análisis-competitivo)  
-  - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
-- [2.2 Entrevistas](#22-entrevistas)  
-  - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)  
-  - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)  
-  - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)  
-- [2.3 Needfinding](#23-needfinding)  
-  - [2.3.1 User Personas](#231-user-personas)  
-  - [2.3.2 User Task Matrix](#232-user-task-matrix)  
-  - [2.3.3 User Journey Mapping](#233-user-journey-mapping)  
-  - [2.3.4 Empathy Mapping](#234-empathy-mapping)  
-  - [2.3.5 As-is Scenario Mapping](#235-as-is-scenario-mapping)  
-- [2.4 Ubiquitous Language](#24-ubiquitous-language)
+[Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
 
 # Student Outcome
 
@@ -106,7 +91,7 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Giancarlo Santiago:*TB1*** ...| Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Giancarlo Santiago:*TB1*** ...| Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. |
 
-# 1. Capítulo I: Introducción
+# Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 Nuestra Startup “Cuys ™” ofrece una aplicación innovadora de préstamos de bicicletas “Safecycle” enfocadas a ayudar a estudiantes y turistas brindando una alternativa sostenible, accesible y segura para llegar a su destino. Ofrecemos una solución independiente al ofrecer las bicicletas como producto principal y contaremos con un modelo de negocio basado en los pagos que se realizarán en la aplicación por el préstamo de las bicicletas. Para ello investigaremos cómo cumplir con esta meta recolectando fuentes sobre modelos de negocios similares y planificamos el diseño y la codificación de nuestra solución.
