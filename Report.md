@@ -567,6 +567,37 @@ Paleta de colores
 [link a wireflow diagrams](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
 
 ### 4.4.3. Web Applications Mock-ups
+
+<img src="assets/images/UXUI/mockup/Informacion de Pago-1.png" width="400" alt="Mockup Información de Pago 1" />
+<img src="assets/images/UXUI/mockup/Informacion de Pago.png" width="400" alt="Mockup Información de Pago" />
+<img src="assets/images/UXUI/mockup/Manage Bycicles Centers Edit Bicycle-1.png" width="400" alt="Mockup Editar Bicicleta Centro 1" />
+<img src="assets/images/UXUI/mockup/Manage Bycicles Centers Edit Bicycle.png" width="400" alt="Mockup Editar Bicicleta Centro" />
+<img src="assets/images/UXUI/mockup/Manage Bycicles Centers-1.png" width="400" alt="Mockup Centros de Bicicletas 1" />
+<img src="assets/images/UXUI/mockup/Manage Bycicles Centers.png" width="400" alt="Mockup Centros de Bicicletas" />
+<img src="assets/images/UXUI/mockup/Manage Centers.png" width="400" alt="Mockup Gestión de Centros" />
+<img src="assets/images/UXUI/mockup/Perfil Developer.png" width="400" alt="Mockup Perfil de Desarrollador" />
+<img src="assets/images/UXUI/mockup/Perfil-1.png" width="400" alt="Mockup Perfil 1" />
+<img src="assets/images/UXUI/mockup/Perfil-2.png" width="400" alt="Mockup Perfil 2" />
+<img src="assets/images/UXUI/mockup/Perfil-3.png" width="400" alt="Mockup Perfil 3" />
+<img src="assets/images/UXUI/mockup/Perfil-4.png" width="400" alt="Mockup Perfil 4" />
+<img src="assets/images/UXUI/mockup/Perfil-5.png" width="400" alt="Mockup Perfil 5" />
+<img src="assets/images/UXUI/mockup/Perfil-6.png" width="400" alt="Mockup Perfil 6" />
+<img src="assets/images/UXUI/mockup/Perfil.png" width="400" alt="Mockup Perfil" />
+<img src="assets/images/UXUI/mockup/Rentar-1.png" width="400" alt="Mockup Rentar 1" />
+<img src="assets/images/UXUI/mockup/Rentar-2.png" width="400" alt="Mockup Rentar 2" />
+<img src="assets/images/UXUI/mockup/Rentar-3.png" width="400" alt="Mockup Rentar 3" />
+<img src="assets/images/UXUI/mockup/Rentar.png" width="400" alt="Mockup Rentar" />
+<img src="assets/images/UXUI/mockup/Reserva-1.png" width="400" alt="Mockup Reserva 1" />
+<img src="assets/images/UXUI/mockup/Reserva-2.png" width="400" alt="Mockup Reserva 2" />
+<img src="assets/images/UXUI/mockup/Reserva-3.png" width="400" alt="Mockup Reserva 3" />
+<img src="assets/images/UXUI/mockup/Reserva-4.png" width="400" alt="Mockup Reserva 4" />
+<img src="assets/images/UXUI/mockup/Reserva.png" width="400" alt="Mockup Reserva" />
+<img src="assets/images/UXUI/mockup/Settings.png" width="400" alt="Mockup Configuración" />
+<img src="assets/images/UXUI/mockup/Tarifas.png" width="400" alt="Mockup Tarifas" />
+<img src="assets/images/UXUI/mockup/Touring-1.png" width="400" alt="Mockup Touring 1" />
+<img src="assets/images/UXUI/mockup/Touring-2.png" width="400" alt="Mockup Touring 2" />
+<img src="assets/images/UXUI/mockup/Touring.png" width="400" alt="Mockup Touring" />
+
 ### 4.4.4. Web Applications User Flow 
 
 <img src="assets/images/UXUI/user%20flows/Entrarperfil.png" width="400" alt="Flujo de entrar al perfil" />
