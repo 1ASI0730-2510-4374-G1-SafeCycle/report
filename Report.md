@@ -520,18 +520,23 @@ Paleta de colores
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
+
 ### 4.4.3. Web Applications Mock-ups
-### 4.4.4. Web Applications User Flow Diagrams
-<img src="assets/images/webAppUXUI/userflow/cambiaraEstudiante.png" width="400" alt="Flujo para cambiar a estudiante" />
-<img src="assets/images/webAppUXUI/userflow/cambiarContra.png" width="400" alt="Flujo para cambiar contraseña" />
-<img src="assets/images/webAppUXUI/userflow/cancelReserva.png" width="400" alt="Flujo para cancelar una reserva" />
-<img src="assets/images/webAppUXUI/userflow/editPago.png" width="400" alt="Flujo para editar método de pago" />
-<img src="assets/images/webAppUXUI/userflow/entrarConfig.png" width="400" alt="Flujo para entrar a configuración" />
-<img src="assets/images/webAppUXUI/userflow/entrarPerfil.png" width="400" alt="Flujo para entrar al perfil" />
-<img src="assets/images/webAppUXUI/userflow/IniciarSesion.png" width="400" alt="Flujo para iniciar sesión" />
-<img src="assets/images/webAppUXUI/userflow/rentaActual.png" width="400" alt="Flujo para ver la renta actual" />
-<img src="assets/images/webAppUXUI/userflow/rentDestino.png" width="400" alt="Flujo para rentar con destino" />
-<img src="assets/images/webAppUXUI/userflow/SignUp.png" width="400" alt="Flujo para registrarse (sign up)" />
+### 4.4.4. Web Applications User Flow 
+
+<img src="assets/images/UXUI/user%20flows/Entrarperfil.png" width="400" alt="Flujo de entrar al perfil" />
+<img src="assets/images/UXUI/user%20flows/actualrenta.png" width="400" alt="Flujo de renta actual" />
+<img src="assets/images/UXUI/user%20flows/alquilerbici.png" width="400" alt="Flujo de alquiler de bicicleta" />
+<img src="assets/images/UXUI/user%20flows/cancelarReserva.png" width="400" alt="Flujo de cancelar reserva" />
+<img src="assets/images/UXUI/user%20flows/pass.png" width="400" alt="Flujo de cambio de contraseña" />
+<img src="assets/images/UXUI/user%20flows/pay.png" width="400" alt="Flujo de cambio de pago" />
+<img src="assets/images/UXUI/user%20flows/reserva.png" width="400" alt="Flujo de hacer una reserva" />
+<img src="assets/images/UXUI/user%20flows/signin.png" width="400" alt="Flujo de iniciar sesión" />
+<img src="assets/images/UXUI/user%20flows/signup.png" width="400" alt="Flujo de registro" />
+<img src="assets/images/UXUI/user%20flows/touring.png" width="400" alt="Flujo de tour" />
+
+[link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
+
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
