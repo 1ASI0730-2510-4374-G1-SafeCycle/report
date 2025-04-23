@@ -521,6 +521,12 @@ Paleta de colores
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+<img src="assets/images/UXUI/wireflows/1.png" width="400" alt="Wireflow" />
+<img src="assets/images/UXUI/wireflows/2.png" width="400" alt="Wireflow" />
+<img src="assets/images/UXUI/wireflows/3.png" width="400" alt="Wireflow" />
+
+[link a wireflow diagrams](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
+
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow 
 
