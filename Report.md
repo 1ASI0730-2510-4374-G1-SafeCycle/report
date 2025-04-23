@@ -516,9 +516,20 @@ Paleta de colores
 ### 4.2.5. Navigation Systems
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+
+![landing page web](assets/images/UXUI/landing/wireLanding.png)
+![landing page mobile](assets/images/UXUI/landing/wireLandingmobile.png)
+
 ### 4.3.2. Landing Page Mock-up
+
+![landing page web](assets/images/UXUI/landing/mockupLanding.png)
+![landing page mobile](assets/images/UXUI/landing/mockupLanding.png)
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 <img src="assets/images/UXUI/wireflows/1.png" width="400" alt="Wireflow" />
