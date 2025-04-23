@@ -162,7 +162,7 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
     - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
     - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [4.4.4 Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
@@ -598,7 +598,7 @@ Paleta de colores
 <img src="assets/images/UXUI/mockup/Touring-2.png" width="400" alt="Mockup Touring 2" />
 <img src="assets/images/UXUI/mockup/Touring.png" width="400" alt="Mockup Touring" />
 
-### 4.4.4. Web Applications User Flow 
+### 4.4.4 Web Applications User Flow Diagrams 
 
 <img src="assets/images/UXUI/user%20flows/Entrarperfil.png" width="400" alt="Flujo de entrar al perfil" />
 <img src="assets/images/UXUI/user%20flows/actualrenta.png" width="400" alt="Flujo de renta actual" />
@@ -614,6 +614,9 @@ Paleta de colores
 [link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
 
 ## 4.5. Web Applications Prototyping
+
+
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 ### 4.6.2. Software Architecture Container Diagrams
