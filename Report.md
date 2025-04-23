@@ -528,7 +528,35 @@ Paleta de colores
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-
+<img src="assets/images/UXUI/wireframes/Informacion de Pago-1.png" width="400" alt="Wireframe Información de Pago 1" />
+<img src="assets/images/UXUI/wireframes/Informacion de Pago.png" width="400" alt="Wireframe Información de Pago" />
+<img src="assets/images/UXUI/wireframes/Manage Bycicles Centers Edit Bicycle-1.png" width="400" alt="Wireframe Editar Bicicleta Centro 1" />
+<img src="assets/images/UXUI/wireframes/Manage Bycicles Centers Edit Bicycle.png" width="400" alt="Wireframe Editar Bicicleta Centro" />
+<img src="assets/images/UXUI/wireframes/Manage Bycicles Centers-1.png" width="400" alt="Wireframe Centros de Bicicletas 1" />
+<img src="assets/images/UXUI/wireframes/Manage Bycicles Centers.png" width="400" alt="Wireframe Centros de Bicicletas" />
+<img src="assets/images/UXUI/wireframes/Manage Centers.png" width="400" alt="Wireframe Gestión de Centros" />
+<img src="assets/images/UXUI/wireframes/Perfil Developer.png" width="400" alt="Wireframe Perfil de Desarrollador" />
+<img src="assets/images/UXUI/wireframes/Perfil-1.png" width="400" alt="Wireframe Perfil 1" />
+<img src="assets/images/UXUI/wireframes/Perfil-2.png" width="400" alt="Wireframe Perfil 2" />
+<img src="assets/images/UXUI/wireframes/Perfil-3.png" width="400" alt="Wireframe Perfil 3" />
+<img src="assets/images/UXUI/wireframes/Perfil-4.png" width="400" alt="Wireframe Perfil 4" />
+<img src="assets/images/UXUI/wireframes/Perfil-5.png" width="400" alt="Wireframe Perfil 5" />
+<img src="assets/images/UXUI/wireframes/Perfil-6.png" width="400" alt="Wireframe Perfil 6" />
+<img src="assets/images/UXUI/wireframes/Perfil.png" width="400" alt="Wireframe Perfil" />
+<img src="assets/images/UXUI/wireframes/Rentar-1.png" width="400" alt="Wireframe Rentar 1" />
+<img src="assets/images/UXUI/wireframes/Rentar-2.png" width="400" alt="Wireframe Rentar 2" />
+<img src="assets/images/UXUI/wireframes/Rentar-3.png" width="400" alt="Wireframe Rentar 3" />
+<img src="assets/images/UXUI/wireframes/Rentar.png" width="400" alt="Wireframe Rentar" />
+<img src="assets/images/UXUI/wireframes/Reserva-1.png" width="400" alt="Wireframe Reserva 1" />
+<img src="assets/images/UXUI/wireframes/Reserva-2.png" width="400" alt="Wireframe Reserva 2" />
+<img src="assets/images/UXUI/wireframes/Reserva-3.png" width="400" alt="Wireframe Reserva 3" />
+<img src="assets/images/UXUI/wireframes/Reserva-4.png" width="400" alt="Wireframe Reserva 4" />
+<img src="assets/images/UXUI/wireframes/Reserva.png" width="400" alt="Wireframe Reserva" />
+<img src="assets/images/UXUI/wireframes/Settings.png" width="400" alt="Wireframe Configuración" />
+<img src="assets/images/UXUI/wireframes/Tarifas.png" width="400" alt="Wireframe Tarifas" />
+<img src="assets/images/UXUI/wireframes/Touring-1.png" width="400" alt="Wireframe Touring 1" />
+<img src="assets/images/UXUI/wireframes/Touring-2.png" width="400" alt="Wireframe Touring 2" />
+<img src="assets/images/UXUI/wireframes/Touring.png" width="400" alt="Wireframe Touring" />
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
