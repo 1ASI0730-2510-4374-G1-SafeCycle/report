@@ -513,6 +513,56 @@ Paleta de colores
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
+
+
+Las funcionalidades de búsqueda en SafeCycle están diseñadas para simplificar el acceso a estaciones, tarifas, rutas y servicios turísticos, permitiendo al usuario encontrar rápidamente lo que necesita sin sentirse abrumado.
+
+#### Opciones de Búsqueda
+
+- **Categorías de Servicio**  
+  Permiten filtrar entre:  
+  - Alquiler por minutos  
+  - Alquiler por rutas  
+  - Rutas turísticas  
+  - Planes para estudiantes o turistas  
+
+
+- **Tags Populares**  
+  Etiquetas como “Viaje Turístico”, “Estación Cercana”, “Plan Estudiantil” o “PayPal” destacan opciones comunes o relevantes para usuarios frecuentes.  
+
+
+#### Filtros Disponibles
+
+- **Por Estación o Ubicación**  
+  Los usuarios pueden filtrar estaciones por cercanía, nombre o disponibilidad de bicicletas.  
+
+- **Por Precio o Plan**  
+  Se puede ajustar un rango de precios estimados por tiempo de alquiler, tipo de plan o reserva anticipada.  
+
+- **Por Disponibilidad**  
+  Muestra solo las bicicletas disponibles en el momento o según la fecha de reserva seleccionada.  
+
+#### Apariencia de los Datos Después de la Búsqueda
+
+- **Listados con Vista Resumida**  
+  Cada resultado muestra: nombre del servicio, tiempo estimado, tarifa aplicada, y ubicación. Acciones rápidas como “Reservar” o “Ver Estación” están disponibles.  
+
+- **Resumen y Descripción**  
+  Se incluyen tarjetas con detalles como condiciones del servicio, tipo de plan aplicable, y opciones de pago disponibles.  
+
+- **Ordenación y Filtros Activos**  
+  Los resultados pueden ordenarse por:  
+  - Precio (ascendente/descendente)  
+  - Cercanía  
+  - Disponibilidad  
+  Además, los filtros aplicados se visualizan claramente para modificar criterios rápidamente.  
+
+
+- **Comentarios y Valoraciones** (futuro)  
+  En futuras versiones se incluirán reseñas de usuarios sobre estaciones y rutas turísticas para guiar nuevas decisiones de uso.  
+
+
+
 ### 4.2.5. Navigation Systems
 
 La estructura de navegación de SafeCycle está diseñada para facilitar el acceso rápido y fluido a todas las funcionalidades clave, optimizando la experiencia tanto para nuevos visitantes como para usuarios recurrentes.
