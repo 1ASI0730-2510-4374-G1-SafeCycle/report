@@ -514,6 +514,34 @@ Paleta de colores
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
+
+La estructura de navegación de SafeCycle está diseñada para facilitar el acceso rápido y fluido a todas las funcionalidades clave, optimizando la experiencia tanto para nuevos visitantes como para usuarios recurrentes.
+
+#### Páginas Principales
+- **Landing Page**: Introducción al servicio y sus beneficios.
+- **About Us**: Información sobre el propósito y visión de SafeCycle.
+- **Contact**: Formulario de contacto y canales de comunicación.
+- **Plans & Pricing**: Tarifas diferenciadas para estudiantes y turistas.
+- **Touristic Routes**: Acceso a recorridos turísticos disponibles.
+
+#### Opciones de Usuario
+- **Login**: Acceso para usuarios registrados.
+- **Sign Up**: Registro de nuevos usuarios (estudiantes o turistas).
+- **Profile**: Acceso a información personal, reservas y pagos.
+- **Logout**: Cierre de sesión para mantener la seguridad.
+
+#### Búsqueda y Navegación
+- **Search**: Barra de búsqueda de estaciones, tarifas y rutas.
+- **Stations Nearby**: Visualización rápida de estaciones más cercanas.
+- **Explore Tours**: Explora las rutas turísticas destacadas.
+- **My Rentals**: Historial y estado de alquileres o reservas activas.
+
+#### Branding e Identidad
+- **SafeCycle Logo**: Presente en la esquina superior izquierda de cada pantalla.
+- **Slogan**: “Viaja seguro, llega puntual”, visible en la página principal.
+- **Color Theme**: Identidad visual consistente en verde, blanco y azul.
+- **Language Toggle**: Selector de idioma (EN/ES) en el footer y perfil.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
