@@ -518,7 +518,8 @@ Paleta de colores
 Las funcionalidades de búsqueda en SafeCycle están diseñadas para simplificar el acceso a estaciones, tarifas, rutas y servicios turísticos, permitiendo al usuario encontrar rápidamente lo que necesita sin sentirse abrumado.
 
 
-## Entrada Manual de Estación
+**Entrada Manual de Estación**
+
 - **Campo de búsqueda por nombre de estación**
 Los usuarios pueden ingresar manualmente el nombre de la estación de bicicletas en un campo de texto identificado como "Station". Esto permite realizar búsquedas precisas cuando ya se conoce el punto de partida deseado.
 
