@@ -341,4 +341,6 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 ## 3.1 To-Be Scenario Mapping 
 ## 3.2 Epics & User Stories
 ## 3.3 Impact Mapping
+
+<img src="assets/images/Impact Mapping SafeCycle.png" alt="impact map" width=400 >
 ## 3.4 Product Backlog
