@@ -526,7 +526,7 @@ Una vez ingresado el nombre de la estación, el usuario puede hacer clic en el b
 
 Este componente permite una experiencia de búsqueda directa, ideal para usuarios que ya conocen su estación preferida o desean consultar opciones desde un punto específico.
 
-
+<img src="assets/images/searchingSystem.jpeg" alt="searching system" width=400>    
 
 ### 4.2.5. Navigation Systems
 
