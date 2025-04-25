@@ -69,29 +69,20 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 # Tabla de contenidos
 
-**Capítulo I: Introducción**
 
-[1.1. Startup Profile](#11-startup-profile)
+[Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-[1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-
-[1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
-[1.2. Solution Profile](#12-solution-profile)
-
-[1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-
-[1.2.2. Lean UX Process](#122-lean-ux-process)
-
-[1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-
-[1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-
-[1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-
-[1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-
-[1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 # Student Outcome
 
@@ -100,12 +91,13 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Giancarlo Santiago:*TB1*** ...| Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Giancarlo Santiago:*TB1*** ...| Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. |
 
-# 1. Capítulo I: Introducción
+# Capítulo I: Introducción
 
 ## 1.1. Startup Profile
-Nuestra Startup “Cuys ™” ofrece una aplicación innovadora de préstamos de bicicletas “Safecycle” enfocadas a ayudar a estudiantes y turistas brindando una alternativa sostenible, accesible y segura para llegar a su destino. Ofrecemos una solución independiente al ofrecer las bicicletas como producto principal y contaremos con un modelo de negocio basado en los pagos que se realizarán en la aplicación por el préstamo de las bicicletas. Para ello investigaremos cómo cumplir con esta meta recolectando fuentes sobre modelos de negocios similares y planificamos el diseño y la codificación de nuestra solución.
 
 ### 1.1.1. Descripción de la Startup
+Nuestra Startup “Cuys ™” ofrece una aplicación innovadora de préstamos de bicicletas “Safecycle” enfocadas a ayudar a estudiantes y turistas brindando una alternativa sostenible, accesible y segura para llegar a su destino. Ofrecemos una solución independiente al ofrecer las bicicletas como producto principal y contaremos con un modelo de negocio basado en los pagos que se realizarán en la aplicación por el préstamo de las bicicletas. Para ello investigaremos cómo cumplir con esta meta recolectando fuentes sobre modelos de negocios similares y planificamos el diseño y la codificación de nuestra solución.
+
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -141,33 +133,51 @@ Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Apli
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
-1\. **What:** ¿Qué queremos ofrecer?
 
-Queremos ofrecer un servicio de alquiler de bicicletas, estas se pueden alquilar durante un periodo de tiempo dictaminado por una aplicación, esta se trata de una aplicación web que se puede acceder por computadora y/o celular.
 
-2\.      **Who:** ¿A quiénes queremos brindar nuestros servicios?
+ 1. What? **(¿Cuál es el problema?)**
 
-Queremos brindar nuestros servicios a estudiantes que requieren de un medio barato y rápido y turistas que necesitan de un transporte barato o uno que puedan utilizar durante un corto periodo de tiempo.
+El problema es que las personas que se movilizan por Lima metropolitana no pueden realizar esta acción con facilidad, un tráfico inmenso en la ciudad. Esto causa que diversos individuos no puedan llegar a sus destinos a tiempo, e ir en vehículos personales cómo automóviles llega a ser muy caro o demanda la misma cantidad de tiempo. Consecuentemente diversas personas tienen que despertarse más temprano o incluso recurrir a utilizar opciones más caras cómo taxis.
 
-3\.      **Where:** ¿Dónde se pueden recoger las bicicletas?
+ 2. When? **(¿Cuándo sucede el problema?)**
 
-Las bicicletas se pueden recoger de lugares específicos, estos se llamarán almacenes. Se encontrarán en diversas posiciones estratégicas alrededor de Lima metropolitana.
+Sucede cuando una persona tiene que llegar a un lugar a una hora designada y la gran mayoría de personas salen al mismo tiempo, generando una congestión, una ocurrencia muy común hoy en día vista en el país. Según un estudio realizado por la Asociación Automotriz del Perú en 2024, Lima es la ciudad con mayor congestión vehicular en América Latina.
 
-4\.      **When:** ¿Cuándo se tienen que devolver las bicicletas?
+ 3. Where? **(¿Dónde surge el problema?)**
 
-Esto se decide una vez se alquila la bicicleta, el cliente podrá decidir durante cuántas horas va a alquilar la bicicleta, esto afectará el precio. Al final el cliente tendrá que devolver la bicicleta hacia la estación más cercana.
+Surge en Lima metropolitana por zonas de alta concurrencia vehicular cómo calles principales, mercados, centros educativos y centros turísticos.
 
-5\.      **Why:** ¿Por qué el cliente usaría nuestros servicios?
+4. Who?  **(¿Quiénes están involucrados?)**
 
-El cliente utiliza nuestros servicios, porque necesita transportarse rápido y barato.
+Los principales afectados son los habitantes y la gente que se traslada por Lima Metropolitana. Por ejemplo, los estudiantes, trabajadores y turistas.
 
-6\.      **How:** ¿Cómo conseguimos que los clientes devuelvan las bicicletas a tiempo?
+5. Why **(¿Por qué ocurre el problema?)**
 
-Una vez se decida la cantidad de horas la cantidad de horas por las que se va a alquilar la bici, si la hora establecida es excedida el cliente tendrá que pagar una mora por cada hora/minuto que se exceda.
+El problema ocurre debido a una estructura de transporte que no pudo evolucionar al mismo ritmo del aumento de necesidades de las personas. La baja cobertura del transporte público y alta urgencia que genera no logra cubrir la demanda de forma eficiente, obligando al uso de transporte particular, empeorando así la congestión vehicular, que en consecuencia termina en personas no llegando a tiempo a ciertos eventos o lugares e incluso con fatiga y molestia.
 
-7\.      **How much:** ¿Cuánto tiempo se les permitirá a los clientes alquilar una bicicleta?
+6. How **(¿Cómo se lleva a cabo el problema?)**
 
-Se les permitirá alquilar un mínimo de 1 hora y un máximo de 24 horas, dependiendo del tipo de usuario. Además, se pueden alquilar las bicicletas con antelación mediante una reserva.
+El problema se lleva a cabo cuando miles de personas en Lima metropolitana intentan movilizarse a una hora popular por vías congestionadas, generando embotellamientos y rutas vehiculares saturadas. La falta de un transporte accesible y económico incentiva a esta problemática, puesto que la gente que se traslada por Lima tiene que elegir entre un transporte público como son los buses o uno particular y poco económico como son los taxis o carros
+
+7. How much **(¿Cuál es la magnitud del problema?)**
+
+Medimos la magnitud del problema a través de entrevistas realizadas a un público de 30 personas que transitan diariamente en Lima Metropolitana
+
+<img src="/assets/images/charts/1.png" width=800>
+
+<img src="/assets/images/charts/2.png" width=800>
+
+<img src="/assets/images/charts/3.png" width=800>
+
+<img src="/assets/images/charts/4.png" width=800>
+
+<img src="/assets/images/charts/5.png" width=800>
+
+[Link a encuesta enviada](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
+
+[Link a resultados de encuesta](https://docs.google.com/spreadsheets/d/1tCFJkLHdxL313atSLzJCLOHC-6f2ujesVNoaYFEerGg/edit?usp=sharing)
+
+Gracias a las encuestas realizadas se observó que un 86.7% no cuenta con un transporte fijo de transporte, un 63.3% cree que siempre tiene retrasos por el tráfico, un 93.3% se sentiría cómodo con el uso de una bicicleta como medio de transporte segura, económica y fácil de usar. Además, cuentan con una preferencia hacia los precios accesibles y seguridad de servicio en un 96.7% y 90% respectivamente. Finalmente el 80% de los encuestados piensan que una aplicación de alquiler de bicicletas les ayudaría a moverse mejor alrededor de la ciudad. Con esto podemos concluir que en efecto esta problemática es verdadera y concurrente dentro de Lima Metropolitana. La demanda es clara: los usuarios necesitan una alternativa confiable, segura y eficiente frente al actual caos del transporte urbano.
 
 ### 1.2.2. Lean UX Process
 
@@ -181,7 +191,7 @@ Notamos que los estudiantes y turistas no desean pagar por un medio de transport
 
 #### 1.2.2.2. Lean UX Assumptions
 
-Creemos que los estudiantes y turistas en Lima enfrentan una falta de transporte fiable y económico, lo que genera retrasos e incomodidad, al ofrecer bicicletas accesibles mediante una app, creemos firmemente que  resolveremos esta necesidad. Nuestros segmentos objetivos priorizan el ahorro, prefiriendo nuestro servicio frente a taxis o transporte público costoso,además percibirán las bicicletas como una opción más cómoda al evitar el tráfico.La seguridad será clave, por lo que el sistema de bloqueo automático reducirá el miedo a robos, aumentando la confianza. Asumimos que la app será adoptada fácilmente ya que es intuitiva y garantiza transacciones seguras. Validamos estas suposiciones mediante encuestas de satisfacción, análisis de datos de uso, comparación de costos, entrevistas sobre seguridad y monitoreo de la reducción de congestión en zonas clave.
+Creemos que los estudiantes y turistas en Lima enfrentan una falta de transporte fiable y económico, lo que genera retrasos e incomodidad, al ofrecer bicicletas accesibles mediante una app, creemos firmemente que  resolveremos esta necesidad. Nuestros segmentos objetivos priorizan el ahorro, prefiriendo nuestro servicio frente a taxis o transporte público costoso,además percibirán las bicicletas como una opción más cómoda al evitar el tráfico.La seguridad será clave, por lo que el sistema de bloqueo automático reducirá el miedo a robos, aumentando la confianza. Asumimos que la app será adoptada fácilmente ya que es intuitiva y garantiza transacciones seguras. 
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
@@ -216,5 +226,124 @@ Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de
 - Edad: 18 a 50 años 
 - Ubicación: Zonas urbanas con alto índice de turismo, puntos de intereses históricos o culturales
 - Nivel socioeconomico: Clase Media - Alta
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1 Competidores.
+### 2.1.1 Análisis competitivo.
+
+| **Competitive Analysis Landscape** | **Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.** |
+| :---- | :---- |
+| ¿Por qué llevar a cabo este análisis?  | Deseamos analizar a nuestros competidores para buscar en qué puntos podemos mejorar, contra que nos estamos enfrentando en el mercado y como nos distinguimos de estos |
+
+|  |  | ![Logo Safe Cycle](/assets/images/Logos/LogoSafeCycle.png)  Safecycle | ![Logo City Bike Lima](/assets/images/Logos/CityBikeLimaLogo.png) CityBikeLima | ![Logo Barranco Bikes](/assets/images/Logos/BarrancoBikesLogo.jpg) Barrancobikes | ![Logo Mira Bici](/assets/images/Logos/MiraBiciLogo.png) Mirabiciperu |
+| :---- | :---- | ----- | :---- | :---- | :---- |
+| Perfil | Overview Ventaja competitiva  | Plataforma direccionada hacia la renta por minuto de las bicicletas, las cuales se pueden reservar desde la aplicación y posteriormente. | Servicio presencial en el cual se rentan bicicletas por un tiempo de 30 minutos gratis a través de pases mensuales, anuales o diarios y pagados por la pantalla de la bicicleta. | Una plataforma en la que puedes pagar por una bicicleta por horas, días o semanas alrededor de Barranco | Plataforma que ofrece una reservas de bicicletas a través de rutas turísticas |
+|  | ¿Qué valor ofrece a los clientes? | • Devolución de bicicletas en cualquier estación. <br>• Cobro por minuto. <br>• Seguro automatico. <br>• Paquetes de descuento a estudiantes <br>• Planes por horas | • Tarjeta con pases anuales <br>• Desbloqueo de bicicleta con código o tarjeta <br>• Devolución de bicicletas en cualquier estación. <br>• Servicio de pausa de la bicicleta | • Renta de bicicletas por horas, días y semanas <br>• Proporciona elementos de seguridad Delivery de bicicleta | • 3 rutas de turismo  <br>• Ofrece una renta de bicicleta por duración de tour  |
+| Perfil de Marketing | Mercado objetivo  | • Estudiantes de pregrado Turistas | • Residentes de San Isidro | • Residentes de Barranco Turistas | • Turistas |
+|  | Estrategias de marketing | • Códigos de referencia por parte de otros usuarios para descuentos <br>• Descuentos hacia los estudiantes <br>• Tutoriales acerca de uso | • Registro a través de pases y tarjetas 30 primeros minutos gratis <br>• Tutoriales acerca de uso | • Añade un descuento de consumo a un restaurante afiliado | • Tours en grupo <br>• Opiniones de otros usuario en la misma página web |
+| Perfil de Producto | • Productos & Servicios  | • Renta de Bicicleta | • Tarjeta de pago para bici <br>• Renta de Bicicleta | • Casco y cadena incluido con la renta <br>• Renta de Bicicleta | • Tours en zonas culturales, con explicación en bicicleta <br>• Servicios técnico y de repuesto |
+|  | Precios & Costos  | • **Estudiantes:**  S/. 0.035 / minuto <br>• **Tarifa General:**  S/. 0.045 / minuto <br>• **Tarifa Inicial:**  S/. 1.00 / minuto | • **Minuto 0 al 30:** Sin costo <br>•**31 al 120:**  S/ 2.00 cada 30 minutos o fracción <br>• **121 a más:**  S/ 7.00 cada hora o fracción | • **02 horas:**  S/. 25.00 <br>• **03 horas:**  S/ 30.00 <br>• **05 horas:**  S/ 45.00 <br>• **Más de 05 horas:**  S/ 55.00 | • **Ruta 1:** USD 35 S/. 133 <br>• **Ruta 2:** USD 25 S/. 95 <br>• **Ruta 3:** USD 35 S/. 133 |
+|  | Canales de distribución (Web y/o Móvil)  | Web y Móvil | Presencial Web y Móvil | Web | Web |
+| Análisis SWOT | Fortalezas | • Tarifa accessible Adaptable a otros dispositivos | Diferentes formas de renta <br>• Prueba gratuita para atraer clientes <br>•  Tarifa accessible | • Delivery a la puerta de tu casa <br>• Elementos extra proporcionados  | • Tours con guia turistico. <br>• Función para rentar en grupo |
+|  | Debilidades | • Dependencia a internet Dependencia a disponibilidad <br>• Riesgo de vandalismo <br>• Bajo conocimiento de marca inicial. | • Riesgo de vandalismo <br>• Dificultad de uso para personas sin mucho conocimiento tecnológico <br>• Reubicación de bicicletas por congestión | • Dependencia a disponibilidad Bajo conocimiento de marca inicial. | • Dependencia a disponibilidad <br>• Falta de confianza de usuario |
+|  | Oportunidades | • Alianzas con centros educativos o cadenas de turismo Subvención gubernamental por negocio eco-friendly <br>• Incorporar nuevos tipos de transporte | • Incorporar nuevos tipos de transporte <br>• Expansión de distritos disponibles | • Expansión de distritos disponibles | • Mayor cantidad de tours disponibles <br>• Alianza con hoteles |
+|  | Amenazas | • Competencia en el mercado alta<br>• Robo o hackeos | • Problemas por clima o infraestructura | • Quejas por demora de renta | • Cambios de normativas de rutas <br>• Poca retención de usuarios |
+
+### 2.1.2 Estrategias y tácticas frente a competidores
+## 2.2 Entrevistas
+### 2.2.1 Diseño de entrevistas
+Como se mencionó anteriormente, nuestros segmentos objetivos están conformados por estudiantes universitarios de pregrado, principalmente aquellos que viven en cercanías de la universidad y turistas.
+
+Después de solicitarles sus datos personales básicos como nombres, apellidos, edad y distrito de estadía, se les preguntará lo siguiente a los entrevistados.
+
+**Preguntas a realizar:**
+
+**Generales:**
+
+¿Cuál es tu nombre y apellidos?
+
+¿Cuántos años tienes?
+
+¿Cuál es tu lugar de nacimiento?
+
+**Estudiantes:**
+
+- ¿Cómo te transportas habitualmente en tu día a día?
+
+- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+
+- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+
+- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+
+- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+
+- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+
+- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
+
+- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
+
+**Turistas:**
+
+- ¿Cómo te transportas habitualmente en tu estadía?
+
+- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+
+- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+
+- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+
+- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+
+- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+
+- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
+
+- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
+### 2.2.2 Registro de entrevistas.
+### 2.2.3 Análisis de entrevistas.
+## 2.3 Needfinding
+## 2.3.1 User Personas.
+### **Estudiante**: 
+![User Persona Anne Guillen](/assets/images/user-personas/Anne%20Guillen%20(2).png)
+[Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
+<br>
+### **Turista**: 
+![User Persona Mateo Smith](/assets/images/user-personas/Mateo%20Smith.png)
+[Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+## 2.3.2 User Task Matrix.
+### **Estudiantes**
+
+| Actividades | Frecuencia | Importancia |
+| ----- | ----- | ----- |
+| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
+| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
+| Planificar el costo del viaje a realizar | Media | Alta |
+| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
+| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
+
+### **Turistas**
+
+| Actividades | Frecuencia | Importancia |
+| ----- | ----- | ----- |
+| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
+| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
+| Planificar el costo del viaje a realizar | Media | Alta |
+| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
+| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
+| Programar visitas y turismo evitando las horas más congestionadas del tráfico | Baja | Media |
+## 2.3.3 User Journey Mapping.
+## 2.3.4 Empathy Mapping.
+## 2.3.5 As-is Scenario Mapping.
+## 2.4 Ubiquitous Language
 
 
