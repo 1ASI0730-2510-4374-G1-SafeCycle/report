@@ -387,7 +387,15 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 
 ### 5.2.1. Sprint 1  
 #### 5.2.1.1. Sprint Planning 1  
-#### 5.2.1.2. Aspect Leaders and Collaborators  
+#### 5.2.1.2. Aspect Leaders and Collaborators 
+| Team Member (Last Name, First Name)  | GitHub Username | Aspect Diseño UX/UI y Prototipado (L/C) | Aspect Programación de la Landing Page (L/C) | Aspect Entrevistas y Validación de Usuarios (L/C) | Aspect Arquitectura de Información y Sistemas de Organización/Navegación (L/C) | Aspect Control de Versiones y Gestión de Código(L/C) |
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | C                                                 | C                                                                                             | L                                                    |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | C                                       | L                                            | C                                                 | L                                                                                             | C                                                    |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | C                                       | C                                            | L                                                 | C                                                                                             | C                                                    |
+| Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                 | L                                                                                             | C                                                    |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | L                                                 | C                                                                                             | C                                                    |
+
 #### 5.2.1.3. Sprint Backlog 1  
 #### 5.2.1.4. Development Evidence for Sprint Review  
 #### 5.2.1.5. Execution Evidence for Sprint Review  
