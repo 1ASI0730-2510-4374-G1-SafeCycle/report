@@ -529,5 +529,9 @@ A continuación se muestran los commits realizados por los integrantes del equip
 <img src="assets/images/collabEvidence/land4.png" width=800>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review  
+
+Dentro de este primer sprint no se contempló el uso de servicios
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review  
 #### 5.2.1.8. Team Collaboration Insights during Sprint  
