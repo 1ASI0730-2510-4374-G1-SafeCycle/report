@@ -338,7 +338,18 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 
 # Capítulo III: Requirements Specification
 
-## 3.1 To-Be Scenario Mapping 
+## 3.1 To-Be Scenario Mapping
+
+### 3.1.1. To-Be Scenario Mapping para User Persona Estudiante 
+
+<img src="assets/images/tobe/tobeanne.png" alt="to be estudiante" width=700 >
+
+### 3.1.2. To-Be Scenario Mapping para User Persona Turista
+
+<img src="assets/images/tobe/tobemateo.png" alt="to be turista" width=700 >
+
+Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b8-b097-39f6b0eb2b89/edit?invitationId=inv_b080ad76-754a-4654-92d4-9187d6fa6b4f)
+
 ## 3.2 Epics & User Stories
 ## 3.3 Impact Mapping
 
