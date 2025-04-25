@@ -533,5 +533,16 @@ A continuación se muestran los commits realizados por los integrantes del equip
 Dentro de este primer sprint no se contempló el uso de servicios
 
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review  
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review 
+
+Para la entrega de este Sprint número 1, se desplegó el landing page parcialmente completo. Los hipervínculos a botones que lleven a la aplicación web y otros importantes se implementaran en posteriores entregas. Los bugs relacionados al responsive tambien se arreglaran en próximas entregas.
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint  
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+| Sanchez Gonzales | Navigation bar, Hero Section, Statistics, WhatweOffer, Plans, Fees, HowdoesitWork, WhyUs, Footer |
+| Mora Blas,  Diego Alonzo | Navigation bar, Hero Section, Responsive features |
+| Castañeda Guimas, Giancarlo Santiago | Responsive features |
+
