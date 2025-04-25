@@ -518,6 +518,16 @@ A continuación se muestran los commits realizados por los integrantes del equip
 | :---- | :---- |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review  
+
+<img src="assets/images/collabEvidence/1.png" width=600>
+<img src="assets/images/collabEvidence/2.1.png" width=600>
+<img src="assets/images/collabEvidence/2.png" width=600>
+
+<img src="assets/images/collabEvidence/lannd.png" width=800>
+<img src="assets/images/collabEvidence/land2.png" width=800>
+<img src="assets/images/collabEvidence/land3.png" width=800>
+<img src="assets/images/collabEvidence/land4.png" width=800>
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review  
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review  
 #### 5.2.1.8. Team Collaboration Insights during Sprint  
