@@ -392,6 +392,33 @@ Esta sección establece el listado oficial del software, herramientas y platafor
 | Version Control | GIT (Github) | Control de versiones y revisiones de código | [https://github.com](https://github.com) |
 
 ### 5.1.2. Source Code Management  
+
+La administración y estructuración de las múltiples modificaciones se realizaron mediante la creación de un repositorio en GitHub para el proyecto. Nuestra organización se estructuró de la siguiente manera:
+
+* **Organización**
+
+| Producto | Repositorio | URL |
+| :---- | :---- | :---- |
+| Repositorio en Github | SafeCycle | [https://github.com/orgs/1ASI0730-2510-4374-G1-SafeCycle/repositories](https://github.com/orgs/1ASI0730-2510-4374-G1-SafeCycle/repositories) |
+| Landing Page | SafeCycle-Landing-Page | [https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing\_page](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing_page) |
+
+
+* **Ramas Principales:** 
+
+Se usara el flujo de trabajo GitFlow para tener nuestras ramas correctamente estructuradas y usar buenas prácticas de GIT
+
+Para ello se crearán:
+
+- Una rama de producción.  
+- Una rama de pruebas.  
+- Una rama de features a implementar.
+
+Teniendo en cuenta la información anterior lo usaremos para crear un tipo de organización para las branches: 
+
+- Main branch: Esta rama está destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.  
+- Develop branch: Esta rama está destinada a las constantes implementaciones en caliente de los features  
+- Features branch: Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
 ### 5.1.3. Source Code Style Guide & Conventions  
 ### 5.1.4. Software Deployment Configuration  
 
