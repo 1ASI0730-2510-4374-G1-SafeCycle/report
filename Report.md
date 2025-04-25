@@ -446,6 +446,25 @@ Creamos un repositorio en la organización de nuestro equipo en GitHub, donde su
 | Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
 
 #### 5.2.1.3. Sprint Backlog 1  
+
+| Id | Title | Id | Title | Description | Estimation (Hours)  | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| US23 | Navigation Bar | T1 | Header o Navigation Bar  | Crear un header con botones hipervínculos a diferentes secciones de la landing page | 2 | Diego Mora | Done |
+| US05 | Acceder a la página inicio de sesión desde el botón “Iniciar sesión” | T2 | Boton Call-to-Action de header | Añadir botón call-to-action en la navbar para que pueda ser usado para redireccionar al usuario a una página de inicio de sesión | 1 | Diego Mora | Done |
+| US01 | Ver el nombre, logo y eslogan de la aplicación | T3 | Hero sección | Crear la sección Hero de la landing page | 2 | Gabriel Sanchez | Done |
+| US04 | Ver un botón destacado “Empieza ahora” en la sección principal del landing | T4 | Boton Call-to-Action de Hero  | Añadir botón call-to-action en el Hero Section para que pueda ser usado para redireccionar al usuario a una página de registro | 1 | Gabriel Sanchez | Done |
+| US02 | Visualizar principales funciones | T5 | Que ofrecemos sección | Añadir sección donde se visualiza lo que ofrece la aplicación | 2 | Gabriel Sanchez | Done |
+| US33 | Sección planes | T6 |  |  | 2 | Gabriel Sanchez | Done |
+| US06 | Acceder a la página de registro de estudiante a través de botón “Aplicar para tarifa estudiante” | T7 | Botón Call-to-Action para los estudiantes de Planes | Añadir botón call-to-action en la sección de planes para que pueda ser usado para redireccionar al estudiante a una página de registro | 1 | Gabriel Sanchez | Done |
+| US07 | Acceder a la página de registro de turista a través de botón “Empezar como turista” | T8 | Botón Call-to-Action para los turistas de Planes | Añadir botón call-to-action en la sección de planes para que pueda ser usado para redireccionar al turista a una página de registro | 1 | Gabriel Sanchez | Done |
+| US03 | Visualizar precios y tarifas | T9 | Tarifas sección | Añadir sección donde se visualiza los precios de la aplicación | 2 | Gabriel Sanchez | Done |
+| US24 | Sección How does it work | T10 | Cómo funciona sección | Añadir sección donde se visualiza el funcionamiento de la aplicación | 2 | Gabriel Sanchez | Done |
+| US25 | Sección Porque Nosotros | T11 | Porque nosotros sección | Añadir sección donde se visualiza el porque elegir usar la aplicación | 2 | Gabriel Sanchez | Done |
+| US26 | Footer | T12 | Sección footer | Añadir sección donde se visualiza los métodos de contacto de SafeCycle | 1 | Gabriel Sanchez | Done |
+| US27 | Cambio de lenguaje a ingles y español en Landing Page  | T13 | Opciones de cambio de lenguaje | Añadir botones de cambio de idioma y lógica de elección de lenguaje default | 3 | Gabriel Sanchez | Done |
+| US28 | Atributos Aria | T14 | Implementar atributos Aria | Añadir atributos aria a los elementos para que puedan ser leídos por lectores de pantalla | 1 | Gabriel Sanchez | Done |
+| US31 | Acceder a Landing page desde cualquier dispositivo | T15 | Anadir elementos responsive | Implementar código para que la landing page sea responsive a los diferentes tamaños de pantalla | 4 | Giancarlo Castañeda | Done |
+
 #### 5.2.1.4. Development Evidence for Sprint Review  
 #### 5.2.1.5. Execution Evidence for Sprint Review  
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review  
