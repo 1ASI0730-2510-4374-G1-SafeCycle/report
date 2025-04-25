@@ -366,6 +366,17 @@ En resumen, el analisis de las entrevistas revela que existe una necesidad o má
 ## 2.3.3 User Journey Mapping.
 ## 2.3.4 Empathy Mapping.
 ## 2.3.5 As-is Scenario Mapping.
+
+2.3.5.1. As-is Scenario Mapping para User Persona Estudiante 
+
+![as is estudiante](assets/images/as-is/AS-IS%20estudiantes.png)
+
+2.3.5.2. As-is Scenario Mapping para User Persona turistas: 
+![as is estudiante](assets/images/as-is/AS-IS%20turistas.png)
+
+As-Is: [link a lucidchart](https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-17a3e32970f8/edit?viewport_loc=-2548%2C250%2C7773%2C3859%2C0_0&invitationId=inv_582f073d-e93a-4e57-b8b9-b9503fdc5d86)
+
+
 ## 2.4 Ubiquitous Language
 
 | Termino | Definición |
