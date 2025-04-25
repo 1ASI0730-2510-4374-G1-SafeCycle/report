@@ -509,9 +509,76 @@ Paleta de colores
 <img src="assets/images/styles/VentanaEmergenteOscurostyles-.png" alt="Ventana emergente" width=400>    
 
 ## 4.2. Information Architecture
+
 ### 4.2.1. Organization Systems
+
+En este punto indicaremos en qué secciones se aplicará el tipo de estructuras jerárquicas, secuenciales o matriarcales en el landing page y aplicación web. 
+
+* Landing Page
+
+Para el landing page usaremos un sistema jerárquico visual puesto que este tipo de organización es ideal para páginas con secciones e identificar información más importante en el sitio
+
+![imagen organization system](assets/images/organizationInformationArquitecture.png)
+
+* App Web (Estudiantes y Turistas)  
+- **Jerárquico:**
+
+Destacar elementos clave según su importancia, facilitando a los usuarios accedan de manera intuitiva a la información más relevante 
+
+- **Organización secuencial (step-by-step):** 
+
+Utilizada en procesos que requieren una guía paso a paso, como la reserva de bicicletas, rutas turistas, booking garantizando un flujo lógico y fácil de seguir.
+
+- **Organización matricial:** 
+
+Implementada en áreas donde es necesario comparar o analizar datos interrelacionados, brindando al usuario una visión estructurada de las opciones disponibles, como mostrar las características de las bicicletas a seleccionar.
+
 ### 4.2.2. Labeling Systems
+
+A continuación se detallaran las siguientes etiquetas que tendrás las secciones de la Landing Page y la App Web
+
+* Landing Page
+
+**Inicio**: Sección que mostrará el título junto a una frase representativa del  tema junto a un botón el cual le permitirá entrar a la aplicación principal.
+
+**Statistics:** Sección donde se mostrarán estadísticas correspondientes a nuestro tema como la cantidad de bicicletas, los kilómetros recorridos y los viajes realizados
+
+**What We Offer:** Se mostraran lo que prometemos ofrecer al usuario al momento de usar nuestra aplicación
+
+**Planes:** Se mostrarán los planes que contará nuestra aplicación con sus respectivos segmentos objetivos y una breve descripción.
+
+**Fees:** Se muestran los precios que se preveen para los usuarios de nuestra aplicación junto a un descuento para el segmento estudiantes.
+
+**How does it works:** Sección que muestra paso a paso como se prevee que se utilice la aplicación 
+
+**Why us:** En esta sección se mostraran datos del porqué deberían escogernos a comparación de otras aplicaciones o métodos de transporte
+
+* App Web
+
+**Perfil:** Se mostrará el ingreso de sesión típico con email y password, además de preguntar si perteneces al segmento estudiante o al segmento turista para mostrarte opciones exclusivas para cada usuario.
+
+**Rentar:** Sección que permitirá rentar una bicicleta mediante secciones cercanas a ti tras elegir los minutos 
+
+**Touring:** Sección exclusiva para los turistas, se mostrarán los centros turísticos designados por un precio exacto, parecido a una reserva.
+
+**Fees:** Se muestran los precios que se prevén para los usuarios de nuestra aplicación junto a un descuento para el segmento estudiantes.
+
+**Reservas:** Sección en las cuales se harán las reservas y se almacenarán tras poner la fecha de inicio, fecha final, horas inicio, hora final y la bicicleta que se usará más el precio
+
+**Información de pagos:** Sección de selección de método de pago, usa tarjetas, yape y paypal. 
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Las etiquetas reflejan el contenido de nuestro proyecto, abarcando tanto la Landing Page como el Sitio Web. Han sido creadas para mejorar la visibilidad de nuestro proyecto en los principales motores de búsqueda, lo que permitirá a los usuarios encontrar fácilmente nuestra aplicación de SafeCycle
+
+**Landing Page Title:** SafeCycle \- Alquiler de bicicletas para estudiantes y turistas   
+**Meta Description:** SafeCycle te ofrece una forma segura, económica y ecológica de alquilar bicicletas en tu ciudad. Diseñado especialmente para estudiantes, los cuales contarán con descuentos exclusivos y turistas, los cuales contarán con rutas exclusivas por centros turísticos   
+**Meta Keywords**: bicicletas, alquiler, estudiantes, turismo, transporte ecológico, movilidad urbana, bicicletas compartidas, SafeCycle Bliss Meta Author: Cuys ™   
+**Aplicación Web Title:** SafeCycle \- Alquiler de bicicletas para estudiantes y turistas   
+**Meta Description:** Accede a tu cuenta SafeCycle, administra tus rutas, pagos, suscripciones y más  
+**Meta Keywords:** bicicletas, movilidad urbana, alquiler, cuenta, rutas, SafeCycle app, transporte inteligente  
+**Bliss Meta Author**: Cuys ™ 
+
 ### 4.2.4. Searching Systems
 
 
