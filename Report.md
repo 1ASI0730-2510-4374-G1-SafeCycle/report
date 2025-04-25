@@ -365,6 +365,18 @@ En resumen, el analisis de las entrevistas revela que existe una necesidad o má
 | Programar visitas y turismo evitando las horas más congestionadas del tráfico | Baja | Media |
 ## 2.3.3 User Journey Mapping.
 ## 2.3.4 Empathy Mapping.
+**Estudiante**
+
+![empathy mapping estudiante](assets/images/empathy-mapping/anne.png)
+
+[Link a UXpressia de Estudiante](https://uxpressia.com/w/MVR4C/p/XW82t)
+
+**Turista**
+
+![empathy mapping estudiante](assets/images/empathy-mapping/Turista.png)
+
+[Link a UXpressia de Turista](https://uxpressia.com/w/MVR4C/p/Fgd5L)
+
 ## 2.3.5 As-is Scenario Mapping.
 
 2.3.5.1. As-is Scenario Mapping para User Persona Estudiante 
