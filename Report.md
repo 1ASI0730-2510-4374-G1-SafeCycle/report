@@ -734,9 +734,11 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 ### 4.6.1. Software Architecture Context Diagram
 
 <img src="assets/images/SoftwareArchitectureContextDiagram.png" width="600" alt="SoftwareArchitectureContextDiagram" />
+
 ### 4.6.2. Software Architecture Container Diagrams
 
 <img src="assets/images/SoftwareArchitectureContainerDiagrams.png" width="600" alt="SoftwareArchitectureContainerDiagrams" />
+
 ### 4.6.3. Software Architecture Components Diagrams
 
 <img src="assets/images/SoftwareArchitectureComponentsDiagrams.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
