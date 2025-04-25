@@ -422,6 +422,15 @@ Teniendo en cuenta la información anterior lo usaremos para crear un tipo de or
 ### 5.1.3. Source Code Style Guide & Conventions  
 ### 5.1.4. Software Deployment Configuration  
 
+Consideraciones que se tuvo antes del despliegue:
+Archivos HTML, CSS y JS Asegúrese que todos los archivos de la página web sean implementados en HTML, CSS y JS para un correcto funcionamiento de la página. En el caso de la imágenes tuvimos que corregir algunos hipervínculos los cuales funcionaban correctamente en un live server pero al momento del deploy no funcionaban bien
+Publicación de archivos Debido al funcionamiento del servicio de Github Pages, todos los archivos correspondientes al funcionamiento de nuestra aplicación será subidos al repositorio compartido de Github para poder trabajar de manera simultánea entre los integrantes del grupo
+Creamos un repositorio en la organización de nuestro equipo en GitHub, donde subimos los archivos necesarios para desplegar la landing page. El despliegue se realizó mediante GitHub Pages. 
+1. Subimos los archivos requeridos al repositorio correspondiente.
+2. Luego, accedemos a Settings y localizamos la opción Pages. En el apartado de Branch, seleccionamos la rama main y guardamos los cambios. 
+3. Tras unos minutos, GitHub genera el enlace de acceso a nuestra página web. 
+
+
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.1. Sprint 1  
