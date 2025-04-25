@@ -328,6 +328,11 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 |        **06** | **Nombre:**  <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:**  <br>**Inicio \- Duración:**  <br>**Enlace de la entrevista:**  |
 |  | **Resumen:**|
 ### 2.2.3 Análisis de entrevistas.
+Los entrevistados demostraron usar diversos tipos de transporte para movilizarse por la ciudad, incluyendo su propio carro, otros usan transporte publico como el metro o el metropolitano, y en algunos casos, la bicicleta, aunque esta última se emplea más comúnmente con fines recreativos o de ejercicio. Un patrón recurrente en las respuestas es que el tráfico representa una de las principales dificultades, lo cual es algo que consideramos obvio al vivir en un país con la peor estadistica en terminos de trafico y conductores en toda sudamerica, esto genera demoras a la mayoria de los entrevistados entre 20 minutos y 1 hora para llegar a sus destinos. Ademas, algunos participantes mencionan problemas con la infraestructura vial, como la dificultad para moverse libremente o tomar rutas.
+
+En cuanto a la percepción de la aplicación propuesta, los entrevistados coinciden en que representa una alternativa ecologica, economica y atractiva frente a los metodos de transporte convencionables. Aunque algunos entrevistados del segmento turistas mencionan que hay propuestas similares en otras partes del mundo, como en los Países Bajos o en Palermo (Argentina), todos expresan interés en que una solución de este tipo se implemente en nuestro país, y de preferencia en zonas urbanas donde el contexto puede favorecer a nuestra propuesta.
+
+En resumen, el analisis de las entrevistas revela que existe una necesidad o más que todo un interes latente en encontrar otras alternativas de transportes mas eficientes y sostenibles en el país. Sin embargo, es fundamental considerar aspectos como el contexto urbano, la facilidad de uso de la aplicación y la seguridad de las rutas propuestas por nosotros. 
 ## 2.3 Needfinding
 ## 2.3.1 User Personas.
 ### **Estudiante**: 
