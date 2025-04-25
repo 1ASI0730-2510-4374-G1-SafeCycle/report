@@ -368,4 +368,11 @@ En resumen, el analisis de las entrevistas revela que existe una necesidad o má
 ## 2.3.5 As-is Scenario Mapping.
 ## 2.4 Ubiquitous Language
 
+| Termino | Definición |
+| ----- | ----- |
+| Renter (Arrendatario) | Usuario que desea utilizar la bicicleta mediante la aplicación  |
+| Bike Station (Estaciones de Bicicletas) | Lugar físico donde se aparcaran y devolverán las bicicletas |
+| Rental Session (Sesión de Alquiler) | Periodo de tiempo desde que el usuario tiene la bicicleta hasta que la devuelve |
+| Bike Availability (Disponibilidad de Bicicleta) |  Información en tiempo real sobre bicicletas libres en cada estación |
+
 
