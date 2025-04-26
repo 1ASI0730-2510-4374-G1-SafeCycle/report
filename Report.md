@@ -69,9 +69,10 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 **Link de los repositorios de la oraganización:** [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
 
 A continuación se visualiza el diagrama de barras que representa la cantidad de commits realizados por el equipo de trabajo:
-
-A continuación se mostrará un línea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo:
-
+<img src="assets/images/insights-report/insightsreport.PNG" width=800>
+A continuación se mostrará un línea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo y el network graph:
+<img src="assets/images/insights-report/insightsreport1.PNG" width=800>
+<img src="assets/images/insights-report/insightsreport2.PNG" width=800>
 # Tabla de contenidos
 
 [Capítulo I: Introducción](#capítulo-i-introducción)
