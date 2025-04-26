@@ -365,7 +365,7 @@ Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b
 ## 3.2 Epics & User Stories
 
 
-1. Epics
+### 1. Epics
 
    **Landing Page:**
 
@@ -430,7 +430,7 @@ Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b
 | US17 | Administración de bicicletas |
 | US18 | Administración de  estaciones de bicicletas |
 
-   2. User Stories
+### 2. User Stories
 
       
 
@@ -473,4 +473,5 @@ Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b
 ## 3.3 Impact Mapping
 
 <img src="assets/images/Impact Mapping SafeCycle.png" alt="impact map" width=700 >
+
 ## 3.4 Product Backlog
