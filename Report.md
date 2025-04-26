@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <strong style="font-size:25px;">Universidad Informe de Trabajo Final</strong>
 </h1>
@@ -114,6 +113,52 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
   - [2.3.4 Empathy Mapping.](#234-empathy-mapping)
   - [2.3.5 As-is Scenario Mapping.](#235-as-is-scenario-mapping)
   - [2.4 Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.1.1 Colores](#4111-colores)
+    - [4.1.1.2 Tipografía](#4112-tipografía)
+      - [4.1.1.2.1 Escala](#41121-escala)
+      - [4.1.1.2.2 Weights](#41122-weights)
+      - [4.1.1.2.3 Nomenclatura](#41123-nomenclatura)
+      - [4.1.1.2.4 Ejemplos](#41124-ejemplos)
+    - [4.1.1.3 Branding](#4113-branding)
+      - [4.1.1.3.1 Claro:](#41131-claro)
+      - [4.1.1.3.2 Oscuro:](#41132-oscuro)
+    - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
+      - [4.1.2.1 Estilos de letra](#4121-estilos-de-letra)
+        - [4.1.2.1.1 Headings](#41211-headings)
+        - [4.1.2.1.2 Captions](#41212-captions)
+        - [4.1.2.1.3 Forms](#41213-forms)
+        - [4.1.2.1.5 Buttons](#41215-buttons)
+      - [4.1.2.2 Botones](#4122-botones)
+      - [4.1.2.3 Caja de texto](#4123-caja-de-texto)
+      - [4.1.2.4 Ventanas desplegables](#4124-ventanas-desplegables)
+      - [4.1.2.5 Ventanas Emergentes](#4125-ventanas-emergentes)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4 Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.7.2. Class Dictionary](#472-class-dictionary)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagram](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -130,7 +175,6 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-
 # Student Outcome
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
@@ -392,6 +436,379 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 ## 2.3.4 Empathy Mapping.
 ## 2.3.5 As-is Scenario Mapping.
 ## 2.4 Ubiquitous Language
+
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+### 4.1.1. General Style Guidelines
+
+### 4.1.1.1 Colores
+
+   Para SafeCycle hemos escogido una paleta de colores que cuenta con una variación de tonalidades de verdes que se oponen a comparación del azul, blanco grisáceo y naranja agregados para brindar contraste y hacer totalmente visibles los elementos incluidos. Optamos por escoger los colores verdes y azul como base dado el significado que estos poseen y lo que transmiten. En el caso del primero y principal, el verde se ve relacionado con la naturaleza, sabiendo que nosotros nos enfocamos en las bicicletas, lo cual es un medio de transporte amigable con el medio ambiente, queremos reflejar esa acción por la naturaleza a través de este color. Por otro lado, el azul se encuentra relacionado con la confianza, puesto que queremos que nuestros usuarios se sientan confiados en esta plataforma, el rol que cumple es muy importante. Consideramos que estos dos colores son ideales para mostrar en primer plano el mensaje de sinceridad y entorno eco-amigable que deseamos brindar.
+
+<img src="assets/images/styles/Colores Clarostyles-.png" alt="Paleta de colores SafeCycle claros " width=500>
+<img src="assets/images/styles/Colores Oscurostyles-.png" alt="Paleta de colores SafeCycle oscuros" width=500>
+
+### 4.1.1.2 Tipografía
+
+La fuente que estamos empleando para el texto es Inria Sans. Esta cuenta con un aspecto limpio. Asimismo, consideramos que su diseño amigable a la vista logrará que los usuarios puedan leer cada uno de los textos incluídos en la página y aplicación sin dificultades. Para lograr un mejor diseño ajustaremos el tamaño, grosor y color dependiendo del caso en que se utilice.
+
+#### 4.1.1.2.1 Escala
+
+<img src="assets/images/styles/Escalastyles-.png" alt="Escalas de texto">
+
+#### 4.1.1.2.2 Weights
+
+<img src="assets/images/styles/Weightsstyles-.png" alt="Weights de texto">
+
+#### 4.1.1.2.3 Nomenclatura
+
+<img src="assets/images/styles/Nomenclatura.png" alt="nomenclatura de texto">
+
+#### 4.1.1.2.4 Ejemplos
+
+<img src="assets/images/styles/Ejemplosstyles-.png" alt="ejemplo de texto">
+
+               
+### 4.1.1.3 Branding
+
+Para el logo que representará a la plataforma optamos por utilizar su característico color verde y un fondo en blanco para generar su contraste.
+  
+<img src="assets/images/Logos/LogoSafeCycle.png" alt="Logo Safecycle" height=300>
+
+Para asegurar que nuestro logo sea visible en cualquier situación, adecuamos el logo para que sea visible tanto en un fondo oscuro como claro.
+
+#### 4.1.1.3.1 Claro:
+
+<img src="assets/images/styles/Logostyles-.png" alt="Logo SafeCycle" width=400>         
+<img src="assets/images/styles/Logo2styles-.png" alt="Logo SafeCycle" width=400>         
+
+
+#### 4.1.1.3.2 Oscuro:
+
+<img src="assets/images/styles/LogoNstyles-.png" alt="Logo SafeCycle" width=400>         
+<img src="assets/images/styles/LogoN2styles-.png" alt="Logo SafeCycle" width=400>       
+
+### 4.1.2 Web Style Guidelines
+
+Para nuestro diseño de página web, estaremos utilizando la misma paleta de colores característicos de SafeCycle. Además, a través de las formas que usaremos para las ventanas emergentes o botones, se notará el uso de formas redondeadas. Además utilizaremos variaciones de tamaño para evitar sobrecargar la pantalla y tener un espacio en blanco para brindar un descanso visual al usuario. De esta forma, lograremos tener un estilo que sea fácil de leer y atractivo para que cualquier usuario pueda adaptarse rápidamente a este.
+Paleta de colores
+
+#### 4.1.2.1 Estilos de letra
+##### 4.1.2.1.1 Headings
+<img src="assets/images/styles/Headingsstyles-.png" alt="Estilo de letra" width=400>   
+
+##### 4.1.2.1.2 Captions
+
+<img src="assets/images/styles/Captionsstyles-.png" alt="Estilo de letra" width=400>   
+
+##### 4.1.2.1.3 Forms
+<img src="assets/images/styles/formsstyles-.png" alt="Estilo de letra" width=400>   
+
+##### 4.1.2.1.5 Buttons
+
+<img src="assets/images/styles/buttons-stylestyles-.png" alt="Estilo de letra" width=400>   
+
+#### 4.1.2.2 Botones
+
+<img src="assets/images/styles/Botonesstyles--1.png" alt="Botones" width=400>   
+<img src="assets/images/styles/Botonesstyles-.png" alt="Botones" width=400>   
+
+#### 4.1.2.3 Caja de texto
+
+<img src="assets/images/styles/Cajastexto2styles-.png" alt="Caja de texto" width=400>  
+<img src="assets/images/styles/Cajastextostyles-.png" alt="Caja de texto" width=400> 
+
+#### 4.1.2.4 Ventanas desplegables
+<img src="assets/images/styles/VentanaDesplegable2styles-.png" alt="Ventana desplegable" width=400>  
+<img src="assets/images/styles/VentanaDesplegablestyles-.png" alt="Ventana desplegable" width=400>  
+
+
+#### 4.1.2.5 Ventanas Emergentes
+<img src="assets/images/styles/VentanaEmergenteClarostyles-.png" alt="Ventana emergente" width=400>
+<img src="assets/images/styles/VentanaEmergenteOscurostyles-.png" alt="Ventana emergente" width=400>    
+
+## 4.2. Information Architecture
+
+### 4.2.1. Organization Systems
+
+En este punto indicaremos en qué secciones se aplicará el tipo de estructuras jerárquicas, secuenciales o matriarcales en el landing page y aplicación web. 
+
+* Landing Page
+
+Para el landing page usaremos un sistema jerárquico visual puesto que este tipo de organización es ideal para páginas con secciones e identificar información más importante en el sitio
+
+![imagen organization system](assets/images/organizationInformationArquitecture.png)
+
+* App Web (Estudiantes y Turistas)  
+- **Jerárquico:**
+
+Destacar elementos clave según su importancia, facilitando a los usuarios accedan de manera intuitiva a la información más relevante 
+
+- **Organización secuencial (step-by-step):** 
+
+Utilizada en procesos que requieren una guía paso a paso, como la reserva de bicicletas, rutas turistas, booking garantizando un flujo lógico y fácil de seguir.
+
+- **Organización matricial:** 
+
+Implementada en áreas donde es necesario comparar o analizar datos interrelacionados, brindando al usuario una visión estructurada de las opciones disponibles, como mostrar las características de las bicicletas a seleccionar.
+
+### 4.2.2. Labeling Systems
+
+A continuación se detallaran las siguientes etiquetas que tendrás las secciones de la Landing Page y la App Web
+
+* Landing Page
+
+**Inicio**: Sección que mostrará el título junto a una frase representativa del  tema junto a un botón el cual le permitirá entrar a la aplicación principal.
+
+**Statistics:** Sección donde se mostrarán estadísticas correspondientes a nuestro tema como la cantidad de bicicletas, los kilómetros recorridos y los viajes realizados
+
+**What We Offer:** Se mostraran lo que prometemos ofrecer al usuario al momento de usar nuestra aplicación
+
+**Planes:** Se mostrarán los planes que contará nuestra aplicación con sus respectivos segmentos objetivos y una breve descripción.
+
+**Fees:** Se muestran los precios que se preveen para los usuarios de nuestra aplicación junto a un descuento para el segmento estudiantes.
+
+**How does it works:** Sección que muestra paso a paso como se prevee que se utilice la aplicación 
+
+**Why us:** En esta sección se mostraran datos del porqué deberían escogernos a comparación de otras aplicaciones o métodos de transporte
+
+* App Web
+
+**Perfil:** Se mostrará el ingreso de sesión típico con email y password, además de preguntar si perteneces al segmento estudiante o al segmento turista para mostrarte opciones exclusivas para cada usuario.
+
+**Rentar:** Sección que permitirá rentar una bicicleta mediante secciones cercanas a ti tras elegir los minutos 
+
+**Touring:** Sección exclusiva para los turistas, se mostrarán los centros turísticos designados por un precio exacto, parecido a una reserva.
+
+**Fees:** Se muestran los precios que se prevén para los usuarios de nuestra aplicación junto a un descuento para el segmento estudiantes.
+
+**Reservas:** Sección en las cuales se harán las reservas y se almacenarán tras poner la fecha de inicio, fecha final, horas inicio, hora final y la bicicleta que se usará más el precio
+
+**Información de pagos:** Sección de selección de método de pago, usa tarjetas, yape y paypal. 
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Las etiquetas reflejan el contenido de nuestro proyecto, abarcando tanto la Landing Page como el Sitio Web. Han sido creadas para mejorar la visibilidad de nuestro proyecto en los principales motores de búsqueda, lo que permitirá a los usuarios encontrar fácilmente nuestra aplicación de SafeCycle
+
+**Landing Page Title:** SafeCycle \- Alquiler de bicicletas para estudiantes y turistas   
+**Meta Description:** SafeCycle te ofrece una forma segura, económica y ecológica de alquilar bicicletas en tu ciudad. Diseñado especialmente para estudiantes, los cuales contarán con descuentos exclusivos y turistas, los cuales contarán con rutas exclusivas por centros turísticos   
+**Meta Keywords**: bicicletas, alquiler, estudiantes, turismo, transporte ecológico, movilidad urbana, bicicletas compartidas, SafeCycle Bliss Meta Author: Cuys ™   
+**Aplicación Web Title:** SafeCycle \- Alquiler de bicicletas para estudiantes y turistas   
+**Meta Description:** Accede a tu cuenta SafeCycle, administra tus rutas, pagos, suscripciones y más  
+**Meta Keywords:** bicicletas, movilidad urbana, alquiler, cuenta, rutas, SafeCycle app, transporte inteligente  
+**Bliss Meta Author**: Cuys ™ 
+
+### 4.2.4. Searching Systems
+
+
+Las funcionalidades de búsqueda en SafeCycle están diseñadas para simplificar el acceso a estaciones, tarifas, rutas y servicios turísticos, permitiendo al usuario encontrar rápidamente lo que necesita sin sentirse abrumado.
+
+
+**Entrada Manual de Estación**
+
+- **Campo de búsqueda por nombre de estación**
+Los usuarios pueden ingresar manualmente el nombre de la estación de bicicletas en un campo de texto identificado como "Station". Esto permite realizar búsquedas precisas cuando ya se conoce el punto de partida deseado.
+
+Una vez ingresado el nombre de la estación, el usuario puede hacer clic en el botón verde "Calculate" para obtener datos como disponibilidad, tiempo estimado de alquiler o rutas sugeridas desde esa ubicación.
+
+Este componente permite una experiencia de búsqueda directa, ideal para usuarios que ya conocen su estación preferida o desean consultar opciones desde un punto específico.
+
+<img src="assets/images/searchingSystem.jpeg" alt="searching system" width=400>    
+
+### 4.2.5. Navigation Systems
+
+La estructura de navegación de SafeCycle está diseñada para facilitar el acceso rápido y fluido a todas las funcionalidades clave, optimizando la experiencia tanto para nuevos visitantes como para usuarios recurrentes.
+
+#### Páginas Principales
+- **Landing Page**: Introducción al servicio y sus beneficios.
+- **About Us**: Información sobre el propósito y visión de SafeCycle.
+- **Contact**: Formulario de contacto y canales de comunicación.
+- **Plans & Pricing**: Tarifas diferenciadas para estudiantes y turistas.
+- **Touristic Routes**: Acceso a recorridos turísticos disponibles.
+
+#### Opciones de Usuario
+- **Login**: Acceso para usuarios registrados.
+- **Sign Up**: Registro de nuevos usuarios (estudiantes o turistas).
+- **Profile**: Acceso a información personal, reservas y pagos.
+- **Logout**: Cierre de sesión para mantener la seguridad.
+
+#### Búsqueda y Navegación
+- **Search**: Barra de búsqueda de estaciones, tarifas y rutas.
+- **Stations Nearby**: Visualización rápida de estaciones más cercanas.
+- **Explore Tours**: Explora las rutas turísticas destacadas.
+- **My Rentals**: Historial y estado de alquileres o reservas activas.
+
+#### Branding e Identidad
+- **SafeCycle Logo**: Presente en la esquina superior izquierda de cada pantalla.
+- **Slogan**: “Viaja seguro, llega puntual”, visible en la página principal.
+- **Color Theme**: Identidad visual consistente en verde, blanco y azul.
+- **Language Toggle**: Selector de idioma (EN/ES) en el footer y perfil.
+
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+
+![landing page web](assets/images/UXUI/landing/wireLanding.png)
+![landing page mobile](assets/images/UXUI/landing/wireLandingmobile.png)
+
+### 4.3.2. Landing Page Mock-up
+
+![landing page web](assets/images/UXUI/landing/mockupLanding.png)
+![landing page mobile](assets/images/UXUI/landing/mockupLanding.png)
+
+## 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+
+<img src="assets/images/UXUI/wireframes/Informacion de Pago-1.png" width="400" alt="Wireframe Información de Pago 1" />
+<img src="assets/images/UXUI/wireframes/Informacion de Pago.png" width="400" alt="Wireframe Información de Pago" />
+<img src="assets/images/UXUI/wireframes/Manage Bycicles Centers Edit Bicycle-1.png" width="400" alt="Wireframe Editar Bicicleta Centro 1" />
+<img src="assets/images/UXUI/wireframes/Manage Bycicles Centers Edit Bicycle.png" width="400" alt="Wireframe Editar Bicicleta Centro" />
+<img src="assets/images/UXUI/wireframes/Manage Bycicles Centers-1.png" width="400" alt="Wireframe Centros de Bicicletas 1" />
+<img src="assets/images/UXUI/wireframes/Manage Bycicles Centers.png" width="400" alt="Wireframe Centros de Bicicletas" />
+<img src="assets/images/UXUI/wireframes/Manage Centers.png" width="400" alt="Wireframe Gestión de Centros" />
+<img src="assets/images/UXUI/wireframes/Perfil Developer.png" width="400" alt="Wireframe Perfil de Desarrollador" />
+<img src="assets/images/UXUI/wireframes/Perfil-1.png" width="400" alt="Wireframe Perfil 1" />
+<img src="assets/images/UXUI/wireframes/Perfil-2.png" width="400" alt="Wireframe Perfil 2" />
+<img src="assets/images/UXUI/wireframes/Perfil-3.png" width="400" alt="Wireframe Perfil 3" />
+<img src="assets/images/UXUI/wireframes/Perfil-4.png" width="400" alt="Wireframe Perfil 4" />
+<img src="assets/images/UXUI/wireframes/Perfil-5.png" width="400" alt="Wireframe Perfil 5" />
+<img src="assets/images/UXUI/wireframes/Perfil-6.png" width="400" alt="Wireframe Perfil 6" />
+<img src="assets/images/UXUI/wireframes/Perfil.png" width="400" alt="Wireframe Perfil" />
+<img src="assets/images/UXUI/wireframes/Rentar-1.png" width="400" alt="Wireframe Rentar 1" />
+<img src="assets/images/UXUI/wireframes/Rentar-2.png" width="400" alt="Wireframe Rentar 2" />
+<img src="assets/images/UXUI/wireframes/Rentar-3.png" width="400" alt="Wireframe Rentar 3" />
+<img src="assets/images/UXUI/wireframes/Rentar.png" width="400" alt="Wireframe Rentar" />
+<img src="assets/images/UXUI/wireframes/Reserva-1.png" width="400" alt="Wireframe Reserva 1" />
+<img src="assets/images/UXUI/wireframes/Reserva-2.png" width="400" alt="Wireframe Reserva 2" />
+<img src="assets/images/UXUI/wireframes/Reserva-3.png" width="400" alt="Wireframe Reserva 3" />
+<img src="assets/images/UXUI/wireframes/Reserva-4.png" width="400" alt="Wireframe Reserva 4" />
+<img src="assets/images/UXUI/wireframes/Reserva.png" width="400" alt="Wireframe Reserva" />
+<img src="assets/images/UXUI/wireframes/Settings.png" width="400" alt="Wireframe Configuración" />
+<img src="assets/images/UXUI/wireframes/Tarifas.png" width="400" alt="Wireframe Tarifas" />
+<img src="assets/images/UXUI/wireframes/Touring-1.png" width="400" alt="Wireframe Touring 1" />
+<img src="assets/images/UXUI/wireframes/Touring-2.png" width="400" alt="Wireframe Touring 2" />
+<img src="assets/images/UXUI/wireframes/Touring.png" width="400" alt="Wireframe Touring" />
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+<img src="assets/images/UXUI/wireflows/1.png" width="400" alt="Wireflow" />
+<img src="assets/images/UXUI/wireflows/2.png" width="400" alt="Wireflow" />
+<img src="assets/images/UXUI/wireflows/3.png" width="400" alt="Wireflow" />
+
+[link a wireflow diagrams](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
+
+### 4.4.3. Web Applications Mock-ups
+
+<img src="assets/images/UXUI/mockup/Informacion de Pago-1.png" width="400" alt="Mockup Información de Pago 1" />
+<img src="assets/images/UXUI/mockup/Informacion de Pago.png" width="400" alt="Mockup Información de Pago" />
+<img src="assets/images/UXUI/mockup/Manage Bycicles Centers Edit Bicycle-1.png" width="400" alt="Mockup Editar Bicicleta Centro 1" />
+<img src="assets/images/UXUI/mockup/Manage Bycicles Centers Edit Bicycle.png" width="400" alt="Mockup Editar Bicicleta Centro" />
+<img src="assets/images/UXUI/mockup/Manage Bycicles Centers-1.png" width="400" alt="Mockup Centros de Bicicletas 1" />
+<img src="assets/images/UXUI/mockup/Manage Bycicles Centers.png" width="400" alt="Mockup Centros de Bicicletas" />
+<img src="assets/images/UXUI/mockup/Manage Centers.png" width="400" alt="Mockup Gestión de Centros" />
+<img src="assets/images/UXUI/mockup/Perfil Developer.png" width="400" alt="Mockup Perfil de Desarrollador" />
+<img src="assets/images/UXUI/mockup/Perfil-1.png" width="400" alt="Mockup Perfil 1" />
+<img src="assets/images/UXUI/mockup/Perfil-2.png" width="400" alt="Mockup Perfil 2" />
+<img src="assets/images/UXUI/mockup/Perfil-3.png" width="400" alt="Mockup Perfil 3" />
+<img src="assets/images/UXUI/mockup/Perfil-4.png" width="400" alt="Mockup Perfil 4" />
+<img src="assets/images/UXUI/mockup/Perfil-5.png" width="400" alt="Mockup Perfil 5" />
+<img src="assets/images/UXUI/mockup/Perfil-6.png" width="400" alt="Mockup Perfil 6" />
+<img src="assets/images/UXUI/mockup/Perfil.png" width="400" alt="Mockup Perfil" />
+<img src="assets/images/UXUI/mockup/Rentar-1.png" width="400" alt="Mockup Rentar 1" />
+<img src="assets/images/UXUI/mockup/Rentar-2.png" width="400" alt="Mockup Rentar 2" />
+<img src="assets/images/UXUI/mockup/Rentar-3.png" width="400" alt="Mockup Rentar 3" />
+<img src="assets/images/UXUI/mockup/Rentar.png" width="400" alt="Mockup Rentar" />
+<img src="assets/images/UXUI/mockup/Reserva-1.png" width="400" alt="Mockup Reserva 1" />
+<img src="assets/images/UXUI/mockup/Reserva-2.png" width="400" alt="Mockup Reserva 2" />
+<img src="assets/images/UXUI/mockup/Reserva-3.png" width="400" alt="Mockup Reserva 3" />
+<img src="assets/images/UXUI/mockup/Reserva-4.png" width="400" alt="Mockup Reserva 4" />
+<img src="assets/images/UXUI/mockup/Reserva.png" width="400" alt="Mockup Reserva" />
+<img src="assets/images/UXUI/mockup/Settings.png" width="400" alt="Mockup Configuración" />
+<img src="assets/images/UXUI/mockup/Tarifas.png" width="400" alt="Mockup Tarifas" />
+<img src="assets/images/UXUI/mockup/Touring-1.png" width="400" alt="Mockup Touring 1" />
+<img src="assets/images/UXUI/mockup/Touring-2.png" width="400" alt="Mockup Touring 2" />
+<img src="assets/images/UXUI/mockup/Touring.png" width="400" alt="Mockup Touring" />
+
+### 4.4.4 Web Applications User Flow Diagrams 
+
+<img src="assets/images/UXUI/user%20flows/Entrarperfil.png" width="400" alt="Flujo de entrar al perfil" />
+<img src="assets/images/UXUI/user%20flows/actualrenta.png" width="400" alt="Flujo de renta actual" />
+<img src="assets/images/UXUI/user%20flows/alquilerbici.png" width="400" alt="Flujo de alquiler de bicicleta" />
+<img src="assets/images/UXUI/user%20flows/cancelarReserva.png" width="400" alt="Flujo de cancelar reserva" />
+<img src="assets/images/UXUI/user%20flows/pass.png" width="400" alt="Flujo de cambio de contraseña" />
+<img src="assets/images/UXUI/user%20flows/pay.png" width="400" alt="Flujo de cambio de pago" />
+<img src="assets/images/UXUI/user%20flows/reserva.png" width="400" alt="Flujo de hacer una reserva" />
+<img src="assets/images/UXUI/user%20flows/signin.png" width="400" alt="Flujo de iniciar sesión" />
+<img src="assets/images/UXUI/user%20flows/signup.png" width="400" alt="Flujo de registro" />
+<img src="assets/images/UXUI/user%20flows/touring.png" width="400" alt="Flujo de tour" />
+
+[link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
+
+## 4.5. Web Applications Prototyping
+
+![screenshot de prototipo](assets/images/UXUI/prototype.png)
+
+[link a prototype](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
+
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+
+<img src="assets/images/SoftwareArchitectureContextDiagram.png" width="600" alt="SoftwareArchitectureContextDiagram" />
+
+### 4.6.2. Software Architecture Container Diagrams
+
+<img src="assets/images/SoftwareArchitectureContainerDiagrams.png" width="600" alt="SoftwareArchitectureContainerDiagrams" />
+
+### 4.6.3. Software Architecture Components Diagrams
+
+<img src="assets/images/SoftwareArchitectureComponentsDiagrams.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+<img src="assets/images/diagram-class/diagram-class.png" width="600" alt="diagram class" />
+
+### 4.7.2. Class Dictionary
+| Clase | Nombre de Atributo | Descripción | Tipo de Dato |
+| ----- | ----- | ----- | ----- |
+| Usuario | nombre | Nombre del usuario | string |
+|  | correo | Correo electrónico del usuario | string |
+|  | fecha\_registro | Fecha de registro del usuario | date |
+| Reserva | reserva | ID de la reserva | int |
+|  | fecha\_reserva | Fecha en que se hizo la reserva | date |
+|  | tiempo\_inicio | Hora de inicio de la reserva | date |
+|  | tiempo\_termina | Hora de finalización de la reserva | date |
+| Pago | pago | ID del pago | int |
+|  | tiempo\_pago | Fecha y hora del pago | date |
+|  | stripe | Código de transacción de Stripe | string |
+| Touring | nombre | Nombre del recorrido | string |
+|  | distancia | Distancia del recorrido | double |
+|  | precio | Precio del recorrido | money |
+|  | tiempo | Duración total del recorrido | time |
+|  | estacion | Nombre de la estación asociada | string |
+|  | tiempo\_inicio | Hora de inicio del recorrido | date |
+|  | tiempo\_termina | Hora de fin del recorrido | date |
+| Alquiler | alquiler | ID del alquiler | int |
+|  | punto\_entrega | Punto donde se entrega la bicicleta | string |
+|  | tiempo\_de\_alquiler | Fecha del alquiler | date |
+| Registro | registro | ID del registro | int |
+|  | condicion\_entrega | Condición de entrega del objeto | string |
+|  | fecha\_entrega | Fecha en que se hizo la entrega | date |
+| Bicicleta | bicicleta | ID de la bicicleta | int |
+|  | condicion | Condición de la bicicleta | string |
+|  | punto\_recogo | Punto de recogida de la bicicleta | string |
+| Almacen | almacen | ID del almacén | int |
+|  | cantidad | Cantidad de bicicletas en el almacén | int |
+|  | capacidad | Capacidad máxima del almacén | int |
+| Identificacion | nacionalidad | Nacionalidad del usuario | string |
+|  | tipoDocumento | Tipo de documento (DNI, pasaporte, etc.) | string |
+| Penalidad | penalidad | ID de la penalidad | int |
+|  | precio\_total | Monto total de la penalidad | double |
+## 4.8. Database Design
+
+### 4.8.1. Database Diagram
+
+<img src= "assets/images/database/database-diagram.jpeg" widt= "600" alt="Database-Diagram"/>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -667,4 +1084,5 @@ Link a Figma:
 - Link a encuesta enviada para How much de 5W2H: https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog
 - Link a resultados de encuesta How much de 5W2H: Encuesta sobre movilidad urbana (Responses)
 - Link a Github Pages: https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/
+
 
