@@ -329,9 +329,21 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 | Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
 | Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
 | Programar visitas y turismo evitando las horas más congestionadas del tráfico | Baja | Media |
+
 ## 2.3.3 User Journey Mapping.
+
 ## 2.3.4 Empathy Mapping.
+
+# estudiante
+
+<img src="assets/images/empathy-map/empathy-map estudiantes.png" width="600"/>
+
+# turista
+
+<img src="assets/images/empathy-map/empathy-map turista.png" width="600"/>
+
 ## 2.3.5 As-is Scenario Mapping.
+
 ## 2.4 Ubiquitous Language
 
 
