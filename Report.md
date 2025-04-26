@@ -492,19 +492,6 @@ As-Is: [link a lucidchart](https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-
 | Rental Session (Sesión de Alquiler) | Periodo de tiempo desde que el usuario tiene la bicicleta hasta que la devuelve |
 | Bike Availability (Disponibilidad de Bicicleta) |  Información en tiempo real sobre bicicletas libres en cada estación |
 
-
-# estudiante
-
-<img src="assets/images/empathy-map/empathy-map estudiantes.png" width="600"/>
-
-# turista
-
-<img src="assets/images/empathy-map/empathy-map turista.png" width="600"/>
-
-## 2.3.5 As-is Scenario Mapping.
-
-## 2.4 Ubiquitous Language
-
 # Capítulo III: Requirements Specification
 
 ## 3.1 To-Be Scenario Mapping
