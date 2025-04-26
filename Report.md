@@ -70,19 +70,6 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 
 [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-[Capítulo IV: Product Design](#capítulo-iv-product-design)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [**TP1**](#tp1)
@@ -172,7 +159,22 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
-  
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 # Student Outcome
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
@@ -183,9 +185,10 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
-Nuestra Startup “Cuys ™” ofrece una aplicación innovadora de préstamos de bicicletas “Safecycle” enfocadas a ayudar a estudiantes y turistas brindando una alternativa sostenible, accesible y segura para llegar a su destino. Ofrecemos una solución independiente al ofrecer las bicicletas como producto principal y contaremos con un modelo de negocio basado en los pagos que se realizarán en la aplicación por el préstamo de las bicicletas. Para ello investigaremos cómo cumplir con esta meta recolectando fuentes sobre modelos de negocios similares y planificamos el diseño y la codificación de nuestra solución.
 
 ### 1.1.1. Descripción de la Startup
+Nuestra Startup “Cuys ™” ofrece una aplicación innovadora de préstamos de bicicletas “Safecycle” enfocadas a ayudar a estudiantes y turistas brindando una alternativa sostenible, accesible y segura para llegar a su destino. Ofrecemos una solución independiente al ofrecer las bicicletas como producto principal y contaremos con un modelo de negocio basado en los pagos que se realizarán en la aplicación por el préstamo de las bicicletas. Para ello investigaremos cómo cumplir con esta meta recolectando fuentes sobre modelos de negocios similares y planificamos el diseño y la codificación de nuestra solución.
+
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -221,33 +224,51 @@ Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Apli
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
-1\. **What:** ¿Qué queremos ofrecer?
 
-Queremos ofrecer un servicio de alquiler de bicicletas, estas se pueden alquilar durante un periodo de tiempo dictaminado por una aplicación, esta se trata de una aplicación web que se puede acceder por computadora y/o celular.
 
-2\.      **Who:** ¿A quiénes queremos brindar nuestros servicios?
+ 1. What? **(¿Cuál es el problema?)**
 
-Queremos brindar nuestros servicios a estudiantes que requieren de un medio barato y rápido y turistas que necesitan de un transporte barato o uno que puedan utilizar durante un corto periodo de tiempo.
+El problema es que las personas que se movilizan por Lima metropolitana no pueden realizar esta acción con facilidad, un tráfico inmenso en la ciudad. Esto causa que diversos individuos no puedan llegar a sus destinos a tiempo, e ir en vehículos personales cómo automóviles llega a ser muy caro o demanda la misma cantidad de tiempo. Consecuentemente diversas personas tienen que despertarse más temprano o incluso recurrir a utilizar opciones más caras cómo taxis.
 
-3\.      **Where:** ¿Dónde se pueden recoger las bicicletas?
+ 2. When? **(¿Cuándo sucede el problema?)**
 
-Las bicicletas se pueden recoger de lugares específicos, estos se llamarán almacenes. Se encontrarán en diversas posiciones estratégicas alrededor de Lima metropolitana.
+Sucede cuando una persona tiene que llegar a un lugar a una hora designada y la gran mayoría de personas salen al mismo tiempo, generando una congestión, una ocurrencia muy común hoy en día vista en el país. Según un estudio realizado por la Asociación Automotriz del Perú en 2024, Lima es la ciudad con mayor congestión vehicular en América Latina.
 
-4\.      **When:** ¿Cuándo se tienen que devolver las bicicletas?
+ 3. Where? **(¿Dónde surge el problema?)**
 
-Esto se decide una vez se alquila la bicicleta, el cliente podrá decidir durante cuántas horas va a alquilar la bicicleta, esto afectará el precio. Al final el cliente tendrá que devolver la bicicleta hacia la estación más cercana.
+Surge en Lima metropolitana por zonas de alta concurrencia vehicular cómo calles principales, mercados, centros educativos y centros turísticos.
 
-5\.      **Why:** ¿Por qué el cliente usaría nuestros servicios?
+4. Who?  **(¿Quiénes están involucrados?)**
 
-El cliente utiliza nuestros servicios, porque necesita transportarse rápido y barato.
+Los principales afectados son los habitantes y la gente que se traslada por Lima Metropolitana. Por ejemplo, los estudiantes, trabajadores y turistas.
 
-6\.      **How:** ¿Cómo conseguimos que los clientes devuelvan las bicicletas a tiempo?
+5. Why **(¿Por qué ocurre el problema?)**
 
-Una vez se decida la cantidad de horas la cantidad de horas por las que se va a alquilar la bici, si la hora establecida es excedida el cliente tendrá que pagar una mora por cada hora/minuto que se exceda.
+El problema ocurre debido a una estructura de transporte que no pudo evolucionar al mismo ritmo del aumento de necesidades de las personas. La baja cobertura del transporte público y alta urgencia que genera no logra cubrir la demanda de forma eficiente, obligando al uso de transporte particular, empeorando así la congestión vehicular, que en consecuencia termina en personas no llegando a tiempo a ciertos eventos o lugares e incluso con fatiga y molestia.
 
-7\.      **How much:** ¿Cuánto tiempo se les permitirá a los clientes alquilar una bicicleta?
+6. How **(¿Cómo se lleva a cabo el problema?)**
 
-Se les permitirá alquilar un mínimo de 1 hora y un máximo de 24 horas, dependiendo del tipo de usuario. Además, se pueden alquilar las bicicletas con antelación mediante una reserva.
+El problema se lleva a cabo cuando miles de personas en Lima metropolitana intentan movilizarse a una hora popular por vías congestionadas, generando embotellamientos y rutas vehiculares saturadas. La falta de un transporte accesible y económico incentiva a esta problemática, puesto que la gente que se traslada por Lima tiene que elegir entre un transporte público como son los buses o uno particular y poco económico como son los taxis o carros
+
+7. How much **(¿Cuál es la magnitud del problema?)**
+
+Medimos la magnitud del problema a través de entrevistas realizadas a un público de 30 personas que transitan diariamente en Lima Metropolitana
+
+<img src="/assets/images/charts/1.png" width=800>
+
+<img src="/assets/images/charts/2.png" width=800>
+
+<img src="/assets/images/charts/3.png" width=800>
+
+<img src="/assets/images/charts/4.png" width=800>
+
+<img src="/assets/images/charts/5.png" width=800>
+
+[Link a encuesta enviada](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
+
+[Link a resultados de encuesta](https://docs.google.com/spreadsheets/d/1tCFJkLHdxL313atSLzJCLOHC-6f2ujesVNoaYFEerGg/edit?usp=sharing)
+
+Gracias a las encuestas realizadas se observó que un 86.7% no cuenta con un transporte fijo de transporte, un 63.3% cree que siempre tiene retrasos por el tráfico, un 93.3% se sentiría cómodo con el uso de una bicicleta como medio de transporte segura, económica y fácil de usar. Además, cuentan con una preferencia hacia los precios accesibles y seguridad de servicio en un 96.7% y 90% respectivamente. Finalmente el 80% de los encuestados piensan que una aplicación de alquiler de bicicletas les ayudaría a moverse mejor alrededor de la ciudad. Con esto podemos concluir que en efecto esta problemática es verdadera y concurrente dentro de Lima Metropolitana. La demanda es clara: los usuarios necesitan una alternativa confiable, segura y eficiente frente al actual caos del transporte urbano.
 
 ### 1.2.2. Lean UX Process
 
@@ -261,7 +282,7 @@ Notamos que los estudiantes y turistas no desean pagar por un medio de transport
 
 #### 1.2.2.2. Lean UX Assumptions
 
-Creemos que los estudiantes y turistas en Lima enfrentan una falta de transporte fiable y económico, lo que genera retrasos e incomodidad, al ofrecer bicicletas accesibles mediante una app, creemos firmemente que  resolveremos esta necesidad. Nuestros segmentos objetivos priorizan el ahorro, prefiriendo nuestro servicio frente a taxis o transporte público costoso,además percibirán las bicicletas como una opción más cómoda al evitar el tráfico.La seguridad será clave, por lo que el sistema de bloqueo automático reducirá el miedo a robos, aumentando la confianza. Asumimos que la app será adoptada fácilmente ya que es intuitiva y garantiza transacciones seguras. Validamos estas suposiciones mediante encuestas de satisfacción, análisis de datos de uso, comparación de costos, entrevistas sobre seguridad y monitoreo de la reducción de congestión en zonas clave.
+Creemos que los estudiantes y turistas en Lima enfrentan una falta de transporte fiable y económico, lo que genera retrasos e incomodidad, al ofrecer bicicletas accesibles mediante una app, creemos firmemente que  resolveremos esta necesidad. Nuestros segmentos objetivos priorizan el ahorro, prefiriendo nuestro servicio frente a taxis o transporte público costoso,además percibirán las bicicletas como una opción más cómoda al evitar el tráfico.La seguridad será clave, por lo que el sistema de bloqueo automático reducirá el miedo a robos, aumentando la confianza. Asumimos que la app será adoptada fácilmente ya que es intuitiva y garantiza transacciones seguras. 
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
@@ -415,7 +436,6 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 ## 2.3.4 Empathy Mapping.
 ## 2.3.5 As-is Scenario Mapping.
 ## 2.4 Ubiquitous Language
-
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
@@ -789,3 +809,280 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 ### 4.8.1. Database Diagram
 
 <img src= "assets/images/database/database-diagram.jpeg" widt= "600" alt="Database-Diagram"/>
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration  
+
+Esta sección establece el listado oficial del software, herramientas y plataformas que los miembros del equipo de la startup usaron para garantizar coherencia, colaboración y eficiencia en la construcción y mantenimiento de la web application
+
+| Actividad | Producto | Proposito | Ruta de referencia |
+| :---- | :---- | :---- | :---- |
+| Project Management | Trello | Planificación, seguimiento y gestión de tareas ágiles. (Sprints, Product Backlog, etc.) | [https://trello.com](https://trello.com/) |
+| Product UX/UI Design | Figma | Diseño de interfaces de usuario, landing page y prototipado | [https://figma.com](https://figma.com) |
+| Software Development | Visual Studio Code | Edición y desarrollo de código para interfaces web y móvil | [https://code.visualstudio.com/](https://code.visualstudio.com/) |
+| Software Deployment | Github Pages | Despliegue de la landing Page | [https://pages.github.com/](https://pages.github.com/) |
+| Software Documentation | Markdown \+ StackEdit.io | Redacción y despliegue de documentación técnica. | [https://stackedit.io](https://stackedit.io) |
+| Version Control | GIT (Github) | Control de versiones y revisiones de código | [https://github.com](https://github.com) |
+
+### 5.1.2. Source Code Management  
+
+La administración y estructuración de las múltiples modificaciones se realizaron mediante la creación de un repositorio en GitHub para el proyecto. Nuestra organización se estructuró de la siguiente manera:
+
+* **Organización**
+
+| Producto | Repositorio | URL |
+| :---- | :---- | :---- |
+| Repositorio en Github | SafeCycle | [https://github.com/orgs/1ASI0730-2510-4374-G1-SafeCycle/repositories](https://github.com/orgs/1ASI0730-2510-4374-G1-SafeCycle/repositories) |
+| Landing Page | SafeCycle-Landing-Page | [https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing\_page](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing_page) |
+
+
+* **Ramas Principales:** 
+
+Se usara el flujo de trabajo GitFlow para tener nuestras ramas correctamente estructuradas y usar buenas prácticas de GIT
+
+Para ello se crearán:
+
+- Una rama de producción.  
+- Una rama de pruebas.  
+- Una rama de features a implementar.
+
+Teniendo en cuenta la información anterior lo usaremos para crear un tipo de organización para las branches: 
+
+- Main branch: Esta rama está destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.  
+- Develop branch: Esta rama está destinada a las constantes implementaciones en caliente de los features  
+- Features branch: Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
+### 5.1.3. Source Code Style Guide & Conventions  
+
+ Usaremos buenas prácticas en cuanto al código de manera que sea coherente y sostenible.
+
+  **HTML:**
+
+- Cada etiqueta, id, nombre y clase será nombrada usando Lowercase.  
+- Utilizar UTF-8  
+- Redacción en inglés.  
+- En cada referencia a un archivo, colocar el tipo de archivo (.css, .js).  
+- Terminar cada etiqueta con /\>.
+
+  **Etiquetas de HTML usadas:** 
+
+  Se usó diferentes etiquetas para conformar la estructura del Landing Page del producto
+
+- .header: Esta etiqueta define todo el contenido introductorio de la página web, como por ejemplo la barra de búsquedas  
+- .nav: Define las secciones de la página que estarán dedicadas a la navegación en la página  
+- div: Esta etiqueta permite la separación de diferentes objetos dentro de nuestra página, esto nos permitió poder aplicar hojas de estilo específicas para cada parte de los objetos  
+- .img: Esta etiqueta permite la inserción de imágenes en la página web, se usó en diversas ocasiones dentro de la página  
+- ul: Esta etiqueta sirve para definir una lista desordenada, mayor mente se usó para la elaboración del menú interactivo de la página  
+- .li: Sirve para definir los elementos de las listas que se implementaron en la página, más específico en la barra de búsqueda y el blog  
+- .a: También llamado “Anchor”, se usó para definir hipervínculos para mover a los usuarios a través de las diferentes secciones de la página  
+- .p: Definen los párrafos de texto, separándolos del resto de contenido.button: Declaran un botón interactivo modificable que permite a los usuarios realizar una acción en específico  
+- h1 \- h4: Definen los diferentes títulos y subtítulos de la página siendo h1 el mayor nivel y h4 el más bajo
+
+  **CSS:**
+
+- En cuanto a las imágenes, especificar el ancho (Width) de acuerdo a la etiqueta padre.  
+- Cada etiqueta, nombre y clase será nombrada de acuerdo al propósito y clasificación del elemento  
+- Separación de palabras con un guión "-"  
+- Margin y padding en "\*" con valor de 0
+
+### 5.1.4. Software Deployment Configuration  
+
+Consideraciones que se tuvo antes del despliegue:
+Archivos HTML, CSS y JS Asegúrese que todos los archivos de la página web sean implementados en HTML, CSS y JS para un correcto funcionamiento de la página. En el caso de la imágenes tuvimos que corregir algunos hipervínculos los cuales funcionaban correctamente en un live server pero al momento del deploy no funcionaban bien
+Publicación de archivos Debido al funcionamiento del servicio de Github Pages, todos los archivos correspondientes al funcionamiento de nuestra aplicación será subidos al repositorio compartido de Github para poder trabajar de manera simultánea entre los integrantes del grupo
+Creamos un repositorio en la organización de nuestro equipo en GitHub, donde subimos los archivos necesarios para desplegar la landing page. El despliegue se realizó mediante GitHub Pages. 
+1. Subimos los archivos requeridos al repositorio correspondiente.
+2. Luego, accedemos a Settings y localizamos la opción Pages. En el apartado de Branch, seleccionamos la rama main y guardamos los cambios. 
+3. Tras unos minutos, GitHub genera el enlace de acceso a nuestra página web. 
+
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1  
+#### 5.2.1.1. Sprint Planning 1  
+
+| Sprint \# | 1 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-22-04 |
+| Time | 12:00 PM |
+| Location | Discord |
+| Prepared by | Giancarlo Castañeda |
+| Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
+| Sprint n – 1 Review Summary | Se realizó la landing page implementada con css y html, a raíz de los mockups y wireframes del diseño del landing page |
+| Sprint n – 1 Retrospective Summary | Mejorar la puntualidad en la entrega de artefactos. |
+| Sprint Goal & User Stories |  |
+| Sprint 1 Goal | Nuestro enfoque para este sprint es implementar la landing page de nuestro producto. Creemos que esto brindará una correcta presentación de nuestro producto hacia los visitantes. Esto se confirmará cuando todas las secciones de nuestra página web sean visitadas por cada visitante. |
+| Sprint 1 Velocity | Para este sprint nuestro equipo puende aceptar hasta 50 story points |
+| Sum of Story Points | Para este sprint haremos 49 story points |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators 
+
+| Team Member (Last Name, First Name)  | GitHub Username | Aspect Diseño UX/UI y Prototipado (L/C) | Aspect Programación de la Landing Page (L/C) | Aspect Arquitectura de Información y Sistemas de Organización/Navegación (L/C) |
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | C                                                                                             |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | C                                       | L                                            | L                                                                                             |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | C                                       | C                                            | C                                                                                             |
+| Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | L                                                                                             |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
+
+#### 5.2.1.3. Sprint Backlog 1  
+
+| Id | Title | Id | Title | Description | Estimation (Hours)  | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| US23 | Navigation Bar | T1 | Header o Navigation Bar  | Crear un header con botones hipervínculos a diferentes secciones de la landing page | 2 | Diego Mora | Done |
+| US05 | Acceder a la página inicio de sesión desde el botón “Iniciar sesión” | T2 | Boton Call-to-Action de header | Añadir botón call-to-action en la navbar para que pueda ser usado para redireccionar al usuario a una página de inicio de sesión | 1 | Diego Mora | Done |
+| US01 | Ver el nombre, logo y eslogan de la aplicación | T3 | Hero sección | Crear la sección Hero de la landing page | 2 | Gabriel Sanchez | Done |
+| US04 | Ver un botón destacado “Empieza ahora” en la sección principal del landing | T4 | Boton Call-to-Action de Hero  | Añadir botón call-to-action en el Hero Section para que pueda ser usado para redireccionar al usuario a una página de registro | 1 | Gabriel Sanchez | Done |
+| US02 | Visualizar principales funciones | T5 | Que ofrecemos sección | Añadir sección donde se visualiza lo que ofrece la aplicación | 2 | Gabriel Sanchez | Done |
+| US33 | Sección planes | T6 |  |  | 2 | Gabriel Sanchez | Done |
+| US06 | Acceder a la página de registro de estudiante a través de botón “Aplicar para tarifa estudiante” | T7 | Botón Call-to-Action para los estudiantes de Planes | Añadir botón call-to-action en la sección de planes para que pueda ser usado para redireccionar al estudiante a una página de registro | 1 | Gabriel Sanchez | Done |
+| US07 | Acceder a la página de registro de turista a través de botón “Empezar como turista” | T8 | Botón Call-to-Action para los turistas de Planes | Añadir botón call-to-action en la sección de planes para que pueda ser usado para redireccionar al turista a una página de registro | 1 | Gabriel Sanchez | Done |
+| US03 | Visualizar precios y tarifas | T9 | Tarifas sección | Añadir sección donde se visualiza los precios de la aplicación | 2 | Gabriel Sanchez | Done |
+| US24 | Sección How does it work | T10 | Cómo funciona sección | Añadir sección donde se visualiza el funcionamiento de la aplicación | 2 | Gabriel Sanchez | Done |
+| US25 | Sección Porque Nosotros | T11 | Porque nosotros sección | Añadir sección donde se visualiza el porque elegir usar la aplicación | 2 | Gabriel Sanchez | Done |
+| US26 | Footer | T12 | Sección footer | Añadir sección donde se visualiza los métodos de contacto de SafeCycle | 1 | Gabriel Sanchez | Done |
+| US27 | Cambio de lenguaje a ingles y español en Landing Page  | T13 | Opciones de cambio de lenguaje | Añadir botones de cambio de idioma y lógica de elección de lenguaje default | 3 | Gabriel Sanchez | Done |
+| US28 | Atributos Aria | T14 | Implementar atributos Aria | Añadir atributos aria a los elementos para que puedan ser leídos por lectores de pantalla | 1 | Gabriel Sanchez | Done |
+| US31 | Acceder a Landing page desde cualquier dispositivo | T15 | Anadir elementos responsive | Implementar código para que la landing page sea responsive a los diferentes tamaños de pantalla | 4 | Giancarlo Castañeda, Carlos Gonzales | Done |
+#### 5.2.1.4. Development Evidence for Sprint Review  
+
+A continuación se muestran los commits realizados por los integrantes del equipo, se obviaron los merges y commits incorrectos por razones de mejor visualización acerca de los commits correctamente desarrollados e implementados:
+
+| Repository  | Branch  | Commit Id  | Commit Message  | Commit Message Body  | Commited on (Date) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/hyperlinks | 065ed9a | fix: fix social hiperlinks for deploying | \* No aplica | 24/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | 3c9e7a3 | feat: add responsive to the footer | \* No aplica | 23/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | 3b43b16 | feat: add responsive to the whyus section | \* No aplica | 23/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | add0215 | feat: add responsive to the steps | \* No aplica | 23/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | b517f61 | feat: add responsive to the fees | \* No aplica | 23/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | a066373 | feat: add responsive to the plans | \* No aplica | 23/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | c023614 | feat: add responsive to the whatweoffer section | \* No aplica | 23/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | f9765d1 | feat: add responsive to the stadistics | \* No aplica | 23/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | ad8fbbd | feat: add responsive to the introduction | \* No aplica | 23/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/responsive | 29df595 | fix: expand banner on desktop view | \* No aplica | 18/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/language | b75eca9 | feat: add JSON file languages | \* No aplica | 18/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/language | a11e895 | feat: add JS file for translation | \* No aplica | 18/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/language | bc34ca8 | feat: modify CSS for translation | \* No aplica | 18/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/language | 29f87d5 | feat: modify HTML for translation | \* No aplica | 18/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/aria | cf9130a | feat: add ARIA attributes HTML | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/hyperlinks | 87a9a6f | feat: add HTML hyperlinks | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/footer | 92b80a2 | feath: add CSS footer section | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/footer | 1cb80f1 | feat: add HTML footer section | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/WhyUs | 30c0ded | feat: add CSS WhyUs section | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/WhyUs | a04e48d | feat: add HTML Why Us section | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/howdoesitwork | ff48898 | feat: add CSS how does it work section | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/howdoesitwork | 3cc8e79 | feat: add HTML how does it work section | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/plans | b7cfec6 | feat: add CSS buttons transitions | \* No aplica | 15/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/plans | f9d0170 | feat: add CSS plans section | \* No aplica | 14/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/plans | 69bf2b3 | feat: add HTML plans section | \* No aplica | 14/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/whatweoffer | f64a897 | feat: add html what we offer section | \* No aplica | 14/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/whatweoffer | e576e1f | feat: add css what we offer section | \* No aplica | 14/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/stadistics | 602d737 | feat: add stadistics html | \* No aplica | 14/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/stadistics | 1dd94f2 | feat: add stadistics css | \* No aplica | 14/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | ac685dc | fix: navbar css | fixed navbar | 14/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | f3676c2 | chore: add index.html | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | 279ea09 | chore: add style.css | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | 18f7c4d | chore: add logo.png in assets/images | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | b75a55f | feat: add initial HTML structure with navbar | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | 33cffed | feat: add initial styles for navbar and layout | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | 232327e | feat: add assets for landing page | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | 4831484 | chore: delete assets/images/logo.png | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | 7ea9b37 | chore: update logo image source | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | 0db56e1 | style: add active state to login button | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/navbar | d5f4265 | fix: change to content of navbar | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/introduction | 2eb73eb | feat: add HTML introduction section to landing page | \* No aplica | 12/04/2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle landing\_page | feature/introduction | b2bef10 | feat: add CSS introduction section to landing page | \* No aplica | 12/04/2025 |
+
+| \* No aplica | No se presento una descripción para estos commits |
+| :---- | :---- |
+
+#### 5.2.1.5. Execution Evidence for Sprint Review  
+
+<img src="assets/images/collabEvidence/1.png" width=600>
+<img src="assets/images/collabEvidence/2.1.png" width=600>
+<img src="assets/images/collabEvidence/2.png" width=600>
+<img src="assets/images/collabEvidence/land5.png" width=800>
+
+<img src="assets/images/collabEvidence/lannd.png" width=800>
+<img src="assets/images/collabEvidence/land2.png" width=800>
+<img src="assets/images/collabEvidence/land3.png" width=800>
+<img src="assets/images/collabEvidence/land4.png" width=800>
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review  
+
+Dentro de este primer sprint no se contempló el uso de servicios
+
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review 
+
+Para la entrega de este Sprint número 1, se desplegó el landing page parcialmente completo. Los hipervínculos a botones que lleven a la aplicación web y otros importantes se implementaran en posteriores entregas. Los bugs relacionados al responsive tambien se arreglaran en próximas entregas.
+
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint  
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+| Sanchez Gonzales | Navigation bar, Hero Section, Statistics, WhatweOffer, Plans, Fees, HowdoesitWork, WhyUs, Footer |
+| Mora Blas,  Diego Alonzo | Navigation bar, Hero Section, Responsive features |
+| Gonzales Valverde, Carlos Matthew, Castañeda Guimas, Giancarlo Santiago | Responsive features |
+
+## Conclusiones y recomendaciones
+**1.  Conclusión 1: Proporcionar una solución eficiente ante el problema.**
+    
+
+Logramos que las historias de usuarios y el empathy mapping, podemos ver que nuestra propuesta cumple con las necesidades de nuestro grupo de interés. Proporcionando así una solución fácil, barata, eco amigable y accesible.
+
+**2.  Conclusión 2: Diseño creado para una experiencia más grata:**
+    
+
+Con la landing page logramos que fuera creado con la idea de proporcionar una interacción simple y fluida para el cliente, para se utilizaron funciones cómo un mapa virtual que ayuda al cliente y diferentes idiomas de los cuales escoger.
+
+**3. Conclusión 3: Coherencia y diseños expertos:**
+    
+
+Concluimos que los diversos colores, tipografía y formas de la landing page fueron seleccionados para poseer una identidad visual concreta. Además nos permite poseer una apariencia experta.
+
+**4.  Conclusión 4: Accesibilidad en mente**
+    
+
+La página fue creada con la idea de ser utilizable por cualquier persona independientemente de su conocimiento sobre tecnología. Obtuvimos con la plataforma, una manera de instruir al usuario paso a paso para que pueda realizar cualquier acción con facilidad, lo que permite tener un enfoque inclusivo.
+
+**5.  Conclusión 5: Beneficios para ciertos usuarios**
+    
+
+Concluimos que la página y el sistema fueron creados con la idea de beneficiar en especial a nuestro segmento objetivo ofreciendo descuentos y ayuda especial, ofreciendo una experiencia de usuario personalizada.
+
+**6.  Conclusión 6: Compromiso con la visión integral del proyecto:**
+    
+
+Este proyecto también busca crear un impacto positivo a los ciudadanos y el ambiente de la ciudad en general. Con esto concluimos que conseguimos realizar una planificación estratégica clara y estructurada.
+
+**2.  Recomendaciones**
+    
+
+Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la plataforma, recomendamos realizar las siguientes acciones:
+
+-   Incluir una opción para que el cliente pueda dejar una comentario acerca de cualquier problema por el que pudo pasar, mejorando de esta manera la comunicación con el cliente, la confianza y la plataforma a largo plazo.
+    
+-   Incluir descuentos dentro de la aplicación para poder incrementar la cantidad de usuarios que lo utilizan. Esto nos permite incrementar la posibilidad de que un usuario utilice la aplicación a corto y largo plazo.
+    
+-   Es recomendable añadir una página donde se pueda ver a mayor detalle cada uno de los tipos de pagos y maneras en las que se pueda alquilar una bicicleta. Una calculadora de precios sería de gran ayuda.
+    
+-   Ofrecer una suscripción a la página que sirve como un seguro para la bicicleta, permitirá al cliente utilizar el servicio sin preocupaciones de robo o daño.
+## Bibliografia
+- Estudios Económicos y Estadística, G. (2024). Lima es la ciudad con mayor congestión vehicular en América Latina. https://aap.org.pe/observatorio-aap/ranking-de-congestion-vehicular-enero2024/ranking-de-congestion-vehicular-enero2024.pdf
+- BIG Hacks. (2020). Estructura de una página web y tipos de estructuras web. Recuperado de https://bighacks.agency/blog/estructura-de-una-pagina-web
+- Hidalgo, D., & Huizenga, C. (2013). Implementation of sustainable urban transport in Latin America. Research in Transportation Economics, 40(1), 66–77. https://doi.org/10.1016/j.retrec.2012.06.034
+- Götschi, T., Garrard, J., & Giles-Corti, B. (2016). Cycling as a part of daily life: A review of health perspectives. Transport Reviews, 36(1), 45–71. https://doi.org/10.1080/01441647.2015.1057877
+
+## Anexos
+Link a Figma:
+- Figma: https://www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1
+- Link a encuesta enviada para How much de 5W2H: https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog
+- Link a resultados de encuesta How much de 5W2H: Encuesta sobre movilidad urbana (Responses)
+- Link a Github Pages: https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/
+
+
