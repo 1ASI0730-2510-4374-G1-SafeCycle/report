@@ -82,7 +82,9 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
+  - [6. Conclusiones](#6-conclusiones)
+  - [8. Bibliografía](#8-bibliografía)
+  - [9. Anexos](#9-anexos)
 
 # Student Outcome
 
@@ -395,10 +397,24 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 - Götschi, T., Garrard, J., & Giles-Corti, B. (2016). Cycling as a part of daily life: A review of health perspectives. Transport Reviews, 36(1), 45–71. https://doi.org/10.1080/01441647.2015.1057877
 
 ## Anexos
-Link a Figma:
-- Figma: https://www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1
-- Link a encuesta enviada para How much de 5W2H: https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog
-- Link a resultados de encuesta How much de 5W2H: Encuesta sobre movilidad urbana (Responses)
-- Link a Github Pages: https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/
-- Link a C4 : https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45
 
+## Anexo A: Diseño y Landing: 
+
+### Figma
+- [Figmas diseño UX](//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1)
+
+### Encuesta How Much de 5W2H
+- [Encuensta 5W2H](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
+
+### User Persona
+- [Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
+- [Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+
+### Landing Page
+- [Landing Page desplegada](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
+
+### Domain-Driven Software Architecture / C4 Diagrams
+- [Link a Structurizr](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
+
+## Anexo B: Videos de exposiciones: 
+- [Link a video de exposición de TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
