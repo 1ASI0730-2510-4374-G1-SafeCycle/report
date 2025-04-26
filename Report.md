@@ -475,3 +475,47 @@ Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b
 <img src="assets/images/Impact Mapping SafeCycle.png" alt="impact map" width=700 >
 
 ## 3.4 Product Backlog
+<img src="assets/images/product-backlog/productbacklog1.png" alt="product backlog 1" width=700 >
+<img src="assets/images/product-backlog/productbacklog2.png" alt="product backlog 1" width=700 >
+JIRA URL: [https://carlos123q.atlassian.net/jira/software/projects/SAF/boards/3/backlog?epics=visible\&selectedIssue=SAF-4](https://carlos123q.atlassian.net/jira/software/projects/SAF/boards/3/backlog?epics=visible&selectedIssue=SAF-4)
+
+### Product Backlog Tablas
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| :---- | :---- | :---- | :---- | :---- |
+| 1 | US01 | Ver logo y eslogan | Como visitante deseo ver el logo y eslogan para saber de qué trata Safecycle. | 1 |
+| 2 | US02 | Ver funcionalidades | Como visitante deseo ver las funcionalidades principales para saber qué hace la aplicación. | 3 |
+| 3 | US03 | Ver precios y tarifas | Como visitante deseo ver precios y tarifas para saber si me conviene usar el servicio. | 5 |
+| 4 | US23 | Navigation Bar | Como visitante deseo navegar rápidamente por la página. | 3 |
+| 5 | US24 | How does it work | Como visitante deseo saber cómo funciona la app para entender el proceso. | 3 |
+| 6 | US25 | ¿Por qué nosotros? | Como visitante deseo conocer los beneficios de Safecycle frente a otras opciones. | 5 |
+| 7 | US26 | Footer de la landing | Como visitante deseo ver información útil al pie de la página para acceder a enlaces de interés. | 1 |
+| 8 | US27 | Cambio de idioma landing | Como visitante deseo cambiar el idioma para entender mejor la información. | 2 |
+| 9 | US28 | Atributos ARIA | Como usuario con discapacidad deseo acceder a una web accesible mediante lector de pantalla. | 5 |
+| 10 | US31 | Responsive design | Como visitante deseo que la web funcione bien desde cualquier dispositivo. | 8 |
+| 11 | US33 | Sección Planes | Como visitante deseo ver los planes disponibles para comparar y elegir uno. | 3 |
+| 12 | US04 | Botón empieza ahora | Como visitante deseo tener un botón visible para iniciar el registro. | 1 |
+| 13 | US05 | Login desde landing | Como visitante deseo iniciar sesión fácilmente desde la landing. | 2 |
+| 14 | US06 | Registro estudiante | Como estudiante deseo registrarme desde la web para empezar a usar la app. | 5 |
+| 15 | US07 | Registro turista | Como turista deseo registrarme rápido para comenzar a alquilar bicicletas. | 2 |
+| 16 | US08 | Registro usuario turista | Como turista deseo registrarme en la plataforma para acceder al servicio. | 2 |
+| 17 | US09 | Registro usuario estudiante | Como estudiante deseo registrarme y acceder a beneficios exclusivos. | 2 |
+| 18 | US10 | Login usuario | Como usuario deseo iniciar sesión en mi cuenta para gestionar mis reservas. | 1 |
+| 19 | US20 | Editar perfil | Como usuario deseo actualizar mis datos personales. | 3 |
+| 20 | US22 | Cerrar sesión | Como usuario deseo cerrar sesión para proteger mi cuenta. | 2 |
+| 21 | US32 | Cambio de idioma app | Como usuario deseo cambiar el idioma dentro de la app web. | 2 |
+| 22 | US11 | Alquiler bicicleta | Como usuario deseo alquilar una bicicleta para movilizarme. | 3 |
+| 23 | US12 | Elegir punto de recojo | Como usuario deseo seleccionar el punto más cercano para retirar la bici. | 5 |
+| 24 | US15 | Reservar bicicleta | Como usuario deseo hacer una reserva con anticipación. | 5 |
+| 25 | US16 | Cancelar reserva | Como usuario deseo cancelar una reserva que ya no necesito. | 3 |
+| 26 | US19 | Ver rutas turísticas | Como turista deseo ver rutas sugeridas para explorar la ciudad. | 8 |
+| 27 | US13 | Notificación de mora | Como usuario deseo recibir una alerta si excedo el tiempo de alquiler. | 2 |
+| 28 | US14 | Confirmación de pago | Como usuario deseo recibir confirmación después de pagar. | 3 |
+| 29 | US29 | Actualizar método de pago | Como usuario deseo actualizar mis datos de pago para futuras reservas. | 2 |
+| 30 | US30 | Ver tarifas actuales | Como usuario deseo consultar las tarifas actualizadas antes de alquilar. | 2 |
+| 31 | US17 | Administrar bicicletas | Como administrador deseo gestionar el inventario de bicicletas. | 3 |
+| 32 | US18 | Administrar estaciones | Como administrador deseo editar la información de las estaciones. | 5 |
+| 33 | US21 | Acceder a panel de control | Como administrador deseo ingresar al panel para ver métricas generales. | 2 |
+
+
+
