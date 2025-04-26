@@ -474,6 +474,11 @@ En resumen, el analisis de las entrevistas revela que existe una necesidad o má
 | Programar visitas y turismo evitando las horas más congestionadas del tráfico | Baja | Media |
 
 ## 2.3.3 User Journey Mapping.
+**Estudiante**
+![journey mapping estudiante](assets/images/journey-mapping/user-journey1.png)
+
+**Turista**
+![journey mapping estudiante](assets/images/journey-mapping/user-journey2.png)
 
 ## 2.3.4 Empathy Mapping.
 **Estudiante**
