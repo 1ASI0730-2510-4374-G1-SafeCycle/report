@@ -420,6 +420,38 @@ Teniendo en cuenta la información anterior lo usaremos para crear un tipo de or
 - Features branch: Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
 
 ### 5.1.3. Source Code Style Guide & Conventions  
+
+ Usaremos buenas prácticas en cuanto al código de manera que sea coherente y sostenible.
+
+  **HTML:**
+
+- Cada etiqueta, id, nombre y clase será nombrada usando Lowercase.  
+- Utilizar UTF-8  
+- Redacción en inglés.  
+- En cada referencia a un archivo, colocar el tipo de archivo (.css, .js).  
+- Terminar cada etiqueta con /\>.
+
+  **Etiquetas de HTML usadas:** 
+
+  Se usó diferentes etiquetas para conformar la estructura del Landing Page del producto
+
+- .header: Esta etiqueta define todo el contenido introductorio de la página web, como por ejemplo la barra de búsquedas  
+- .nav: Define las secciones de la página que estarán dedicadas a la navegación en la página  
+- div: Esta etiqueta permite la separación de diferentes objetos dentro de nuestra página, esto nos permitió poder aplicar hojas de estilo específicas para cada parte de los objetos  
+- .img: Esta etiqueta permite la inserción de imágenes en la página web, se usó en diversas ocasiones dentro de la página  
+- ul: Esta etiqueta sirve para definir una lista desordenada, mayor mente se usó para la elaboración del menú interactivo de la página  
+- .li: Sirve para definir los elementos de las listas que se implementaron en la página, más específico en la barra de búsqueda y el blog  
+- .a: También llamado “Anchor”, se usó para definir hipervínculos para mover a los usuarios a través de las diferentes secciones de la página  
+- .p: Definen los párrafos de texto, separándolos del resto de contenido.button: Declaran un botón interactivo modificable que permite a los usuarios realizar una acción en específico  
+- h1 \- h4: Definen los diferentes títulos y subtítulos de la página siendo h1 el mayor nivel y h4 el más bajo
+
+  **CSS:**
+
+- En cuanto a las imágenes, especificar el ancho (Width) de acuerdo a la etiqueta padre.  
+- Cada etiqueta, nombre y clase será nombrada de acuerdo al propósito y clasificación del elemento  
+- Separación de palabras con un guión "-"  
+- Margin y padding en "\*" con valor de 0
+
 ### 5.1.4. Software Deployment Configuration  
 
 Consideraciones que se tuvo antes del despliegue:
@@ -435,6 +467,22 @@ Creamos un repositorio en la organización de nuestro equipo en GitHub, donde su
 
 ### 5.2.1. Sprint 1  
 #### 5.2.1.1. Sprint Planning 1  
+
+| Sprint \# | 1 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-22-04 |
+| Time | 12:00 PM |
+| Location | Discord |
+| Prepared by | Giancarlo Castañeda |
+| Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
+| Sprint n – 1 Review Summary | Se realizó la landing page implementada con css y html, a raíz de los mockups y wireframes del diseño del landing page |
+| Sprint n – 1 Retrospective Summary | Mejorar la puntualidad en la entrega de artefactos. |
+| Sprint Goal & User Stories |  |
+| Sprint 1 Goal | Nuestro enfoque para este sprint es implementar la landing page de nuestro producto. Creemos que esto brindará una correcta presentación de nuestro producto hacia los visitantes. Esto se confirmará cuando todas las secciones de nuestra página web sean visitadas por cada visitante. |
+| Sprint 1 Velocity | Para este sprint nuestro equipo puende aceptar hasta 50 story points |
+| Sum of Story Points | Para este sprint haremos 49 story points |
+
 #### 5.2.1.2. Aspect Leaders and Collaborators 
 
 | Team Member (Last Name, First Name)  | GitHub Username | Aspect Diseño UX/UI y Prototipado (L/C) | Aspect Programación de la Landing Page (L/C) | Aspect Arquitectura de Información y Sistemas de Organización/Navegación (L/C) |
@@ -463,8 +511,7 @@ Creamos un repositorio en la organización de nuestro equipo en GitHub, donde su
 | US26 | Footer | T12 | Sección footer | Añadir sección donde se visualiza los métodos de contacto de SafeCycle | 1 | Gabriel Sanchez | Done |
 | US27 | Cambio de lenguaje a ingles y español en Landing Page  | T13 | Opciones de cambio de lenguaje | Añadir botones de cambio de idioma y lógica de elección de lenguaje default | 3 | Gabriel Sanchez | Done |
 | US28 | Atributos Aria | T14 | Implementar atributos Aria | Añadir atributos aria a los elementos para que puedan ser leídos por lectores de pantalla | 1 | Gabriel Sanchez | Done |
-| US31 | Acceder a Landing page desde cualquier dispositivo | T15 | Anadir elementos responsive | Implementar código para que la landing page sea responsive a los diferentes tamaños de pantalla | 4 | Giancarlo Castañeda | Done |
-
+| US31 | Acceder a Landing page desde cualquier dispositivo | T15 | Anadir elementos responsive | Implementar código para que la landing page sea responsive a los diferentes tamaños de pantalla | 4 | Giancarlo Castañeda, Carlos Gonzales | Done |
 #### 5.2.1.4. Development Evidence for Sprint Review  
 
 A continuación se muestran los commits realizados por los integrantes del equipo, se obviaron los merges y commits incorrectos por razones de mejor visualización acerca de los commits correctamente desarrollados e implementados:
@@ -544,5 +591,5 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 | :---- | :---- |
 | Sanchez Gonzales | Navigation bar, Hero Section, Statistics, WhatweOffer, Plans, Fees, HowdoesitWork, WhyUs, Footer |
 | Mora Blas,  Diego Alonzo | Navigation bar, Hero Section, Responsive features |
-| Castañeda Guimas, Giancarlo Santiago | Responsive features |
+| Gonzales Valverde, Carlos Matthew, Castañeda Guimas, Giancarlo Santiago | Responsive features |
 
