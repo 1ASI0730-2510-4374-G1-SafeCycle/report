@@ -613,6 +613,9 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 | Mora Blas,  Diego Alonzo | Navigation bar, Hero Section, Responsive features |
 | Gonzales Valverde, Carlos Matthew, Castañeda Guimas, Giancarlo Santiago | Responsive features |
 
+<img src="assets/images/collaboration-insights/insightsc1.png" width=800>
+<img src="assets/images/collaboration-insights/insightsc2.png" width=800>
+
 ## Conclusiones y recomendaciones
 **1.  Conclusión 1: Proporcionar una solución eficiente ante el problema.**
     
