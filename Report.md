@@ -556,7 +556,8 @@ Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b
 
 ## 3.3 Impact Mapping
 
-<img src="assets/images/impact-mapping/impactmapping.jpg" alt="impact map" width=700 >
+![impact-mapping](/assets/images/impact-mapping/Impactmapping.jpg)
+
 
 ## 3.4 Product Backlog
 <img src="assets/images/product-backlog/productbacklog1.png" alt="product backlog 1" width=700 >
