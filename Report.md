@@ -180,8 +180,8 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
   - [6. Conclusiones](#6-conclusiones)
-  - [8. Bibliografía](#8-bibliografía)
-  - [9. Anexos](#9-anexos)
+  - [7. Bibliografía](#7-bibliografía)
+  - [8. Anexos](#8-anexos)
 
 # Student Outcome
 
@@ -1286,7 +1286,7 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 <img src="assets/images/collaboration-insights/insightsc1.png" width=800>
 <img src="assets/images/collaboration-insights/insightsc2.png" width=800>
 
-## Conclusiones y recomendaciones
+## 6. Conclusiones y recomendaciones
 **1.  Conclusión 1: Proporcionar una solución eficiente ante el problema.**
     
 
@@ -1329,11 +1329,13 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 -   Es recomendable añadir una página donde se pueda ver a mayor detalle cada uno de los tipos de pagos y maneras en las que se pueda alquilar una bicicleta. Una calculadora de precios sería de gran ayuda.
     
 -   Ofrecer una suscripción a la página que sirve como un seguro para la bicicleta, permitirá al cliente utilizar el servicio sin preocupaciones de robo o daño.
-## Bibliografia
+## 7. Bibliografia
 - Estudios Económicos y Estadística, G. (2024). Lima es la ciudad con mayor congestión vehicular en América Latina. https://aap.org.pe/observatorio-aap/ranking-de-congestion-vehicular-enero2024/ranking-de-congestion-vehicular-enero2024.pdf
 - BIG Hacks. (2020). Estructura de una página web y tipos de estructuras web. Recuperado de https://bighacks.agency/blog/estructura-de-una-pagina-web
 - Hidalgo, D., & Huizenga, C. (2013). Implementation of sustainable urban transport in Latin America. Research in Transportation Economics, 40(1), 66–77. https://doi.org/10.1016/j.retrec.2012.06.034
 - Götschi, T., Garrard, J., & Giles-Corti, B. (2016). Cycling as a part of daily life: A review of health perspectives. Transport Reviews, 36(1), 45–71. https://doi.org/10.1080/01441647.2015.1057877
+
+## 8. Anexos
 
 ## Anexo A: Diseño y Landing: 
 
