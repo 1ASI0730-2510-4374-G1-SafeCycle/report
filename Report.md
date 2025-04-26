@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/cfac9f91-4073-4506-b7b3-aa0dcab9c837)
 <h1 align="center">
   <strong style="font-size:25px;">Universidad Informe de Trabajo Final</strong>
 </h1>
@@ -748,7 +748,41 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 ### 4.7.1. Class Diagrams
 
 ### 4.7.2. Class Dictionary
-
+| Clase | Nombre de Atributo | Descripción | Tipo de Dato |
+| ----- | ----- | ----- | ----- |
+| Usuario | nombre | Nombre del usuario | string |
+|  | correo | Correo electrónico del usuario | string |
+|  | fecha\_registro | Fecha de registro del usuario | date |
+| Reserva | reserva | ID de la reserva | int |
+|  | fecha\_reserva | Fecha en que se hizo la reserva | date |
+|  | tiempo\_inicio | Hora de inicio de la reserva | date |
+|  | tiempo\_termina | Hora de finalización de la reserva | date |
+| Pago | pago | ID del pago | int |
+|  | tiempo\_pago | Fecha y hora del pago | date |
+|  | stripe | Código de transacción de Stripe | string |
+| Touring | nombre | Nombre del recorrido | string |
+|  | distancia | Distancia del recorrido | double |
+|  | precio | Precio del recorrido | money |
+|  | tiempo | Duración total del recorrido | time |
+|  | estacion | Nombre de la estación asociada | string |
+|  | tiempo\_inicio | Hora de inicio del recorrido | date |
+|  | tiempo\_termina | Hora de fin del recorrido | date |
+| Alquiler | alquiler | ID del alquiler | int |
+|  | punto\_entrega | Punto donde se entrega la bicicleta | string |
+|  | tiempo\_de\_alquiler | Fecha del alquiler | date |
+| Registro | registro | ID del registro | int |
+|  | condicion\_entrega | Condición de entrega del objeto | string |
+|  | fecha\_entrega | Fecha en que se hizo la entrega | date |
+| Bicicleta | bicicleta | ID de la bicicleta | int |
+|  | condicion | Condición de la bicicleta | string |
+|  | punto\_recogo | Punto de recogida de la bicicleta | string |
+| Almacen | almacen | ID del almacén | int |
+|  | cantidad | Cantidad de bicicletas en el almacén | int |
+|  | capacidad | Capacidad máxima del almacén | int |
+| Identificacion | nacionalidad | Nacionalidad del usuario | string |
+|  | tipoDocumento | Tipo de documento (DNI, pasaporte, etc.) | string |
+| Penalidad | penalidad | ID de la penalidad | int |
+|  | precio\_total | Monto total de la penalidad | double |
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
