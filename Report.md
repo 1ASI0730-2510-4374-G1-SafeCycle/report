@@ -747,6 +747,8 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 
 ### 4.7.1. Class Diagrams
 
+<img src="assets/images/diagram-class/diagram-class.png" width="600" alt="diagram class" />
+
 ### 4.7.2. Class Dictionary
 | Clase | Nombre de Atributo | Descripción | Tipo de Dato |
 | ----- | ----- | ----- | ----- |
