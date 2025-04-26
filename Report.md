@@ -742,8 +742,15 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 ### 4.6.3. Software Architecture Components Diagrams
 
 <img src="assets/images/SoftwareArchitectureComponentsDiagrams.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
+
 ## 4.7. Software Object-Oriented Design
+
 ### 4.7.1. Class Diagrams
+
 ### 4.7.2. Class Dictionary
+
 ## 4.8. Database Design
+
 ### 4.8.1. Database Diagram
+
+<img src= "assets/images/database/database-diagram.jpeg" widt= "600" alt="Database-Diagram"/>
