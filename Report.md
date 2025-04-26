@@ -179,8 +179,8 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [6. Conclusiones](#6-conclusiones)
-  - [7. Bibliografía](#7-bibliografía)
+  - [6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
+  - [7. Bibliografía](#7-bibliografia)
   - [8. Anexos](#8-anexos)
 
 # Student Outcome
@@ -1354,6 +1354,13 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 ### Domain-Driven Software Architecture / C4 Diagrams
 - [Link a Structurizr](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
+
+
+### Flujos y Prototype
+
+- [link a wireflow diagrams](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
+
+- [link a prototype](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
 
 ## Anexo B: Videos de exposiciones: 
 - [Link a video de exposición de TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
