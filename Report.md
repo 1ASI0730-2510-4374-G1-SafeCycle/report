@@ -97,7 +97,6 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
- 
 [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
 - [2.1. Competidores](#21-competidores)
   - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -113,7 +112,6 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
   - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
 - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
 - [3.2 Epics & User Stories](#32-epics--user-stories)  
@@ -181,6 +179,9 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [6. Conclusiones](#6-conclusiones)
+  - [8. Bibliografía](#8-bibliografía)
+  - [9. Anexos](#9-anexos)
 
 # Student Outcome
 
@@ -1334,13 +1335,24 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 - Hidalgo, D., & Huizenga, C. (2013). Implementation of sustainable urban transport in Latin America. Research in Transportation Economics, 40(1), 66–77. https://doi.org/10.1016/j.retrec.2012.06.034
 - Götschi, T., Garrard, J., & Giles-Corti, B. (2016). Cycling as a part of daily life: A review of health perspectives. Transport Reviews, 36(1), 45–71. https://doi.org/10.1080/01441647.2015.1057877
 
-## Anexos
-Link a Figma:
-- Axeno A:
-Figma: https://www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1
-- Axeno B:
-Link a encuesta enviada para How much de 5W2H: https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog
-- Axeno C:
-Link a resultados de encuesta How much de 5W2H: Encuesta sobre movilidad urbana (Responses)
-- Axeno D:
-Link a Github Pages: https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/
+## Anexo A: Diseño y Landing: 
+
+### Figma
+- [Figmas diseño UX](//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1)
+
+### Encuesta How Much de 5W2H
+- [Encuensta 5W2H](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
+
+### User Persona
+- [Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
+- [Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+
+### Landing Page
+- [Landing Page desplegada](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
+
+### Domain-Driven Software Architecture / C4 Diagrams
+- [Link a Structurizr](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
+
+## Anexo B: Videos de exposiciones: 
+- [Link a video de exposición de TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
+
