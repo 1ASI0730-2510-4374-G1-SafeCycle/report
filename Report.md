@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/cfac9f91-4073-4506-b7b3-aa0dcab9c837)
 <h1 align="center">
   <strong style="font-size:25px;">Universidad Informe de Trabajo Final</strong>
 </h1>
