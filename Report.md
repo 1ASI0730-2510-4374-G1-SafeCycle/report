@@ -1336,7 +1336,11 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 ## Anexos
 Link a Figma:
-- Figma: https://www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1
-- Link a encuesta enviada para How much de 5W2H: https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog
-- Link a resultados de encuesta How much de 5W2H: Encuesta sobre movilidad urbana (Responses)
-- Link a Github Pages: https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/
+- Axeno A:
+Figma: https://www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1
+- Axeno B:
+Link a encuesta enviada para How much de 5W2H: https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog
+- Axeno C:
+Link a resultados de encuesta How much de 5W2H: Encuesta sobre movilidad urbana (Responses)
+- Axeno D:
+Link a Github Pages: https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/
