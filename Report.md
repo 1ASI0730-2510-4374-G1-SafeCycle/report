@@ -574,6 +574,7 @@ A continuación se muestran los commits realizados por los integrantes del equip
 <img src="assets/images/collabEvidence/land2.png" width=800>
 <img src="assets/images/collabEvidence/land3.png" width=800>
 <img src="assets/images/collabEvidence/land4.png" width=800>
+<img src="assets/images/collabEvidence/land5.png" width=800>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review  
 
