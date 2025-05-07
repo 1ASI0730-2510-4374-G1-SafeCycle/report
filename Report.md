@@ -66,7 +66,7 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 **Link del repositorio-Informe:** 
 
-**Link de los repositorios de la oraganización:** [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
+**Link de los repositorios de la organización:** [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
 
 A continuación se visualiza el diagrama de barras que representa la cantidad de commits realizados por el equipo de trabajo:
 <img src="assets/images/insights-report/insightsreport.PNG" width=800>
