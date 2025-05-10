@@ -21,7 +21,7 @@
 
 <p align="center"><strong>Docente:</strong> Alberto Wilmer Sanchez Seña</p>
 
-<p align="center"><strong>StartUp: </strong>Cuys TM</p>
+<p align="center"><strong>StartUp: </strong> Cuys TM</p>
 <p align="center"><strong>Proyecto:</strong> SafeCycle</p>
 
 
@@ -741,7 +741,7 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 <img src="assets/images/UXUI/user%20flows/signup.png" width="400" alt="Flujo de registro" />
 <img src="assets/images/UXUI/user%20flows/touring.png" width="400" alt="Flujo de tour" />
 
-[link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
+[link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4) [https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?viewport_loc=-3492%2C-4847%2C10317%2C6222%2CJ~k~kbGCtyzJ&invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?viewport_loc=-3492%2C-4847%2C10317%2C6222%2CJ~k~kbGCtyzJ&invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
 
 ## 4.5. Web Applications Prototyping
 
