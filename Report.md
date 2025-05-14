@@ -537,49 +537,47 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 
 ¿Cuál es tu lugar de nacimiento?
 
+¿Cómo te transportas habitualmente en tu día a día?
+
+¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+¿Cuánto estarías dispuesto a pagar por un minuto de alquiler?
+
 **Estudiantes:**
 
-- ¿Cómo te transportas habitualmente en tu día a día?
+¿Cuáles son los horarios que consideras más críticos en términos de congestión en el transporte?
 
-- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+¿Qué problemas enfrentas al usar el transporte público o privado como estudiante?
 
-- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+¿Te ha afectado el costo del transporte?
 
-- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+¿Has usado bicicletas anteriormente para movilizarte al campus o a otro entorno?
 
-- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+¿Qué elementos valoras más en un sistema de préstamo de bicicletas?
 
-- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
 
-- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+¿Te sentirías cómodo usando una app para reservar, desbloquear y pagar por la bicicleta?
 
-- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+¿Qué medidas de seguridad te harían confiar en el servicio?
 
-- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
-
-- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
+¿Qué te haría dejar de usar el servicio?
 
 **Turistas:**
 
-- ¿Cómo te transportas habitualmente en tu estadía?
+¿Has usado bicicletas como turista en otras ciudades? ¿Qué te gustó o incomodó?
 
-- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+¿Te interesaría conocer la ciudad en bicicleta? ¿Por qué sí o por qué no?
 
-- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+¿Consideras que explorar la ciudad en bicicleta te conecta más con su historia, costumbres y cultura?
 
-- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+¿Te gustaría contar con rutas recomendadas o tours autoguiados en la app?
 
-- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+¿Qué aspectos valoras más en un servicio de alquiler de bicicletas como turista?
 
-- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+¿Qué factores te harían sentir seguro usando una bicicleta en una ciudad que no conoces?
 
-- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
-
-- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
-
-- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
-
-- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
 ### 2.2.2 Registro de entrevistas.
 
 | Segmento Objetivo | Estudiantes |
