@@ -504,23 +504,39 @@ Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de
 |  | Amenazas | • Competencia en el mercado alta<br>• Robo o hackeos | • Problemas por clima o infraestructura | • Quejas por demora de renta | • Cambios de normativas de rutas <br>• Poca retención de usuarios |
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
-Después de revisar lo que ofrecen otras plataformas, y considerando el análisis SWOT que hicimos, nos dimos cuenta de que hay cosas que podemos hacer diferentes y mejor. Algunas son ideas que ya estamos implementando, y otras se presentan como oportunidades claras que vamos a aprovechar.
+Después de revisar lo que ofrecen otras plataformas, y considerando el análisis SWOT que hicimos, nos dimos cuenta de que hay cosas que podemos hacer diferentes y mejor. Aunque ya estemos implementando algunas, hay otras que podemos incluir para sobre salir entre nuestros competidores.
 
-**1\. Hacer que la plataforma sea fácil de entender y usar**
+**Estrategias**
 
-Uno de los problemas que encontramos en otras aplicaciones es que, aunque tienen buenas ideas, no siempre son prácticas. Nosotros queremos que SafeCycle se entienda sin complicaciones. Desde que el usuario abre la app hasta que devuelve la bici, todo debe ser claro. También vamos a incluir pequeñas guías o tutoriales dentro de la misma aplicación, por si alguien necesita ayuda la primera vez.
+**Experiencia del cliente**
 
-**2\. Pensar tanto en estudiantes como en turistas**
+Esto lo podemos lograr al ofrecer un servicio más fácil y accesible que otros, ya sean utilizar una forma de pago mucho más fácil e intuitiva, ofrecer un servicio mejor en teoría para el cliente dándoles mayor libertad al escoger su servicio y/o ofreciendo bicicletas de mejor calidad para el cliente promedio. En el caso de nuestro segmento objetivo, los estudiantes pueden obtener un descuento al momento de alquilar, además de poseer almacenes en zonas donde estos frecuentan por sus estudios y en el caso de los turistas ofrecemos una aplicación que se encuentra en otros idiomas (principalmente inglés), un sistema de pago que se ajusta a medios de pagos más internacionales, una forma rápida de iniciar sesión, independientemente de donde provienen y ofreciendo una opción de recorrer rutas predeterminadas para incentivar el turismo en la ciudad.
 
-La mayoría de servicios actuales tiende a enfocarse en un solo tipo de usuario. Algunos están hechos solo para turistas, mientras que otros no consideran sus necesidades. Lo que haremos es ofrecer algo equilibrado. Por ejemplo, planes económicos para estudiantes y rutas prácticas para quienes están visitando la ciudad. De esa forma, cada grupo podrá usar la app sin sentir que está usando algo que no se adapta a su realidad.
+**Diferenciación de la competencia**
 
-**3\. Generar confianza desde el primer momento**
+Nos diferenciamos de otros servicios principalmente por que ofrecemos bicicletas con GPS y un freno automatico incluido, lo que da una mayor sensación de seguridad al cliente; rutas personalizadas para ofrecer un turismo de mayor calidad por la ciudad, con una asistencia incluida por el celular; la posibilidad de reservar bicicletas; no hay necesidad de pagar una membresía; alquiler rápido e inmediato de una bicicleta y mayor libertad al momento de alquilar una bicicleta.
 
-Una de las amenazas más comunes en este tipo de servicios es que la gente no confíe en el sistema o tema que le roben la bicicleta. Por eso, desde el primer día vamos a usar un sistema de bloqueo automático si se pasa el tiempo o si se reporta un mal uso. Esto también responde a una de las debilidades que vimos en el análisis: la poca atención al  cliente en otras plataformas.
+**Precios más vistosos**
 
-**4\. Crecer poco a poco, según lo que el usuario diga**
+Los precios que se muestran en la aplicación están puestos con la idea de aparentar ser más baratos (se encuentran cómo centavos por minuto en vez de soles por hora), esto permite que el cliente sienta que tenga un mayor control sobre lo que paga a diferencia de nuestros competidores que cobran por hora (Barrancobikes), con una membresía (Citybike Lima) o exclusivamente con una reserva (mirabici).
 
-No vamos a intentar cubrir toda la ciudad de golpe. Empezaremos en zonas donde haya más movimiento de nuestros públicos objetivo, y conforme vayamos recibiendo opiniones, iremos mejorando y expandiéndonos. Queremos que el crecimiento de SafeCycle sea ordenado, sostenible y siempre de la mano del usuario.
+**Alquiler y reserva más rápida que otros**
+
+Ofrecemos además una manera para alquilar y/o reserva mucho más fácil que otros con una interfaz fácil de usar, diferentes maneras de pagos, más idiomas y un sistema de avisos que ayuda al cliente.
+
+**Tácticas**
+
+**Mejores bicicletas**
+
+Las bicicletas se promocionan cómo más seguras, con un GPS incluido, cómodas y de último modelo, para esto se observan las bicicletas de los competidores y la calidad en la cual se encuentran.
+
+**Mejor digitalización**
+
+Se implementará un seguimiento por medio de Google maps con mejor precisión y un seguimiento a la bicicleta que permitirá saber dónde esta localizado. Además, que tendremos un sitio web claro dónde el cliente sabrá guiarse. Finalmente, después de una determinada cantidad de viajes se le preguntara al cliente si quisiera dejar una reseña (Mostraremos principalmente las reseñas con 4 de 5 estrellas o más en la página principal).
+
+**Un servicio que evoluciona**
+
+Ofreceremos más rutas con el paso del tiempo e incluiremos más medios de pago para facilitar el proceso, además de buscar maneras de ofrecer descuentos a los clientes. Y cómo idea a futuro principal, podremos realizar alianzas con otras empresas cómo “Yape” para ofrecer descuentos desde su aplicación o con empresas de viajes para que turistas tengan bicicletas ya reservadas.
 ## 2.2 Entrevistas
 ### 2.2.1 Diseño de entrevistas
 Como se mencionó anteriormente, nuestros segmentos objetivos están conformados por estudiantes universitarios de pregrado, principalmente aquellos que viven en cercanías de la universidad y turistas.
