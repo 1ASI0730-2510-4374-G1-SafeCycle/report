@@ -1339,6 +1339,13 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 ### 5.2.2. Sprint 2
 #### 5.2.2.1.Sprint Planning 2.
 #### 5.2.2.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name)  | GitHub Username | Front-End Development| Documentation | Page Deployment |
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | L                                                                                             |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | L                                      |C                                            | C                                                                                             |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | X                                       | L                                            | C                                                                                             |
+| Jonseck Choque, Oliver               | Olizzy-upc      | X                                       | C                                            | C                                                                                             |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | X                                       | C                                            | C                                                                                             |
 #### 5.2.2.3.Sprint Backlog 2.
 #### 5.2.2.4.Development Evidence for Sprint Review.
 #### 5.2.2.5.Execution Evidence for Sprint Review.
