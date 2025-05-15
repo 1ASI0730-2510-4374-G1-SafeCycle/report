@@ -49,7 +49,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :---- | :---- | :---- | :---- |
 | 1.0 | 24/04/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Estructura del informe <br> Capítulo I: Introducción <br> Capítulo II: Requirements Elicitation & Analysis <br>  Capítulo III: Requirements Specification <br> Capítulo IV: Product Design <br> Capítulo V: Product Implementation, Validation & Deployment <br> Landing Page <br> Conclusiones <br> Bibliografía <br> Recomendaciones <br> Anexos<br> |
-| 2.0 | 13/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 2<br> Conclusiones |
+| 2.0 | 13/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Correción Lean UX Problem Statements<br>Correción User Flows<br>Correción Figma<br>Correción entrevistas<br>Sprint 2<br>Conclusiones Application Web |
 
 # Project Report Collaboration Insights
 
@@ -67,9 +67,9 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 ## **TB2**
 
-| Integrante | Tareas Asignadas                |
-| :---- |:--------------------------------|
-| Sanchez Gonzales | Programación de Application Web |
+| Integrante | Tareas Asignadas |
+| :---- | :---- |
+| Sanchez Gonzales | Correción Lean UX Problem Statements, Correción User Flows, Correción Figma, Correción entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Programación de Application Web |
 
 **Link del repositorio-Informe:** 
 
