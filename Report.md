@@ -627,6 +627,11 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+<img src="assets/images/collabEvidence/Commits-May-7-2025  & April-26-2025-Part 1.png" width=800>
+<img src="assets/images/collabEvidence/Commits-April-26-2025-Part 2.png" width=800>
+<img src="assets/images/collabEvidence/Commits-April-26-2025-Part 3.png" width=800>
+<img src="assets/images/collabEvidence/Commits-April-26-2025-Part 4.png" width=800>
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review 
 
 Dentro de este sprint se utilizo una maquina virtual de Microsoft Azure para desplegar la pagina.
