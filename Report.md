@@ -615,6 +615,26 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 <img src="assets/images/collaboration-insights/insightsc1.png" width=800>
 <img src="assets/images/collaboration-insights/insightsc2.png" width=800>
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1 Sprint planning 2
+
+#### 5.2.2.2. Sprint Aspect Leaders and Collaborators
+
+#### 5.2.2.3. Sprint Backlog 2
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review 
+
+Dentro de este sprint se utilizo una maquina virtual de Microsoft Azure para desplegar la pagina.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review 
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint  
+
 ## Conclusiones y recomendaciones
 **1.  Conclusión 1: Proporcionar una solución eficiente ante el problema.**
     
