@@ -198,6 +198,15 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
+      - [5.2.2.4.Development Evidence for Sprint Review.](#5224development-evidence-for-sprint-review)
+      - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
+      - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
   - [6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
   - [7. Bibliografia](#7-bibliografia)
   - [8. Anexos](#8-anexos)
@@ -1325,6 +1334,52 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 
 <img src="assets/images/collaboration-insights/insightsc1.png" width=800>
 <img src="assets/images/collaboration-insights/insightsc2.png" width=800>
+
+
+### 5.2.2. Sprint 2
+#### 5.2.2.1.Sprint Planning 2.
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+#### 5.2.2.3.Sprint Backlog 2.
+#### 5.2.2.4.Development Evidence for Sprint Review.
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
+
+
+<img src="assets/images/deployment-sprint2/github.png" alt="deployment evidence in github">
+<img src="assets/images/deployment-sprint2/azure.jpeg" alt="deployment evidence in azure">
+<img src="assets/images/deployment-sprint2/azure2.jpeg" alt="deployment evidence in azure">
+<img src="assets/images/deployment-sprint2/1.png" alt="deployment evidence 1" width=800>
+<img src="assets/images/deployment-sprint2/2.png" alt="deployment evidence 2" width=800>
+<img src="assets/images/deployment-sprint2/3.png" alt="deployment evidence 3" width=800>
+<img src="assets/images/deployment-sprint2/4.png" alt="deployment evidence 4" width=800>
+<img src="assets/images/deployment-sprint2/5.png" alt="deployment evidence 5" width=800>
+<img src="assets/images/deployment-sprint2/6.png" alt="deployment evidence 6" width=800>
+<img src="assets/images/deployment-sprint2/7.png" alt="deployment evidence 7" width=800>
+<img src="assets/images/deployment-sprint2/8.png" alt="deployment evidence 8" width=800>
+<img src="assets/images/deployment-sprint2/9.png" alt="deployment evidence 9" width=800>
+<img src="assets/images/deployment-sprint2/10.png" alt="deployment evidence 10" width=800>
+<img src="assets/images/deployment-sprint2/11.png" alt="deployment evidence 11" width=800>
+<img src="assets/images/deployment-sprint2/12.png" alt="deployment evidence 12" width=800>
+<img src="assets/images/deployment-sprint2/13.png" alt="deployment evidence 13" width=800>
+<img src="assets/images/deployment-sprint2/14.png" alt="deployment evidence 14" width=800>
+<img src="assets/images/deployment-sprint2/15.png" alt="deployment evidence 15" width=800>
+<img src="assets/images/deployment-sprint2/16.png" alt="deployment evidence 16" width=800>
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+| Sanchez Gonzales | User Management, Renting |
+| Mora Blas,  Diego Alonzo | Touring |
+| Carlos Matthew | Booking |
+| Giancarlo Santiago | Deployment |
+
+<img src="assets/images/deployment-sprint2/teamInsights.png" alt="team insights 1" width=800>
+<img src="assets/images/deployment-sprint2/teamInsights2.png" alt="team insights 2" width=800>
 
 ## 6. Conclusiones y recomendaciones
 **1.  Conclusión 1: Proporcionar una solución eficiente ante el problema.**
