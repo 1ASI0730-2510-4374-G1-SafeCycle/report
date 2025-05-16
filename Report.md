@@ -1,3 +1,4 @@
+
 <h1 align="center">
   <strong style="font-size:25px;">Universidad Informe de Trabajo Final</strong>
 </h1>
@@ -21,7 +22,7 @@
 
 <p align="center"><strong>Docente:</strong> Alberto Wilmer Sanchez Seña</p>
 
-<p align="center"><strong>StartUp: </strong>Cuys TM</p>
+<p align="center"><strong>StartUp: </strong> Cuys TM</p>
 <p align="center"><strong>Proyecto:</strong> SafeCycle</p>
 
 
@@ -47,32 +48,38 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :---- | :---- | :---- | :---- |
-| 1.0 | 01/04/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Creación del documento Markdown |
-| 1.1 | 01/04/2025 | Castañeda | Redacción del startup profile y antecedentes y problemáticas. |
-| 1.2 | 02/04/2025 | Sanchez, Mora | Redacción de Lean UX process y preguntas para el diseño de entrevistas |
-| 1.3 | 03/04/2025 | Castañeda, Sanchez | Redacción de segmentos objetivos. Redacción de user personas y user task matrix. |
+| 1.0 | 24/04/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Estructura del informe Capítulo I: Introducción Capítulo II: Requirements Elicitation & Analysis Capítulo III: Requirements Specification Capítulo IV: Product Design Capítulo V: Product Implementation, Validation & Deployment Landing Page Conclusiones Bibliografía Recomendaciones Anexos  |
 
 # Project Report Collaboration Insights
 
-## **TP1**
+## **TB1**
 
 Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas para cada seccion del informe.
 
 | Integrante | Tareas Asignadas |
 | :---- | :---- |
-| Sanchez Gonzales | Lean UX Problem Statements, Lean UX Hypothesis Statements, Lean UX Canvas, Análisis competitivo, Diseño de entrevistas, User Personas, User Task Matrix, As-is Scenario Mapping, General Style Guidelines, Web Style Guidelines, Landing Page UI Design, Web Applications Wireframes, Web Applications Mock-ups, Web Applications User Flow Diagrams, Sprint Backlog 1, Video About-the-Product |
-| Mora Blas, Diego Alonzo | Lean UX Assumptions, Análisis de entrevistas, Epics & User Stories, Impact Mapping, Searching Systems, Navigation Systems, Software Architecture Context Diagram, Software Architecture Components Diagrams, Class Diagrams, Class Dictionary, Aspect Leaders and Collaborators, Development Evidence for Sprint Review, Registro de Entrevista, Evaluaciones según heurísticas |
-| Castañeda Guimas, Giancarlo Santiago | Descripción de la Startup, Segmentos objetivo, Registro de entrevistas, Ubiquitous Language, To-Be Scenario Mapping, Software Architecture Context Diagram, Software Development Environment Configuration, Sprint Planning 1 |
-| Gonzales Valverde, Carlos Matthew	 | Estrategias y tácticas frente a competidores, Registro de entrevistas, User Journey Mapping, Product Backlog, SEO Tags and Meta Tags, Source Code Management, Software Deployment Configuration, Execution Evidence for Sprint Review. Services Documentation Evidence for Sprint Review, Software Deployment, Evidence for Sprint Review |
-| Jonseck Choque, Oliver | Análisis de entrevistas, Empathy Mapping, Epics & User Stories, Organization Systems, Labeling Systems, Web Applications Wireflow Diagrams, Software Architecture Context Diagrams, Software Architecture Container Diagrams, Class Diagrams, Database Diagram, Source Code Style Guide & Conventions, Team Collaboration Insights during Sprint, Conclusiones, Recomendaciones |
+| Sanchez Gonzales | Lean UX Problem Statements, Lean UX Hypothesis Statements, Lean UX Canvas, Análisis competitivo, Diseño de entrevistas, User Personas, Web Applications Wireflow Diagrams,User Task Matrix, Epics & User Stories, As-is Scenario Mapping, General Style Guidelines, Web Style Guidelines, Landing Page UI Design, Web Applications Wireframes, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping, Sprint Backlog 1, Development, Execution, Services and Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Programacion de Landing Page |
+| Mora Blas, Diego Alonzo | Lean UX Assumptions, Análisis de entrevistas, Epics & User Stories, Impact Mapping, Searching Systems, Navigation Systems, Software Architecture Context Diagram, Software Architecture Components Diagrams, Class Diagrams, Class Dictionary, Aspect Leaders and Collaborators, Registro de Entrevista, Evaluaciones según heurísticas, Programacion de Landing Page |
+| Castañeda Guimas, Giancarlo Santiago | Descripción de la Startup, Segmentos objetivo, Registro de entrevistas, Ubiquitous Language, To-Be Scenario Mapping, Software Architecture Context Diagram, Software Development Environment Configuration, Sprint Planning 1, Programacion de Landing Page |
+| Gonzales Valverde, Carlos Matthew	 | Estrategias y tácticas frente a competidores, Registro de entrevistas, User Journey Mapping, Product Backlog, SEO Tags and Meta Tags, Source Code Management, Software Deployment Configuration, Programacion de Landing Page |
+| Jonseck Choque, Oliver | Análisis de entrevistas, Empathy Mapping, Epics & User Stories, Organization Systems, Labeling Systems, Software Architecture Context Diagrams, Software Architecture Container Diagrams, Class Diagrams, Database Diagram, Source Code Style Guide & Conventions, Conclusiones, Programacion de Landing Page |
+
+**Link del repositorio-Informe:** 
+
+**Link de los repositorios de la oraganización:** [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
+
+A continuación se visualiza el diagrama de barras que representa la cantidad de commits realizados por el equipo de trabajo:
+<img src="assets/images/insights-report/insightsreport.PNG" width=800>
+A continuación se mostrará un línea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo y el network graph:
+<img src="assets/images/insights-report/insightsreport1.PNG" width=800>
+<img src="assets/images/insights-report/insightsreport2.PNG" width=800>
 
 # Tabla de contenidos
-
 
 [Capítulo I: Introducción](#capítulo-i-introducción)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [**TP1**](#tp1)
+  - [**TB1**](#tb1)
 - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -103,19 +110,18 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
     - [2.2.2 Registro de entrevistas.](#222-registro-de-entrevistas)
     - [2.2.3 Análisis de entrevistas.](#223-análisis-de-entrevistas)
   - [2.3 Needfinding](#23-needfinding)
-    - [*Estudiante*:](#estudiante)
-    - [*Turista*:](#turista)
+  - [2.3.1 User Personas.](#231-user-personas)
+    - [**Estudiante**:](#estudiante)
+    - [**Turista**:](#turista)
   - [2.3.2 User Task Matrix.](#232-user-task-matrix)
+    - [**Estudiantes**](#estudiantes)
+    - [**Turistas**](#turistas)
   - [2.3.3 User Journey Mapping.](#233-user-journey-mapping)
   - [2.3.4 Empathy Mapping.](#234-empathy-mapping)
     - [2.3.5 As-is Scenario Mapping.](#235-as-is-scenario-mapping)
       - [2.3.5.1. As-is Scenario Mapping para User Persona Estudiante](#2351-as-is-scenario-mapping-para-user-persona-estudiante)
       - [2.3.5.2. As-is Scenario Mapping para User Persona turistas:](#2352-as-is-scenario-mapping-para-user-persona-turistas)
   - [2.4 Ubiquitous Language](#24-ubiquitous-language)
-- [estudiante](#estudiante-1)
-- [turista](#turista-1)
-  - [2.3.5 As-is Scenario Mapping.](#235-as-is-scenario-mapping-1)
-  - [2.4 Ubiquitous Language](#24-ubiquitous-language-1)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
     - [3.1.1. To-Be Scenario Mapping para User Persona Estudiante](#311-to-be-scenario-mapping-para-user-persona-estudiante)
@@ -192,158 +198,34 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Bibliografia](#bibliografia)
-  - [Anexos](#anexos)
- 
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
+      - [5.2.2.4.Development Evidence for Sprint Review.](#5224development-evidence-for-sprint-review)
+      - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
+      - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
+  - [6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
+  - [7. Bibliografia](#7-bibliografia)
+  - [8. Anexos](#8-anexos)
+  - [Anexo A: Diseño y Landing:](#anexo-a-diseño-y-landing)
+    - [Figma](#figma)
+    - [Encuesta How Much de 5W2H](#encuesta-how-much-de-5w2h)
+    - [User Persona](#user-persona)
+    - [Landing Page](#landing-page)
+    - [Domain-Driven Software Architecture / C4 Diagrams](#domain-driven-software-architecture--c4-diagrams)
+    - [Flujos y Prototype](#flujos-y-prototype)
+  - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
+  
 
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [**TP1**](#tp1)
-- [Tabla de contenidos](#tabla-de-contenidos)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-      - [1.1.2.1 Gabriel Sánchez Gonzales](#1121-gabriel-sánchez-gonzales)
-      - [1.1.2.2 Giancarlo Santiago Castañeda Guimas](#1122-giancarlo-santiago-castañeda-guimas)
-      - [1.1.2.3 Diego Alonzo Mora Blas](#1123-diego-alonzo-mora-blas)
-      - [1.1.2.4 Gonzales Valverde Carlos Matthew](#1124-gonzales-valverde-carlos-matthew)
-      - [1.1.2.5 Oliver Jonseck Choque](#1125-oliver-jonseck-choque)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
-  - [1.3 Segmentos objetivo.](#13-segmentos-objetivo)
-    - [1.3.1 Segmento objetivo 1: Estudiantes pregrado](#131-segmento-objetivo-1-estudiantes-pregrado)
-    - [1.3.2. Segmento Objetivo 2: Turistas](#132-segmento-objetivo-2-turistas)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1 Competidores.](#21-competidores)
-    - [2.1.1 Análisis competitivo.](#211-análisis-competitivo)
-    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2 Entrevistas](#22-entrevistas)
-    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2 Registro de entrevistas.](#222-registro-de-entrevistas)
-    - [2.2.3 Análisis de entrevistas.](#223-análisis-de-entrevistas)
-  - [2.3 Needfinding](#23-needfinding)
-    - [*Estudiante*:](#estudiante)
-    - [*Turista*:](#turista)
-  - [2.3.2 User Task Matrix.](#232-user-task-matrix)
-  - [2.3.3 User Journey Mapping.](#233-user-journey-mapping)
-  - [2.3.4 Empathy Mapping.](#234-empathy-mapping)
-    - [2.3.5 As-is Scenario Mapping.](#235-as-is-scenario-mapping)
-      - [2.3.5.1. As-is Scenario Mapping para User Persona Estudiante](#2351-as-is-scenario-mapping-para-user-persona-estudiante)
-      - [2.3.5.2. As-is Scenario Mapping para User Persona turistas:](#2352-as-is-scenario-mapping-para-user-persona-turistas)
-  - [2.4 Ubiquitous Language](#24-ubiquitous-language)
-- [estudiante](#estudiante-1)
-- [turista](#turista-1)
-  - [2.3.5 As-is Scenario Mapping.](#235-as-is-scenario-mapping-1)
-  - [2.4 Ubiquitous Language](#24-ubiquitous-language-1)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.1.1. To-Be Scenario Mapping para User Persona Estudiante](#311-to-be-scenario-mapping-para-user-persona-estudiante)
-    - [3.1.2. To-Be Scenario Mapping para User Persona Turista](#312-to-be-scenario-mapping-para-user-persona-turista)
-  - [3.2 Epics \& User Stories](#32-epics--user-stories)
-    - [1. Epics](#1-epics)
-    - [2. User Stories](#2-user-stories)
-  - [3.3 Impact Mapping](#33-impact-mapping)
-  - [3.4 Product Backlog](#34-product-backlog)
-    - [Product Backlog Tablas](#product-backlog-tablas)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.1.1 Colores](#4111-colores)
-    - [4.1.1.2 Tipografía](#4112-tipografía)
-      - [4.1.1.2.1 Escala](#41121-escala)
-      - [4.1.1.2.2 Weights](#41122-weights)
-      - [4.1.1.2.3 Nomenclatura](#41123-nomenclatura)
-      - [4.1.1.2.4 Ejemplos](#41124-ejemplos)
-    - [4.1.1.3 Branding](#4113-branding)
-      - [4.1.1.3.1 Claro:](#41131-claro)
-      - [4.1.1.3.2 Oscuro:](#41132-oscuro)
-    - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
-      - [4.1.2.1 Estilos de letra](#4121-estilos-de-letra)
-        - [4.1.2.1.1 Headings](#41211-headings)
-        - [4.1.2.1.2 Captions](#41212-captions)
-        - [4.1.2.1.3 Forms](#41213-forms)
-        - [4.1.2.1.5 Buttons](#41215-buttons)
-      - [4.1.2.2 Botones](#4122-botones)
-      - [4.1.2.3 Caja de texto](#4123-caja-de-texto)
-      - [4.1.2.4 Ventanas desplegables](#4124-ventanas-desplegables)
-      - [4.1.2.5 Ventanas Emergentes](#4125-ventanas-emergentes)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-      - [Páginas Principales](#páginas-principales)
-      - [Opciones de Usuario](#opciones-de-usuario)
-      - [Búsqueda y Navegación](#búsqueda-y-navegación)
-      - [Branding e Identidad](#branding-e-identidad)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4 Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.7.2. Class Dictionary](#472-class-dictionary)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Bibliografia](#bibliografia)
-  - [Anexos](#anexos)
 # Student Outcome
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Giancarlo Santiago:*TB1*** ...| Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales: *TB1*** Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Giancarlo Santiago:*TB1*** ...| Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br>**Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 <br>**Jonseck Choque, Oliver *TB1***<br> Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones <br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.  | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso.  <br>**Mora Blas, Diego Alonzo: *TB1***<br> En nuestro equipo el liderazgo es compartido: generamos diálogos abiertos, escuchamos todas las perspectivas y elegimos juntos la opción más viable. Cada quien aporta su experiencia sin reservas, lo que potencia la creatividad y refuerza la confianza mutua. Así, las decisiones se vuelven más sólidas y el resultado final refleja el esfuerzo colectivo. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo, logramos una plenitud de ideas como grupo, al dialogar, tener reuniones compartiendo información las cuales refuerzan las ideas dadas.  <br>**Jonseck Choque, Oliver *TB1***<br> Cómo equipo mantuvimos una comunicación estable y continua nos repartimos los trabajos de acuerdo a nuestra disponibilidad y responsabilidad. Siempre revisamos los trabajos de cada uno aportando ideas y críticas constructivas. <br>**Carlos Matthew, Gonzales *TB1***<br>Como equipo tuvimos un muy buen ambiente y comunicación, nos pudimos dividir los trabajos y establecernos límites entre nosotros para poder cumplir nuestras actividades a tiempo. Siempre estamos en constante revisión de las partes en los trabajos.  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br>**Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 <br>**Jonseck Choque, Oliver *TB1***<br>Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones. <br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.    | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. <br>**Mora Blas, Diego Alonzo: *TB1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo decidimos tener nuestras metas claras y concisas con lo que debemos realizar, pensamos que realizar todo a tiempo seria lo mejor y obviamente el trabajo en equipo es lo primordial  <br>**Jonseck Choque, Oliver *TB1***<br> Cómo grupo decidimos crear un plan para entregar partes del trabajo a tiempo, esto para que sean revisadas y corregidas por todos, siempre mostrando un entorno agradable de apoyo. <br>**Carlos Matthew, Gonzales *TB1***<br>Como grupo hemos creado un plan entre nosotros para entregar los trabajos a tiempo, que viene siendo limites puestos por nosotros mismos así podemos organizarnos mejor y ayudarnos por si falta algo en la última semana de entrega, para así poder pulir y entregar un trabajo impecable, siempre comunicándonos todo. |
 
 # Capítulo I: Introducción
 
@@ -436,11 +318,11 @@ Gracias a las encuestas realizadas se observó que un 86.7% no cuenta con un tra
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Nuestra solución busca proveer un aplicativo que conecte a los estudiantes y turistas que no tengan un método de traslado fijo  con un medio de transporte eco amigable, rápido y accesible, como lo es la bicicleta, con el fin de que puedan desplazarse de un lugar a otro a través de esta misma. Asimismo, al garantizar la seguridad de los usuarios de estas bicicletas a través de bloqueos en casos un uso excesivo o por bloqueo del propio rentador, evitamos posibles robos y mal usos de las bicicletas.
-Hemos observado que al no tener un transporte fijo tanto los estudiantes como turistas no pueden llegar a sus destinos propuestos a tiempo. El tráfico en Lima metropolitana y el acumulamiento de gente dentro de servicios de transporte público hacen la tarea de desplazamiento casi imposible, y tanto los estudiantes como los turistas no tienen una necesidad para comprarse un transporte personal para poder movilizarse. 
-¿Cómo podemos ofrecer un transporte fiable y organizado, que los ayude a llegar a su destino?
-Notamos que los estudiantes y turistas no desean pagar por un medio de transporte como son los taxis, puesto que las tarifas pueden llegar a exceder su presupuesto, pero tampoco se sienten cómodos al usar el transporte público, pues este es muy incomodo o los deja con mucha caminata hacia su destino final lo que termina generando una pérdida de tiempo. Esto repercusiona en que no pueden llegar a los destinos que desean a tiempo y terminan gastando más tiempo en el recorrido que en el propio lugar.
-¿Cómo puede nuestra plataforma proveer a nuestro público con una manera más eficiente de transporte y movilización?
+- Nuestra solución busca proveer un aplicativo que conecte a los estudiantes y turistas que no tengan un método de traslado fijo  con un medio de transporte eco amigable, rápido y accesible, como lo es la bicicleta, con el fin de que puedan desplazarse de un lugar a otro a través de esta misma. Asimismo, al garantizar la seguridad de los usuarios de estas bicicletas a través de bloqueos en casos un uso excesivo o por bloqueo del propio rentador, evitamos posibles robos y mal usos de las bicicletas.
+- Hemos observado que al no tener un transporte fijo tanto los estudiantes como turistas no pueden llegar a sus destinos propuestos a tiempo. El tráfico en Lima metropolitana y el acumulamiento de gente dentro de servicios de transporte público hacen la tarea de desplazamiento casi imposible, y tanto los estudiantes como los turistas no tienen una necesidad para comprarse un transporte personal para poder movilizarse. 
+- ¿Cómo podemos ofrecer un transporte fiable y organizado, que los ayude a llegar a su destino?
+- Notamos que los estudiantes y turistas no desean pagar por un medio de transporte como son los taxis, puesto que las tarifas pueden llegar a exceder su presupuesto, pero tampoco se sienten cómodos al usar el transporte público, pues este es muy incomodo o los deja con mucha caminata hacia su destino final lo que termina generando una pérdida de tiempo. Esto repercusiona en que no pueden llegar a los destinos que desean a tiempo y terminan gastando más tiempo en el recorrido que en el propio lugar.
+- ¿Cómo puede nuestra plataforma proveer a nuestro público con una manera más eficiente de transporte y movilización?
 
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -449,11 +331,11 @@ Creemos que los estudiantes y turistas en Lima enfrentan una falta de transporte
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-Creemos que la eficacia con la que se movilizan los estudiantes y turistas aumentaría en un 80% debido a que se les proporcionará con una herramienta de transporte de acceso libre , como son las bicicletas, a través de un pago mínimo. Sabremos que estamos en lo correcto cuando se visualice un aumento de puntualidad hacia ciertos eventos.
-Creemos que los estudiantes y turistas podrán viajar más cómodamente hacia sus destinos, proporcionándoles una mejor experiencia en general. Sabremos que estamos en lo correcto cuando a través de encuestas a usuarios se menciona seguidamente que la comodidad de sus viajes ha mejorado, concluyendo con más de un 70% de aprobación en cuanto a comodidad.
-Creemos que nuestro servicio será 30% más económico que otros medios de transporte de la ciudad para los estudiantes y turistas. Sabremos que estamos en lo correcto al comparar la media de dinero que gastaban antes los usuarios en comparación con lo que gastan usando nuestro servicio.
-Creemos que la implementación de este sistema de préstamo de bicicletas puede reducir hasta un 20% la congestión vehicular que se presencia en zonas de rutas universitarias y rutas turísticas. Sabremos que estamos en lo correcto cuando se visualice un cambio en las paradas de transporte público, mostrando que más personas pueden entrar en los buses y menos personas recurren a los taxis.
-Creemos que los usuarios se sentirán más seguros usando las bicicletas sabiendo que estas tienen un sistema de bloqueo automático que solo se activa solo cuando el tiempo de préstamo se sobrepasa o si la bicicleta es reportada como robada. Sabremos que estamos en lo correcto a través de entrevistas a los usuarios acerca de la confianza que le tienen a las bicicletas.
+- Creemos que la eficacia con la que se movilizan los estudiantes y turistas aumentaría en un 80% debido a que se les proporcionará con una herramienta de transporte de acceso libre , como son las bicicletas, a través de un pago mínimo. Sabremos que estamos en lo correcto cuando se visualice un aumento de puntualidad hacia ciertos eventos.
+- Creemos que los estudiantes y turistas podrán viajar más cómodamente hacia sus destinos, proporcionándoles una mejor experiencia en general. Sabremos que estamos en lo correcto cuando a través de encuestas a usuarios se menciona seguidamente que la comodidad de sus viajes ha mejorado, concluyendo con más de un 70% de aprobación en cuanto a comodidad.
+- Creemos que nuestro servicio será 30% más económico que otros medios de transporte de la ciudad para los estudiantes y turistas. Sabremos que estamos en lo correcto al comparar la media de dinero que gastaban antes los usuarios en comparación con lo que gastan usando nuestro servicio.
+- Creemos que la implementación de este sistema de préstamo de bicicletas puede reducir hasta un 20% la congestión vehicular que se presencia en zonas de rutas universitarias y rutas turísticas. Sabremos que estamos en lo correcto cuando se visualice un cambio en las paradas de transporte público, mostrando que más personas pueden entrar en los buses y menos personas recurren a los taxis.
+- Creemos que los usuarios se sentirán más seguros usando las bicicletas sabiendo que estas tienen un sistema de bloqueo automático que solo se activa solo cuando el tiempo de préstamo se sobrepasa o si la bicicleta es reportada como robada. Sabremos que estamos en lo correcto a través de entrevistas a los usuarios acerca de la confianza que le tienen a las bicicletas.
 
 #### 1.2.2.4. Lean UX Canvas.
 
@@ -690,19 +572,6 @@ As-Is: [link a lucidchart](https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-
 | Route (Ruta) | Trayecto sugerido o realizado por el usuario durante el uso de una bicicleta |
 | Terms of Use (Términos de Uso) | Conjunto de reglas y condiciones que los usuarios deben aceptar para utilizar el servicio |
 
-
-# estudiante
-
-<img src="assets/images/empathy-map/empathy-map estudiantes.png" width="600"/>
-
-# turista
-
-<img src="assets/images/empathy-map/empathy-map turista.png" width="600"/>
-
-## 2.3.5 As-is Scenario Mapping.
-
-## 2.4 Ubiquitous Language
-
 # Capítulo III: Requirements Specification
 
 ## 3.1 To-Be Scenario Mapping
@@ -823,10 +692,22 @@ Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b
 | **US31** | Acceder a Landing page desde cualquier dispositivo | Como visitante de ambos segmentos objetivos estudiante y turista quiero acceder a la landing page de SafeCycle desde cualquier dispositivo para informarme sobre el servicio sin necesidad de descargar la app. | **Escenario 1: Acceso a la landing page desde diferentes dispositivos** <br>Dado que un visitante ingresa a la landing de SafeCycle desde un navegador web <br>Cuando el visitante accede desde un dispositivo móvil, tablet o computadora <br>Entonces el sistema muestra la landing page adaptada automáticamente al tamaño de pantalla del dispositivo | EP01 |
 | **US32** | Cambio de lenguaje a ingles y español en aplicación | Como usuario de ambos segmentos objetivos estudiante y turista quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el usuario tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma preferido. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el usuario tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el usuario se encuentra en su perfil <br>Y ubica la sección de idioma <br>Cuando selecciona el botón de  botón “EN” o “ES”  <br>Entonces todo el contenido de la pagina se mostrará en el idioma elegido. | EP03 |
 | **US33** | Sección planes | Como visitante de ambos segmentos objetivos, estudiante y turista de SafeCycle quiero explorar los planes disponibles para elegir el que mejor se adapte a mis necesidades antes de registrarme. | **Escenario 1: Acceder a la sección de planes** <br>Dado que el visitante se encuentra en la página principal de SafeCycle <br>Cuando el visitante hace scroll o selecciona la opción “Planes” desde el menú <br>Entonces el sistema muestra dos tarjetas destacadas con los planes disponibles: Student Plan y Tourist Plan, bajo el título “A plan tailored to your needs” <br>**Escenario 2: Visualizar detalles del Student Plan** <br>Dado que el visitante del segmento objetivo de estudiantes está visualizando la sección “Planes”<br>Cuando el visitante observa la tarjeta del Student Plan<br>Entonces se muestran los beneficios que ofrece SafeCycle para estudiantes (Alquileres rápidos, Bajo costo, pago con tarjeta, descuento estudiantil) <br>**Escenario 3: Visualizar detalles del Tourist Plan** <br>Dado que el visitante del segmento objetivo de turistas está visualizando la sección “Planes” <br>Cuando el visitante observa la tarjeta del Tourist Plan <br>Entonces se muestran los beneficios que ofrece SafeCycle para turistas (viaja libremente como un local, turismo en grupo, paga con PayPal desde cualquier lugar)  | EP01 |
-
+| **TS01** | Funcionalidad CRUD en la interfaz | Como developer quiero implementar funcionalidades CRUD (Crear, leer, actualizar, eliminar)  en la interfaz para gestionar los recursos de manera dinamica desde el frontend | **Escenario 1:**<br>Dado que el developer prueba la sección de rentBike<br>Cuando crea un nueva renta<br>Entonces inmediatamente se debe crear y mostrar los detalles sin necesidad de recargar la página <br>**Escenario 2:**<br>Dado que el developer sigue realizando pruebas y decide eliminar o editar la renta realizada<br>Cuando presiona el botón eliminar o editar<br>Entonces los cambios realizados se deben mostrar en la interfaz y el estado de la  aplicación  | EP06 |
+| **TS02** | Despliegue de la aplicación  | Como developer quiero desplegar la aplicación en un entorno accesible públicamente para que otros usuarios puedan probar su funcionamiento |**Escenario 1:**<br>Dado que el repositorio principal contiene la última versión estable del proyecto<br>Cuando se ejecuta el proceso de despliegue<br>Entonces la aplicación debe estar disponible en una URL pública sin errores <br>**Escenario 2:**<br>Dado que el entorno de producción está activo Cuando un usuario accede a la aplicación<br>Entonces la carga debe completarse en un tiempo optimo | EP06 |
+| **TS03** | Validación de datos recibidos desde la Fake API | Como developer, quiero validar que los datos recibidos desde la Fake API cumplan con el formato esperado, para evitar errores en la visualización o manipulación  | **Escenario 1:**<br>Dado que la aplicación recibe datos de una Fake API<br>Cuando el formato de un campo no es el esperado<br>Entonces debe mostrarse un mensaje de error en la interfaz de la aplicación<br>**Escenario 2:**<br>Dado que un dato importante está ausente (por ejemplo, ID o nombre)<br>Cuando se intenta renderizar en pantalla<br>Entonces el componente debe mostrar un mensaje de "dato incorrecto" | EP06 |
+| **TS04** | Configuración de las rutas principales  | Como developer, quiero configurar las rutas principales de la aplicación para permitir la navegación entre las diferentes vistas de forma fluida  | **Escenario 1:**<br>Dado que el usuario accede a la ruta principal<br>Cuando la URL es ingresada o se hace clic en un enlace<br>Entonces debe cargarse la vista principal sin recargar la página<br>**Escenario 2:**<br>Dado que el usuario accede a una ruta no definida como /xyz Cuando se produce un error en las rutas de navegación Entonces debe mostrarse una página 404 personalizada.  | EP06 |
+| **TS05** | CRUD Users  | Como developer quiero obtener la información de los usuarios mediante la funcionalidad CRUD para monitorear y convalidar a nuestros usuarios  | **Escenario 1: Registro exitoso**<br>Dado que tengo acceso a la funcionalidad de creación de usuarios <br>Cuando ingreso los datos válidos de un nuevo usuario<br>Entonces el usuario se guarda correctamente y aparece en la lista de usuarios<br> **Escenario 2: Edición de datos inválidos**<br>Dado que tengo acceso a la funcionalidad de edición de usuarios<br>Cuando intento actualizar un usuario con campos inválidos o vacíos<br>Entonces recibo un mensaje de error indicando los campos incorrectos <br>**Escenario 3: Visualización y edición del perfil**<br> Dado que los usuarios tienen la funcionalidad de visualizar y editar los datos de sus perfiles <br>Cuando un usuario inicia sesión y entra a su perfil <br> Entonces puede visualizar, cambiar su nombre y correo correctamente  | EP06 |
+| **TS06** | CRUD Bikes | Como developer de la aplicación, quiero implementar la funcionalidad CRUD para las bicicletas para registrar nuevas unidades, actualizar su estado o eliminarlas cuando se dé de baja | **Escenario 1: Visualización de bicicletas disponibles**<br>Dado que tengo acceso a la funcionalidad de lectura de bicicletas<br>Cuando consulto la lista de bicicletas<br>Entonces obtengo un listado actualizado con su disponibilidad y estado <br>**Escenario 2: Eliminación correcta**<br>Dado que tengo acceso a la funcionalidad de eliminación de bicicletas<br>Cuando elimino una bicicleta con ID válido<br>Entonces desaparece del sistema y no aparece en la vista de selección  | EP06 |
+| **TS07** | CRUD Bike Station | Como developer de la app, quiero implementar funcionalidades CRUD sobre estaciones de bicicletas para administrar sus ubicaciones y capacidades | **Escenario 1: Registro exitoso de estación**<br>Dado que tengo acceso a la funcionalidad de creación de estaciones<br>Cuando ingreso una nueva estación con datos válidos<br>Entonces se guarda y aparece en el mapa de estaciones <br>**Escenario 2: Edición con datos incompletos**<br>Dado que tengo acceso a la funcionalidad de actualización de estaciones<br>Cuando intento guardar cambios con campos obligatorios vacíos<br>Entonces recibo un mensaje de validación indicando los errores  | EP06 |
+| **TS08** | CRUD Touring | Como developer de la aplicación, quiero poder administrar la información de los recorridos turísticos (tourings) usando operaciones CRUD para actualizar o eliminar recorridos obsoletos y mostrar los vigentes | **Escenario 1: Visualización correcta de tourings**<br>Dado que tengo acceso a la funcionalidad de lectura de tourings<br>Cuando consulto la lista de tourings<br>Entonces obtengo una lista con los recorridos disponibles y su información <br>**Escenario 2: Eliminación de touring existente**<br>Dado que tengo acceso a la funcionalidad de eliminación de tourings<br>Cuando elimino un touring con ID válido<br>Entonces se elimina correctamente y desaparece del listado  | EP06 |
+| **TS09** | CRUD Bookings | Como developer, quiero implementar operaciones CRUD para que los usuarios puedan gestionar sus reservas de bicicletas o tourings de forma sencilla | **Escenario 1: Creación de reserva exitosa**<br>Dado que tengo acceso a la funcionalidad de creación de reservas<br>Cuando el usuario selecciona una bicicleta y una estación<br>Entonces se crea la reserva y se muestra en su historial <br>**Escenario 2: Cancelación de reserva**<br>Dado que tengo acceso a la funcionalidad de eliminación de reservas<br>Cuando el usuario decide cancelar una reserva<br>Entonces esta se elimina del historial y se libera la bicicleta  | EP06 |
+| **TS10** | CRUD Payments  | Como developer que trabaja en la aplicación, quiero implementar la funcionalidad CRUD para los métodos de pago para que los usuarios puedan registrar, actualizar o eliminar tarjetas u otros medios asociados a sus cuentas | **Escenario 1: Registro exitoso de método de pago**<br>Dado que tengo acceso a la funcionalidad de creación de métodos de pago<br>Cuando un usuario ingresa los datos válidos de una tarjeta o medio de pago<br>Entonces el método se guarda correctamente y aparece en su perfil <br>**Escenario 2: Eliminación de método de pago**<br>Dado que tengo acceso a la funcionalidad de eliminación de métodos de pago<br>Cuando el usuario elimina un método de pago válido<br>Entonces este desaparece del listado de medios disponibles <br>**Escenario 3: Edición de método de pago**<br>Dado que tengo acceso a la funcionalidad de actualización de métodos de pago<br>Cuando el usuario edita los datos de un método de pago previamente registrado<br>Entonces los cambios se guardan correctamente y el método actualizado se refleja en su cuenta  | EP06 |
 ## 3.3 Impact Mapping
 
-<img src="assets/images/impact-mapping/impactmapping.jpg" alt="impact map" width=700 >
+![impact-mapping](/assets/images/impact-mapping/impactmap1.png)
+![impact-mapping](/assets/images/impact-mapping/impactmap2.png)
+![impact-mapping](/assets/images/impact-mapping/impactmap3.png)
+
 
 ## 3.4 Product Backlog
 <img src="assets/images/product-backlog/productbacklog1.png" alt="product backlog 1" width=700 >
@@ -870,6 +751,16 @@ JIRA URL: [https://carlos123q.atlassian.net/jira/software/projects/SAF/boards/3/
 | 31 | US17 | Administrar bicicletas | Como administrador deseo gestionar el inventario de bicicletas. | 3 |
 | 32 | US18 | Administrar estaciones | Como administrador deseo editar la información de las estaciones. | 5 |
 | 33 | US21 | Acceder a panel de control | Como administrador deseo ingresar al panel para ver métricas generales. | 2 |
+| 34 | TS01 | Funcionalidad CRUD en la interfaz | Como developer quiero implementar funcionalidades CRUD (Crear, leer, actualizar, eliminar)  en la interfaz para gestionar los recursos de manera dinamica desde el frontend | 3 |
+| 35 | TS02 | Despliegue de la aplicación | Como developer quiero desplegar la aplicación en un entorno accesible públicamente para que otros usuarios puedan probar su funcionamiento | 5 |
+| 36 | TS03 | Validación de datos recibidos desde la Fake API | Como developer, quiero validar que los datos recibidos desde la Fake API cumplan con el formato esperado, para evitar errores en la visualización o manipulación  | 5 |
+| 37 | TS04 | Configuración de las rutas principales  | Como developer, quiero configurar las rutas principales de la aplicación para permitir la navegación entre las diferentes vistas de forma fluida  | 3 |
+| 38 | TS05 | CRUD Users  | Como developer quiero obtener la información de los usuarios mediante la funcionalidad CRUD para monitorear y convalidar a nuestros usuarios  | 5 |
+| 39 | TS06 | CRUD Bikes | Como developer de la aplicación, quiero implementar la funcionalidad CRUD para las bicicletas para registrar nuevas unidades, actualizar su estado o eliminarlas cuando se dé de baja | 8 |
+| 40 | TS07 | CRUD Bike Station | Como developer de la app, quiero implementar funcionalidades CRUD sobre estaciones de bicicletas para administrar sus ubicaciones y capacidades | 5 |
+| 41 | TS08 | CRUD Touring | Como developer de la aplicación, quiero poder administrar la información de los recorridos turísticos (tourings) usando operaciones CRUD para actualizar o eliminar recorridos obsoletos y mostrar los vigentes | 8 |
+| 42 | TS09 | CRUD Bookings | Como developer, quiero implementar operaciones CRUD para que los usuarios puedan gestionar sus reservas de bicicletas o tourings de forma sencilla | 8 |
+| 43 | TS10 | CRUD Payments  | Como developer que trabaja en la aplicación, quiero implementar la funcionalidad CRUD para los métodos de pago para que los usuarios puedan registrar, actualizar o eliminar tarjetas u otros medios asociados a sus cuentas | 5 |
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
@@ -1140,8 +1031,6 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 <img src="assets/images/UXUI/mockup/Manage Bycicles Centers.png" width="400" alt="Mockup Centros de Bicicletas" />
 <img src="assets/images/UXUI/mockup/Manage Centers.png" width="400" alt="Mockup Gestión de Centros" />
 <img src="assets/images/UXUI/mockup/Perfil Developer.png" width="400" alt="Mockup Perfil de Desarrollador" />
-<img src="assets/images/UXUI/mockup/Perfil-1.png" width="400" alt="Mockup Perfil 1" />
-<img src="assets/images/UXUI/mockup/Perfil-2.png" width="400" alt="Mockup Perfil 2" />
 <img src="assets/images/UXUI/mockup/Perfil-3.png" width="400" alt="Mockup Perfil 3" />
 <img src="assets/images/UXUI/mockup/Perfil-4.png" width="400" alt="Mockup Perfil 4" />
 <img src="assets/images/UXUI/mockup/Perfil-5.png" width="400" alt="Mockup Perfil 5" />
@@ -1175,26 +1064,28 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 <img src="assets/images/UXUI/user%20flows/signup.png" width="400" alt="Flujo de registro" />
 <img src="assets/images/UXUI/user%20flows/touring.png" width="400" alt="Flujo de tour" />
 
-[link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
+[link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4) [https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?viewport_loc=-3492%2C-4847%2C10317%2C6222%2CJ~k~kbGCtyzJ&invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?viewport_loc=-3492%2C-4847%2C10317%2C6222%2CJ~k~kbGCtyzJ&invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
 
 ## 4.5. Web Applications Prototyping
 
 ![screenshot de prototipo](assets/images/UXUI/prototype.png)
 
-[link a prototype](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
+[link a prototype:](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1) https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
-<img src="assets/images/SoftwareArchitectureContextDiagram.png" width="600" alt="SoftwareArchitectureContextDiagram" />
+<img src="assets/images/C4/C4-1.png" width="600" alt="SoftwareArchitectureContextDiagram" />
+
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-<img src="assets/images/SoftwareArchitectureContainerDiagrams.png" width="600" alt="SoftwareArchitectureContainerDiagrams" />
+<img src="assets/images/C4/C4-2.png" width="600" alt="SoftwareArchitectureContainerDiagrams" />
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-<img src="assets/images/SoftwareArchitectureComponentsDiagrams.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
+<img src="assets/images/C4/C4-3.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
+<img src="assets/images/C4/C4-4.png" width="600" alt="SoftwareArchitectureComponentsDiagramsBackend" />
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1445,6 +1336,7 @@ A continuación se muestran los commits realizados por los integrantes del equip
 <img src="assets/images/collabEvidence/land2.png" width=800>
 <img src="assets/images/collabEvidence/land3.png" width=800>
 <img src="assets/images/collabEvidence/land4.png" width=800>
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review  
 
 Dentro de este primer sprint no se contempló el uso de servicios
@@ -1463,36 +1355,136 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 | Mora Blas,  Diego Alonzo | Navigation bar, Hero Section, Responsive features |
 | Gonzales Valverde, Carlos Matthew, Castañeda Guimas, Giancarlo Santiago | Responsive features |
 
-## Conclusiones y recomendaciones
-**1.  Conclusión 1: Proporcionar una solución eficiente ante el problema.**
+<img src="assets/images/collaboration-insights/insightsc1.png" width=800>
+<img src="assets/images/collaboration-insights/insightsc2.png" width=800>
+
+
+### 5.2.2. Sprint 2
+#### 5.2.2.1.Sprint Planning 2.
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name)  | GitHub Username | Front-End Development| Documentation | Page Deployment | 
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | L                                                                                             |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | L                                      |C                                            | C                                                                                             |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | C                                       | L                                            | C                                                                                             |
+| Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                                                             |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
+#### 5.2.2.3.Sprint Backlog 2.
+
+| Id | Title | Id | Title | Description | Estimation (Hours)  | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| US08 | Registro de usuario turista | T01 | Creación de usuario turista | Creación de formulario para el registro de usuario | 4 | Gabriel Sanchez | Done |
+| US09 | Registro de usuario estudiante | T02 | Creación de usuario estudiante | Creación de formulario para registro de usuario estudiante | 4 | Gabriel Sanchez | Done |
+| US10 | Iniciar sesión en cuenta personal | T03 | Inicio de sesión | Creación de formulario para inicio de sesión | 4 | Gabriel Sanchez | Done |
+| US11 | Alquiler de bicicleta   | T04 | Pantalla de alquiler de bicicleta | Creación de funciones para la pantalla de alquiler de bicicletas | 4 | Gabriel Sanchez | Done |
+| US12 | Elección de puntos de recojo alquilar una bicicleta | T05 | Mapa \+ recomendaciones | Elección en el mapa mas recomendaciones dadas por ubicación en la pantalla | 5 | Gabriel Sanchez | Done |
+| US15 | Realizar reservas de bicicletas | T06 | Simulación de reserva | Simulación con los datos registrados de la reserva de bicicletas | 5 | Gabriel Sanchez | Done |
+| US16 | Cancelar una reserva | T07 | Boton de cancelar reserva | Boton para cancelar una reserva creada | 7 | Gabriel Sanchez | Done |
+| US20 | Actualizar información de perfil | T08 | Boton de editar perfil | Boton para editar la información en el perfil del usuario | 8 | Gabriel Sanchez | Done |
+| US29 | Actualizar información de pago | T09 | Boton de editar información de pago | Boton para editar la información de pago del usuario | 5 | Gabriel Sanchez | Done |
+| TS01 | Funcionalidad CRUD en la interfaz | T10 | Implementación CRUD | Implementación de funcionalidades CRUD en el trabajo para almacenar datos | 4 | Gabriel Sanchez, Diego Mora | Done |
+| **TS02** | Despliegue de la aplicación  | T11 | Despliegue en Azure | Despliegue de la pagina en Azure  | 5 | Giancarlo Castañeda | Done |
+| **TS03** | Validación de datos recibidos desde la Fake API | T12 | Creación y consumo de la fake API | Creación de la Fake API para el almacenamiento de datos en mockAPI | 6 | Gabriel Sanchez, Diego Mora | Done |
+| **TS04** | Configuración de las rutas principales  | T13 | Routers y creación de las rutas | Creación de las rutas para el desplazamiento fluido | 7 | Gabriel Sanchez, Diego Mora, Giancarlo Castañeda, Carlos Matthew | Done |
+| **TS05** | CRUD Users  | T14 | Formulario CRUD para los usuarios | Creación del formulario CRUD para almacenar los datos de los usuarios | 8 | Gabriel Sanchez | Done |
+| **TS06** | CRUD Bikes | T15 | Formulario CRUD para las bicicletas | Creación del formulario CRUD para almacenar los datos de las bicicletas | 8 | Gabriel Sanchez | Done |
+| **TS07** | CRUD Bike Station | T16 | Formulario CRUD para la estación de bicicletas | Creación del formulario CRUD para almacenar los datos de las estaciones de bicicletas | 8 | Gabriel Sanchez | Done |
+| **TS08** | CRUD Touring | T17 | Formulario CRUD para las rutas turisticas | Creación del formulario CRUD para almacenar los datos de las rutas turisticas | 8 | Diego Mora | Done |
+| **TS09** | CRUD Bookings | T18 | Formulario CRUD para las reservas | Creación del formulario CRUD para almacenar los datos de las reservas | 8 | Carlos Matthew | Done |
+| **TS10** | CRUD Payments  | T19 | Formulario CRUD para los pagos | Creación del formulario CRUD para almacenar los datos de los metodos de pago | 7 | Gabriel Sanchez | Done |
+
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
+
+| Repository                                   | Branch                | Commit Id | Commit Message                                     | Commit Message Body | Commited on     |
+|---------------------------------------------|-----------------------|-----------|----------------------------------------------------|---------------------|------------------|
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/authentication| f99bb93   | feat: add validators and forms-authentication      | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | 747d93d   | feat: add service with axios for profile           | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/login         | 99821f3   | feat: login page and entry screen                  | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/rentBike      | 1ab6ef4   | feat: add rent bike pages                          | * No aplica         | 12/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/register      | 5571da8   | feat: add sign up pages for both users             | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touristRoutes | 81ec80c   | feat: tourist routes with markers and components   | * No aplica         | 10/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | f4b4caf   | front-end(Update booking-cancel.component.vue)     | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 2f585a5   | feat: create touringBookDetailsComponent.vue       | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/toast         | d52fbc3   | feat: add methods for toast notifications          | * No aplica         | 14/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | main                  | 6bb4790   | fix: style and organization fixes                  | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/login         | 3222f26   | feat: add no found page                            | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/register      | 7c8d315   | feat: register page for students complete          | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/authentication| 93cfb8e   | feat: add entry for user management                | * No aplica         | 14/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/payment       | 43a7f8d   | feat: add routing for payment information          | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/rentBike      | 3ec22b6   | feat: change router settings                       | * No aplica         | 12/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | 234346d   | feat: add edition of password and profile          | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | e9c1a91   | feat: add routing to profile                       | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 31b83d4   | front-end: Update header-content.component.vue     | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 4ad21a9   | front-end: Add 2 files (related to booking logic)  | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touringEntity | 267513f   | chore: create class TourService and its methods    | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touringEntity | c588746   | chore: create empty view for touring               | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/toast         | 9c517e8   | chore: add lazy loaded to authentication           | * No aplica         | 14/05/2025       |
+
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
+
+
+<img src="assets/images/deployment-sprint2/github.png" alt="deployment evidence in github">
+<img src="assets/images/deployment-sprint2/azure.jpeg" alt="deployment evidence in azure">
+<img src="assets/images/deployment-sprint2/azure2.jpeg" alt="deployment evidence in azure">
+<img src="assets/images/deployment-sprint2/1.png" alt="deployment evidence 1" width=800>
+<img src="assets/images/deployment-sprint2/2.png" alt="deployment evidence 2" width=800>
+<img src="assets/images/deployment-sprint2/3.png" alt="deployment evidence 3" width=800>
+<img src="assets/images/deployment-sprint2/4.png" alt="deployment evidence 4" width=800>
+<img src="assets/images/deployment-sprint2/5.png" alt="deployment evidence 5" width=800>
+<img src="assets/images/deployment-sprint2/6.png" alt="deployment evidence 6" width=800>
+<img src="assets/images/deployment-sprint2/7.png" alt="deployment evidence 7" width=800>
+<img src="assets/images/deployment-sprint2/8.png" alt="deployment evidence 8" width=800>
+<img src="assets/images/deployment-sprint2/9.png" alt="deployment evidence 9" width=800>
+<img src="assets/images/deployment-sprint2/10.png" alt="deployment evidence 10" width=800>
+<img src="assets/images/deployment-sprint2/11.png" alt="deployment evidence 11" width=800>
+<img src="assets/images/deployment-sprint2/12.png" alt="deployment evidence 12" width=800>
+<img src="assets/images/deployment-sprint2/13.png" alt="deployment evidence 13" width=800>
+<img src="assets/images/deployment-sprint2/14.png" alt="deployment evidence 14" width=800>
+<img src="assets/images/deployment-sprint2/15.png" alt="deployment evidence 15" width=800>
+<img src="assets/images/deployment-sprint2/16.png" alt="deployment evidence 16" width=800>
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+| Sanchez Gonzales | User Management, Renting |
+| Mora Blas,  Diego Alonzo | Touring |
+| Carlos Matthew | Booking |
+| Giancarlo Santiago | Deployment |
+
+<img src="assets/images/deployment-sprint2/teamInsights.png" alt="team insights 1" width=800>
+<img src="assets/images/deployment-sprint2/teamInsights2.png" alt="team insights 2" width=800>
+
+## 6. Conclusiones y recomendaciones
     
+**1. Conclusiones**
 
-Logramos que las historias de usuarios y el empathy mapping, podemos ver que nuestra propuesta cumple con las necesidades de nuestro grupo de interés. Proporcionando así una solución fácil, barata, eco amigable y accesible.
+- Logramos que las historias de usuarios y el empathy mapping, podemos ver que nuestra propuesta cumple con las necesidades de nuestro grupo de interés. Proporcionando así una solución fácil, barata, eco amigable y accesible.
 
-**2.  Conclusión 2: Diseño creado para una experiencia más grata:**
-    
+- Con la landing page logramos que fuera creado con la idea de proporcionar una interacción simple y fluida para el cliente, para se utilizaron funciones cómo un mapa virtual que ayuda al cliente y diferentes idiomas de los cuales escoger.
 
-Con la landing page logramos que fuera creado con la idea de proporcionar una interacción simple y fluida para el cliente, para se utilizaron funciones cómo un mapa virtual que ayuda al cliente y diferentes idiomas de los cuales escoger.
+- Concluimos que los diversos colores, tipografía y formas de la landing page fueron seleccionados para poseer una identidad visual concreta. Además nos permite poseer una apariencia experta.
 
-**3. Conclusión 3: Coherencia y diseños expertos:**
-    
+- La página fue creada con la idea de ser utilizable por cualquier persona independientemente de su conocimiento sobre tecnología. Obtuvimos con la plataforma, una manera de instruir al usuario paso a paso para que pueda realizar cualquier acción con facilidad, lo que permite tener un enfoque inclusivo.
 
-Concluimos que los diversos colores, tipografía y formas de la landing page fueron seleccionados para poseer una identidad visual concreta. Además nos permite poseer una apariencia experta.
+- Concluimos que la página y el sistema fueron creados con la idea de beneficiar en especial a nuestro segmento objetivo ofreciendo descuentos y ayuda especial, ofreciendo una experiencia de usuario personalizada.
 
-**4.  Conclusión 4: Accesibilidad en mente**
-    
+- Este proyecto también busca crear un impacto positivo a los ciudadanos y el ambiente de la ciudad en general. Con esto concluimos que conseguimos realizar una planificación estratégica clara y estructurada.
 
-La página fue creada con la idea de ser utilizable por cualquier persona independientemente de su conocimiento sobre tecnología. Obtuvimos con la plataforma, una manera de instruir al usuario paso a paso para que pueda realizar cualquier acción con facilidad, lo que permite tener un enfoque inclusivo.
+- La creación de la app web fue un tema complicado para el grupo, se buscara una mejora en conocimiento y aprendizaje para futuras entregas
 
-**5.  Conclusión 5: Beneficios para ciertos usuarios**
-    
+- Las correciones fueron realizadas correspondientemente a las mencionadas por el profesor en clase
 
-Concluimos que la página y el sistema fueron creados con la idea de beneficiar en especial a nuestro segmento objetivo ofreciendo descuentos y ayuda especial, ofreciendo una experiencia de usuario personalizada.
-
-**6.  Conclusión 6: Compromiso con la visión integral del proyecto:**
-    
-
-Este proyecto también busca crear un impacto positivo a los ciudadanos y el ambiente de la ciudad en general. Con esto concluimos que conseguimos realizar una planificación estratégica clara y estructurada.
+- El despliegue de la pagina fue realizado correctamente, se puede visualizar en nuestro trabajo y tambien en la landing page se puede acceder a el.
 
 **2.  Recomendaciones**
     
@@ -1506,15 +1498,43 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 -   Es recomendable añadir una página donde se pueda ver a mayor detalle cada uno de los tipos de pagos y maneras en las que se pueda alquilar una bicicleta. Una calculadora de precios sería de gran ayuda.
     
 -   Ofrecer una suscripción a la página que sirve como un seguro para la bicicleta, permitirá al cliente utilizar el servicio sin preocupaciones de robo o daño.
-## Bibliografia
+
+-   Mejorar el diseño de la aplicación web para un futuro si es requerido
+
+## 7. Bibliografia
+
 - Estudios Económicos y Estadística, G. (2024). Lima es la ciudad con mayor congestión vehicular en América Latina. https://aap.org.pe/observatorio-aap/ranking-de-congestion-vehicular-enero2024/ranking-de-congestion-vehicular-enero2024.pdf
 - BIG Hacks. (2020). Estructura de una página web y tipos de estructuras web. Recuperado de https://bighacks.agency/blog/estructura-de-una-pagina-web
 - Hidalgo, D., & Huizenga, C. (2013). Implementation of sustainable urban transport in Latin America. Research in Transportation Economics, 40(1), 66–77. https://doi.org/10.1016/j.retrec.2012.06.034
 - Götschi, T., Garrard, J., & Giles-Corti, B. (2016). Cycling as a part of daily life: A review of health perspectives. Transport Reviews, 36(1), 45–71. https://doi.org/10.1080/01441647.2015.1057877
 
-## Anexos
-Link a Figma:
-- Figma: https://www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1
-- Link a encuesta enviada para How much de 5W2H: https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog
-- Link a resultados de encuesta How much de 5W2H: Encuesta sobre movilidad urbana (Responses)
-- Link a Github Pages: https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/
+## 8. Anexos
+
+## Anexo A: Diseño y Landing: 
+
+### Figma
+- [Figmas diseño UX](//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1)
+
+### Encuesta How Much de 5W2H
+- [Encuensta 5W2H](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
+
+### User Persona
+- [Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
+- [Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+
+### Landing Page
+- [Landing Page desplegada](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
+
+### Domain-Driven Software Architecture / C4 Diagrams
+- [Link a Structurizr](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
+
+
+### Flujos y Prototype
+
+- [link a wireflow diagrams](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
+
+- [link a prototype](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
+
+## Anexo B: Videos de exposiciones: 
+- [Link a video de exposición de TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
+
