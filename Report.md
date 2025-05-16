@@ -22,7 +22,7 @@
 
 <p align="center"><strong>Docente:</strong> Alberto Wilmer Sanchez Seña</p>
 
-<p align="center"><strong>StartUp: </strong>Cuys TM</p>
+<p align="center"><strong>StartUp: </strong> Cuys TM</p>
 <p align="center"><strong>Proyecto:</strong> SafeCycle</p>
 
 
@@ -69,15 +69,17 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 **Link de los repositorios de la oraganización:** [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
 
 A continuación se visualiza el diagrama de barras que representa la cantidad de commits realizados por el equipo de trabajo:
-
-A continuación se mostrará un línea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo:
+<img src="assets/images/insights-report/insightsreport.PNG" width=800>
+A continuación se mostrará un línea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo y el network graph:
+<img src="assets/images/insights-report/insightsreport1.PNG" width=800>
+<img src="assets/images/insights-report/insightsreport2.PNG" width=800>
 
 # Tabla de contenidos
 
 [Capítulo I: Introducción](#capítulo-i-introducción)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [**TP1**](#tp1)
+  - [**TB1**](#tb1)
 - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -95,28 +97,41 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
-- [3.2 Epics & User Stories](#32-epics--user-stories)  
-- [3.3 Impact Mapping](#33-impact-mapping)  
-- [3.4 Product Backlog](#34-product-backlog)  
+      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
+  - [1.3 Segmentos objetivo.](#13-segmentos-objetivo)
+    - [1.3.1 Segmento objetivo 1: Estudiantes pregrado](#131-segmento-objetivo-1-estudiantes-pregrado)
+    - [1.3.2. Segmento Objetivo 2: Turistas](#132-segmento-objetivo-2-turistas)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1 Competidores.](#21-competidores)
+    - [2.1.1 Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2 Entrevistas](#22-entrevistas)
+    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2 Registro de entrevistas.](#222-registro-de-entrevistas)
+    - [2.2.3 Análisis de entrevistas.](#223-análisis-de-entrevistas)
+  - [2.3 Needfinding](#23-needfinding)
+  - [2.3.1 User Personas.](#231-user-personas)
+    - [**Estudiante**:](#estudiante)
+    - [**Turista**:](#turista)
+  - [2.3.2 User Task Matrix.](#232-user-task-matrix)
+    - [**Estudiantes**](#estudiantes)
+    - [**Turistas**](#turistas)
+  - [2.3.3 User Journey Mapping.](#233-user-journey-mapping)
+  - [2.3.4 Empathy Mapping.](#234-empathy-mapping)
+    - [2.3.5 As-is Scenario Mapping.](#235-as-is-scenario-mapping)
+      - [2.3.5.1. As-is Scenario Mapping para User Persona Estudiante](#2351-as-is-scenario-mapping-para-user-persona-estudiante)
+      - [2.3.5.2. As-is Scenario Mapping para User Persona turistas:](#2352-as-is-scenario-mapping-para-user-persona-turistas)
+  - [2.4 Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.1.1. To-Be Scenario Mapping para User Persona Estudiante](#311-to-be-scenario-mapping-para-user-persona-estudiante)
+    - [3.1.2. To-Be Scenario Mapping para User Persona Turista](#312-to-be-scenario-mapping-para-user-persona-turista)
+  - [3.2 Epics \& User Stories](#32-epics--user-stories)
+    - [1. Epics](#1-epics)
+    - [2. User Stories](#2-user-stories)
+  - [3.3 Impact Mapping](#33-impact-mapping)
+  - [3.4 Product Backlog](#34-product-backlog)
+    - [Product Backlog Tablas](#product-backlog-tablas)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -145,6 +160,10 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems](#425-navigation-systems)
+      - [Páginas Principales](#páginas-principales)
+      - [Opciones de Usuario](#opciones-de-usuario)
+      - [Búsqueda y Navegación](#búsqueda-y-navegación)
+      - [Branding e Identidad](#branding-e-identidad)
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
@@ -179,9 +198,41 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [6. Conclusiones](#6-conclusiones)
-  - [8. Bibliografía](#8-bibliografía)
-  - [9. Anexos](#9-anexos)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
+      - [5.2.2.4.Development Evidence for Sprint Review.](#5224development-evidence-for-sprint-review)
+      - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
+      - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
+  - [6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
+  - [7. Bibliografia](#7-bibliografia)
+  - [8. Anexos](#8-anexos)
+  - [Anexo A: Diseño y Landing:](#anexo-a-diseño-y-landing)
+    - [Figma](#figma)
+    - [Encuesta How Much de 5W2H](#encuesta-how-much-de-5w2h)
+    - [User Persona](#user-persona)
+    - [Landing Page](#landing-page)
+    - [Domain-Driven Software Architecture / C4 Diagrams](#domain-driven-software-architecture--c4-diagrams)
+    - [Flujos y Prototype](#flujos-y-prototype)
+  - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
+  
+[6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
+
+[7. Bibliografia](#7-bibliografia)
+
+[8. Anexos](#8-anexos)
+
+  - [Anexo A: Diseño y Landing:](#anexo-a-diseño-y-landing)
+    - [Figma](#figma)
+    - [Encuesta How Much de 5W2H](#encuesta-how-much-de-5w2h)
+    - [User Persona](#user-persona)
+    - [Landing Page](#landing-page)
+    - [Domain-Driven Software Architecture / C4 Diagrams](#domain-driven-software-architecture--c4-diagrams)
+    - [Flujos y Prototype](#flujos-y-prototype)
+  - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
 
 # Student Outcome
 
@@ -959,8 +1010,6 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 <img src="assets/images/UXUI/mockup/Manage Bycicles Centers.png" width="400" alt="Mockup Centros de Bicicletas" />
 <img src="assets/images/UXUI/mockup/Manage Centers.png" width="400" alt="Mockup Gestión de Centros" />
 <img src="assets/images/UXUI/mockup/Perfil Developer.png" width="400" alt="Mockup Perfil de Desarrollador" />
-<img src="assets/images/UXUI/mockup/Perfil-1.png" width="400" alt="Mockup Perfil 1" />
-<img src="assets/images/UXUI/mockup/Perfil-2.png" width="400" alt="Mockup Perfil 2" />
 <img src="assets/images/UXUI/mockup/Perfil-3.png" width="400" alt="Mockup Perfil 3" />
 <img src="assets/images/UXUI/mockup/Perfil-4.png" width="400" alt="Mockup Perfil 4" />
 <img src="assets/images/UXUI/mockup/Perfil-5.png" width="400" alt="Mockup Perfil 5" />
@@ -994,26 +1043,26 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 <img src="assets/images/UXUI/user%20flows/signup.png" width="400" alt="Flujo de registro" />
 <img src="assets/images/UXUI/user%20flows/touring.png" width="400" alt="Flujo de tour" />
 
-[link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
+[link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4) [https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?viewport_loc=-3492%2C-4847%2C10317%2C6222%2CJ~k~kbGCtyzJ&invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?viewport_loc=-3492%2C-4847%2C10317%2C6222%2CJ~k~kbGCtyzJ&invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
 
 ## 4.5. Web Applications Prototyping
 
 ![screenshot de prototipo](assets/images/UXUI/prototype.png)
 
-[link a prototype](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
+[link a prototype:](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1) https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
-<img src="assets/images/SoftwareArchitectureContextDiagram.png" width="600" alt="SoftwareArchitectureContextDiagram" />
+<img src="assets/images/C4/C4-1.png" width="600" alt="SoftwareArchitectureContextDiagram" />
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-<img src="assets/images/SoftwareArchitectureContainerDiagrams.png" width="600" alt="SoftwareArchitectureContainerDiagrams" />
+<img src="assets/images/C4/C4-2.png" width="600" alt="SoftwareArchitectureContainerDiagrams" />
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-<img src="assets/images/SoftwareArchitectureComponentsDiagrams.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
+<img src="assets/images/C4/C4-3.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1286,8 +1335,114 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 <img src="assets/images/collaboration-insights/insightsc1.png" width=800>
 <img src="assets/images/collaboration-insights/insightsc2.png" width=800>
 
-## Conclusiones y recomendaciones
 
+### 5.2.2. Sprint 2
+#### 5.2.2.1.Sprint Planning 2.
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name)  | GitHub Username | Front-End Development| Documentation | Page Deployment | 
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | L                                                                                             |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | L                                      |C                                            | C                                                                                             |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | C                                       | L                                            | C                                                                                             |
+| Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                                                             |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
+#### 5.2.2.3.Sprint Backlog 2.
+
+| Id | Title | Id | Title | Description | Estimation (Hours)  | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| US08 | Registro de usuario turista | T01 | Creación de usuario turista | Creación de formulario para el registro de usuario | 4 | Gabriel Sanchez | Done |
+| US09 | Registro de usuario estudiante | T02 | Creación de usuario estudiante | Creación de formulario para registro de usuario estudiante | 4 | Gabriel Sanchez | Done |
+| US10 | Iniciar sesión en cuenta personal | T03 | Inicio de sesión | Creación de formulario para inicio de sesión | 4 | Gabriel Sanchez | Done |
+| US11 | Alquiler de bicicleta   | T04 | Pantalla de alquiler de bicicleta | Creación de funciones para la pantalla de alquiler de bicicletas | 4 | Gabriel Sanchez | Done |
+| US12 | Elección de puntos de recojo alquilar una bicicleta | T05 | Mapa \+ recomendaciones | Elección en el mapa mas recomendaciones dadas por ubicación en la pantalla | 5 | Gabriel Sanchez | Done |
+| US15 | Realizar reservas de bicicletas | T06 | Simulación de reserva | Simulación con los datos registrados de la reserva de bicicletas | 5 | Gabriel Sanchez | Done |
+| US16 | Cancelar una reserva | T07 | Boton de cancelar reserva | Boton para cancelar una reserva creada | 7 | Gabriel Sanchez | Done |
+| US20 | Actualizar información de perfil | T08 | Boton de editar perfil | Boton para editar la información en el perfil del usuario | 8 | Gabriel Sanchez | Done |
+| US29 | Actualizar información de pago | T09 | Boton de editar información de pago | Boton para editar la información de pago del usuario | 5 | Gabriel Sanchez | Done |
+| TS01 | Funcionalidad CRUD en la interfaz | T10 | Implementación CRUD | Implementación de funcionalidades CRUD en el trabajo para almacenar datos | 4 | Gabriel Sanchez, Diego Mora | Done |
+| **TS02** | Despliegue de la aplicación  | T11 | Despliegue en Azure | Despliegue de la pagina en Azure  | 5 | Giancarlo Castañeda | Done |
+| **TS03** | Validación de datos recibidos desde la Fake API | T12 | Creación y consumo de la fake API | Creación de la Fake API para el almacenamiento de datos en mockAPI | 6 | Gabriel Sanchez, Diego Mora | Done |
+| **TS04** | Configuración de las rutas principales  | T13 | Routers y creación de las rutas | Creación de las rutas para el desplazamiento fluido | 7 | Gabriel Sanchez, Diego Mora, Giancarlo Castañeda, Carlos Matthew | Done |
+| **TS05** | CRUD Users  | T14 | Formulario CRUD para los usuarios | Creación del formulario CRUD para almacenar los datos de los usuarios | 8 | Gabriel Sanchez | Done |
+| **TS06** | CRUD Bikes | T15 | Formulario CRUD para las bicicletas | Creación del formulario CRUD para almacenar los datos de las bicicletas | 8 | Gabriel Sanchez | Done |
+| **TS07** | CRUD Bike Station | T16 | Formulario CRUD para la estación de bicicletas | Creación del formulario CRUD para almacenar los datos de las estaciones de bicicletas | 8 | Gabriel Sanchez | Done |
+| **TS08** | CRUD Touring | T17 | Formulario CRUD para las rutas turisticas | Creación del formulario CRUD para almacenar los datos de las rutas turisticas | 8 | Diego Mora | Done |
+| **TS09** | CRUD Bookings | T18 | Formulario CRUD para las reservas | Creación del formulario CRUD para almacenar los datos de las reservas | 8 | Carlos Matthew | Done |
+| **TS10** | CRUD Payments  | T19 | Formulario CRUD para los pagos | Creación del formulario CRUD para almacenar los datos de los metodos de pago | 7 | Gabriel Sanchez | Done |
+
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
+
+| Repository                                   | Branch                | Commit Id | Commit Message                                     | Commit Message Body | Commited on     |
+|---------------------------------------------|-----------------------|-----------|----------------------------------------------------|---------------------|------------------|
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/authentication| f99bb93   | feat: add validators and forms-authentication      | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | 747d93d   | feat: add service with axios for profile           | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/login         | 99821f3   | feat: login page and entry screen                  | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/rentBike      | 1ab6ef4   | feat: add rent bike pages                          | * No aplica         | 12/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/register      | 5571da8   | feat: add sign up pages for both users             | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touristRoutes | 81ec80c   | feat: tourist routes with markers and components   | * No aplica         | 10/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | f4b4caf   | front-end(Update booking-cancel.component.vue)     | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 2f585a5   | feat: create touringBookDetailsComponent.vue       | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/toast         | d52fbc3   | feat: add methods for toast notifications          | * No aplica         | 14/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | main                  | 6bb4790   | fix: style and organization fixes                  | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/login         | 3222f26   | feat: add no found page                            | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/register      | 7c8d315   | feat: register page for students complete          | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/authentication| 93cfb8e   | feat: add entry for user management                | * No aplica         | 14/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/payment       | 43a7f8d   | feat: add routing for payment information          | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/rentBike      | 3ec22b6   | feat: change router settings                       | * No aplica         | 12/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | 234346d   | feat: add edition of password and profile          | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | e9c1a91   | feat: add routing to profile                       | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 31b83d4   | front-end: Update header-content.component.vue     | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 4ad21a9   | front-end: Add 2 files (related to booking logic)  | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touringEntity | 267513f   | chore: create class TourService and its methods    | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touringEntity | c588746   | chore: create empty view for touring               | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/toast         | 9c517e8   | chore: add lazy loaded to authentication           | * No aplica         | 14/05/2025       |
+
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
+
+
+<img src="assets/images/deployment-sprint2/github.png" alt="deployment evidence in github">
+<img src="assets/images/deployment-sprint2/azure.jpeg" alt="deployment evidence in azure">
+<img src="assets/images/deployment-sprint2/azure2.jpeg" alt="deployment evidence in azure">
+<img src="assets/images/deployment-sprint2/1.png" alt="deployment evidence 1" width=800>
+<img src="assets/images/deployment-sprint2/2.png" alt="deployment evidence 2" width=800>
+<img src="assets/images/deployment-sprint2/3.png" alt="deployment evidence 3" width=800>
+<img src="assets/images/deployment-sprint2/4.png" alt="deployment evidence 4" width=800>
+<img src="assets/images/deployment-sprint2/5.png" alt="deployment evidence 5" width=800>
+<img src="assets/images/deployment-sprint2/6.png" alt="deployment evidence 6" width=800>
+<img src="assets/images/deployment-sprint2/7.png" alt="deployment evidence 7" width=800>
+<img src="assets/images/deployment-sprint2/8.png" alt="deployment evidence 8" width=800>
+<img src="assets/images/deployment-sprint2/9.png" alt="deployment evidence 9" width=800>
+<img src="assets/images/deployment-sprint2/10.png" alt="deployment evidence 10" width=800>
+<img src="assets/images/deployment-sprint2/11.png" alt="deployment evidence 11" width=800>
+<img src="assets/images/deployment-sprint2/12.png" alt="deployment evidence 12" width=800>
+<img src="assets/images/deployment-sprint2/13.png" alt="deployment evidence 13" width=800>
+<img src="assets/images/deployment-sprint2/14.png" alt="deployment evidence 14" width=800>
+<img src="assets/images/deployment-sprint2/15.png" alt="deployment evidence 15" width=800>
+<img src="assets/images/deployment-sprint2/16.png" alt="deployment evidence 16" width=800>
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+| Sanchez Gonzales | User Management, Renting |
+| Mora Blas,  Diego Alonzo | Touring |
+| Carlos Matthew | Booking |
+| Giancarlo Santiago | Deployment |
+
+<img src="assets/images/deployment-sprint2/teamInsights.png" alt="team insights 1" width=800>
+<img src="assets/images/deployment-sprint2/teamInsights2.png" alt="team insights 2" width=800>
+
+## 6. Conclusiones y recomendaciones
+    
 **1. Conclusiones**
 
 - Logramos que las historias de usuarios y el empathy mapping, podemos ver que nuestra propuesta cumple con las necesidades de nuestro grupo de interés. Proporcionando así una solución fácil, barata, eco amigable y accesible.
@@ -1323,11 +1478,14 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 -   Mejorar el diseño de la aplicación web para un futuro si es requerido
 
-## Bibliografia
+## 7. Bibliografia
+
 - Estudios Económicos y Estadística, G. (2024). Lima es la ciudad con mayor congestión vehicular en América Latina. https://aap.org.pe/observatorio-aap/ranking-de-congestion-vehicular-enero2024/ranking-de-congestion-vehicular-enero2024.pdf
 - BIG Hacks. (2020). Estructura de una página web y tipos de estructuras web. Recuperado de https://bighacks.agency/blog/estructura-de-una-pagina-web
 - Hidalgo, D., & Huizenga, C. (2013). Implementation of sustainable urban transport in Latin America. Research in Transportation Economics, 40(1), 66–77. https://doi.org/10.1016/j.retrec.2012.06.034
 - Götschi, T., Garrard, J., & Giles-Corti, B. (2016). Cycling as a part of daily life: A review of health perspectives. Transport Reviews, 36(1), 45–71. https://doi.org/10.1080/01441647.2015.1057877
+
+## 8. Anexos
 
 ## Anexo A: Diseño y Landing: 
 
@@ -1346,6 +1504,13 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 ### Domain-Driven Software Architecture / C4 Diagrams
 - [Link a Structurizr](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
+
+
+### Flujos y Prototype
+
+- [link a wireflow diagrams](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
+
+- [link a prototype](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
 
 ## Anexo B: Videos de exposiciones: 
 - [Link a video de exposición de TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
