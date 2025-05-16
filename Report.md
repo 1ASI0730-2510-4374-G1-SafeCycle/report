@@ -1347,6 +1347,20 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 | Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                                                             |
 | Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
 #### 5.2.2.3.Sprint Backlog 2.
+
+| Id   | Title                      | Tarea ID | Título Tarea                 | Descripción                                                                 | Estimation (Hours) | Assigned To         | Status |
+|------|----------------------------|----------|------------------------------|-----------------------------------------------------------------------------|--------------------|---------------------|--------|
+| US10 | Login usuario              | T16      | LoginPage.vue                | Crear formulario de login y validar credenciales con lógica y redirección   | 1                  | Gabriel Sanchez     | Done   |
+| US06 | Registro estudiante        | T17      | StudentRegister.vue          | Formulario de registro con validación para estudiantes                      | 5                  | Gabriel Sanchez     | Done   |
+| US07 | Registro turista           | T18      | TouristRegister.vue          | Formulario de registro exclusivo para turistas                              | 2                  | Gabriel Sanchez     | Done   |
+| US20 | Editar perfil              | T19      | UserProfile.vue              | Vista editable con campos de usuario autenticado                            | 3                  | Gabriel Sanchez     | Done   |
+| US11 | Alquiler bicicleta         | T20      | BikeRental.vue               | Permitir seleccionar y alquilar una bicicleta desde el mapa                 | 3                  | Gabriel Sanchez     | Done   |
+| US12 | Elegir punto de recojo     | T21      | PickupPointSelector.vue      | Seleccionar punto geolocalizado para recoger la bicicleta                   | 5                  | Gabriel Sanchez     | Done   |
+| US15 | Reservar bicicleta         | T22      | BookingPage.vue              | Formulario para reservar con validación de fechas                           | 5                  | Carlos Gonzales     | Done   |
+| US16 | Cancelar reserva           | T23      | CancelBooking.vue            | Vista para cancelar reservas activas                                        | 3                  | Carlos Gonzales     | Done   |
+| US19 | Ver rutas turísticas       | T24      | TouristRoutes.vue            | Mostrar rutas en mapa para turistas con markers e info                      | 8                  | Diego Mora          | Done   |
+
+
 #### 5.2.2.4.Development Evidence for Sprint Review.
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
