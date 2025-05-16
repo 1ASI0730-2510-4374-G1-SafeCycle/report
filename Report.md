@@ -619,6 +619,22 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 
 #### 5.2.2.1 Sprint planning 2
 
+| Sprint \# | 2 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-13-05 |
+| Time | 12:00 PM |
+| Location | Discord |
+| Prepared by | Giancarlo Castañeda |
+| Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
+| Sprint n – 2 Review Summary | Se realizó las correcciones correspondientes observadas por el profesor, ademas de la creación y deployamiento de la Web App |
+| Sprint n – 2 Retrospective Summary | Creemos que hay oportunidad de hacer una mejor planificación de tiempos para la integraciones y revisiones  |
+| Sprint Goal & User Stories |  |
+| Sprint 2 Goal | El objetivo de este sprint fue la implementación de de la web app, implementando funcionalidades core como también diseñando y gestionando sus servicios de una manera más eficiente.  |
+| Sprint 2 Velocity | Para este sprint nuestro equipo puende aceptar hasta 30 story points |
+| Sum of Story Points | Para este sprint haremos 27 story points |
+
+
 #### 5.2.2.2. Sprint Aspect Leaders and Collaborators
 
 #### 5.2.2.3. Sprint Backlog 2
