@@ -1372,6 +1372,35 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
+
+A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
+
+| Repository                                   | Branch                | Commit Id | Commit Message                                     | Commit Message Body | Commited on     |
+|---------------------------------------------|-----------------------|-----------|----------------------------------------------------|---------------------|------------------|
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/authentication| f99bb93   | feat: add validators and forms-authentication      | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | 747d93d   | feat: add service with axios for profile           | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/login         | 99821f3   | feat: login page and entry screen                  | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/rentBike      | 1ab6ef4   | feat: add rent bike pages                          | * No aplica         | 12/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/register      | 5571da8   | feat: add sign up pages for both users             | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touristRoutes | 81ec80c   | feat: tourist routes with markers and components   | * No aplica         | 10/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | f4b4caf   | front-end(Update booking-cancel.component.vue)     | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 2f585a5   | feat: create touringBookDetailsComponent.vue       | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/toast         | d52fbc3   | feat: add methods for toast notifications          | * No aplica         | 14/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | main                  | 6bb4790   | fix: style and organization fixes                  | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/login         | 3222f26   | feat: add no found page                            | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/register      | 7c8d315   | feat: register page for students complete          | * No aplica         | 09/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/authentication| 93cfb8e   | feat: add entry for user management                | * No aplica         | 14/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/payment       | 43a7f8d   | feat: add routing for payment information          | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/rentBike      | 3ec22b6   | feat: change router settings                       | * No aplica         | 12/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | 234346d   | feat: add edition of password and profile          | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/profile       | e9c1a91   | feat: add routing to profile                       | * No aplica         | 13/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 31b83d4   | front-end: Update header-content.component.vue     | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/booking       | 4ad21a9   | front-end: Add 2 files (related to booking logic)  | * No aplica         | 15/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touringEntity | 267513f   | chore: create class TourService and its methods    | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/touringEntity | c588746   | chore: create empty view for touring               | * No aplica         | 11/05/2025       |
+| 1ASI0730-2510-4374-G1-SafeCycle front-end    | feature/toast         | 9c517e8   | chore: add lazy loaded to authentication           | * No aplica         | 14/05/2025       |
+
+
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
