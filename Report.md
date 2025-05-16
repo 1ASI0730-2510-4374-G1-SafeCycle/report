@@ -1287,35 +1287,26 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 <img src="assets/images/collaboration-insights/insightsc2.png" width=800>
 
 ## Conclusiones y recomendaciones
-**1.  Conclusión 1: Proporcionar una solución eficiente ante el problema.**
-    
 
-Logramos que las historias de usuarios y el empathy mapping, podemos ver que nuestra propuesta cumple con las necesidades de nuestro grupo de interés. Proporcionando así una solución fácil, barata, eco amigable y accesible.
+**1. Conclusiones**
 
-**2.  Conclusión 2: Diseño creado para una experiencia más grata:**
-    
+- Logramos que las historias de usuarios y el empathy mapping, podemos ver que nuestra propuesta cumple con las necesidades de nuestro grupo de interés. Proporcionando así una solución fácil, barata, eco amigable y accesible.
 
-Con la landing page logramos que fuera creado con la idea de proporcionar una interacción simple y fluida para el cliente, para se utilizaron funciones cómo un mapa virtual que ayuda al cliente y diferentes idiomas de los cuales escoger.
+- Con la landing page logramos que fuera creado con la idea de proporcionar una interacción simple y fluida para el cliente, para se utilizaron funciones cómo un mapa virtual que ayuda al cliente y diferentes idiomas de los cuales escoger.
 
-**3. Conclusión 3: Coherencia y diseños expertos:**
-    
+- Concluimos que los diversos colores, tipografía y formas de la landing page fueron seleccionados para poseer una identidad visual concreta. Además nos permite poseer una apariencia experta.
 
-Concluimos que los diversos colores, tipografía y formas de la landing page fueron seleccionados para poseer una identidad visual concreta. Además nos permite poseer una apariencia experta.
+- La página fue creada con la idea de ser utilizable por cualquier persona independientemente de su conocimiento sobre tecnología. Obtuvimos con la plataforma, una manera de instruir al usuario paso a paso para que pueda realizar cualquier acción con facilidad, lo que permite tener un enfoque inclusivo.
 
-**4.  Conclusión 4: Accesibilidad en mente**
-    
+- Concluimos que la página y el sistema fueron creados con la idea de beneficiar en especial a nuestro segmento objetivo ofreciendo descuentos y ayuda especial, ofreciendo una experiencia de usuario personalizada.
 
-La página fue creada con la idea de ser utilizable por cualquier persona independientemente de su conocimiento sobre tecnología. Obtuvimos con la plataforma, una manera de instruir al usuario paso a paso para que pueda realizar cualquier acción con facilidad, lo que permite tener un enfoque inclusivo.
+- Este proyecto también busca crear un impacto positivo a los ciudadanos y el ambiente de la ciudad en general. Con esto concluimos que conseguimos realizar una planificación estratégica clara y estructurada.
 
-**5.  Conclusión 5: Beneficios para ciertos usuarios**
-    
+- La creación de la app web fue un tema complicado para el grupo, se buscara una mejora en conocimiento y aprendizaje para futuras entregas
 
-Concluimos que la página y el sistema fueron creados con la idea de beneficiar en especial a nuestro segmento objetivo ofreciendo descuentos y ayuda especial, ofreciendo una experiencia de usuario personalizada.
+- Las correciones fueron realizadas correspondientemente a las mencionadas por el profesor en clase
 
-**6.  Conclusión 6: Compromiso con la visión integral del proyecto:**
-    
-
-Este proyecto también busca crear un impacto positivo a los ciudadanos y el ambiente de la ciudad en general. Con esto concluimos que conseguimos realizar una planificación estratégica clara y estructurada.
+- El despliegue de la pagina fue realizado correctamente, se puede visualizar en nuestro trabajo y tambien en la landing page se puede acceder a el.
 
 **2.  Recomendaciones**
     
@@ -1329,6 +1320,9 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 -   Es recomendable añadir una página donde se pueda ver a mayor detalle cada uno de los tipos de pagos y maneras en las que se pueda alquilar una bicicleta. Una calculadora de precios sería de gran ayuda.
     
 -   Ofrecer una suscripción a la página que sirve como un seguro para la bicicleta, permitirá al cliente utilizar el servicio sin preocupaciones de robo o daño.
+
+-   Mejorar el diseño de la aplicación web para un futuro si es requerido
+
 ## Bibliografia
 - Estudios Económicos y Estadística, G. (2024). Lima es la ciudad con mayor congestión vehicular en América Latina. https://aap.org.pe/observatorio-aap/ranking-de-congestion-vehicular-enero2024/ranking-de-congestion-vehicular-enero2024.pdf
 - BIG Hacks. (2020). Estructura de una página web y tipos de estructuras web. Recuperado de https://bighacks.agency/blog/estructura-de-una-pagina-web
