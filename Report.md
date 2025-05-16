@@ -1348,17 +1348,27 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 | Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
 #### 5.2.2.3.Sprint Backlog 2.
 
-| Id   | Title                      | Tarea ID | Título Tarea                 | Descripción                                                                 | Estimation (Hours) | Assigned To         | Status |
-|------|----------------------------|----------|------------------------------|-----------------------------------------------------------------------------|--------------------|---------------------|--------|
-| US10 | Login usuario              | T16      | LoginPage.vue                | Crear formulario de login y validar credenciales con lógica y redirección   | 7                  | Gabriel Sanchez     | Done   |
-| US06 | Registro estudiante        | T17      | StudentRegister.vue          | Formulario de registro con validación para estudiantes                      | 5                  | Gabriel Sanchez     | Done   |
-| US07 | Registro turista           | T18      | TouristRegister.vue          | Formulario de registro exclusivo para turistas                              | 4                  | Gabriel Sanchez     | Done   |
-| US20 | Editar perfil              | T19      | UserProfile.vue              | Vista editable con campos de usuario autenticado                            | 5                  | Gabriel Sanchez     | Done   |
-| US11 | Alquiler bicicleta         | T20      | BikeRental.vue               | Permitir seleccionar y alquilar una bicicleta desde el mapa                 | 6                  | Gabriel Sanchez     | Done   |
-| US12 | Elegir punto de recojo     | T21      | PickupPointSelector.vue      | Seleccionar punto geolocalizado para recoger la bicicleta                   | 5                  | Gabriel Sanchez     | Done   |
-| US15 | Reservar bicicleta         | T22      | BookingPage.vue              | Formulario para reservar con validación de fechas                           | 6                  | Carlos Gonzales     | Done   |
-| US16 | Cancelar reserva           | T23      | CancelBooking.vue            | Vista para cancelar reservas activas                                        | 5                  | Carlos Gonzales     | Done   |
-| US19 | Ver rutas turísticas       | T24      | TouristRoutes.vue            | Mostrar rutas en mapa para turistas con markers e info                      | 8                  | Diego Mora          | Done   |
+| Id | Title | Id | Title | Description | Estimation (Hours)  | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| US08 | Registro de usuario turista | T01 | Creación de usuario turista | Creación de formulario para el registro de usuario | 4 | Gabriel Sanchez | Done |
+| US09 | Registro de usuario estudiante | T02 | Creación de usuario estudiante | Creación de formulario para registro de usuario estudiante | 4 | Gabriel Sanchez | Done |
+| US10 | Iniciar sesión en cuenta personal | T03 | Inicio de sesión | Creación de formulario para inicio de sesión | 4 | Gabriel Sanchez | Done |
+| US11 | Alquiler de bicicleta   | T04 | Pantalla de alquiler de bicicleta | Creación de funciones para la pantalla de alquiler de bicicletas | 4 | Gabriel Sanchez | Done |
+| US12 | Elección de puntos de recojo alquilar una bicicleta | T05 | Mapa \+ recomendaciones | Elección en el mapa mas recomendaciones dadas por ubicación en la pantalla | 5 | Gabriel Sanchez | Done |
+| US15 | Realizar reservas de bicicletas | T06 | Simulación de reserva | Simulación con los datos registrados de la reserva de bicicletas | 5 | Gabriel Sanchez | Done |
+| US16 | Cancelar una reserva | T07 | Boton de cancelar reserva | Boton para cancelar una reserva creada | 7 | Gabriel Sanchez | Done |
+| US20 | Actualizar información de perfil | T08 | Boton de editar perfil | Boton para editar la información en el perfil del usuario | 8 | Gabriel Sanchez | Done |
+| US29 | Actualizar información de pago | T09 | Boton de editar información de pago | Boton para editar la información de pago del usuario | 5 | Gabriel Sanchez | Done |
+| TS01 | Funcionalidad CRUD en la interfaz | T10 | Implementación CRUD | Implementación de funcionalidades CRUD en el trabajo para almacenar datos | 4 | Gabriel Sanchez, Diego Mora | Done |
+| **TS02** | Despliegue de la aplicación  | T11 | Despliegue en Azure | Despliegue de la pagina en Azure  | 5 | Giancarlo Castañeda | Done |
+| **TS03** | Validación de datos recibidos desde la Fake API | T12 | Creación y consumo de la fake API | Creación de la Fake API para el almacenamiento de datos en mockAPI | 6 | Gabriel Sanchez, Diego Mora | Done |
+| **TS04** | Configuración de las rutas principales  | T13 | Routers y creación de las rutas | Creación de las rutas para el desplazamiento fluido | 7 | Gabriel Sanchez, Diego Mora, Giancarlo Castañeda, Carlos Matthew | Done |
+| **TS05** | CRUD Users  | T14 | Formulario CRUD para los usuarios | Creación del formulario CRUD para almacenar los datos de los usuarios | 8 | Gabriel Sanchez | Done |
+| **TS06** | CRUD Bikes | T15 | Formulario CRUD para las bicicletas | Creación del formulario CRUD para almacenar los datos de las bicicletas | 8 | Gabriel Sanchez | Done |
+| **TS07** | CRUD Bike Station | T16 | Formulario CRUD para la estación de bicicletas | Creación del formulario CRUD para almacenar los datos de las estaciones de bicicletas | 8 | Gabriel Sanchez | Done |
+| **TS08** | CRUD Touring | T17 | Formulario CRUD para las rutas turisticas | Creación del formulario CRUD para almacenar los datos de las rutas turisticas | 8 | Diego Mora | Done |
+| **TS09** | CRUD Bookings | T18 | Formulario CRUD para las reservas | Creación del formulario CRUD para almacenar los datos de las reservas | 8 | Carlos Matthew | Done |
+| **TS10** | CRUD Payments  | T19 | Formulario CRUD para los pagos | Creación del formulario CRUD para almacenar los datos de los metodos de pago | 7 | Gabriel Sanchez | Done |
 
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
