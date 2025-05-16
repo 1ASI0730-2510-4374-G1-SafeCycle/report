@@ -219,20 +219,6 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
     - [Flujos y Prototype](#flujos-y-prototype)
   - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
   
-[6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
-
-[7. Bibliografia](#7-bibliografia)
-
-[8. Anexos](#8-anexos)
-
-  - [Anexo A: Diseño y Landing:](#anexo-a-diseño-y-landing)
-    - [Figma](#figma)
-    - [Encuesta How Much de 5W2H](#encuesta-how-much-de-5w2h)
-    - [User Persona](#user-persona)
-    - [Landing Page](#landing-page)
-    - [Domain-Driven Software Architecture / C4 Diagrams](#domain-driven-software-architecture--c4-diagrams)
-    - [Flujos y Prototype](#flujos-y-prototype)
-  - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
 
 # Student Outcome
 
@@ -400,23 +386,39 @@ Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de
 |  | Amenazas | • Competencia en el mercado alta<br>• Robo o hackeos | • Problemas por clima o infraestructura | • Quejas por demora de renta | • Cambios de normativas de rutas <br>• Poca retención de usuarios |
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
-Después de revisar lo que ofrecen otras plataformas, y considerando el análisis SWOT que hicimos, nos dimos cuenta de que hay cosas que podemos hacer diferentes y mejor. Algunas son ideas que ya estamos implementando, y otras se presentan como oportunidades claras que vamos a aprovechar.
+Después de revisar lo que ofrecen otras plataformas, y considerando el análisis SWOT que hicimos, nos dimos cuenta de que hay cosas que podemos hacer diferentes y mejor. Aunque ya estemos implementando algunas, hay otras que podemos incluir para sobre salir entre nuestros competidores.
 
-**1\. Hacer que la plataforma sea fácil de entender y usar**
+**Estrategias**
 
-Uno de los problemas que encontramos en otras aplicaciones es que, aunque tienen buenas ideas, no siempre son prácticas. Nosotros queremos que SafeCycle se entienda sin complicaciones. Desde que el usuario abre la app hasta que devuelve la bici, todo debe ser claro. También vamos a incluir pequeñas guías o tutoriales dentro de la misma aplicación, por si alguien necesita ayuda la primera vez.
+**Experiencia del cliente**
 
-**2\. Pensar tanto en estudiantes como en turistas**
+Esto lo podemos lograr al ofrecer un servicio más fácil y accesible que otros, ya sean utilizar una forma de pago mucho más fácil e intuitiva, ofrecer un servicio mejor en teoría para el cliente dándoles mayor libertad al escoger su servicio y/o ofreciendo bicicletas de mejor calidad para el cliente promedio. En el caso de nuestro segmento objetivo, los estudiantes pueden obtener un descuento al momento de alquilar, además de poseer almacenes en zonas donde estos frecuentan por sus estudios y en el caso de los turistas ofrecemos una aplicación que se encuentra en otros idiomas (principalmente inglés), un sistema de pago que se ajusta a medios de pagos más internacionales, una forma rápida de iniciar sesión, independientemente de donde provienen y ofreciendo una opción de recorrer rutas predeterminadas para incentivar el turismo en la ciudad.
 
-La mayoría de servicios actuales tiende a enfocarse en un solo tipo de usuario. Algunos están hechos solo para turistas, mientras que otros no consideran sus necesidades. Lo que haremos es ofrecer algo equilibrado. Por ejemplo, planes económicos para estudiantes y rutas prácticas para quienes están visitando la ciudad. De esa forma, cada grupo podrá usar la app sin sentir que está usando algo que no se adapta a su realidad.
+**Diferenciación de la competencia**
 
-**3\. Generar confianza desde el primer momento**
+Nos diferenciamos de otros servicios principalmente por que ofrecemos bicicletas con GPS y un freno automatico incluido, lo que da una mayor sensación de seguridad al cliente; rutas personalizadas para ofrecer un turismo de mayor calidad por la ciudad, con una asistencia incluida por el celular; la posibilidad de reservar bicicletas; no hay necesidad de pagar una membresía; alquiler rápido e inmediato de una bicicleta y mayor libertad al momento de alquilar una bicicleta.
 
-Una de las amenazas más comunes en este tipo de servicios es que la gente no confíe en el sistema o tema que le roben la bicicleta. Por eso, desde el primer día vamos a usar un sistema de bloqueo automático si se pasa el tiempo o si se reporta un mal uso. Esto también responde a una de las debilidades que vimos en el análisis: la poca atención al  cliente en otras plataformas.
+**Precios más vistosos**
 
-**4\. Crecer poco a poco, según lo que el usuario diga**
+Los precios que se muestran en la aplicación están puestos con la idea de aparentar ser más baratos (se encuentran cómo centavos por minuto en vez de soles por hora), esto permite que el cliente sienta que tenga un mayor control sobre lo que paga a diferencia de nuestros competidores que cobran por hora (Barrancobikes), con una membresía (Citybike Lima) o exclusivamente con una reserva (mirabici).
 
-No vamos a intentar cubrir toda la ciudad de golpe. Empezaremos en zonas donde haya más movimiento de nuestros públicos objetivo, y conforme vayamos recibiendo opiniones, iremos mejorando y expandiéndonos. Queremos que el crecimiento de SafeCycle sea ordenado, sostenible y siempre de la mano del usuario.
+**Alquiler y reserva más rápida que otros**
+
+Ofrecemos además una manera para alquilar y/o reserva mucho más fácil que otros con una interfaz fácil de usar, diferentes maneras de pagos, más idiomas y un sistema de avisos que ayuda al cliente.
+
+**Tácticas**
+
+**Mejores bicicletas**
+
+Las bicicletas se promocionan cómo más seguras, con un GPS incluido, cómodas y de último modelo, para esto se observan las bicicletas de los competidores y la calidad en la cual se encuentran.
+
+**Mejor digitalización**
+
+Se implementará un seguimiento por medio de Google maps con mejor precisión y un seguimiento a la bicicleta que permitirá saber dónde esta localizado. Además, que tendremos un sitio web claro dónde el cliente sabrá guiarse. Finalmente, después de una determinada cantidad de viajes se le preguntara al cliente si quisiera dejar una reseña (Mostraremos principalmente las reseñas con 4 de 5 estrellas o más en la página principal).
+
+**Un servicio que evoluciona**
+
+Ofreceremos más rutas con el paso del tiempo e incluiremos más medios de pago para facilitar el proceso, además de buscar maneras de ofrecer descuentos a los clientes. Y cómo idea a futuro principal, podremos realizar alianzas con otras empresas cómo “Yape” para ofrecer descuentos desde su aplicación o con empresas de viajes para que turistas tengan bicicletas ya reservadas.
 ## 2.2 Entrevistas
 ### 2.2.1 Diseño de entrevistas
 Como se mencionó anteriormente, nuestros segmentos objetivos están conformados por estudiantes universitarios de pregrado, principalmente aquellos que viven en cercanías de la universidad y turistas.
@@ -433,67 +435,66 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 
 ¿Cuál es tu lugar de nacimiento?
 
+¿Cómo te transportas habitualmente en tu día a día?
+
+¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+¿Cuánto estarías dispuesto a pagar por un minuto de alquiler?
+
 **Estudiantes:**
 
-- ¿Cómo te transportas habitualmente en tu día a día?
+¿Cuáles son los horarios que consideras más críticos en términos de congestión en el transporte?
 
-- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+¿Qué problemas enfrentas al usar el transporte público o privado como estudiante?
 
-- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+¿Te ha afectado el costo del transporte?
 
-- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+¿Has usado bicicletas anteriormente para movilizarte al campus o a otro entorno?
 
-- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+¿Qué elementos valoras más en un sistema de préstamo de bicicletas?
 
-- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
 
-- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+¿Te sentirías cómodo usando una app para reservar, desbloquear y pagar por la bicicleta?
 
-- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+¿Qué medidas de seguridad te harían confiar en el servicio?
 
-- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
-
-- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
+¿Qué te haría dejar de usar el servicio?
 
 **Turistas:**
 
-- ¿Cómo te transportas habitualmente en tu estadía?
+¿Has usado bicicletas como turista en otras ciudades? ¿Qué te gustó o incomodó?
 
-- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+¿Te interesaría conocer la ciudad en bicicleta? ¿Por qué sí o por qué no?
 
-- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+¿Consideras que explorar la ciudad en bicicleta te conecta más con su historia, costumbres y cultura?
 
-- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+¿Te gustaría contar con rutas recomendadas o tours autoguiados en la app?
 
-- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+¿Qué aspectos valoras más en un servicio de alquiler de bicicletas como turista?
 
-- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+¿Qué factores te harían sentir seguro usando una bicicleta en una ciudad que no conoces?
 
-- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
-
-- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
-
-- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
-
-- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
 ### 2.2.2 Registro de entrevistas.
 
 | Segmento Objetivo | Estudiantes |
 | ----- | ----- |
 | **Número de registro** | **Datos del entrevistado** |
-| 01 | **Nombre:** Masaru Nikaido <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario **Distrito:** San Borja <br>**Inicio \- Duración:** 0:00 \- 9:39 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EcOxX6OmbxpItmVcMZ6kNuABqCHsXueskZbc_v41cdhhvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PnFjdS)** |
+| 01 | **Nombre:** Masaru Nikaido <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario **Distrito:** San Borja <br>**Inicio \- Duración:** 0:00 \- 9:39<br> ![interview-image](/assets/images/interview-images/interview-image1.png) |
 |  | **Resumen:** Primero nos cuenta que tiene varias opciones a la hora de elegir su transporte, con las cuales aproximadamente se demora entre 20 y 1 hora en llegar a su destino. Nos cuenta que uso la bicicleta en manera de hacer ejercicio y de manera recreativa más que todo, además nos cuenta que sus principales dificultades al momento de transportarse es el tráfico.En cuanto a nuestra aplicación, menciona que es una buena idea al tratarse de una alternativa ecológica y barata comparado a otros competidores y lo consideraría si en un futuro existieran.  |
-| 02 | **Nombre:** Sebastian Rubio <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** San Juan de Miraflores <br>**Inicio \- Duración:** 0:00 \- 3:43 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EQd4AujSIvlInuhHyasyfWYBMIkFCk0shg9DGG3WWEIpAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RAWBH1)** |
+| 02 | **Nombre:** Sebastian Rubio <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** San Juan de Miraflores <br>**Inicio \- Duración:** 9:39 \- 13:23 <br> ![interview-image](/assets/images/interview-images/interview-image2.png) |
 |  | **Resumen:** Al comenzar la entrevista se le hace la pregunta como se suele movilizar a lo que él responde que en auto, por lo cual normalmente y sin trafico suele trasladarse a su destino entre 15 a 30 minutos. Nos cuenta que ademas del trafico, sus dificultades al transportarse por la ciudad es por la forma de las carreteras al no poder girar hacia un lado, cometes un error y no hay mucho que hacer. Ademas nos cuenta que ya habia visto una idea similar a la nuestra y si le interesaria utilizarla en algun momento como una alternativa a su transporte actual|
-| 03 | **Nombre:**  Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 0:00 \- 5:25 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-3.mkv](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314130_upc_edu_pe/EUDq_N85FKJPguTrCVUShpQB9PNvLjD0-WIlv3Yfii5hrw?e=psjhMf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)** |
+| 03 | **Nombre:**  Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 13:23 \- 18:50 <br> ![interview-image](/assets/images/interview-images/interview-image3.png) |
 |  | **Resumen:** Daniel nos cuenta que tiene carro y se moviliza a todas partes con eso, suele demorar entre 20 a 25 minutos algunas veces un poco más por el tráfico. Nos dice que si ha usado bicicletas anteriormente, pero mayormente cuando salía a pasear como un método de recreación. Uno de los problemas principales que tiene al moverse por la ciudad sería el tráfico. Le interesa mucho nuestra aplicación ya que lo podría necesitar para tramos cortos que no necesiten carro y pueda llegar a tiempo a su destino sin tráfico y ahorrando en gasolina|
 | **Segmento Objetivo** | **Turistas** |
-| **04** | **Nombre:** Juan Diego Sersen <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 0:00 \- 4:09 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-4.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EfH2XZKty3hAiBMtzeb_1xIBqQMj-Dk_sWxMviE1jYbEbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZHaPZz)** |
+| **04** | **Nombre:** Juan Diego Sersen <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 18:50 \- 23:00 <br> ![interview-image](/assets/images/interview-images/interview-image4.png)|
 |  | **Resumen:** Se menciona que se tarda en llegar media hora hacia su destino, luego nos menciona que se suele transportar mucho en bicicleta, de hecho nos cuenta que en uno de sus viajes a Paises Bajos se dio cuenta que varias personas usaban la bicicleta como medio de transporte mucho mas que los autos asi que el tambien tuvo que acostumbrarse. También al mencionarle de un precio aproximado para que utilice nuestra aplicación seria de 3 a 5 soles y tambien le pareceria genial que hubiera una sección de ratings y comentarios para saber que opina la gente sobre nuestra aplicación, finalmente comentó que le pareceria buena idea implementar nuestra app en el país. |
-| **05** | **Nombre:** Santiago Valdivia <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 0:00 \- 5:54 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-5.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/ETy_uxrs0lBEmGXAC30yeSABog1SBjRfHgrf7HY2tj_0FQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dzUUdL)** |
+| **05** | **Nombre:** Santiago Valdivia <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 23:00 \- 28:55  <br> ![interview-image](/assets/images/interview-images/interview-image5.png)|
 |  | **Resumen:** Nos comenta que se suele transportar por la linea 1 del metro o en algunos casos usa el metropolitano y aproximadamente se demora en llegar entre 20 minutos y en casos mas extremos 1 hora a su destino. Usaba bicicleta de manera recreativa y ademas cuenta que su mayor dificultad a la hora de movilizarse es el trafico cuando usa el metropolitano. Al momento de preguntarle sobre el transporte mas comodo que ha usado nos habla cuando estaba en Argentina y utilizaba el Subterraneo mas que todo por las conexiones que cuenta este, donde se puede movilizar a todos los lugares del país, ademas nos comenta de un servicio parecido al nuestro el cual se encuentra en los bosques de Palermo, donde puedes pedir una bicicleta rentada y usarla por cuanto tiempo quieras. Al momento de consultarle sobre si podria parecerle buena idea implementar acá en Perú dijo que si pero tendria que ser en lugar mas urbanos como Miraflores y que le pareceria interesante llegar a usarlo.  |
-|**06**| **Nombre:** Itzel Vargas <br>**Edad:** 19 <br>**Profesión:** Estudiante de intercambio <br>**Distrito:** Miraflores **Inicio \- Duración:** 0:00 \- 3:29 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-6.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314130_upc_edu_pe/EdCz9Fn0fiJBvEnPg0Wn3twBMvRQOLy0TFGBnsse_tpMmg?e=kgHNIZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)** |
+|**06**| **Nombre:** Itzel Vargas <br>**Edad:** 19 <br>**Profesión:** Estudiante de intercambio <br>**Distrito:** Miraflores **Inicio \- Duración:** 28:55 \- 32:25 <br> ![interview-image](/assets/images/interview-images/interview-image6.png) |
 |  | **Resumen:** Nos comenta que se mueve en taxi normalmente por aplicativos, se suele tardar entre 40 minutos. Si usa bicicletas ya que suele movilizarse así en su ciudad La Paz lo ve algo muy práctico. También comenta que en Perú más que todo en la capital(Lima) hay mucho tráfico. En escala del 1 al 5 pone un 4 ya que si estaría dispuesta a usar un servicio de préstamo de bicicletas más que todo si cuenta con estaciones bien ubicadas. Entre la semana gasta 100 a 150 soles. |
+
 ### 2.2.3 Análisis de entrevistas.
 Los entrevistados demostraron usar diversos tipos de transporte para movilizarse por la ciudad, incluyendo su propio carro, otros usan transporte publico como el metro o el metropolitano, y en algunos casos, la bicicleta, aunque esta última se emplea más comúnmente con fines recreativos o de ejercicio. Un patrón recurrente en las respuestas es que el tráfico representa una de las principales dificultades, lo cual es algo que consideramos obvio al vivir en un país con la peor estadistica en terminos de trafico y conductores en toda sudamerica, esto genera demoras a la mayoria de los entrevistados entre 20 minutos y 1 hora para llegar a sus destinos. Ademas, algunos participantes mencionan problemas con la infraestructura vial, como la dificultad para moverse libremente o tomar rutas.
 
@@ -501,35 +502,23 @@ En cuanto a la percepción de la aplicación propuesta, los entrevistados coinci
 
 En resumen, el analisis de las entrevistas revela que existe una necesidad o más que todo un interes latente en encontrar otras alternativas de transportes mas eficientes y sostenibles en el país. Sin embargo, es fundamental considerar aspectos como el contexto urbano, la facilidad de uso de la aplicación y la seguridad de las rutas propuestas por nosotros. 
 ## 2.3 Needfinding
-## 2.3.1 User Personas.
-### **Estudiante**: 
-![User Persona Anne Guillen](/assets/images/user-personas/Anne%20Guillen%20(2).png)
-[Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
+### *Estudiante*: 
+![User Persona Anne Guillen](/assets/images/user-personas/Anne.png)
+[Link a UXpresia de Anne Guillen: ](https://uxpressia.com/w/2JtXc/p/tbFfu)[https://uxpressia.com/w/2JtXc/p/tbFfu](https://uxpressia.com/w/2JtXc/p/tbFfu)
 <br>
-### **Turista**: 
-![User Persona Mateo Smith](/assets/images/user-personas/Mateo%20Smith.png)
-[Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+
+### *Turista*: 
+![User Persona Mateo Smith](/assets/images/user-personas/Mateo.png)
+[Link a UXpresia de Mateo Smith: ](https://uxpressia.com/w/2JtXc/p/Wfgtx) [https://uxpressia.com/w/2JtXc/p/Wfgtx](https://uxpressia.com/w/2JtXc/p/Wfgtx)
 ## 2.3.2 User Task Matrix.
-### **Estudiantes**
 
-| Actividades | Frecuencia | Importancia |
-| ----- | ----- | ----- |
-| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
-| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
-| Planificar el costo del viaje a realizar | Media | Alta |
-| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
-| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
-
-### **Turistas**
-
-| Actividades | Frecuencia | Importancia |
-| ----- | ----- | ----- |
-| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
-| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
-| Planificar el costo del viaje a realizar | Media | Alta |
-| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
-| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
-| Programar visitas y turismo evitando las horas más congestionadas del tráfico | Baja | Media |
+| Actividades | Frecuencia (Estudiante) | Importancia (Estudiante) | Frecuencia (Turista) | Importancia (Turista) |
+| ----- | ----- | ----- | ----- | ----- |
+| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta | Baja | Media |
+| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta | Media | Media |
+| Planificar el costo del viaje a realizar | Media | Alta | Media | Media |
+| Ajustar horarios para llegar puntualmente a los eventos | Alta | Media | Alta | Alta |
+| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media | Media | Media |
 
 ## 2.3.3 User Journey Mapping.
 **Estudiante**
@@ -570,7 +559,18 @@ As-Is: [link a lucidchart](https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-
 | Renter (Arrendatario) | Usuario que desea utilizar la bicicleta mediante la aplicación  |
 | Bike Station (Estaciones de Bicicletas) | Lugar físico donde se aparcaran y devolverán las bicicletas |
 | Rental Session (Sesión de Alquiler) | Periodo de tiempo desde que el usuario tiene la bicicleta hasta que la devuelve |
+| Touring (Turismo) | Actividad de usar una bicicleta para recorrer largos trayectos, generalmente con fines recreativos o turísticos. |
 | Bike Availability (Disponibilidad de Bicicleta) |  Información en tiempo real sobre bicicletas libres en cada estación |
+| Rental Fee (Tarifa del Alquiler) | Costo calculado en base a la duración de la sesión de alquiler. |
+| Overdue Rental (Alquiler Vencido) | Sesión de alquiler que ha excedido el tiempo permitido sin devolver la bicicleta |
+| Booking (Reserva) | Funcionalidad opcional que permite a un usuario reservar una bicicleta con anticipación |
+| Usage History (Historial de Uso) | Registro de todas las sesiones de alquiler asociadas a un usuario |
+| Penalty Fee (Tarifa por Penalización) | Cargo adicional aplicado cuando la sesión de alquiler se pasa del tiempo permitido |
+| Payment Method (Método de Pago) | Medio utilizado por el usuario para pagar las tarifas de alquiler, como tarjeta de crédito, débito o billetera digital |
+| QR Code (Código QR) | Código que el usuario escanea con la aplicación móvil para desbloquear una bicicleta |
+| Availability (Disponibilidad) | Número de bicicletas y docks libres en una estación en un momento dado |
+| Route (Ruta) | Trayecto sugerido o realizado por el usuario durante el uso de una bicicleta |
+| Terms of Use (Términos de Uso) | Conjunto de reglas y condiciones que los usuarios deben aceptar para utilizar el servicio |
 
 # Capítulo III: Requirements Specification
 
@@ -669,7 +669,7 @@ Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b
 | US08 | Registro de usuario turista | Como usuario turista quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para turista** <br>Dado que el turista ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Turista"<br>Cuando el turista visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email, pasaporte, contraseña y un campo para repetir la contraseña.<br>Y se muestra el botón “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesion” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña y la ha repetido correctamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema crea una nueva cuenta de turista <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el turista ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email o número de pasaporte inválido <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
 | US09 | Registro de usuario estudiante | Como usuario estudiante quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para estudiante** <br>Dado que el estudiante ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Estudiante"<br>Cuando el estudiante visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email institucional, contraseña y un campo para repetir la contraseña.<br>Y se muestra el botón “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesión” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el estudiante ha ingresado un email institucional válido, contraseña y la ha repetido correctamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema crea una nueva cuenta de estudiante   <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el estudiante ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email institucional inválido <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el estudiante ha ingresado un email institucional válido y una contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
 | US10 | Iniciar sesión en cuenta personal | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder iniciar sesion en la aplicación para acceder a mi cuenta personal | **Escenario 1: Iniciar sesión con datos válidos** <br>Dado que el turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado su email y contraseña correctamente <br>Cuando presiona el botón “Iniciar Sesión” <br>Entonces será redirigido a su cuenta personal dentro de la aplicación   <br>**Escenario 2: Ingresar datos inválidos** <br>Dado que el usuario turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado un email no registrado o una contraseña incorrecta <br>Cuando presiona el botón “Iniciar Sesión” <br>Entonces el sistema mostrará un mensaje de error indicando que las credenciales son inválidas | EP03 |
-| US11 | Alquiler de bicicleta   | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder alquilar una bicicleta para transportarme rápidamente | **Escenario 1: Renta de bicicletas** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema calculará y mostrará el costo del viaje dependiendo del tiempo. <br>**Escenario 2: Renta de bicicleta y tiempo de estudiante sin tiempo en cuenta** <br>Dado que el estudiante está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Y no tiene suficientes minutos restantes de renta diarios. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que el usuario no tiene el tiempo restante suficiente en su cuenta por el día. <br>**Escenario 3: Ingreso de datos incompletos o inválidos** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y deja vacío el campo de minutos. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que debe ingresar una cantidad de minutos | EP04 |
+| US11 | Alquiler de bicicleta   | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder alquilar una bicicleta para transportarme rápidamente | **Escenario 1: Renta de bicicletas** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Dado acceso a su localización actual <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema calculará y mostrará el costo del viaje dependiendo del tiempo. <br>**Escenario 2: Renta de bicicleta y tiempo de estudiante sin tiempo en cuenta** <br>Dado que el estudiante está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Dado acceso a su localización actual <br>Y no tiene suficientes minutos restantes de renta diarios. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que el usuario no tiene el tiempo restante suficiente en su cuenta por el día. <br>**Escenario 3: Ingreso de datos incompletos o inválidos** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y deja vacío el campo de minutos. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que debe ingresar una cantidad de minutos | EP04 |
 | US12 | Elección de puntos de recojo alquilar una bicicleta | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder elegir el punto de recojo de mi bicicleta para dirigirse a esta fácilmente | **Escenario 1: Visualizar puntos de recojo** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y ha rellenado el formulario de renta de bicicletas. <br>Cuando el sistema calcule el precio estimado de la ruta. <br>Entonces el sistema mostrará las estaciones de bicicletas cercanas para recogerlo. <br>**Escenario 2: Elegir puntos de recojo** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y ha rellenado y enviado el formulario de renta de bicicletas. <br>Cuando el usuario elija la estacion <br>Entonces el sistema procederá la renta con la estación elegida | EP04 |
 | US13 | Recibir notificación de mora si excedo el tiempo | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero recibir una notificación <br>Cuando exceda el tiempo de alquiler para estar informado de la penalización. | **Escenario 1: Notificación de tiempo excedido**<br>Dado que el usuario ha alquilado una bicicleta<br>Y el tiempo límite de alquiler ha sido superado, <br>Cuando el sistema detecte el exceso de tiempo <br>Entonces envía una notificación alertando sobre la mora aplicable <br>**Escenario 2: Cálculo automático de mora**<br>Dado que el usuario ha excedido el tiempo acor<br>Dado<br>Cuando el sistema actualice la duración del préstamo<br>Entonces el sistema calcula el monto adicional a pagar por el exceso de tiempo | EP05 |
 | US14 | Recibir confirmación del pago realizado | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero recibir una confirmación luego de realizar el pago para asegurarme que fue exitoso. | **Escenario 1: Confirmación visual inmediata**<br>Dado que el usuario ha completado el pago de una renta o alquiler<br>Cuando el sistema procese la transacción<br>Entonces se mostrará una pantalla con mensaje de éxito y detalles del pago <br>**Escenario 2: Confirmación vía correo electrónico**<br>Dado que el pago fue realizado correctamente<br>Cuando el sistema registre la transacción<br>Entonces se enviará un correo electrónico con el comprobante del pago |  EP05 |
