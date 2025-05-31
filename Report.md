@@ -1402,16 +1402,9 @@ A continuación se muestran los commits realizados por los integrantes del equip
 
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
-#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
-#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 2. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
 
-Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
-
-
-<img src="assets/images/deployment-sprint2/github.png" alt="deployment evidence in github">
-<img src="assets/images/deployment-sprint2/azure.jpeg" alt="deployment evidence in azure">
-<img src="assets/images/deployment-sprint2/azure2.jpeg" alt="deployment evidence in azure">
 <img src="assets/images/deployment-sprint2/1.png" alt="deployment evidence 1" width=800>
 <img src="assets/images/deployment-sprint2/2.png" alt="deployment evidence 2" width=800>
 <img src="assets/images/deployment-sprint2/3.png" alt="deployment evidence 3" width=800>
@@ -1428,6 +1421,18 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
 <img src="assets/images/deployment-sprint2/14.png" alt="deployment evidence 14" width=800>
 <img src="assets/images/deployment-sprint2/15.png" alt="deployment evidence 15" width=800>
 <img src="assets/images/deployment-sprint2/16.png" alt="deployment evidence 16" width=800>
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+No se emplearon servicios adicionales, ya que este primer sprint se centró exclusivamente en la implementación de la primera versión del web application.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
+
+<img src="assets/images/deployment-sprint2/github.png" alt="deployment evidence in github">
+<img src="assets/images/deployment-sprint2/azure.jpeg" alt="deployment evidence in azure">
+<img src="assets/images/deployment-sprint2/azure2.jpeg" alt="deployment evidence in azure">
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
@@ -1519,4 +1524,5 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 ## Anexo B: Videos de exposiciones: 
 - [Link a video de exposición de TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
+- [Link a video de exposición de TP1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH)
 
