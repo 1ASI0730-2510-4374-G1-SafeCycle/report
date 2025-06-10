@@ -773,44 +773,233 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 
 ### 4.7.1. Class Diagrams
 
-<img src="assets/images/diagram-class/diagram-class.png" width="600" alt="diagram class" />
+#### Safecycle Frontend Class Diagram
+
+<img src="assets/images/diagram-class/diagram-class.png" width="1000" alt="diagram class" />
+
+- Renting Bounded Context
+<img src="assets/images/diagram-class/diagram-class2.png" width="1000" alt="diagram class2" />
+
+- Booking Bounded Context
+<img src="assets/images/diagram-class/diagram-class3.png" width="1000" alt="diagram class3" />
+
+- Users Bounded Context
+<img src="assets/images/diagram-class/diagram-class4.png" width="1000" alt="diagram class4" />
+
+- Touring Bounded Context
+<img src="assets/images/diagram-class/diagram-class5.png" width="1000" alt="diagram class5" />
 
 ### 4.7.2. Class Dictionary
-| Clase | Nombre de Atributo | Descripción | Tipo de Dato |
-| ----- | ----- | ----- | ----- |
-| Usuario | nombre | Nombre del usuario | string |
-|  | correo | Correo electrónico del usuario | string |
-|  | fecha\_registro | Fecha de registro del usuario | date |
-| Reserva | reserva | ID de la reserva | int |
-|  | fecha\_reserva | Fecha en que se hizo la reserva | date |
-|  | tiempo\_inicio | Hora de inicio de la reserva | date |
-|  | tiempo\_termina | Hora de finalización de la reserva | date |
-| Pago | pago | ID del pago | int |
-|  | tiempo\_pago | Fecha y hora del pago | date |
-|  | stripe | Código de transacción de Stripe | string |
-| Touring | nombre | Nombre del recorrido | string |
-|  | distancia | Distancia del recorrido | double |
-|  | precio | Precio del recorrido | money |
-|  | tiempo | Duración total del recorrido | time |
-|  | estacion | Nombre de la estación asociada | string |
-|  | tiempo\_inicio | Hora de inicio del recorrido | date |
-|  | tiempo\_termina | Hora de fin del recorrido | date |
-| Alquiler | alquiler | ID del alquiler | int |
-|  | punto\_entrega | Punto donde se entrega la bicicleta | string |
-|  | tiempo\_de\_alquiler | Fecha del alquiler | date |
-| Registro | registro | ID del registro | int |
-|  | condicion\_entrega | Condición de entrega del objeto | string |
-|  | fecha\_entrega | Fecha en que se hizo la entrega | date |
-| Bicicleta | bicicleta | ID de la bicicleta | int |
-|  | condicion | Condición de la bicicleta | string |
-|  | punto\_recogo | Punto de recogida de la bicicleta | string |
-| Almacen | almacen | ID del almacén | int |
-|  | cantidad | Cantidad de bicicletas en el almacén | int |
-|  | capacidad | Capacidad máxima del almacén | int |
-| Identificacion | nacionalidad | Nacionalidad del usuario | string |
-|  | tipoDocumento | Tipo de documento (DNI, pasaporte, etc.) | string |
-| Penalidad | penalidad | ID de la penalidad | int |
-|  | precio\_total | Monto total de la penalidad | double |
+
+## Booking Bounded Context
+
+### Class: `Book`  
+**Package:** `Booking.components`
+
+**Attributes:**
+- `start_date: Date` – Start date of the booking.
+- `start_hour: String` – Start time of the booking.
+- `end_date: Date` – End date of the booking.
+- `end_hour: String` – End time of the booking.
+- `selectedStation: String` – Station chosen by the user.
+- `station: String` – Station assigned to the booking.
+- `bookingImage: String` – Image related to the booking.
+
+**Methods:**
+- `calculate(): void` – Calculates booking duration or cost.
+- `cancelBooking(): void` – Cancels the booking.
+- `confirmBooking(): void` – Confirms and finalizes the booking.
+
+**Relationships:**
+- Uses `RentingServices` to check bike availability.
+- Uses `UsersServices` to validate the user.
+- Used by `TouringBook` to generate bookings.
+
+---
+
+## Renting Bounded Context
+
+### Class: `Rent`  
+**Package:** `Renting.components`
+
+**Attributes:**
+- `name: String` – Name of the form or field.
+- `type: String` – Rental type (e.g., hourly, daily).
+- `inputType: String` – Type of user input.
+- `placeholder: String` – Placeholder for inputs.
+- `initialValue: String` – Default value for the field.
+
+**Methods:**
+- `onFormSubmit(): void` – Submits rental form.
+- `chooseRent(): void` – Selects rental options.
+- `confirmRent(): void` – Confirms a rental.
+- `cancelRent(): void` – Cancels a rental.
+- `startRent(): void` – Starts the rental session.
+- `endRent(): void` – Ends the rental session.
+
+**Relationships:**
+- Uses `RentingServices`.
+- Accesses `UsersServices` to validate users.
+
+### Class: `RentingServices`  
+**Package:** `Renting.services`
+
+**Methods:**
+- `getAvailableBikesByStationId(stationId: String): List<String>` – Returns list of available bikes.
+- `getBikeStations(): List<String>` – Returns all bike stations.
+
+---
+
+## Touring Bounded Context
+
+### Class: `TouringBook`  
+**Package:** `Touring.components`
+
+**Methods:**
+- `getDetails(): void` – Gets detailed tour info.
+- `sendSuccess(): void` – Sends confirmation or success event.
+
+**Relationships:**
+- Uses `TourBookApiService` to retrieve bookings.
+- Uses `UsersServices` to identify user.
+- Uses `Book` to create related reservation.
+
+### Class: `TouringDetails`  
+**Package:** `Touring.components`
+
+**Methods:**
+- `fetchTourBook(): void` – Fetches tour booking from backend.
+
+### Class: `Touring`  
+**Package:** `Touring.model`
+
+**Attributes:**
+- `id: String` – Unique tour identifier.
+- `name: String` – Name of the tour.
+- `hour: String` – Tour start hour.
+- `img: String` – Tour image.
+- `price: Double` – Tour cost.
+
+### Class: `TourBook`  
+**Package:** `Touring.model`
+
+**Attributes:**
+- `id: String` – Booking ID.
+- `name: String` – Name of the tour.
+- `start_hour: String` – Start hour.
+- `start_date: Date` – Start date.
+- `bike_station: String` – Station associated.
+- `duration: Int` – Duration in hours.
+- `cost: Double` – Total cost.
+
+### Class: `TourApiService`  
+**Package:** `Touring.services`
+
+**Methods:**
+- `getAllTours(): List<Touring>` – Returns all tours.
+- `getTourById(id: String): Touring` – Returns tour by ID.
+
+### Class: `TourBookApiService`  
+**Package:** `Touring.services`
+
+**Methods:**
+- `getAllTourBook(): List<TourBook>` – Returns all tour bookings.
+- `GetTourBook(id: String): TourBook` – Returns booking by ID.
+
+---
+
+## UserManagement Bounded Context
+
+### Class: `Student`  
+**Package:** `UserManagement.model`
+
+**Attributes:**
+- `id: String`
+- `username: String`
+- `type: String`
+- `email: String`
+- `password: String`
+- `maxDailyReservationHours: Int`
+- `paymentInformation: String`
+
+### Class: `Tourist`  
+**Package:** `UserManagement.model`
+
+**Attributes:**
+- `id: String`
+- `username: String`
+- `email: String`
+- `type: String`
+- `passport: String`
+- `maxDailyReservationHours: Int`
+- `password: String`
+- `paymentInformation: String`
+
+### Class: `UsersServices`  
+**Package:** `UserManagement.services`
+
+**Methods:**
+- `getByEmail(email: String): Object` – Fetch user by email.
+- `getUserByEmailAndPassword(email: String, password: String): Object` – Authenticates user.
+- `create(userData: Object): void` – Registers a new user.
+
+**Relationships:**
+- Used by `Book`, `Rent`, `TouringBook`, and registration components.
+
+### Class: `Profile`  
+**Package:** `UserManagement.components`
+
+**Attributes:**
+- `username: String`
+- `email: String`
+- `password: String`
+
+**Methods:**
+- `goChangePass(): void`
+- `goEditProfile(): void`
+- `changeLanguage(): void`
+
+### Class: `RegisterStudent`  
+**Package:** `UserManagement.components`
+
+**Attributes:**
+- `educationalEmail: String`
+- `username: String`
+- `password: String`
+
+**Methods:**
+- `noEmailRegistered(): void`
+- `wrongPassword(): void`
+
+### Class: `RegisterTourist`  
+**Package:** `UserManagement.components`
+
+**Attributes:**
+- `email: String`
+- `passport: String`
+- `password: String`
+- `username: String`
+
+**Methods:**
+- `noEmailRegistered(): void`
+- `wrongPassword(): void`
+
+### Class: `Payments`  
+**Package:** `UserManagement.components`
+
+**Attributes:**
+- `cardNumber: String`
+- `cardType: String`
+- `holderName: String`
+
+**Methods:**
+- `editPayment(): void`
+
+### Class: `EditPayments`  
+**Package:** `UserManagement.components`
+
+**Methods:**
+- `saveChanges(): void`
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
