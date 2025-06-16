@@ -595,51 +595,68 @@ JIRA URL: [https://carlos123q.atlassian.net/jira/software/projects/SAF/boards/3/
 
 ### Product Backlog Tablas
 
-| # Orden | User Story Id | Título | Descripción | Story Points |
-| :---- | :---- | :---- | :---- | :---- |
-| 1 | US01 | Ver logo y eslogan | Como visitante deseo ver el logo y eslogan para saber de qué trata Safecycle. | 1 |
-| 2 | US02 | Ver funcionalidades | Como visitante deseo ver las funcionalidades principales para saber qué hace la aplicación. | 3 |
-| 3 | US03 | Ver precios y tarifas | Como visitante deseo ver precios y tarifas para saber si me conviene usar el servicio. | 5 |
-| 4 | US23 | Navigation Bar | Como visitante deseo navegar rápidamente por la página. | 3 |
-| 5 | US24 | How does it work | Como visitante deseo saber cómo funciona la app para entender el proceso. | 3 |
-| 6 | US25 | ¿Por qué nosotros? | Como visitante deseo conocer los beneficios de Safecycle frente a otras opciones. | 5 |
-| 7 | US26 | Footer de la landing | Como visitante deseo ver información útil al pie de la página para acceder a enlaces de interés. | 1 |
-| 8 | US27 | Cambio de idioma landing | Como visitante deseo cambiar el idioma para entender mejor la información. | 2 |
-| 9 | US28 | Atributos ARIA | Como usuario con discapacidad deseo acceder a una web accesible mediante lector de pantalla. | 5 |
-| 10 | US31 | Responsive design | Como visitante deseo que la web funcione bien desde cualquier dispositivo. | 8 |
-| 11 | US33 | Sección Planes | Como visitante deseo ver los planes disponibles para comparar y elegir uno. | 3 |
-| 12 | US04 | Botón empieza ahora | Como visitante deseo tener un botón visible para iniciar el registro. | 1 |
-| 13 | TS01 | Funcionalidad CRUD en la interfaz | Como developer quiero implementar funcionalidades CRUD (Crear, leer, actualizar, eliminar)  en la interfaz para gestionar los recursos de manera dinamica desde el frontend | 3 |
-| 14 | TS02 | Despliegue de la aplicación | Como developer quiero desplegar la aplicación en un entorno accesible públicamente para que otros usuarios puedan probar su funcionamiento | 5 |
-| 15 | TS03 | Validación de datos recibidos desde la Fake API | Como developer, quiero validar que los datos recibidos desde la Fake API cumplan con el formato esperado, para evitar errores en la visualización o manipulación  | 5 |
-| 16 | TS04 | Configuración de las rutas principales  | Como developer, quiero configurar las rutas principales de la aplicación para permitir la navegación entre las diferentes vistas de forma fluida  | 3 |
-| 17 | TS05 | CRUD Users  | Como developer quiero obtener la información de los usuarios mediante la funcionalidad CRUD para monitorear y convalidar a nuestros usuarios  | 5 |
-| 18 | TS06 | CRUD Bikes | Como developer de la aplicación, quiero implementar la funcionalidad CRUD para las bicicletas para registrar nuevas unidades, actualizar su estado o eliminarlas cuando se dé de baja | 8 |
-| 19 | TS07 | CRUD Bike Station | Como developer de la app, quiero implementar funcionalidades CRUD sobre estaciones de bicicletas para administrar sus ubicaciones y capacidades | 5 |
-| 20 | TS08 | CRUD Touring | Como developer de la aplicación, quiero poder administrar la información de los recorridos turísticos (tourings) usando operaciones CRUD para actualizar o eliminar recorridos obsoletos y mostrar los vigentes | 8 |
-| 21 | TS09 | CRUD Bookings | Como developer, quiero implementar operaciones CRUD para que los usuarios puedan gestionar sus reservas de bicicletas o tourings de forma sencilla | 8 |
-| 22 | TS10 | CRUD Payments  | Como developer que trabaja en la aplicación, quiero implementar la funcionalidad CRUD para los métodos de pago para que los usuarios puedan registrar, actualizar o eliminar tarjetas u otros medios asociados a sus cuentas | 5 |
-| 23 | US05 | Login desde landing | Como visitante deseo iniciar sesión fácilmente desde la landing. | 2 |
-| 24 | US06 | Registro estudiante | Como estudiante deseo registrarme desde la web para empezar a usar la app. | 5 |
-| 25 | US07 | Registro turista | Como turista deseo registrarme rápido para comenzar a alquilar bicicletas. | 2 |
-| 26 | US08 | Registro usuario turista | Como turista deseo registrarme en la plataforma para acceder al servicio. | 2 |
-| 27 | US09 | Registro usuario estudiante | Como estudiante deseo registrarme y acceder a beneficios exclusivos. | 2 |
-| 28 | US10 | Login usuario | Como usuario deseo iniciar sesión en mi cuenta para gestionar mis reservas. | 1 |
-| 29 | US20 | Editar perfil | Como usuario deseo actualizar mis datos personales. | 3 |
-| 30 | US22 | Cerrar sesión | Como usuario deseo cerrar sesión para proteger mi cuenta. | 2 |
-| 31 | US32 | Cambio de idioma app | Como usuario deseo cambiar el idioma dentro de la app web. | 2 |
-| 32 | US11 | Alquiler bicicleta | Como usuario deseo alquilar una bicicleta para movilizarme. | 3 |
-| 33 | US12 | Elegir punto de recojo | Como usuario deseo seleccionar el punto más cercano para retirar la bici. | 5 |
-| 34 | US15 | Reservar bicicleta | Como usuario deseo hacer una reserva con anticipación. | 5 |
-| 35 | US16 | Cancelar reserva | Como usuario deseo cancelar una reserva que ya no necesito. | 3 |
-| 36 | US19 | Ver rutas turísticas | Como turista deseo ver rutas sugeridas para explorar la ciudad. | 8 |
-| 37 | US13 | Notificación de mora | Como usuario deseo recibir una alerta si excedo el tiempo de alquiler. | 2 |
-| 38 | US14 | Confirmación de pago | Como usuario deseo recibir confirmación después de pagar. | 3 |
-| 38 | US29 | Actualizar método de pago | Como usuario deseo actualizar mis datos de pago para futuras reservas. | 2 |
-| 40 | US30 | Ver tarifas actuales | Como usuario deseo consultar las tarifas actualizadas antes de alquilar. | 2 |
-| 41 | US17 | Administrar bicicletas | Como administrador deseo gestionar el inventario de bicicletas. | 3 |
-| 42 | US18 | Administrar estaciones | Como administrador deseo editar la información de las estaciones. | 5 |
-| 43 | US21 | Acceder a panel de control | Como administrador deseo ingresar al panel para ver métricas generales. | 2 |
+| Orden | User Story Id | Título | Descripción | Story Points |
+| :---- | :------------- | :----- | :---------- | :------------ |
+| 1 | US01 | Ver el nombre, logo y eslogan de la aplicación | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder visualizar el nombre y eslogan de la aplicación para saber de qué se trata a primera vista | 1 |
+| 2 | US02 | Visualizar principales funciones | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder ver las funcionalidades que ofrece la aplicación para saber que beneficios puedo tener | 2 |
+| 3 | US03 | Visualizar precios y tarifas | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder visualizar los precios y las tarifas que ofrece la aplicación para saber si me conviene comprar sus servicios | 2 |
+| 4 | US04 | Visualizar botón destacado “Empieza ahora” | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Empieza ahora” en la sección principal para comenzar el proceso de registro sin perder tiempo | 1 |
+| 5 | US23 | Navigation Bar | Como visitante de ambos segmentos objetivos quiero acceder a la barra de navegación para moverme rápidamente a cualquier sección de la página | 1 |
+| 6 | US24 | Sección How does it work | Como visitante de ambos segmentos objetivos quiero saber como funciona la aplicación para saber si es de fácil uso | 2 |
+| 7 | US25 | Sección Porque Nosotros | Como visitante de ambos segmentos objetivos, quiero saber por qué debería elegir SafeCycle sobre otras opciones para tomar una decisión informada | 1 |
+| 8 | US26 | Footer | Como visitante de ambos segmentos quiero ver información útil en el footer de la página para acceder rápidamente a redes sociales | 1 |
+| 9 | US27 | Cambio de lenguaje a ingles y español en Landing Page | Como visitante de ambos segmentos objetivos quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido | 2 |
+| 10 | US28 | Atributos Aria | Como visitante de ambos segmentos objetivos quiero que el sitio sea accesible para navegarlo con lectores de pantalla | 1 |
+| 11 | US31 | Acceder a Landing page desde cualquier dispositivo | Como visitante de ambos segmentos objetivos  quiero acceder a la landing page de SafeCycle desde cualquier dispositivo para informarme sobre el servicio sin necesidad de descargar la app | 1 |
+| 12 | US33 | Sección planes | Como visitante de ambos segmentos objetivos quiero explorar los planes disponibles para elegir el que mejor se adapte a mis necesidades antes de registrarme | 2 |
+| 13 | US05 | Acceder a la página inicio de sesión | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Iniciar sesión” en el header para comenzar el proceso de inicio de sesión sin perder tiempo | 1 |
+| 14 | US06 | Acceder a la página de registro de estudiante | Como visitante del segmento objetivo de estudiantes, quiero poder registrarme rápidamente como un estudiante para comenzar el proceso de registro sin perder tiempo | 1 |
+| 15 | US07 | Acceder a la página de registro de turista | Como visitante del segmento objetivo de turistas, quiero poder registrarme rápidamente como un turista para comenzar el proceso de registro sin perder tiempo | 1 |
+| 16 | US34 | Need Finding | Como equipo de desarrollo de SafeCycle, queremos identificar las necesidades y frustraciones de los usuarios objetivo (estudiantes y turistas) para diseñar una solución que responda efectivamente a sus problemas de transporte urbano | 1 |
+| 17 | US35 | User Task Matrix | Como equipo de UX de SafeCycle, queremos visualizar el recorrido completo de los usuarios desde el descubrimiento hasta el uso del servicio para detectar oportunidades de mejora en su experiencia | 1 |
+| 18 | US36 | User Journey Map | Como equipo de UX de SafeCycle, queremos visualizar el recorrido completo de los usuarios desde el descubrimiento hasta el uso del servicio para detectar oportunidades de mejora en su experiencia | 1 |
+| 19 | US37 | Empathy Mapping | Como equipo de SafeCycle, queremos identificar lo que piensan, sienten, dicen y hacen nuestros usuarios para diseñar una solución que conecte empáticamente con sus motivaciones y frustraciones | 1 |
+| 20 | US38 | Scenario Mapping | Como equipo de análisis de SafeCycle, queremos mapear la experiencia actual (As-Is) y la experiencia ideal (To-Be) de los usuarios para identificar mejoras claras en su recorrido | 2 |
+| 21 | US39 | Impact Mapping | Como equipo estratégico de SafeCycle, queremos construir un mapa de impacto para alinear objetivos de negocio con acciones técnicas y funcionalidades que generen valor real para los usuarios | 2 |
+| 22 | US40 | Product Backlog | Como equipo de producto de SafeCycle, queremos construir y priorizar un backlog que contenga las funcionalidades esenciales para estudiantes y turistas, a fin de entregar valor desde las primeras versiones del producto | 1 |
+| 23 | US41 | Modelado C4 | Como equipo técnico de SafeCycle, queremos representar la arquitectura de la aplicación utilizando el modelo C4 para entender mejor la relación entre contexto, contenedores y componentes del sistema | 2 |
+| 24 | US42 | Diagrama de Clases | Como equipo de desarrollo de SafeCycle, queremos crear un diagrama de clases que represente las entidades principales del dominio y sus relaciones, para guiar la implementación orientada a objetos del sistema | 2 |
+| 25 | US43 | Diagrama de Base de Datos | Como equipo de backend de SafeCycle, queremos diseñar un diagrama de base de datos que refleje cómo se almacenan y relacionan los datos de usuarios, bicicletas, reservas y pagos, para facilitar la implementación y escalabilidad del sistema | 2 |
+| 26 | TS02 | Despliegue de la aplicación | Como developer quiero desplegar la aplicación en un entorno accesible públicamente para que otros usuarios puedan probar su funcionamiento | 2 | 
+| 27 | TS04 | Configuración de las rutas principales | Como developer, quiero configurar las rutas principales de la aplicación para permitir la navegación entre las diferentes vistas de forma fluida | 2 | 
+| 28 | US11 | Alquiler de bicicleta | Como usuario de ambos segmentos objetivos quiero poder alquilar una bicicleta para transportarme rápidamente | 3 |
+| 29 | US12 | Elección de puntos de recojo | Como usuario de ambos segmentos objetivos quiero poder elegir el punto de recojo de mi bicicleta para dirigirse a esta fácilmente | 2 |
+| 30 | US13 | Recibir notificación de mora | Como usuario de ambos segmentos objetivos quiero recibir una notificación <br>Cuando exceda el tiempo de alquiler para estar informado de la penalización | 2 |
+| 31 | US14 | Recibir confirmación del pago | Como usuario de ambos segmentos objetivos  quiero recibir una confirmación luego de realizar el pago para asegurarme que fue exitoso | 2 |
+| 32 | US15 | Realizar reservas de bicicletas | Cómo usuario de ambos segmentos objetivos  quiero tener la habilidad de reservar una bicicleta con varios días de anticipación para poder usarla en una fecha específica | 3 |
+| 33 | US16 | Cancelar una reserva | Cómo usuario  de ambos segmentos objetivos deseo tener la habilidad de cancelar mi reserva para los casos en los que ya no requiera el servicio | 2 |
+| 34 | US19 | Rutas turísticas | Cómo turista quiero realizar un tour para explorar la ciudad con puntos turísticos importantes | 3 |
+| 35 | US30 | Ver actuales tarifas | Como usuario de ambos segmentos objetivos quiero visualizar las tarifas actuales de uso para conocer los costos antes de realizar una reserva o alquiler | 1 |
+| 36 | US32 | Cambio de lenguaje a ingles y español en aplicación | Como usuario de ambos segmentos objetivos  quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido | 2 |
+| 37 | US29 | Actualizar información de pago | Cómo usuario  de ambos segmentos objetivos quiero actualizar mi información de pago para agilizar y asegurar las transacciones | 2 |
+| 38 | TS03 | Validación de datos recibidos desde la Fake API | Como developer, quiero validar que los datos recibidos desde la Fake API cumplan con el formato esperado, para evitar errores en la visualización o manipulación | 3 | 
+| 39 | TS01 | Funcionalidad CRUD en la interfaz | Como developer quiero implementar funcionalidades CRUD (Crear, leer, actualizar, eliminar)  en la interfaz para gestionar los recursos de manera dinamica desde el frontend | 5 | 
+| 40 | TS06 | CRUD Bikes | Como developer de la aplicación, quiero implementar la funcionalidad CRUD para las bicicletas para registrar nuevas unidades, actualizar su estado o eliminarlas cuando se dé de baja | 2 |
+| 41 | US17 | Administración de bicicletas | Cómo administrador de Safecycle quiero administrar las bicicletas de cada estación para manejar de forma eficiente las bicicletas | 2 |
+| 42 | TS07 | CRUD Bike Station | Como developer de la app, quiero implementar funcionalidades CRUD sobre estaciones de bicicletas para administrar sus ubicaciones y capacidades | 2 |
+| 43 | US18 | Administración estaciones de bicicletas | Cómo developer de Safecycle quiero recibir información acerca de las estaciones para poder visualizarlas más fácilmente | 2 |
+| 44 | TS08 | CRUD Touring | Como developer de la aplicación, quiero poder administrar la información de los recorridos turísticos (tourings) usando operaciones CRUD para actualizar o eliminar recorridos obsoletos y mostrar los vigentes | 2 |
+| 45 | TS09 | CRUD Bookings | Como developer, quiero implementar operaciones CRUD para que los usuarios puedan gestionar sus reservas de bicicletas o tourings de forma sencilla | 3 |
+| 46 | TS10 | CRUD Payments | Como developer que trabaja en la aplicación, quiero implementar la funcionalidad CRUD para los métodos de pago para que los usuarios puedan registrar, actualizar o eliminar tarjetas u otros medios asociados a sus cuentas | 3 |
+| 47 | TS12 | Endpoint para Tours | Como developer, quiero exponer un endpoint que permita listar, crear y eliminar recorridos turísticos para mantener actualizados los tours disponibles | 2 |
+| 48 | TS13 | Endpoint para TourBooking | Como developer, quiero implementar un endpoint que permita a los usuarios reservar un tour y cancelar la reserva si es necesario | 2 |
+| 49 | TS14 | Endpoint para Bikes | Como developer, quiero exponer un endpoint para gestionar bicicletas, permitiendo su creación, modificación, consulta y eliminación | 2 |
+| 50 | TS15 | Endpoint para Bike Station | Como developer, quiero desarrollar un endpoint para administrar las estaciones de bicicletas, permitiendo operaciones CRUD completas | 2 |
+| 51 | TS16 | Endpoint para Payment | Como developer, quiero implementar un endpoint para registrar pagos de alquiler o tours, asociando la transacción al usuario y enviando confirmación | 2 |
+| 52 | TS17 | Endpoint para Payment Information | Como developer, quiero permitir que los usuarios gestionen su información de pago (tarjetas, métodos), pudiendo registrar, actualizar o eliminar estos datos | 2 |
+| 53 | TS05 | CRUD Users | Como developer quiero obtener la información de los usuarios mediante la funcionalidad CRUD para monitorear y convalidar a nuestros usuarios | 3 |
+| 54 | TS11 | Endpoint para Usuarios | Como developer, quiero implementar un endpoint RESTful para gestionar usuarios, permitiendo operaciones de registro, obtención, actualización y eliminación | 2 |
+| 55 | US08 | Registro de usuario turista | Como usuario turista quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | 3 |
+| 56 | US09 | Registro de usuario estudiante | omo usuario estudiante quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | 3 |
+| 57 | US10 | Iniciar sesión en cuenta personal | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder iniciar sesion en la aplicación para acceder a mi cuenta personal | 3 |
+| 58 | US20 | Actualizar información de perfil | Como usuario  de ambos segmentos objetivos quiero tener la opción de actualizar la información en mi perfil para poder cambiar mis datos en cualquier momento | 2 |
+| 59 | US22 | Cerrar sesión | Cómo usuario de ambos segmentos objetivos e quiero tener la opción de cerrar mi sesión para mantener mi cuenta segura | 1 | 
+
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
