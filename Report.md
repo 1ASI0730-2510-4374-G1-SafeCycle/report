@@ -1495,18 +1495,393 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
 
 #### 5.2.3.3.Sprint Backlog 3.
 
-| Id | Title | Id | Title | Description | Estimation (Hours)  | Assigned To | Status (To-do / InProcess / ToReview / Done) |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
-|  |  |  |  |  |  | Done |
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 3</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned To</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS05</td>
+    <td rowspan="1">CRUD Users</td>
+    <td>T01</td>
+    <td>CRUD usuario - lectura y edición</td>
+    <td>Soporte backend para editar y obtener datos de usuario desde panel.</td>
+    <td>5</td>
+    <td>Diego Mora</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS11</td>
+    <td rowspan="2">Endpoint para IAM</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación del método POST y Delete</td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos getById, getByUser, getByTourist, getAllUsers </td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS08</td>
+    <td rowspan="1">CRUD Touring</td>
+    <td>T01</td>
+    <td>Soporte CRUD tours</td>
+    <td>Soporte backend para editar y obtener datos de recorridos turísticos.</td>
+    <td>5</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS12</td>
+    <td rowspan="2">Endpoint para Tours</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST</td>
+    <td>3</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos getById, getAllTours </td>
+    <td>2</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS13</td>
+    <td rowspan="2">Endpoint para TourBooking</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST, GetByID y PUT</td>
+    <td>3</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos  GetById, GetAll </td>
+    <td>2</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS16</td>
+    <td rowspan="2">Endpoint para Bike Station</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST, /td>
+    <td>4</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+    <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos GetAll ,GetByID, GetAvailableCarStations </td>
+    <td>2</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS06</td>
+    <td rowspan="1">CRUD Bikes</td>
+    <td>T01</td>
+    <td>Soporte CRUD bicicletas</td>
+    <td>Soporte backend para registrar, leer y eliminar bicicletas para uso del sistema.</td>
+    <td>2</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS14</td>
+    <td rowspan="2">Endpoint para Bikes</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST</td>
+    <td>3</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos GetAll, GetByID, GetAvailableCars </td>
+    <td>2</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS10</td>
+    <td rowspan="1">CRUD Payments</td>
+    <td>T01</td>
+    <td>Soporte CRUD métodos de pago</td>
+    <td>Crear backend para registrar y gestionar métodos de pago.</td>
+    <td>4</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS15</td>
+    <td rowspan="2">Endpoint para Payment</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST y Delete</td>
+    <td>2</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos GetAll, GetById </td>
+    <td>2</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS16</td>
+    <td rowspan="2">Endpoint para Payment Information</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST, UPDATE y DELETE </td>
+    <td>4</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+   </tr>
+    <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos GetAll, GetById </td>
+    <td>2</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US32</td>
+    <td rowspan="1">Cambio de lenguaje a inglés y español en la aplicación</td>
+    <td>T01</td>
+    <td>Añadir cambios de lenguaje</td>
+    <td>Implementación de i18n a la aplicación</td>
+    <td>6</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US34</td>
+    <td rowspan="2">Need Finding</td>
+    <td>T01</td>
+    <td>Recopilar información cualitativa</td>
+    <td>Entrevistar usuarios y recopilar insights</td>
+    <td>4</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Consolidar insights y documentar</td>
+    <td>Elaborar documento con necesidades identificadas</td>
+    <td>3</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US35</td>
+    <td rowspan="2">User Task Matrix</td>
+    <td>T01</td>
+    <td>Identificar tareas clave por segmento</td>
+    <td>Analizar y listar tareas de estudiantes y turistas</td>
+    <td>4</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Elaborar matriz de tareas por rol</td>
+    <td>Diseñar matriz visual de tareas</td>
+    <td>3</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US36</td>
+    <td rowspan="2">User Journey Map</td>
+    <td>T01</td>
+    <td>Diseñar journey map del estudiante</td>
+    <td>Mapear pasos y emociones del usuario estudiante</td>
+    <td>4</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Diseñar journey map del turista</td>
+    <td>Mapear pasos y emociones del turista</td>
+    <td>4</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US37</td>
+    <td rowspan="2">Empathy Mapping</td>
+    <td>T19</td>
+    <td>Empathy Map: segmento estudiante</td>
+    <td>Construir mapa de empatía para estudiantes</td>
+    <td>3</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T20</td>
+    <td>Empathy Map: segmento turista</td>
+    <td>Construir mapa de empatía para turistas</td>
+    <td>3</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US38</td>
+    <td rowspan="2">Scenario Mapping</td>
+    <td>T01</td>
+    <td>Definir escenarios As-Is</td>
+    <td>Documentar procesos actuales de los usuarios</td>
+    <td>3</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Definir escenarios To-Be</td>
+    <td>Definir escenarios ideales con SafeCycle</td>
+    <td>3</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done/td>
+  </tr>
+  <tr>
+    <td rowspan="2">US39</td>
+    <td rowspan="2">Impact Mapping</td>
+    <td>T23</td>
+    <td>Identificar objetivos y actores</td>
+    <td>Listar objetivos de negocio y actores clave</td>
+    <td>3</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T24</td>
+    <td>Mapear conexiones impacto-funcionalidad</td>
+    <td>Construir mapa de impacto con funcionalidades</td>
+    <td>4</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US40</td>
+    <td rowspan="2">Product Backlog</td>
+    <td>T25</td>
+    <td>Crear versión inicial del backlog</td>
+    <td>Crear backlog inicial en formato .md</td>
+    <td>3</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T26</td>
+    <td>Validar backlog con equipo</td>
+    <td>Revisar y validar prioridades de backlog</td>
+    <td>3</td>
+    <td>Giancarlo Castañedae</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US41</td>
+    <td rowspan="3">Modelado C4</td>
+    <td>T27</td>
+    <td>Crear diagrama de contexto </td>
+    <td>Modelar nivel contexto del sistema</td>
+    <td>2</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T28</td>
+    <td>Crear diagrama de contenedores </td>
+    <td>Modelar nivel contenedores de la app</td>
+    <td>2</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T29</td>
+    <td>Crear diagrama de componentes </td>
+    <td>Modelar nivel componentes</td>
+    <td>2</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US42</td>
+    <td rowspan="2">Diagrama de Clases</td>
+    <td>T01</td>
+    <td>Modelar clases principales</td>
+    <td>Diseñar diagrama UML de clases del sistema</td>
+    <td>2</td>
+    <td> Giancarlo Castañeda </td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Revisar y validar diagrama</td>
+    <td>Revisión conjunta del modelo de clases</td>
+    <td>3</td>
+    <td> Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US43</td>
+    <td rowspan="2">Diagrama de Base de Datos</td>
+    <td>T01</td>
+    <td>Modelar tablas y relaciones</td>
+    <td>Diseñar diagrama ER de la base de datos</td>
+    <td>4</td>
+    <td>Carlos Matthew, Diego Mora, Gabriel Sanchez, Giancarlo Castañeda, Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Validar estructura del ERD</td>
+    <td>Validación conjunta del ERD</td>
+    <td>3</td>
+    <td>Carlos Matthew, Diego Mora, Gabriel Sanchez, Giancarlo Castañeda, Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 
 A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
