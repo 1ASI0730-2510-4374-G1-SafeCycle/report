@@ -1512,21 +1512,20 @@ Creamos un repositorio en la organización de nuestro equipo en GitHub, donde su
 
 | Id | Title | Id | Title | Description | Estimation (Hours)  | Assigned To | Status (To-do / InProcess / ToReview / Done) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| US23 | Navigation Bar | T1 | Header o Navigation Bar  | Crear un header con botones hipervínculos a diferentes secciones de la landing page | 2 | Diego Mora | Done |
-| US05 | Acceder a la página inicio de sesión desde el botón “Iniciar sesión” | T2 | Boton Call-to-Action de header | Añadir botón call-to-action en la navbar para que pueda ser usado para redireccionar al usuario a una página de inicio de sesión | 1 | Diego Mora | Done |
-| US01 | Ver el nombre, logo y eslogan de la aplicación | T3 | Hero sección | Crear la sección Hero de la landing page | 2 | Gabriel Sanchez | Done |
-| US04 | Ver un botón destacado “Empieza ahora” en la sección principal del landing | T4 | Boton Call-to-Action de Hero  | Añadir botón call-to-action en el Hero Section para que pueda ser usado para redireccionar al usuario a una página de registro | 1 | Gabriel Sanchez | Done |
-| US02 | Visualizar principales funciones | T5 | Que ofrecemos sección | Añadir sección donde se visualiza lo que ofrece la aplicación | 2 | Gabriel Sanchez | Done |
-| US33 | Sección planes | T6 |  |  | 2 | Gabriel Sanchez | Done |
-| US06 | Acceder a la página de registro de estudiante a través de botón “Aplicar para tarifa estudiante” | T7 | Botón Call-to-Action para los estudiantes de Planes | Añadir botón call-to-action en la sección de planes para que pueda ser usado para redireccionar al estudiante a una página de registro | 1 | Gabriel Sanchez | Done |
-| US07 | Acceder a la página de registro de turista a través de botón “Empezar como turista” | T8 | Botón Call-to-Action para los turistas de Planes | Añadir botón call-to-action en la sección de planes para que pueda ser usado para redireccionar al turista a una página de registro | 1 | Gabriel Sanchez | Done |
-| US03 | Visualizar precios y tarifas | T9 | Tarifas sección | Añadir sección donde se visualiza los precios de la aplicación | 2 | Gabriel Sanchez | Done |
-| US24 | Sección How does it work | T10 | Cómo funciona sección | Añadir sección donde se visualiza el funcionamiento de la aplicación | 2 | Gabriel Sanchez | Done |
-| US25 | Sección Porque Nosotros | T11 | Porque nosotros sección | Añadir sección donde se visualiza el porque elegir usar la aplicación | 2 | Gabriel Sanchez | Done |
-| US26 | Footer | T12 | Sección footer | Añadir sección donde se visualiza los métodos de contacto de SafeCycle | 1 | Gabriel Sanchez | Done |
-| US27 | Cambio de lenguaje a ingles y español en Landing Page  | T13 | Opciones de cambio de lenguaje | Añadir botones de cambio de idioma y lógica de elección de lenguaje default | 3 | Gabriel Sanchez | Done |
-| US28 | Atributos Aria | T14 | Implementar atributos Aria | Añadir atributos aria a los elementos para que puedan ser leídos por lectores de pantalla | 1 | Gabriel Sanchez | Done |
-| US31 | Acceder a Landing page desde cualquier dispositivo | T15 | Anadir elementos responsive | Implementar código para que la landing page sea responsive a los diferentes tamaños de pantalla | 4 | Giancarlo Castañeda, Carlos Gonzales | Done |
+| US233 | Navigation Bar | T1 | Header o Navigation Bar  | Crear un header con botones hipervínculos a diferentes secciones de la landing page | 5 | Diego Mora | Done |
+| US05 2 | Acceder a la página inicio de sesión desde el botón “Iniciar sesión” | T2 | Boton Call-to-Action de header | Añadir botón call-to-action en la navbar para que pueda ser usado para redireccionar al usuario a una página de inicio de sesión | 4 | Diego Mora | Done |
+| US01 1 | Ver el nombre, logo y eslogan de la aplicación | T3 | Hero sección | Crear la sección Hero de la landing page | 5 | Gabriel Sanchez | Done |
+| US04 1 | Ver un botón destacado “Empieza ahora” en la sección principal del landing | T4 | Boton Call-to-Action de Hero  | Añadir botón call-to-action en el Hero Section para que pueda ser usado para redireccionar al usuario a una página de registro | 4 | Gabriel Sanchez | Done |
+| US02 3 | Visualizar principales funciones | T5 | Que ofrecemos sección | Añadir sección donde se visualiza lo que ofrece la aplicación | 5 | Gabriel Sanchez | Done |
+| US06 5 | Acceder a la página de registro de estudiante a través de botón “Aplicar para tarifa estudiante” | T7 | Botón Call-to-Action para los estudiantes de Planes | Añadir botón call-to-action en la sección de planes para que pueda ser usado para redireccionar al estudiante a una página de registro | 4 | Gabriel Sanchez | Done |
+| US07 2 | Acceder a la página de registro de turista a través de botón “Empezar como turista” | T8 | Botón Call-to-Action para los turistas de Planes | Añadir botón call-to-action en la sección de planes para que pueda ser usado para redireccionar al turista a una página de registro | 4 | Gabriel Sanchez | Done |
+| US03 5 | Visualizar precios y tarifas | T9 | Tarifas sección | Añadir sección donde se visualiza los precios de la aplicación | 5 | Gabriel Sanchez | Done |
+| US24 3 | Sección How does it work | T10 | Cómo funciona sección | Añadir sección donde se visualiza el funcionamiento de la aplicación | 5 | Gabriel Sanchez | Done |
+| US25 5 | Sección Porque Nosotros | T11 | Porque nosotros sección | Añadir sección donde se visualiza el porque elegir usar la aplicación | 5 | Gabriel Sanchez | Done |
+| US26 1 | Footer | T12 | Sección footer | Añadir sección donde se visualiza los métodos de contacto de SafeCycle | 4 | Gabriel Sanchez | Done |
+| US27 2 | Cambio de lenguaje a ingles y español en Landing Page  | T13 | Opciones de cambio de lenguaje | Añadir botones de cambio de idioma y lógica de elección de lenguaje default | 6 | Gabriel Sanchez | Done |
+| US28 5 | Atributos Aria | T14 | Implementar atributos Aria | Añadir atributos aria a los elementos para que puedan ser leídos por lectores de pantalla | 4 | Gabriel Sanchez | Done |
+| US31 8 | Acceder a Landing page desde cualquier dispositivo | T15 | Anadir elementos responsive | Implementar código para que la landing page sea responsive a los diferentes tamaños de pantalla | 4 | Giancarlo Castañeda, Carlos Gonzales | Done |
 #### 5.2.1.4. Development Evidence for Sprint Review  
 
 A continuación se muestran los commits realizados por los integrantes del equipo, se obviaron los merges y commits incorrectos por razones de mejor visualización acerca de los commits correctamente desarrollados e implementados:
@@ -1612,9 +1611,24 @@ Para la entrega de este Sprint número 1, se desplegó el landing page parcialme
 <img src="assets/images/collaboration-insights/insightsc1.png" width=800>
 <img src="assets/images/collaboration-insights/insightsc2.png" width=800>
 
-
 ### 5.2.2. Sprint 2
 #### 5.2.2.1.Sprint Planning 2.
+
+| Sprint \# | 2 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-13-05 |
+| Time | 12:00 PM |
+| Location | Discord |
+| Prepared by | Giancarlo Castañeda |
+| Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
+| Sprint n – 2 Review Summary | Se realizó las correcciones correspondientes observadas por el profesor, ademas de la creación y deployamiento de la Web App |
+| Sprint n – 2 Retrospective Summary | Creemos que hay oportunidad de hacer una mejor planificación de tiempos para la integraciones y revisiones  |
+| Sprint Goal & User Stories |  |
+| Sprint 2 Goal | El objetivo de este sprint fue la implementación de de la web app, implementando funcionalidades core como también diseñando y gestionando sus servicios de una manera más eficiente.  |
+| Sprint 2 Velocity | Para este sprint nuestro equipo puende aceptar hasta 30 story points |
+| Sum of Story Points | Para este sprint haremos 27 story points |
+
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 | Team Member (Last Name, First Name)  | GitHub Username | Front-End Development| Documentation | Page Deployment | 
 | ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -1679,6 +1693,24 @@ A continuación se muestran los commits realizados por los integrantes del equip
 
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
+
+<img src="assets/images/collabEvidence/Commits-May-7-2025  & April-26-2025-Part 1.png" width=800>
+<img src="assets/images/collabEvidence/Commits-April-26-2025-Part 2.png" width=800>
+<img src="assets/images/collabEvidence/Commits-April-26-2025-Part 3.png" width=800>
+<img src="assets/images/collabEvidence/Commits-April-26-2025-Part 4.png" width=800>
+
+<img src="assets/images/collabEvidence/Landing-page-Sign In.png" width=800>
+<img src="assets/images/collabEvidence/Landing-page-Sign In-student.png" width=800>
+<img src="assets/images/collabEvidence/Landing-page-Sign In-tourist.png" width=800>
+<img src="assets/images/collabEvidence/Landing-page-Rent.png" width=800>
+<img src="assets/images/collabEvidence/Landing-page-Booking.png" width=800>
+<img src="assets/images/collabEvidence/Landing-page-Touring.png" width=800>
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+  Dentro de este primer sprint no se contempló el uso de servicios
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
 
 En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 2. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
 
