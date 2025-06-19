@@ -49,6 +49,8 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :---- | :---- | :---- | :---- |
 | 1.0 | 24/04/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Estructura del informe Capítulo I: Introducción Capítulo II: Requirements Elicitation & Analysis Capítulo III: Requirements Specification Capítulo IV: Product Design Capítulo V: Product Implementation, Validation & Deployment Landing Page Conclusiones Bibliografía Recomendaciones Anexos  |
+| 2.0 | 16/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 2: Deploy del FrontEnd, desarrollo del FrontEnd, Insights  |
+| 3.0 | 15/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 3: Deploy del Backend, conexión con la base de datos y el FrontEnd |
 
 # Project Report Collaboration Insights
 
@@ -64,9 +66,34 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 | Gonzales Valverde, Carlos Matthew	 | Estrategias y tácticas frente a competidores, Registro de entrevistas, User Journey Mapping, Product Backlog, SEO Tags and Meta Tags, Source Code Management, Software Deployment Configuration, Programacion de Landing Page |
 | Jonseck Choque, Oliver | Análisis de entrevistas, Empathy Mapping, Epics & User Stories, Organization Systems, Labeling Systems, Software Architecture Context Diagrams, Software Architecture Container Diagrams, Class Diagrams, Database Diagram, Source Code Style Guide & Conventions, Conclusiones, Programacion de Landing Page |
 
+## **TP1:**
+
+| Integrante | Tareas Asignadas |
+| :---- | :---- |
+| Sanchez Gonzales | Correción Lean UX Problem Statements Correción User Flows Correción Figma Correción entrevistas Software Deployment Evidence for Sprint Review. Team Collaboration Insights during Sprint. Programación de Application Web |
+| Mora Blas, Diego Alonzo | Docomuntación del Sprint 3, Programación de Application Web |
+| Castañeda Guimas, Giancarlo Santiago | Deployment de la pagina. Docomuntación del Sprint 3. Programación de Application Web |
+| Gonzales Valverde, Carlos Matthew | Programación de Application Web |
+| Jonseck Choque, Oliver | Diseño y correción de Diagramas |
+
+## **TB2:**
+
+| Integrante | Tareas Asignadas |
+| :---- | :---- |
+| Sanchez Gonzales | Programación del BackEnd. Validation Interviews Heuristics |
+| Mora Blas, Diego Alonzo | Programación del BackEnd |
+| Castañeda Guimas, Giancarlo Santiago | Programación del BackEnd. Correción de los diagramas de clase, datos y modelado C4 |
+| Gonzales Valverde, Carlos Matthew | Programación del BackEnd |
+| Jonseck Choque, Oliver | Programación del BackEnd. Implementación del idioma ingles y español al FrontEnd |
+
+
+**Link de la pagina deployada:** 
+
+https://white-mud-04527db10.6.azurestaticapps.net/
+
 **Link del repositorio-Informe:** 
 
-**Link de los repositorios de la oraganización:** [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
+**Link de los repositorios de la organización:** [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
 
 A continuación se visualiza el diagrama de barras que representa la cantidad de commits realizados por el equipo de trabajo:
 <img src="assets/images/insights-report/insightsreport.PNG" width=800>
@@ -219,27 +246,14 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
     - [Flujos y Prototype](#flujos-y-prototype)
   - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
   
-[6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
-
-[7. Bibliografia](#7-bibliografia)
-
-[8. Anexos](#8-anexos)
-
-  - [Anexo A: Diseño y Landing:](#anexo-a-diseño-y-landing)
-    - [Figma](#figma)
-    - [Encuesta How Much de 5W2H](#encuesta-how-much-de-5w2h)
-    - [User Persona](#user-persona)
-    - [Landing Page](#landing-page)
-    - [Domain-Driven Software Architecture / C4 Diagrams](#domain-driven-software-architecture--c4-diagrams)
-    - [Flujos y Prototype](#flujos-y-prototype)
-  - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
 
 # Student Outcome
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br>**Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 <br>**Jonseck Choque, Oliver *TB1***<br> Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones <br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.  | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso.  <br>**Mora Blas, Diego Alonzo: *TB1***<br> En nuestro equipo el liderazgo es compartido: generamos diálogos abiertos, escuchamos todas las perspectivas y elegimos juntos la opción más viable. Cada quien aporta su experiencia sin reservas, lo que potencia la creatividad y refuerza la confianza mutua. Así, las decisiones se vuelven más sólidas y el resultado final refleja el esfuerzo colectivo. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo, logramos una plenitud de ideas como grupo, al dialogar, tener reuniones compartiendo información las cuales refuerzan las ideas dadas.  <br>**Jonseck Choque, Oliver *TB1***<br> Cómo equipo mantuvimos una comunicación estable y continua nos repartimos los trabajos de acuerdo a nuestra disponibilidad y responsabilidad. Siempre revisamos los trabajos de cada uno aportando ideas y críticas constructivas. <br>**Carlos Matthew, Gonzales *TB1***<br>Como equipo tuvimos un muy buen ambiente y comunicación, nos pudimos dividir los trabajos y establecernos límites entre nosotros para poder cumplir nuestras actividades a tiempo. Siempre estamos en constante revisión de las partes en los trabajos.  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br>**Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 <br>**Jonseck Choque, Oliver *TB1***<br>Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones. <br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.    | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. <br>**Mora Blas, Diego Alonzo: *TB1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo decidimos tener nuestras metas claras y concisas con lo que debemos realizar, pensamos que realizar todo a tiempo seria lo mejor y obviamente el trabajo en equipo es lo primordial  <br>**Jonseck Choque, Oliver *TB1***<br> Cómo grupo decidimos crear un plan para entregar partes del trabajo a tiempo, esto para que sean revisadas y corregidas por todos, siempre mostrando un entorno agradable de apoyo. <br>**Carlos Matthew, Gonzales *TB1***<br>Como grupo hemos creado un plan entre nosotros para entregar los trabajos a tiempo, que viene siendo limites puestos por nosotros mismos así podemos organizarnos mejor y ayudarnos por si falta algo en la última semana de entrega, para así poder pulir y entregar un trabajo impecable, siempre comunicándonos todo. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br>**Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 **Castañeda Guimas, Giancarlo Santiago: *TP1***<br>En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web <br>**Jonseck Choque, Oliver *TB1***<br> Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones <br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.  | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso.  <br>**Mora Blas, Diego Alonzo: *TB1***<br> En nuestro equipo el liderazgo es compartido: generamos diálogos abiertos, escuchamos todas las perspectivas y elegimos juntos la opción más viable. Cada quien aporta su experiencia sin reservas, lo que potencia la creatividad y refuerza la confianza mutua. Así, las decisiones se vuelven más sólidas y el resultado final refleja el esfuerzo colectivo. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo, logramos una plenitud de ideas como grupo, al dialogar, tener reuniones compartiendo información las cuales refuerzan las ideas dadas. <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br> Como grupo, volvimos a hacer un trabajo en conjunto y en comunicación, compartiendo dialogo e ideas para resolver dificultades acerca del curso  <br>**Jonseck Choque, Oliver *TB1***<br> Cómo equipo mantuvimos una comunicación estable y continua nos repartimos los trabajos de acuerdo a nuestra disponibilidad y responsabilidad. Siempre revisamos los trabajos de cada uno aportando ideas y críticas constructivas. <br>**Carlos Matthew, Gonzales *TB1***<br>Como equipo tuvimos un muy buen ambiente y comunicación, nos pudimos dividir los trabajos y establecernos límites entre nosotros para poder cumplir nuestras actividades a tiempo. Siempre estamos en constante revisión de las partes en los trabajos.  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br>**Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1  <br> **Castañeda Guimas, Giancarlo Santiago: *TP1***<br> En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web**Jonseck Choque, Oliver *TB1***<br>Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones. <br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.    | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. <br>**Mora Blas, Diego Alonzo: *TB1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo decidimos tener nuestras metas claras y concisas con lo que debemos realizar, pensamos que realizar todo a tiempo seria lo mejor y obviamente el trabajo en equipo es lo primordial  <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>Como grupo tuvimos que dejar algunas cosas claras sobretodo a la hora de la planificación para que todos podamos seguir adelante conociendo nuestras limitaciones en el momento<br>**Jonseck Choque, Oliver *TB1***<br> Cómo grupo decidimos crear un plan para entregar partes del trabajo a tiempo, esto para que sean revisadas y corregidas por todos, siempre mostrando un entorno agradable de apoyo. <br>**Carlos Matthew, Gonzales *TB1***<br>Como grupo hemos creado un plan entre nosotros para entregar los trabajos a tiempo, que viene siendo limites puestos por nosotros mismos así podemos organizarnos mejor y ayudarnos por si falta algo en la última semana de entrega, para así poder pulir y entregar un trabajo impecable, siempre comunicándonos todo. |
+
 
 # Capítulo I: Introducción
 
@@ -313,30 +327,28 @@ El problema se lleva a cabo cuando miles de personas en Lima metropolitana inten
 
 Medimos la magnitud del problema a través de entrevistas realizadas a un público de 30 personas que transitan diariamente en Lima Metropolitana
 
-<img src="/assets/images/charts/1.png" width=800>
+<img src="assets/images/charts/1.png" width=800>
 
-<img src="/assets/images/charts/2.png" width=800>
+<img src="assets/images/charts/2.png" width=800>
 
-<img src="/assets/images/charts/3.png" width=800>
+<img src="assets/images/charts/3.png" width=800>
 
-<img src="/assets/images/charts/4.png" width=800>
+<img src="assets/images/charts/4.png" width=800>
 
-<img src="/assets/images/charts/5.png" width=800>
+<img src="assets/images/charts/5.png" width=800>
 
-[Link a encuesta enviada](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
+Link a encuesta enviada: [https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
 
-[Link a resultados de encuesta](https://docs.google.com/spreadsheets/d/1tCFJkLHdxL313atSLzJCLOHC-6f2ujesVNoaYFEerGg/edit?usp=sharing)
+Link a resultados de encuesta: [https://docs.google.com/spreadsheets/d/1tCFJkLHdxL313atSLzJCLOHC-6f2ujesVNoaYFEerGg/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1tCFJkLHdxL313atSLzJCLOHC-6f2ujesVNoaYFEerGg/edit?usp=sharing)
 
 Gracias a las encuestas realizadas se observó que un 86.7% no cuenta con un transporte fijo de transporte, un 63.3% cree que siempre tiene retrasos por el tráfico, un 93.3% se sentiría cómodo con el uso de una bicicleta como medio de transporte segura, económica y fácil de usar. Además, cuentan con una preferencia hacia los precios accesibles y seguridad de servicio en un 96.7% y 90% respectivamente. Finalmente el 80% de los encuestados piensan que una aplicación de alquiler de bicicletas les ayudaría a moverse mejor alrededor de la ciudad. Con esto podemos concluir que en efecto esta problemática es verdadera y concurrente dentro de Lima Metropolitana. La demanda es clara: los usuarios necesitan una alternativa confiable, segura y eficiente frente al actual caos del transporte urbano.
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-- Nuestra solución busca proveer un aplicativo que conecte a los estudiantes y turistas que no tengan un método de traslado fijo  con un medio de transporte eco amigable, rápido y accesible, como lo es la bicicleta, con el fin de que puedan desplazarse de un lugar a otro a través de esta misma. Asimismo, al garantizar la seguridad de los usuarios de estas bicicletas a través de bloqueos en casos un uso excesivo o por bloqueo del propio rentador, evitamos posibles robos y mal usos de las bicicletas.
-- Hemos observado que al no tener un transporte fijo tanto los estudiantes como turistas no pueden llegar a sus destinos propuestos a tiempo. El tráfico en Lima metropolitana y el acumulamiento de gente dentro de servicios de transporte público hacen la tarea de desplazamiento casi imposible, y tanto los estudiantes como los turistas no tienen una necesidad para comprarse un transporte personal para poder movilizarse. 
-- ¿Cómo podemos ofrecer un transporte fiable y organizado, que los ayude a llegar a su destino?
-- Notamos que los estudiantes y turistas no desean pagar por un medio de transporte como son los taxis, puesto que las tarifas pueden llegar a exceder su presupuesto, pero tampoco se sienten cómodos al usar el transporte público, pues este es muy incomodo o los deja con mucha caminata hacia su destino final lo que termina generando una pérdida de tiempo. Esto repercusiona en que no pueden llegar a los destinos que desean a tiempo y terminan gastando más tiempo en el recorrido que en el propio lugar.
-- ¿Cómo puede nuestra plataforma proveer a nuestro público con una manera más eficiente de transporte y movilización?
+Los servicios actuales no pueden abordar de forma correcta el problema de los escasos medios de transporte rápidos, económicos y seguros para los ciudadanos de Lima Metropolitana que no cuentan con un transporte fijo. Estos grupos enfrentan dificultades para llegar puntualmente a sus destinos debido al tráfico concurrente en horas pico. En consecuencia, los usuarios suelen pagar altos costos de servicios como los taxis para poder llegar a su destino. Además, el transporte público muchas veces no los deja cerca de su destino final, generando pérdida de tiempo y fatiga al tener que caminar.
+Nuestro servicio abordará esta necesidad mediante una plataforma de alquiler de bicicletas por minuto, que permita a los usuarios movilizarse de manera eficiente, económica y además sostenible al medio ambiente.
+Nuestro enfoque inicial será estudiantes universitarios y turistas en zonas urbanas congestionadas, los cuales cuentan particularmente en Lima Metropolitana.
 
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -355,11 +367,11 @@ Creemos que los estudiantes y turistas en Lima enfrentan una falta de transporte
 
 | Business Problem | Solution Ideas | Business Outcomes |
 | :---- | :---- | :---- |
-| Nuestra solución busca proveer un aplicativo que conecte a los estudiantes y turistas que no tengan un método de traslado fijo  con un medio de transporte eco amigable, rápido y accesible, como lo es la bicicleta, con el fin de que puedan desplazarse de un lugar a otro a través de esta misma. Asimismo, al garantizar la seguridad de los usuarios de estas bicicletas a través de bloqueos en casos un uso excesivo o por bloqueo del propio rentador, evitamos posibles robos y mal usos de las bicicletas. Hemos observado que al no tener un transporte fijo tanto los estudiantes como turistas no pueden llegar a sus destinos propuestos a tiempo. El tráfico en Lima metropolitana y el acumulamiento de gente dentro de servicios de transporte público hacen la tarea de desplazamiento casi imposible. Además, tanto los estudiantes como los turistas no tienen la necesidad de comprarse un transporte personal para poder movilizarse.  ¿Cómo podemos ofrecer un transporte fiable y organizado, que los ayude a llegar a su destino? Notamos que los estudiantes y turistas no desean pagar por un medio de transporte como son los taxis, puesto que las tarifas pueden llegar a exceder su presupuesto, pero tampoco se sienten cómodos al usar el transporte público, pues este es muy incomodo o los deja aun con mucha caminata hacia su destino, generando una pérdida de tiempo. Esto repercusiona en que no pueden llegar a los destinos que desean de forma puntual y terminan gastando más tiempo en el recorrido que en el propio lugar. ¿Cómo puede nuestra plataforma proveer a nuestro público con una manera más eficiente de transporte y movilización? | Brindar un préstamo de bicicleta para que los estudiantes o turistas puedan movilizarse por un costo. Integrar un sistema de bloqueo automático para evitar un mal uso de las bicicletas. Contar con un sistema de recojo y devolución a través de diferentes estaciones | Los estudiantes usarán más nuestra plataforma que el transporte público habitual en un 30%. Control adecuado a las bicicletas gracias a su sistema de seguridad, reduciendo en un 20% de probabilidades de mal uso Retención de usuarios en un 50% después del primer mes Aumento de visibilidad de la plataforma en un 40% por los usuarios que la comparten |
+| Nuestra solución busca proveer un aplicativo que conecte a los estudiantes y turistas que no tengan un método de traslado fijo con un medio de transporte eco amigable, rápido y accesible, como lo es la bicicleta, con el fin de que puedan desplazarse de un lugar a otro a través de esta misma. Asimismo, al garantizar la seguridad de los usuarios de estas bicicletas a través de bloqueos en casos un uso excesivo o por bloqueo del propio rentador, evitamos posibles robos y mal usos de las bicicletas. Hemos observado que al no tener un transporte fijo los estudiantes no pueden llegar a sus destinos propuestos a tiempo, en el caso de los turistas llegan a perderse en la ciudad y no lleguen a realizar su turismo de manera adecuada. El tráfico en Lima metropolitana y el acumulamiento de gente dentro de servicios de transporte público hacen la tarea de desplazamiento casi imposible. Además, tanto los estudiantes como los turistas no tienen la necesidad de comprarse un transporte personal para poder movilizarse. ¿Cómo podemos ofrecer un transporte fiable y organizado, que los ayude a llegar a su destino? Notamos que los estudiantes no desean pagar por un medio de transporte como son los taxis, puesto que las tarifas pueden llegar a exceder su presupuesto o con los turistas pueden poseer problemas al momento de pagar o comunicarse, estos sin embargo no se sienten cómodos al usar el transporte público, pues este es muy incómodo, los deja aun con mucha caminata hacia su destino o desconocen a donde los pueden llevar, generando una pérdida de tiempo. Esto causa que no pueden llegar a los destinos que desean de forma puntual y terminan gastando más tiempo en el recorrido que en el propio lugar. ¿Cómo puede nuestra plataforma proveer a nuestro público con una manera más eficiente de transporte y movilización? | Brindar un préstamo de bicicleta para que los estudiantes o turistas puedan movilizarse por un costo. Integrar un sistema de bloqueo automático para evitar un mal uso de las bicicletas. Contar con un sistema de recojo y devolución a través de diferentes estaciones | Los estudiantes usarán más nuestra plataforma que el transporte público habitual en un 30%. Control adecuado a las bicicletas gracias a su sistema de seguridad, reduciendo en un 20% de probabilidades de mal uso Retención de usuarios en un 50% después del primer mes Aumento de visibilidad de la plataforma en un 40% por los usuarios que la comparten. |
 | Hypothesis | Users & Customers | User Benefits |
-| Creemos que la eficacia con la que se movilizan los estudiantes y turistas aumentaría en un 80% debido a que se les proporcionará con una herramienta de transporte de acceso libre, como son las bicicletas, a través de un pago mínimo. Sabremos que estamos en lo correcto cuando se visualice un aumento de puntualidad hacia ciertos eventos. Creemos que los estudiantes y turistas podrán viajar más cómodamente hacia sus destinos, proporcionándoles una mejor experiencia en general. Sabremos que estamos en lo correcto cuando a través de encuestas a usuarios se menciona seguidamente que la comodidad de sus viajes ha mejorado, concluyendo con más de un 70% de aprobación en cuanto a comodidad. Creemos que nuestro servicio será 30% más económico que otros medios de transporte de la ciudad para los estudiantes y turistas. Sabremos que estamos en lo correcto al comparar la media de dinero que gastaban antes los usuarios en comparación con lo que gastan usando nuestro servicio. Creemos que la implementación de este sistema de préstamo de bicicletas puede reducir hasta un 20% la congestión vehicular que se presencia en zonas de rutas universitarias y rutas turísticas. Sabremos que estamos en lo correcto cuando se visualice un cambio en las paradas de transporte público, mostrando que más personas pueden entrar en los buses y menos personas recurren a los taxis. Creemos que los usuarios se sentirán más seguros usando las bicicletas sabiendo que estas tienen un sistema de bloqueo automático que solo se activa solo cuando el tiempo de préstamo se sobrepasa o si la bicicleta es reportada como robada. Sabremos que estamos en lo correcto a través de entrevistas a los usuarios acerca de la confianza que le tienen a las bicicletas. | Estudiantes universitarios de pregrado que deseen llegar a su destino rápidamente y evitar el tráfico. Turistas que requieran un transporte personal temporal sin la necesidad de rentar un automóvil. | Tener acceso a un transporte personal económico, amigable con el medio ambiente y disponible en cualquier momento Movilizarse rápida y eficazmente alrededor de la ciudad. Llegar más puntuales a diferentes eventos o lugares, proporcionando un mayor tiempo en el lugar y menos tiempo de movilización. Reducir sus gastos de transporte gracias a su precio accesible. Contribuir a una mejora en el medio ambiente al usar un medio de transporte ecoamigable  |
+| Creemos que la eficacia con la que se movilizan los estudiantes y turistas aumentaría en un 80% debido a que se les proporcionará con una herramienta de transporte de acceso libre, como son las bicicletas, a través de un pago mínimo. Sabremos que estamos en lo correcto cuando se visualice un aumento de puntualidad hacia ciertos eventos. Creemos que los estudiantes y turistas podrán viajar más cómodamente hacia sus destinos, proporcionándoles una mejor experiencia en general. Sabremos que estamos en lo correcto cuando a través de encuestas a usuarios se menciona seguidamente que la comodidad de sus viajes ha mejorado, concluyendo con más de un 70% de aprobación en cuanto a comodidad. Creemos que nuestro servicio será 30% más económico que otros medios de transporte de la ciudad para los estudiantes y turistas. Sabremos que estamos en lo correcto al comparar la media de dinero que gastaban antes los usuarios en comparación con lo que gastan usando nuestro servicio. Creemos que la implementación de este sistema de préstamo de bicicletas puede reducir hasta un 20% la congestión vehicular que se presencia en zonas de rutas universitarias y rutas turísticas. Sabremos que estamos en lo correcto cuando se visualice un cambio en las paradas de transporte público, mostrando que más personas pueden entrar en los buses y menos personas recurren a los taxis. Creemos que los usuarios se sentirán más seguros usando las bicicletas sabiendo que estas tienen un sistema de bloqueo automático que solo se activa solo cuando el tiempo de préstamo se sobrepasa o si la bicicleta es reportada como robada. Sabremos que estamos en lo correcto a través de entrevistas a los usuarios acerca de la confianza que le tienen a las bicicletas. | Estudiantes universitarios de pregrado que deseen llegar a su destino rápidamente y evitar el tráfico. Turistas que requieran un transporte personal temporal sin la necesidad de rentar un automóvil. | Tener acceso a un transporte personal económico, amigable con el medio ambiente y disponible en cualquier momento Movilizarse rápida y eficazmente alrededor de la ciudad. Llegar más puntuales a diferentes eventos o lugares, proporcionando un mayor tiempo en el lugar y menos tiempo de movilización. Poseer un método que les permita conocer más orgánica y simplemente la ciudad. Reducir sus gastos de transporte gracias a su precio accesible. Contribuir a una mejora en el medio ambiente al usar un medio de transporte eco amigable.  |
 |  | What’s the most important thing we need to learn first?  | What’s the least amount of work we need to learn the next most important thing?    |
-|  | Determinar si los estudiantes y turistas están dispuestos a pagar por el servicio propuesto. Verificar que los usuarios de estas bicicletas no les den un mal uso a las mismas. | Diseñar entrevista con preguntas concretas a una estadística Desplegar una versión de prueba con pocas bicicletas en puntos estratégicos para detectar posibles problemas iniciales |
+|  | Determinar si los estudiantes y turistas están dispuestos a pagar por el servicio propuesto. Verificar que los usuarios de estas bicicletas no les den un mal uso a las mismas. Y cuales son las zonas más frecuentadas por estos. | Diseñar entrevista con preguntas concretas a una estadística Desplegar una versión de prueba con pocas bicicletas en puntos estratégicos para detectar posibles problemas iniciales |
 
 ## 1.3 Segmentos objetivo.
 ### 1.3.1 Segmento objetivo 1: Estudiantes pregrado
@@ -385,7 +397,7 @@ Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de
 | :---- | :---- |
 | ¿Por qué llevar a cabo este análisis?  | Deseamos analizar a nuestros competidores para buscar en qué puntos podemos mejorar, contra que nos estamos enfrentando en el mercado y como nos distinguimos de estos |
 
-|  |  | ![Logo Safe Cycle](/assets/images/Logos/LogoSafeCycle.png)  Safecycle | ![Logo City Bike Lima](/assets/images/Logos/CityBikeLimaLogo.png) CityBikeLima | ![Logo Barranco Bikes](/assets/images/Logos/BarrancoBikesLogo.jpg) Barrancobikes | ![Logo Mira Bici](/assets/images/Logos/MiraBiciLogo.png) Mirabiciperu |
+|  |  | ![Logo Safe Cycle](assets/images/Logos/LogoSafeCycle.png)  Safecycle | ![Logo City Bike Lima](assets/images/Logos/CityBikeLimaLogo.png) CityBikeLima | ![Logo Barranco Bikes](assets/images/Logos/BarrancoBikesLogo.jpg) Barrancobikes | ![Logo Mira Bici](assets/images/Logos/MiraBiciLogo.png) Mirabiciperu |
 | :---- | :---- | ----- | :---- | :---- | :---- |
 | Perfil | Overview Ventaja competitiva  | Plataforma direccionada hacia la renta por minuto de las bicicletas, las cuales se pueden reservar desde la aplicación y posteriormente. | Servicio presencial en el cual se rentan bicicletas por un tiempo de 30 minutos gratis a través de pases mensuales, anuales o diarios y pagados por la pantalla de la bicicleta. | Una plataforma en la que puedes pagar por una bicicleta por horas, días o semanas alrededor de Barranco | Plataforma que ofrece una reservas de bicicletas a través de rutas turísticas |
 |  | ¿Qué valor ofrece a los clientes? | • Devolución de bicicletas en cualquier estación. <br>• Cobro por minuto. <br>• Seguro automatico. <br>• Paquetes de descuento a estudiantes | • Tarjeta con pases anuales <br>• Desbloqueo de bicicleta con código o tarjeta <br>• Devolución de bicicletas en cualquier estación. <br>• Servicio de pausa de la bicicleta | • Renta de bicicletas por horas, días y semanas <br>• Proporciona elementos de seguridad Delivery de bicicleta | • 3 rutas de turismo  <br>• Ofrece una renta de bicicleta por duración de tour  |
@@ -400,23 +412,39 @@ Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de
 |  | Amenazas | • Competencia en el mercado alta<br>• Robo o hackeos | • Problemas por clima o infraestructura | • Quejas por demora de renta | • Cambios de normativas de rutas <br>• Poca retención de usuarios |
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
-Después de revisar lo que ofrecen otras plataformas, y considerando el análisis SWOT que hicimos, nos dimos cuenta de que hay cosas que podemos hacer diferentes y mejor. Algunas son ideas que ya estamos implementando, y otras se presentan como oportunidades claras que vamos a aprovechar.
+Después de revisar lo que ofrecen otras plataformas, y considerando el análisis SWOT que hicimos, nos dimos cuenta de que hay cosas que podemos hacer diferentes y mejor. Aunque ya estemos implementando algunas, hay otras que podemos incluir para sobre salir entre nuestros competidores.
 
-**1\. Hacer que la plataforma sea fácil de entender y usar**
+**Estrategias**
 
-Uno de los problemas que encontramos en otras aplicaciones es que, aunque tienen buenas ideas, no siempre son prácticas. Nosotros queremos que SafeCycle se entienda sin complicaciones. Desde que el usuario abre la app hasta que devuelve la bici, todo debe ser claro. También vamos a incluir pequeñas guías o tutoriales dentro de la misma aplicación, por si alguien necesita ayuda la primera vez.
+**Experiencia del cliente**
 
-**2\. Pensar tanto en estudiantes como en turistas**
+Esto lo podemos lograr al ofrecer un servicio más fácil y accesible que otros, ya sean utilizar una forma de pago mucho más fácil e intuitiva, ofrecer un servicio mejor en teoría para el cliente dándoles mayor libertad al escoger su servicio y/o ofreciendo bicicletas de mejor calidad para el cliente promedio. En el caso de nuestro segmento objetivo, los estudiantes pueden obtener un descuento al momento de alquilar, además de poseer almacenes en zonas donde estos frecuentan por sus estudios y en el caso de los turistas ofrecemos una aplicación que se encuentra en otros idiomas (principalmente inglés), un sistema de pago que se ajusta a medios de pagos más internacionales, una forma rápida de iniciar sesión, independientemente de donde provienen y ofreciendo una opción de recorrer rutas predeterminadas para incentivar el turismo en la ciudad.
 
-La mayoría de servicios actuales tiende a enfocarse en un solo tipo de usuario. Algunos están hechos solo para turistas, mientras que otros no consideran sus necesidades. Lo que haremos es ofrecer algo equilibrado. Por ejemplo, planes económicos para estudiantes y rutas prácticas para quienes están visitando la ciudad. De esa forma, cada grupo podrá usar la app sin sentir que está usando algo que no se adapta a su realidad.
+**Diferenciación de la competencia**
 
-**3\. Generar confianza desde el primer momento**
+Nos diferenciamos de otros servicios principalmente por que ofrecemos bicicletas con GPS y un freno automatico incluido, lo que da una mayor sensación de seguridad al cliente; rutas personalizadas para ofrecer un turismo de mayor calidad por la ciudad, con una asistencia incluida por el celular; la posibilidad de reservar bicicletas; no hay necesidad de pagar una membresía; alquiler rápido e inmediato de una bicicleta y mayor libertad al momento de alquilar una bicicleta.
 
-Una de las amenazas más comunes en este tipo de servicios es que la gente no confíe en el sistema o tema que le roben la bicicleta. Por eso, desde el primer día vamos a usar un sistema de bloqueo automático si se pasa el tiempo o si se reporta un mal uso. Esto también responde a una de las debilidades que vimos en el análisis: la poca atención al  cliente en otras plataformas.
+**Precios más vistosos**
 
-**4\. Crecer poco a poco, según lo que el usuario diga**
+Los precios que se muestran en la aplicación están puestos con la idea de aparentar ser más baratos (se encuentran cómo centavos por minuto en vez de soles por hora), esto permite que el cliente sienta que tenga un mayor control sobre lo que paga a diferencia de nuestros competidores que cobran por hora (Barrancobikes), con una membresía (Citybike Lima) o exclusivamente con una reserva (mirabici).
 
-No vamos a intentar cubrir toda la ciudad de golpe. Empezaremos en zonas donde haya más movimiento de nuestros públicos objetivo, y conforme vayamos recibiendo opiniones, iremos mejorando y expandiéndonos. Queremos que el crecimiento de SafeCycle sea ordenado, sostenible y siempre de la mano del usuario.
+**Alquiler y reserva más rápida que otros**
+
+Ofrecemos además una manera para alquilar y/o reserva mucho más fácil que otros con una interfaz fácil de usar, diferentes maneras de pagos, más idiomas y un sistema de avisos que ayuda al cliente.
+
+**Tácticas**
+
+**Mejores bicicletas**
+
+Las bicicletas se promocionan cómo más seguras, con un GPS incluido, cómodas y de último modelo, para esto se observan las bicicletas de los competidores y la calidad en la cual se encuentran.
+
+**Mejor digitalización**
+
+Se implementará un seguimiento por medio de Google maps con mejor precisión y un seguimiento a la bicicleta que permitirá saber dónde esta localizado. Además, que tendremos un sitio web claro dónde el cliente sabrá guiarse. Finalmente, después de una determinada cantidad de viajes se le preguntara al cliente si quisiera dejar una reseña (Mostraremos principalmente las reseñas con 4 de 5 estrellas o más en la página principal).
+
+**Un servicio que evoluciona**
+
+Ofreceremos más rutas con el paso del tiempo e incluiremos más medios de pago para facilitar el proceso, además de buscar maneras de ofrecer descuentos a los clientes. Y cómo idea a futuro principal, podremos realizar alianzas con otras empresas cómo “Yape” para ofrecer descuentos desde su aplicación o con empresas de viajes para que turistas tengan bicicletas ya reservadas.
 ## 2.2 Entrevistas
 ### 2.2.1 Diseño de entrevistas
 Como se mencionó anteriormente, nuestros segmentos objetivos están conformados por estudiantes universitarios de pregrado, principalmente aquellos que viven en cercanías de la universidad y turistas.
@@ -433,67 +461,66 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 
 ¿Cuál es tu lugar de nacimiento?
 
+¿Cómo te transportas habitualmente en tu día a día?
+
+¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+
+¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+
+¿Cuánto estarías dispuesto a pagar por un minuto de alquiler?
+
 **Estudiantes:**
 
-- ¿Cómo te transportas habitualmente en tu día a día?
+¿Cuáles son los horarios que consideras más críticos en términos de congestión en el transporte?
 
-- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+¿Qué problemas enfrentas al usar el transporte público o privado como estudiante?
 
-- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+¿Te ha afectado el costo del transporte?
 
-- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+¿Has usado bicicletas anteriormente para movilizarte al campus o a otro entorno?
 
-- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+¿Qué elementos valoras más en un sistema de préstamo de bicicletas?
 
-- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
 
-- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
+¿Te sentirías cómodo usando una app para reservar, desbloquear y pagar por la bicicleta?
 
-- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
+¿Qué medidas de seguridad te harían confiar en el servicio?
 
-- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
-
-- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
+¿Qué te haría dejar de usar el servicio?
 
 **Turistas:**
 
-- ¿Cómo te transportas habitualmente en tu estadía?
+¿Has usado bicicletas como turista en otras ciudades? ¿Qué te gustó o incomodó?
 
-- ¿Cuánto tiempo te demora normalmente para llegar a tu destino?
+¿Te interesaría conocer la ciudad en bicicleta? ¿Por qué sí o por qué no?
 
-- ¿Has usado bicicletas anteriormente como medio de transporte antes? ¿Cuál fue la razón?
+¿Consideras que explorar la ciudad en bicicleta te conecta más con su historia, costumbres y cultura?
 
-- ¿Cuáles son las principales dificultades que enfrentas al moverte alrededor de la ciudad?
+¿Te gustaría contar con rutas recomendadas o tours autoguiados en la app?
 
-- ¿Qué tan cómodo es ir en el transporte que usas actualmente para llegar a tu destino?
+¿Qué aspectos valoras más en un servicio de alquiler de bicicletas como turista?
 
-- En una escala del 1 al 5, ¿Qué tan dispuesto estarías a usar un servicio de préstamo de bicicletas?
+¿Qué factores te harían sentir seguro usando una bicicleta en una ciudad que no conoces?
 
-- ¿Cuanto estas pagando actualmente en tus servicios de transporte semanalmente?
-
-- ¿Cuánto estarías dispuesto a pagar por un servicio de alquiler de bicicletas?
-
-- ¿Te sentirías más seguro y confiado acerca del sistema sabiendo que la bicicleta se bloquea automáticamente si excedes el tiempo del préstamo o se detecta como robada?
-
-- ¿Has usado anteriormente algún servicio de préstamo de bicicletas? ¿Qué te llamó la atención y que no?
 ### 2.2.2 Registro de entrevistas.
 
 | Segmento Objetivo | Estudiantes |
 | ----- | ----- |
 | **Número de registro** | **Datos del entrevistado** |
-| 01 | **Nombre:** Masaru Nikaido <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario **Distrito:** San Borja <br>**Inicio \- Duración:** 0:00 \- 9:39 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EcOxX6OmbxpItmVcMZ6kNuABqCHsXueskZbc_v41cdhhvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PnFjdS)** |
+| 01 | **Nombre:** Masaru Nikaido <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario **Distrito:** San Borja <br>**Inicio \- Duración:** 0:00 \- 9:39<br> ![interview-image](assets/images/interview-images/interview-image1.png) |
 |  | **Resumen:** Primero nos cuenta que tiene varias opciones a la hora de elegir su transporte, con las cuales aproximadamente se demora entre 20 y 1 hora en llegar a su destino. Nos cuenta que uso la bicicleta en manera de hacer ejercicio y de manera recreativa más que todo, además nos cuenta que sus principales dificultades al momento de transportarse es el tráfico.En cuanto a nuestra aplicación, menciona que es una buena idea al tratarse de una alternativa ecológica y barata comparado a otros competidores y lo consideraría si en un futuro existieran.  |
-| 02 | **Nombre:** Sebastian Rubio <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** San Juan de Miraflores <br>**Inicio \- Duración:** 0:00 \- 3:43 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EQd4AujSIvlInuhHyasyfWYBMIkFCk0shg9DGG3WWEIpAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RAWBH1)** |
+| 02 | **Nombre:** Sebastian Rubio <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** San Juan de Miraflores <br>**Inicio \- Duración:** 9:39 \- 13:23 <br> ![interview-image](assets/images/interview-images/interview-image2.png) |
 |  | **Resumen:** Al comenzar la entrevista se le hace la pregunta como se suele movilizar a lo que él responde que en auto, por lo cual normalmente y sin trafico suele trasladarse a su destino entre 15 a 30 minutos. Nos cuenta que ademas del trafico, sus dificultades al transportarse por la ciudad es por la forma de las carreteras al no poder girar hacia un lado, cometes un error y no hay mucho que hacer. Ademas nos cuenta que ya habia visto una idea similar a la nuestra y si le interesaria utilizarla en algun momento como una alternativa a su transporte actual|
-| 03 | **Nombre:**  Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 0:00 \- 5:25 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-3.mkv](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314130_upc_edu_pe/EUDq_N85FKJPguTrCVUShpQB9PNvLjD0-WIlv3Yfii5hrw?e=psjhMf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)** |
+| 03 | **Nombre:**  Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 13:23 \- 18:50 <br> ![interview-image](assets/images/interview-images/interview-image3.png) |
 |  | **Resumen:** Daniel nos cuenta que tiene carro y se moviliza a todas partes con eso, suele demorar entre 20 a 25 minutos algunas veces un poco más por el tráfico. Nos dice que si ha usado bicicletas anteriormente, pero mayormente cuando salía a pasear como un método de recreación. Uno de los problemas principales que tiene al moverse por la ciudad sería el tráfico. Le interesa mucho nuestra aplicación ya que lo podría necesitar para tramos cortos que no necesiten carro y pueda llegar a tiempo a su destino sin tráfico y ahorrando en gasolina|
 | **Segmento Objetivo** | **Turistas** |
-| **04** | **Nombre:** Juan Diego Sersen <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 0:00 \- 4:09 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-4.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EfH2XZKty3hAiBMtzeb_1xIBqQMj-Dk_sWxMviE1jYbEbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZHaPZz)** |
+| **04** | **Nombre:** Juan Diego Sersen <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 18:50 \- 23:00 <br> ![interview-image](assets/images/interview-images/interview-image4.png)|
 |  | **Resumen:** Se menciona que se tarda en llegar media hora hacia su destino, luego nos menciona que se suele transportar mucho en bicicleta, de hecho nos cuenta que en uno de sus viajes a Paises Bajos se dio cuenta que varias personas usaban la bicicleta como medio de transporte mucho mas que los autos asi que el tambien tuvo que acostumbrarse. También al mencionarle de un precio aproximado para que utilice nuestra aplicación seria de 3 a 5 soles y tambien le pareceria genial que hubiera una sección de ratings y comentarios para saber que opina la gente sobre nuestra aplicación, finalmente comentó que le pareceria buena idea implementar nuestra app en el país. |
-| **05** | **Nombre:** Santiago Valdivia <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 0:00 \- 5:54 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-5.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/ETy_uxrs0lBEmGXAC30yeSABog1SBjRfHgrf7HY2tj_0FQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=dzUUdL)** |
+| **05** | **Nombre:** Santiago Valdivia <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 23:00 \- 28:55  <br> ![interview-image](assets/images/interview-images/interview-image5.png)|
 |  | **Resumen:** Nos comenta que se suele transportar por la linea 1 del metro o en algunos casos usa el metropolitano y aproximadamente se demora en llegar entre 20 minutos y en casos mas extremos 1 hora a su destino. Usaba bicicleta de manera recreativa y ademas cuenta que su mayor dificultad a la hora de movilizarse es el trafico cuando usa el metropolitano. Al momento de preguntarle sobre el transporte mas comodo que ha usado nos habla cuando estaba en Argentina y utilizaba el Subterraneo mas que todo por las conexiones que cuenta este, donde se puede movilizar a todos los lugares del país, ademas nos comenta de un servicio parecido al nuestro el cual se encuentra en los bosques de Palermo, donde puedes pedir una bicicleta rentada y usarla por cuanto tiempo quieras. Al momento de consultarle sobre si podria parecerle buena idea implementar acá en Perú dijo que si pero tendria que ser en lugar mas urbanos como Miraflores y que le pareceria interesante llegar a usarlo.  |
-|**06**| **Nombre:** Itzel Vargas <br>**Edad:** 19 <br>**Profesión:** Estudiante de intercambio <br>**Distrito:** Miraflores **Inicio \- Duración:** 0:00 \- 3:29 <br>**Enlace de la entrevista: [upc-pre-202510-1asi0730-4374-SafeCycle-needfinding-sprint-6.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202314130_upc_edu_pe/EdCz9Fn0fiJBvEnPg0Wn3twBMvRQOLy0TFGBnsse_tpMmg?e=kgHNIZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)** |
+|**06**| **Nombre:** Itzel Vargas <br>**Edad:** 19 <br>**Profesión:** Estudiante de intercambio <br>**Distrito:** Miraflores **Inicio \- Duración:** 28:55 \- 32:25 <br> ![interview-image](assets/images/interview-images/interview-image6.png) |
 |  | **Resumen:** Nos comenta que se mueve en taxi normalmente por aplicativos, se suele tardar entre 40 minutos. Si usa bicicletas ya que suele movilizarse así en su ciudad La Paz lo ve algo muy práctico. También comenta que en Perú más que todo en la capital(Lima) hay mucho tráfico. En escala del 1 al 5 pone un 4 ya que si estaría dispuesta a usar un servicio de préstamo de bicicletas más que todo si cuenta con estaciones bien ubicadas. Entre la semana gasta 100 a 150 soles. |
+
 ### 2.2.3 Análisis de entrevistas.
 Los entrevistados demostraron usar diversos tipos de transporte para movilizarse por la ciudad, incluyendo su propio carro, otros usan transporte publico como el metro o el metropolitano, y en algunos casos, la bicicleta, aunque esta última se emplea más comúnmente con fines recreativos o de ejercicio. Un patrón recurrente en las respuestas es que el tráfico representa una de las principales dificultades, lo cual es algo que consideramos obvio al vivir en un país con la peor estadistica en terminos de trafico y conductores en toda sudamerica, esto genera demoras a la mayoria de los entrevistados entre 20 minutos y 1 hora para llegar a sus destinos. Ademas, algunos participantes mencionan problemas con la infraestructura vial, como la dificultad para moverse libremente o tomar rutas.
 
@@ -501,35 +528,25 @@ En cuanto a la percepción de la aplicación propuesta, los entrevistados coinci
 
 En resumen, el analisis de las entrevistas revela que existe una necesidad o más que todo un interes latente en encontrar otras alternativas de transportes mas eficientes y sostenibles en el país. Sin embargo, es fundamental considerar aspectos como el contexto urbano, la facilidad de uso de la aplicación y la seguridad de las rutas propuestas por nosotros. 
 ## 2.3 Needfinding
-## 2.3.1 User Personas.
-### **Estudiante**: 
-![User Persona Anne Guillen](/assets/images/user-personas/Anne%20Guillen%20(2).png)
-[Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
+
+### *Estudiante*: 
+![User Persona Anne Guillen](assets/images/user-personas/Anne.png)
+[Link a UXpresia de Anne Guillen: ](https://uxpressia.com/w/2JtXc/p/tbFfu)[https://uxpressia.com/w/2JtXc/p/tbFfu](https://uxpressia.com/w/2JtXc/p/tbFfu)
 <br>
-### **Turista**: 
-![User Persona Mateo Smith](/assets/images/user-personas/Mateo%20Smith.png)
-[Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+
+### *Turista*: 
+![User Persona Mateo Smith](assets/images/user-personas/Mateo.png)
+[Link a UXpresia de Mateo Smith: ](https://uxpressia.com/w/2JtXc/p/Wfgtx) [https://uxpressia.com/w/2JtXc/p/Wfgtx](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+
 ## 2.3.2 User Task Matrix.
-### **Estudiantes**
 
-| Actividades | Frecuencia | Importancia |
-| ----- | ----- | ----- |
-| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
-| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
-| Planificar el costo del viaje a realizar | Media | Alta |
-| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
-| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
-
-### **Turistas**
-
-| Actividades | Frecuencia | Importancia |
-| ----- | ----- | ----- |
-| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta |
-| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta |
-| Planificar el costo del viaje a realizar | Media | Alta |
-| Ajustar horarios para llegar puntualmente a los eventos | Alta | Alta |
-| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media |
-| Programar visitas y turismo evitando las horas más congestionadas del tráfico | Baja | Media |
+| Actividades | Frecuencia (Estudiante) | Importancia (Estudiante) | Frecuencia (Turista) | Importancia (Turista) |
+| ----- | ----- | ----- | ----- | ----- |
+| Buscar entre opciones de transporte accesibles y económicas al bolsillo | Media | Alta | Baja | Media |
+| Determinar el tiempo que tomará el viaje hacia su destino | Alta | Alta | Media | Media |
+| Planificar el costo del viaje a realizar | Media | Alta | Media | Media |
+| Ajustar horarios para llegar puntualmente a los eventos | Alta | Media | Alta | Alta |
+| Evaluar si usar un transporte público o invertir en un taxi | Baja | Media | Media | Media |
 
 ## 2.3.3 User Journey Mapping.
 **Estudiante**
@@ -543,13 +560,13 @@ En resumen, el analisis de las entrevistas revela que existe una necesidad o má
 
 ![empathy mapping estudiante](assets/images/empathy-mapping/anne.png)
 
-[Link a UXpressia de Estudiante](https://uxpressia.com/w/MVR4C/p/XW82t)
+Link a UXpressia de Estudiante: [https://uxpressia.com/w/MVR4C/p/XW82t](https://uxpressia.com/w/MVR4C/p/XW82t)
 
 **Turista**
 
 ![empathy mapping estudiante](assets/images/empathy-mapping/Turista.png)
 
-[Link a UXpressia de Turista](https://uxpressia.com/w/MVR4C/p/Fgd5L)
+Link a UXpressia de Turista: [https://uxpressia.com/w/MVR4C/p/Fgd5L](https://uxpressia.com/w/MVR4C/p/Fgd5L)
 
 ### 2.3.5 As-is Scenario Mapping.
 
@@ -560,7 +577,7 @@ En resumen, el analisis de las entrevistas revela que existe una necesidad o má
 #### 2.3.5.2. As-is Scenario Mapping para User Persona turistas: 
 ![as is estudiante](assets/images/as-is/AS-IS%20turistas.png)
 
-As-Is: [link a lucidchart](https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-17a3e32970f8/edit?viewport_loc=-2548%2C250%2C7773%2C3859%2C0_0&invitationId=inv_582f073d-e93a-4e57-b8b9-b9503fdc5d86)
+As-Is: [https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-17a3e32970f8/edit?viewport_loc=-2548%2C250%2C7773%2C3859%2C0_0&invitationId=inv_582f073d-e93a-4e57-b8b9-b9503fdc5d86](https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-17a3e32970f8/edit?viewport_loc=-2548%2C250%2C7773%2C3859%2C0_0&invitationId=inv_582f073d-e93a-4e57-b8b9-b9503fdc5d86)
 
 
 ## 2.4 Ubiquitous Language
@@ -570,7 +587,18 @@ As-Is: [link a lucidchart](https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-
 | Renter (Arrendatario) | Usuario que desea utilizar la bicicleta mediante la aplicación  |
 | Bike Station (Estaciones de Bicicletas) | Lugar físico donde se aparcaran y devolverán las bicicletas |
 | Rental Session (Sesión de Alquiler) | Periodo de tiempo desde que el usuario tiene la bicicleta hasta que la devuelve |
+| Touring (Turismo) | Actividad de usar una bicicleta para recorrer largos trayectos, generalmente con fines recreativos o turísticos. |
 | Bike Availability (Disponibilidad de Bicicleta) |  Información en tiempo real sobre bicicletas libres en cada estación |
+| Rental Fee (Tarifa del Alquiler) | Costo calculado en base a la duración de la sesión de alquiler. |
+| Overdue Rental (Alquiler Vencido) | Sesión de alquiler que ha excedido el tiempo permitido sin devolver la bicicleta |
+| Booking (Reserva) | Funcionalidad opcional que permite a un usuario reservar una bicicleta con anticipación |
+| Usage History (Historial de Uso) | Registro de todas las sesiones de alquiler asociadas a un usuario |
+| Penalty Fee (Tarifa por Penalización) | Cargo adicional aplicado cuando la sesión de alquiler se pasa del tiempo permitido |
+| Payment Method (Método de Pago) | Medio utilizado por el usuario para pagar las tarifas de alquiler, como tarjeta de crédito, débito o billetera digital |
+| QR Code (Código QR) | Código que el usuario escanea con la aplicación móvil para desbloquear una bicicleta |
+| Availability (Disponibilidad) | Número de bicicletas y docks libres en una estación en un momento dado |
+| Route (Ruta) | Trayecto sugerido o realizado por el usuario durante el uso de una bicicleta |
+| Terms of Use (Términos de Uso) | Conjunto de reglas y condiciones que los usuarios deben aceptar para utilizar el servicio |
 
 # Capítulo III: Requirements Specification
 
@@ -584,7 +612,7 @@ As-Is: [link a lucidchart](https://lucid.app/lucidchart/a4476272-86db-4f53-be0b-
 
 <img src="assets/images/tobe/tobemateo.png" alt="to be turista" width=700 >
 
-Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b8-b097-39f6b0eb2b89/edit?invitationId=inv_b080ad76-754a-4654-92d4-9187d6fa6b4f)
+Link a To-be: [https://lucid.app/lucidchart/177d57bf-a831-48b8-b097-39f6b0eb2b89/edit?invitationId=inv_b080ad76-754a-4654-92d4-9187d6fa6b4f](https://lucid.app/lucidchart/177d57bf-a831-48b8-b097-39f6b0eb2b89/edit?invitationId=inv_b080ad76-754a-4654-92d4-9187d6fa6b4f)
 
 ## 3.2 Epics & User Stories
 
@@ -659,43 +687,72 @@ Link a To-be: [link a lucidchart](https://lucid.app/lucidchart/177d57bf-a831-48b
 
 | Story ID | Título | Descripción | Criterios de aceptación | EPIC ID |
 | :---- | :---- | :---- | :---- | :---- |
-| US01 | Ver el nombre, logo y eslogan de la aplicación | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder visualizar el nombre y eslogan de la aplicación para saber de qué se trata a primera vista | **Escenario 1: Ver logo en header** <br>Dado que el visitante se encuentra en la página del landing page de SafeCycle <br>Cuando el visitante mire hacia la parte del header <br>Entonces el visitante podrá visualizar el logo de SafeCycle arriba a la izquierda. <br>**Escenario 2: Ver logo y slogan principal** <br>Dado que el visitante se encuentra en la página del landing page de SafeCycle <br>Cuando el visitante mire la sección principal <br>Entonces visualizará el logo de SafeCycle y su eslogan  | EP01 |
-| US02 | Visualizar principales funciones | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder ver las funcionalidades que ofrece la aplicación para saber que beneficios puedo tener | **Escenario 1: Ver funcionalidades de SafeCycle** <br>Dado que el visitante accede al landing page de SafeCycle <br>Cuando el visitante observa la sección "Qué ofrecemos" desplazándose hacia abajo. <br>Entonces podrá visualizar tarjetas con con descripciones acerca de lo que se ofrece dentro de la aplicación. <br>**Escenario 2: Ver beneficios para estudiantes** <br>Dado que el visitante del segmento objetivo de estudiantes se encuentra en la landing page <br>Cuando el visitante del segmento objetivo de estudiantes baje a la sección de planes <br>Entonces verá los beneficios para estudiantes como tarifas más bajas y pagos nacionales. <br>**Escenario 3: Ver beneficios para turistas** <br>Dado que el visitante del segmento objetivo de turistas y se encuentra en la landing page <br>Cuando el visitante del segmento objetivo de turistas baje a la sección de planes <br>Entonces verá los beneficios para turistas como turismo en grupo y pagos con Paypal. | EP01 |
-| US03 | Visualizar precios y tarifas | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder visualizar los precios y las tarifas que ofrece la aplicación para saber si me conviene comprar sus servicios. | **Escenario 1: Ver tarifas generales** <br>Dado que el visitante se encuentra navegando en la landing page de SafeCycle <br>Cuando da click en  “Tarifas” en el header  O se desplaza hasta la sección correspondiente <br>Entonces podrá ver las tarjetas con las tarifas por minuto de general <br>**Escenario 2: Ver tarifas estudiantiles** <br>Dado que el visitante se encuentra navegando en la landing page de SafeCycle <br>Cuando da click en  “Tarifas” en el header  O se desplaza hasta la sección correspondiente <br>Entonces podrá ver las tarjetas con las tarifas por minuto estudiantiles | EP01 |
-| US04 | Visualizar botón destacado “Empieza ahora” en la sección principal del landing | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Empieza ahora” en la sección principal para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Presionar botón empieza ahora** <br>Dado que el visitante se encuentra en la sección principal del landing page  <br>Y ubica el botón con el texto “Empieza ahora” <br>Cuando hace clic en el botón con el texto “Empieza ahora”<br>Entonces será redirigido a la página de registro de la aplicación. | EP02 |
-| US05 | Acceder a la página inicio de sesión desde el botón “Iniciar sesión” | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Iniciar sesión” en el header para comenzar el proceso de inicio de sesión sin perder tiempo. | **Escenario 1: Presionar botón Iniciar Sesión** <br>Dado que el visitante se encuentra en la sección principal del landing page  <br>Y se dirige al header <br>Y ubica el botón con el texto “Iniciar Sesión” <br>Cuando hace clic en el botón con el texto “Iniciar sesión”<br>Entonces será redirigido a la página de inicio de sesión de la aplicación. | EP02 |
+| US01 | Ver el nombre, logo y eslogan de la aplicación | Como visitante de ambos segmentos objetivos , quiero poder visualizar el nombre y eslogan de la aplicación para saber de qué se trata a primera vista | **Escenario 1: Ver logo en header** <br>Dado que el visitante se encuentra en la página del landing page de SafeCycle <br>Cuando el visitante mire hacia la parte del header <br>Entonces el visitante podrá visualizar el logo de SafeCycle arriba a la izquierda. <br>**Escenario 2: Ver logo y slogan principal** <br>Dado que el visitante se encuentra en la página del landing page de SafeCycle <br>Cuando el visitante mire la sección principal <br>Entonces visualizará el logo de SafeCycle y su eslogan  | EP01 |
+| US02 | Visualizar principales funciones | Como visitante de ambos segmentos objetivos , quiero poder ver las funcionalidades que ofrece la aplicación para saber que beneficios puedo tener | **Escenario 1: Ver funcionalidades de SafeCycle** <br>Dado que el visitante accede al landing page de SafeCycle <br>Cuando el visitante observa la sección "Qué ofrecemos" desplazándose hacia abajo. <br>Entonces podrá visualizar tarjetas con con descripciones acerca de lo que se ofrece dentro de la aplicación. <br>**Escenario 2: Ver beneficios para estudiantes** <br>Dado que el visitante del segmento objetivo de estudiantes se encuentra en la landing page <br>Cuando el visitante del segmento objetivo de estudiantes baje a la sección de planes <br>Entonces verá los beneficios para estudiantes como tarifas más bajas y pagos nacionales. <br>**Escenario 3: Ver beneficios para turistas** <br>Dado que el visitante del segmento objetivo de turistas y se encuentra en la landing page <br>Cuando el visitante del segmento objetivo de turistas baje a la sección de planes <br>Entonces verá los beneficios para turistas como turismo en grupo y pagos con Paypal. | EP01 |
+| US03 | Visualizar precios y tarifas | Como visitante de ambos segmentos objetivos , quiero poder visualizar los precios y las tarifas que ofrece la aplicación para saber si me conviene comprar sus servicios. | **Escenario 1: Ver tarifas generales** <br>Dado que el visitante se encuentra navegando en la landing page de SafeCycle <br>Cuando da click en  “Tarifas” en el header  O se desplaza hasta la sección correspondiente <br>Entonces podrá ver las tarjetas con las tarifas por minuto de general <br>**Escenario 2: Ver tarifas estudiantiles** <br>Dado que el visitante se encuentra navegando en la landing page de SafeCycle <br>Cuando da click en  “Tarifas” en el header  O se desplaza hasta la sección correspondiente <br>Entonces podrá ver las tarjetas con las tarifas por minuto estudiantiles | EP01 |
+| US04 | Visualizar botón destacado “Empieza ahora” en la sección principal del landing | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Empieza ahora” en la sección principal para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Presionar botón empieza ahora** <br>Dado que el visitante se encuentra en la sección principal del landing page  <br>Y ubica el botón con el texto “Empieza ahora” <br>Cuando hace clic en el botón con el texto “Empieza ahora”<br>Entonces será redirigido a la página de registro de la aplicación. | EP02 |
+| US05 | Acceder a la página inicio de sesión desde el botón “Iniciar sesión” | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Iniciar sesión” en el header para comenzar el proceso de inicio de sesión sin perder tiempo. | **Escenario 1: Presionar botón Iniciar Sesión** <br>Dado que el visitante se encuentra en la sección principal del landing page  <br>Y se dirige al header <br>Y ubica el botón con el texto “Iniciar Sesión” <br>Cuando hace clic en el botón con el texto “Iniciar sesión”<br>Entonces será redirigido a la página de inicio de sesión de la aplicación. | EP02 |
 | US06 | Acceder a la página de registro de estudiante a través de botón “Aplicar para tarifa estudiante” | Como visitante del segmento objetivo de estudiantes, quiero poder registrarme rápidamente como un estudiante para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Presionar botón “Aplicar para tarifa estudiante”** <br>Dado que el visitante se encuentra en la sección de precios y tarifas <br>Y ubica el botón “Aplicar para tarifa estudiante” <br>Cuando hace clic en el botón “Aplicar para tarifa estudiante”. <br>Entonces será redirigido a la página de registro como estudiante de la aplicación | EP02 |
 | US07 | Acceder a la página de registro de turista a través de botón “Empezar como turista” | Como visitante del segmento objetivo de turistas, quiero poder registrarme rápidamente como un turista para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Presionar botón “Empezar como turista”** <br>Dado que el visitante se encuentra en la sección de precios y tarifas <br>Y ubica el botón “Empezar como turista” <br>Cuando hace clic en el botón “Empezar como turista”. <br>Entonces será redirigido a la página de registro como turista de la aplicación | EP02 |
-| US08 | Registro de usuario turista | Como usuario turista quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para turista** <br>Dado que el turista ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Turista"<br>Cuando el turista visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email, pasaporte, contraseña y un campo para repetir la contraseña.<br>Y se muestra el botón “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesion” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña y la ha repetido correctamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema crea una nueva cuenta de turista <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el turista ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email o número de pasaporte inválido <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
-| US09 | Registro de usuario estudiante | Como usuario estudiante quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para estudiante** <br>Dado que el estudiante ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Estudiante"<br>Cuando el estudiante visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email institucional, contraseña y un campo para repetir la contraseña.<br>Y se muestra el botón “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesión” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el estudiante ha ingresado un email institucional válido, contraseña y la ha repetido correctamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema crea una nueva cuenta de estudiante   <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el estudiante ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email institucional inválido <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el estudiante ha ingresado un email institucional válido y una contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
-| US10 | Iniciar sesión en cuenta personal | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder iniciar sesion en la aplicación para acceder a mi cuenta personal | **Escenario 1: Iniciar sesión con datos válidos** <br>Dado que el turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado su email y contraseña correctamente <br>Cuando presiona el botón “Iniciar Sesión” <br>Entonces será redirigido a su cuenta personal dentro de la aplicación   <br>**Escenario 2: Ingresar datos inválidos** <br>Dado que el usuario turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado un email no registrado o una contraseña incorrecta <br>Cuando presiona el botón “Iniciar Sesión” <br>Entonces el sistema mostrará un mensaje de error indicando que las credenciales son inválidas | EP03 |
-| US11 | Alquiler de bicicleta   | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder alquilar una bicicleta para transportarme rápidamente | **Escenario 1: Renta de bicicletas** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema calculará y mostrará el costo del viaje dependiendo del tiempo. <br>**Escenario 2: Renta de bicicleta y tiempo de estudiante sin tiempo en cuenta** <br>Dado que el estudiante está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Y no tiene suficientes minutos restantes de renta diarios. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que el usuario no tiene el tiempo restante suficiente en su cuenta por el día. <br>**Escenario 3: Ingreso de datos incompletos o inválidos** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y deja vacío el campo de minutos. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que debe ingresar una cantidad de minutos | EP04 |
-| US12 | Elección de puntos de recojo alquilar una bicicleta | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder elegir el punto de recojo de mi bicicleta para dirigirse a esta fácilmente | **Escenario 1: Visualizar puntos de recojo** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y ha rellenado el formulario de renta de bicicletas. <br>Cuando el sistema calcule el precio estimado de la ruta. <br>Entonces el sistema mostrará las estaciones de bicicletas cercanas para recogerlo. <br>**Escenario 2: Elegir puntos de recojo** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y ha rellenado y enviado el formulario de renta de bicicletas. <br>Cuando el usuario elija la estacion <br>Entonces el sistema procederá la renta con la estación elegida | EP04 |
-| US13 | Recibir notificación de mora si excedo el tiempo | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero recibir una notificación <br>Cuando exceda el tiempo de alquiler para estar informado de la penalización. | **Escenario 1: Notificación de tiempo excedido**<br>Dado que el usuario ha alquilado una bicicleta<br>Y el tiempo límite de alquiler ha sido superado, <br>Cuando el sistema detecte el exceso de tiempo <br>Entonces envía una notificación alertando sobre la mora aplicable <br>**Escenario 2: Cálculo automático de mora**<br>Dado que el usuario ha excedido el tiempo acor<br>Dado<br>Cuando el sistema actualice la duración del préstamo<br>Entonces el sistema calcula el monto adicional a pagar por el exceso de tiempo | EP05 |
-| US14 | Recibir confirmación del pago realizado | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero recibir una confirmación luego de realizar el pago para asegurarme que fue exitoso. | **Escenario 1: Confirmación visual inmediata**<br>Dado que el usuario ha completado el pago de una renta o alquiler<br>Cuando el sistema procese la transacción<br>Entonces se mostrará una pantalla con mensaje de éxito y detalles del pago <br>**Escenario 2: Confirmación vía correo electrónico**<br>Dado que el pago fue realizado correctamente<br>Cuando el sistema registre la transacción<br>Entonces se enviará un correo electrónico con el comprobante del pago |  EP05 |
-| US15 | Realizar reservas de bicicletas | Cómo usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero tener la habilidad de reservar una bicicleta con varios días de anticipación para poder usarla en una fecha específica. | **Escenario 1: Reserva de bicicleta** <br>Dado a que el usuario está en la pantalla de reserva <br>Cuando ingresa los datos de la reserva como (Fecha inicio y fin, Hora inicio y fin, y la estación de la que desea recoger) <br>Y la aplicación calcula el monto aproximado de la reserva <br>Y el usuario confirma la reserva <br>Entonces se la bicicleta se marca como reservada y se separa de las bicicletas disponibles <br>**Escenario 2: Reserva con 2 o menos  días de anticipación** <br>Dado a que el usuario realiza una reserva con 2 o menos días de anticipación. <br>Cuando se confirma la reserva. <br>Entonces se le envía una confirmación, se separará la bicicleta de las disponibles en el sistema  y se separará la bicicleta de las disponibles en la estación  y se realiza el pago. <br>**Escenario 3: Reserva con más de 2 días de anticipación** <br>Dado a que el usuario realiza una reserva con más de 2 días de anticipación. <br>Cuando se confirma la reserva. <br>Entonces se le envía una confirmación, se separará la bicicleta de las disponibles en el sistema  <br>Y se separará la bicicleta de las disponibles en la estación  <br>Y se realiza el pago.  <br>Y se cobra una cantidad extra según la cantidad de días de anticipación. | EP04 |
-| US16 | Cancelar una reserva | Cómo usuario  de ambos segmentos objetivos estudiante y turista de SafeCycle deseo tener la habilidad de cancelar mi reserva para los casos en los que ya no requiera el servicio | **Escenario 1: El usuario cancela su reserva** <br>Dado a que el usuario reservo una bicicleta <br>Y ya no requiere de la bicicleta que previamente reservó. <br>Y va a la seccion de “Current Rental” <br>Cuando selecciona el botón de “Cancelar reserva”. <br>Entonces se cancelará la reserva y la bicicleta vuelve a entrar al sistema como disponible**.** | EP04 |
-| US17 | Administración de bicicletas | Cómo administrador de Safecycle quiero administrar las bicicletas de cada estación para manejar de forma eficiente las bicicletas. | **Escenario 1: Visualizar información de cada bicicleta** <br>Dado que el administrador ha iniciado sesión <br>Y se encuentra en el Panel de Control \> Manejar Bicicletas <br>Cuando escoja un estación de bicicletas <br>Entonces en el panel de control se visualizan las bicicletas de esa estación de bicicletas. <br>**Escenario 2: Formulario para modificar información de bicicleta desde panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación <br>Y esta en la sección de “Administrar bicicletas”  <br>Y escoge una estación. <br>Cuando hace clic al botón “Modificar información de bicicleta” <br>Entonces aparece un formulario para cambiar su información (disponibilidad, condición, número de serie)  <br>**Escenario 3: Guardar cambios en la información de bicicleta** <br>Dado que el administrador de SafeCycle ha accedido al formulario de modificación de bicicleta<br>Y ha actualizado uno o más campos (disponibilidad, condición, número de serie)<br>Cuando hace clic en el botón “Guardar cambios”<br>Entonces el sistema actualiza la información de la bicicleta en la base de datos <br>Y muestra un mensaje de confirmación: “La información de la bicicleta ha sido actualizada correctamente”  | EP06 |
+| US08 | Registro de usuario turista | Como usuario turista quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para turista** <br>Dado que el turista ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Turista"<br>Cuando el turista visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email, pasaporte, contraseña y un campo para repetir la contraseña.<br>Y se muestra el botón “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesion” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña y la ha repetido correctamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema crea una nueva cuenta de turista <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el turista ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email o número de pasaporte inválido <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
+| US09 | Registro de usuario estudiante | Como usuario estudiante quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para estudiante** <br>Dado que el estudiante ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Estudiante"<br>Cuando el estudiante visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email institucional, contraseña y un campo para repetir la contraseña.<br>Y se muestra el botón “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesión” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el estudiante ha ingresado un email institucional válido, contraseña y la ha repetido correctamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema crea una nueva cuenta de estudiante   <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el estudiante ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email institucional inválido <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el estudiante ha ingresado un email institucional válido y una contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
+| US10 | Iniciar sesión en cuenta personal | Como usuario de ambos segmentos objetivos  quiero poder iniciar sesion en la aplicación para acceder a mi cuenta personal | **Escenario 1: Iniciar sesión con datos válidos** <br>Dado que el turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado su email y contraseña correctamente <br>Cuando presiona el botón “Iniciar Sesión” <br>Entonces será redirigido a su cuenta personal dentro de la aplicación   <br>**Escenario 2: Ingresar datos inválidos** <br>Dado que el usuario turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado un email no registrado o una contraseña incorrecta <br>Cuando presiona el botón “Iniciar Sesión” <br>Entonces el sistema mostrará un mensaje de error indicando que las credenciales son inválidas | EP03 |
+| US11 | Alquiler de bicicleta | Como usuario de ambos segmentos objetivos quiero poder alquilar una bicicleta para transportarme rápidamente | **Escenario 1: Renta de bicicletas** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema calculará y mostrará el costo del viaje dependiendo del tiempo. <br>**Escenario 2: Renta de bicicleta y tiempo de estudiante sin tiempo en cuenta** <br>Dado que el estudiante está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Y no tiene suficientes minutos restantes de renta diarios. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que el usuario no tiene el tiempo restante suficiente en su cuenta por el día. <br>**Escenario 3: Ingreso de datos incompletos o inválidos** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y deja vacío el campo de minutos. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que debe ingresar una cantidad de minutos | EP04 |
+| US12 | Elección de puntos de recojo alquilar una bicicleta | Como usuario de ambos segmentos objetivos quiero poder elegir el punto de recojo de mi bicicleta para dirigirse a esta fácilmente | **Escenario 1: Visualizar puntos de recojo** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y ha rellenado el formulario de renta de bicicletas. <br>Cuando el sistema calcule el precio estimado de la ruta. <br>Entonces el sistema mostrará las estaciones de bicicletas cercanas para recogerlo. <br>**Escenario 2: Elegir puntos de recojo** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y ha rellenado y enviado el formulario de renta de bicicletas. <br>Cuando el usuario elija la estacion <br>Entonces el sistema procederá la renta con la estación elegida | EP04 |
+| US13 | Recibir notificación de mora si excedo el tiempo | Como usuario de ambos segmentos objetivos quiero recibir una notificación <br>Cuando exceda el tiempo de alquiler para estar informado de la penalización. | **Escenario 1: Notificación de tiempo excedido**<br>Dado que el usuario ha alquilado una bicicleta<br>Y el tiempo límite de alquiler ha sido superado, <br>Cuando el sistema detecte el exceso de tiempo <br>Entonces envía una notificación alertando sobre la mora aplicable <br>**Escenario 2: Cálculo automático de mora**<br>Dado que el usuario ha excedido el tiempo acor<br>Dado<br>Cuando el sistema actualice la duración del préstamo<br>Entonces el sistema calcula el monto adicional a pagar por el exceso de tiempo | EP05 |
+| US14 | Recibir confirmación del pago realizado | Como usuario de ambos segmentos objetivos  quiero recibir una confirmación luego de realizar el pago para asegurarme que fue exitoso. | **Escenario 1: Confirmación visual inmediata**<br>Dado que el usuario ha completado el pago de una renta o alquiler<br>Cuando el sistema procese la transacción<br>Entonces se mostrará una pantalla con mensaje de éxito y detalles del pago <br>**Escenario 2: Confirmación vía correo electrónico**<br>Dado que el pago fue realizado correctamente<br>Cuando el sistema registre la transacción<br>Entonces se enviará un correo electrónico con el comprobante del pago |  EP05 |
+| US15 | Realizar reservas de bicicletas | Cómo usuario de ambos segmentos objetivos  quiero tener la habilidad de reservar una bicicleta con varios días de anticipación para poder usarla en una fecha específica. | **Escenario 1: Reserva de bicicleta** <br>Dado a que el usuario está en la pantalla de reserva <br>Cuando ingresa los datos de la reserva como (Fecha inicio y fin, Hora inicio y fin, y la estación de la que desea recoger) <br>Y la aplicación calcula el monto aproximado de la reserva <br>Y el usuario confirma la reserva <br>Entonces se la bicicleta se marca como reservada y se separa de las bicicletas disponibles <br>**Escenario 2: Reserva con 2 o menos  días de anticipación** <br>Dado a que el usuario realiza una reserva con 2 o menos días de anticipación. <br>Cuando se confirma la reserva. <br>Entonces se le envía una confirmación, se separará la bicicleta de las disponibles en el sistema  y se separará la bicicleta de las disponibles en la estación  y se realiza el pago. <br>**Escenario 3: Reserva con más de 2 días de anticipación** <br>Dado a que el usuario realiza una reserva con más de 2 días de anticipación. <br>Cuando se confirma la reserva. <br>Entonces se le envía una confirmación, se separará la bicicleta de las disponibles en el sistema  <br>Y se separará la bicicleta de las disponibles en la estación  <br>Y se realiza el pago.  <br>Y se cobra una cantidad extra según la cantidad de días de anticipación. | EP04 |
+| US16 | Cancelar una reserva | Cómo usuario  de ambos segmentos objetivos deseo tener la habilidad de cancelar mi reserva para los casos en los que ya no requiera el servicio | **Escenario 1: El usuario cancela su reserva** <br>Dado a que el usuario reservo una bicicleta <br>Y ya no requiere de la bicicleta que previamente reservó. <br>Y va a la seccion de “Current Rental” <br>Cuando selecciona el botón de “Cancelar reserva”. <br>Entonces se cancelará la reserva y la bicicleta vuelve a entrar al sistema como disponible**.** | EP04 |
+| US17 | Administración de bicicletas | Cómo administrador de Safecycle quiero administrar las bicicletas de cada estación para manejar de forma eficiente las bicicletas. | **Escenario 1: Visualizar información de cada bicicleta** <br>Dado que el administrador ha iniciado sesión <br>Y se encuentra en el Panel de Control \> Manejar Bicicletas <br>Cuando escoja un estación de bicicletas <br>Entonces en el panel de control se visualizan las bicicletas de esa estación de bicicletas. <br>**Escenario 2: Formulario para modificar información de bicicleta desde panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación <br>Y esta en la sección de “Administrar bicicletas”  <br>Y escoge una estación. <br>Cuando hace clic al botón “Modificar información de bicicleta” <br>Entonces aparece un formulario para cambiar su información (disponibilidad, condición, número de serie)  <br>**Escenario 3: Guardar cambios en la información de bicicleta** <br>Dado que el administrador de SafeCycle ha accedido al formulario de modificación de bicicleta<br>Y ha actualizado uno o más campos (disponibilidad, condición, número de serie)<br>Cuando hace clic en el botón “Guardar cambios”<br>Entonces el sistema actualiza la información de la bicicleta en la base de datos <br>Y muestra un mensaje de confirmación: “La información de la bicicleta ha sido actualizada correctamente”  | EP06 |
 | US18 | Administración estaciones de bicicletas | Cómo developer de Safecycle quiero recibir información acerca de las estaciones para poder visualizarlas más fácilmente  | **Escenario 1: Estado de cada estación de bicicletas** <br>Dado a que el developer de Safecycle tiene acceso a la API de SafeCycle. <br>Cuando envía la solicitud de ver la información de cada estación. <br>Entonces en el panel de control se muestra cada estación y su información. <br>**Escenario 4: Cambiar información de una** estación de bicicleta <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación <br>Y está en la sección “Administrar estaciones de bicicleta”  <br>Y llena el formulario en el cual puede modificar los datos de una estación de bicicleta <br>Cuando hace clic al botón de “Guardar cambios” <br>Entonces el sistema actualiza la información de esta estación de bicicleta. | EP06 |
 | US19 | Rutas turísticas | Cómo turista quiero realizar un tour para explorar la ciudad con puntos turísticos importantes | **Escenario 1: Seleccionar Tour** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Cuando selecciona uno de los “Viajes turísticos” disponibles. <br>Entonces el sistema visualiza un formulario para agendar el tour <br>**Escenario 2: Envío de formulario para tour correcto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con los datos de dia de origen, hora de inicio y fin correctamente <br>Y selecciona el botón “Reservar” <br>Entonces el sistema guarda la reserva del tour  <br>**Escenario 3: Envío de formulario para tour incorrecto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con los datos de dia de origen, hora de inicio y fin  incorrectamente <br>Y selecciona el botón “Reservar” <br>Entonces el sistema visualiza un sistema de error con el mensaje “Los campos ingresados son incorrectos” <br>**Escenario 4: Envío de formulario para tour incompleto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con solo algunos datos como día de origen, hora de inicio y fin  <br>Y selecciona el botón “Reservar” <br>Entonces el sistema visualiza un sistema de error con el mensaje “Es necesario rellenar todas las casillas”.   | EP04 |
-| US20 | Actualizar información de perfil | Como usuario   de ambos segmentos objetivos estudiante y turista de SafeCycle quiero tener la opción de actualizar la información en mi perfil para poder cambiar mis datos en cualquier momento. | **Escenario 1: Actualizar información de perfil** <br>Dado que el usuario está en la pantalla de perfil <br>Cuando ingresa a la opción “actualizar perfil”,  <br>Y modifica los campos su información personal (nombre, apellidos)  <br>Y presiona “Guardar cambios”. <br>Entonces recibe un mensaje diciendo “Cambios guar<br>Dados”. <br>Y el sistema guarda los cambios <br>**Escenario 2: Actualizar información de perfil con campos vacíos** <br>Dado que el usuario está en la pantalla de perfil <br>Cuando ingresa a la opción “actualizar perfil”,  <br>Y modifica los campos su información personal (nombre, apellidos)  <br>Y deja alguno de los campos vacíos <br>Y presiona “Guardar cambios”. <br>Entonces recibe un mensaje diciendo “Es obligatorio rellenar todos los campos”. | EP03 |
+| US20 | Actualizar información de perfil | Como usuario  de ambos segmentos objetivos quiero tener la opción de actualizar la información en mi perfil para poder cambiar mis datos en cualquier momento. | **Escenario 1: Actualizar información de perfil** <br>Dado que el usuario está en la pantalla de perfil <br>Cuando ingresa a la opción “actualizar perfil”,  <br>Y modifica los campos su información personal (nombre, apellidos)  <br>Y presiona “Guardar cambios”. <br>Entonces recibe un mensaje diciendo “Cambios guar<br>Dados”. <br>Y el sistema guarda los cambios <br>**Escenario 2: Actualizar información de perfil con campos vacíos** <br>Dado que el usuario está en la pantalla de perfil <br>Cuando ingresa a la opción “actualizar perfil”,  <br>Y modifica los campos su información personal (nombre, apellidos)  <br>Y deja alguno de los campos vacíos <br>Y presiona “Guardar cambios”. <br>Entonces recibe un mensaje diciendo “Es obligatorio rellenar todos los campos”. | EP03 |
 | US21 | Acceder a panel de control | Cómo administrador de SafeCycle quiero acceder al panel de control para tener un manejo de lo que ocurre en la aplicación. | **Escenario 1: Visualizar panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación. <br>Cuando el administrador visualiza la sección de header <br>Entonces el sistema visualiza un botón “Panel de control” **Escenario 1: Ingresar a panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación. <br>Y el administrador visualiza la sección de header <br>Cuando el administrador hace clic en el botón “Panel de control” <br>Entonces el sistema lo redirecciona al panel de control | EP06 |
-| US22 | Cerrar sesión | Cómo usuario   de ambos segmentos objetivos estudiante y turista de la aplicación de Safecycle quiero tener la opción de cerrar mi sesión para mantener mi cuenta segura | **Escenario 1: Se presiona el botón “Cerrar sesión”** <br>Dado que el usuario está en la aplicación de SafeCycle <br>Y tiene la cuenta abierta <br>Cuando presiona el botón “Cerrar sesión” <br>Entonces se cierra la sesión del usuario. | EP03 |
-| US23 | Navigation Bar | Como visitante   de ambos segmentos objetivos estudiante y turista quiero acceder a la barra de navegación para moverme rápidamente a cualquier sección de la página. | **Escenario 1: Ver la barra de navegación en la parte superior** <br>Dado que el visitante está en la landing page <br>Cuando hace clic en el enlace de navegación <br>Entonces el visitante será redirigido a la sección correspondiente de la misma página. | EP01 |
-| US24 | Sección How does it work | Como visitante   de ambos segmentos objetivos estudiante y turista quiero saber como funciona la aplicación para saber si es de fácil uso | **Escenario 1: Conocer como funciona SafeCycle** <br>Dado que el visitante está en la landing page <br>Y llega a la sección “Cómo funciona” <br>Cuando lee el contenido de esa sección <br>Entonces comprenderá los pasos para usar SafeCycle. | EP01 |
-| US25 | Sección Porque Nosotros | Como visitante   de ambos segmentos objetivos, estudiante y turista quiero saber por qué debería elegir SafeCycle sobre otras opciones para tomar una decisión informada. | **Escenario 1: Conocer los diferenciales de SafeCycle** <br>Dado que el visitante está en la landing page <br>Y llega a la sección “Por qué nosotros” <br>Cuando lee el contenido de esa sección <br>Entonces comprenderá las ventajas y razones por las que SafeCycle es una buena elección. | EP01 |
-| US26 | Footer | Como visitante   de ambos segmentos objetivos estudiante y turista quiero ver información útil en el footer de la página para acceder rápidamente a redes sociales. | **Escenario 1: Consultar información desde el footer** <br>Dado que el visitante está en la parte inferior de la página <br>Cuando visualiza el footer <br>Entonces encontrará enlaces a redes sociales | EP01 |
-| US27 | Cambio de lenguaje a ingles y español en Landing Page | Como visitante   de ambos segmentos objetivos estudiante y turista quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el visitante tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la landing page <br>Entonces todo el contenido del sitio se mostrará en el idioma del navegador. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el visitante tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la landing page <br>Entonces todo el contenido del sitio se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el visitante se encuentra en la landing page <br>Cuando selecciona el botón “EN” o “ES” de la parte inferior derecha <br>Entonces todo el contenido del sitio se mostrará en el idioma elegido. | EP01 |
-| US28 | Atributos Aria | Como visitante   de ambos segmentos objetivos estudiante y turista con discapacidad quiero que el sitio sea accesible para navegarlo con lectores de pantalla. | **Escenario 1: Usar atributos ARIA para accesibilidad** <br>Dado que el visitante navega con un lector de pantalla <br>Cuando interactúa con los elementos de la interfaz <br>Entonces el lector de pantalla describirá correctamente los elementos gracias a los atributos ARIA. | EP01 |
-| US29 | Actualizar información de pago | Cómo usuario  de ambos segmentos objetivos estudiante y turista de SafeCycle quiero actualizar mi información de pago para agilizar y asegurar las transacciones | **Escenario 1: Visualizar opción para actualizar información de pago** <br>Dado que el usuario ha iniciado sesión en la aplicación <br>Cuando el usuario navega a la sección de “Información de pago” en la ventana emergente que se visualiza <br>Cuando se da clic en el botón superior derecho del header <br>Entonces el sistema muestra la información de pago actual del usuario  <br>**Escenario 2: Formulario de actualización de pago** <br>Dado que el usuario ha iniciado sesión en la aplicación <br>Y el usuario está en la sección de  “Información de pago” <br>Cuando el usuario hace clic en la opción “Actualizar información de pago” <br>Entonces el sistema redirecciona al formulario para ingresar nuevos datos de pago  <br>**Escenario 3: Actualizar información de pago** <br>Dado que el usuario ha accedido al formulario de actualización de pago <br>Y el usuario ha ingresado correctamente la nueva información de pago <br>Cuando el usuario hace clic en el botón  “Guardar información de pago” <br>Entonces el sistema guarda la nueva información de pago <br>Y muestra un mensaje de confirmación “Tu información de pago ha sido actualizada exitosamente” | EP05 |
-| **US30** | Ver actuales tarifas | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero visualizar las tarifas actuales de uso para conocer los costos antes de realizar una reserva o alquiler. | **Escenario 1: Acceder a la sección de tarifas** <br>Dado que el usuario ha iniciado sesión en la aplicación<br>Cuando el usuario navega a la sección de “Tarifas” desde el header <br>Entonces el sistema muestra dos tarjetas informativas con las tarifas actuales diferenciadas por tipo de usuario (General y Estudiante)  | EP05 |
-| **US31** | Acceder a Landing page desde cualquier dispositivo | Como visitante de ambos segmentos objetivos estudiante y turista quiero acceder a la landing page de SafeCycle desde cualquier dispositivo para informarme sobre el servicio sin necesidad de descargar la app. | **Escenario 1: Acceso a la landing page desde diferentes dispositivos** <br>Dado que un visitante ingresa a la landing de SafeCycle desde un navegador web <br>Cuando el visitante accede desde un dispositivo móvil, tablet o computadora <br>Entonces el sistema muestra la landing page adaptada automáticamente al tamaño de pantalla del dispositivo | EP01 |
-| **US32** | Cambio de lenguaje a ingles y español en aplicación | Como usuario de ambos segmentos objetivos estudiante y turista quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el usuario tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma preferido. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el usuario tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el usuario se encuentra en su perfil <br>Y ubica la sección de idioma <br>Cuando selecciona el botón de  botón “EN” o “ES”  <br>Entonces todo el contenido de la pagina se mostrará en el idioma elegido. | EP03 |
-| **US33** | Sección planes | Como visitante de ambos segmentos objetivos, estudiante y turista de SafeCycle quiero explorar los planes disponibles para elegir el que mejor se adapte a mis necesidades antes de registrarme. | **Escenario 1: Acceder a la sección de planes** <br>Dado que el visitante se encuentra en la página principal de SafeCycle <br>Cuando el visitante hace scroll o selecciona la opción “Planes” desde el menú <br>Entonces el sistema muestra dos tarjetas destacadas con los planes disponibles: Student Plan y Tourist Plan, bajo el título “A plan tailored to your needs” <br>**Escenario 2: Visualizar detalles del Student Plan** <br>Dado que el visitante del segmento objetivo de estudiantes está visualizando la sección “Planes”<br>Cuando el visitante observa la tarjeta del Student Plan<br>Entonces se muestran los beneficios que ofrece SafeCycle para estudiantes (Alquileres rápidos, Bajo costo, pago con tarjeta, descuento estudiantil) <br>**Escenario 3: Visualizar detalles del Tourist Plan** <br>Dado que el visitante del segmento objetivo de turistas está visualizando la sección “Planes” <br>Cuando el visitante observa la tarjeta del Tourist Plan <br>Entonces se muestran los beneficios que ofrece SafeCycle para turistas (viaja libremente como un local, turismo en grupo, paga con PayPal desde cualquier lugar)  | EP01 |
+| US22 | Cerrar sesión | Cómo usuario de ambos segmentos objetivos e quiero tener la opción de cerrar mi sesión para mantener mi cuenta segura | **Escenario 1: Se presiona el botón “Cerrar sesión”** <br>Dado que el usuario está en la aplicación de SafeCycle <br>Y tiene la cuenta abierta <br>Cuando presiona el botón “Cerrar sesión” <br>Entonces se cierra la sesión del usuario. | EP03 |
+| US23 | Navigation Bar | Como visitante de ambos segmentos objetivos quiero acceder a la barra de navegación para moverme rápidamente a cualquier sección de la página. | **Escenario 1: Ver la barra de navegación en la parte superior** <br>Dado que el visitante está en la landing page <br>Cuando hace clic en el enlace de navegación <br>Entonces el visitante será redirigido a la sección correspondiente de la misma página. | EP01 |
+| US24 | Sección How does it work | Como visitante de ambos segmentos objetivos quiero saber como funciona la aplicación para saber si es de fácil uso | **Escenario 1: Conocer como funciona SafeCycle** <br>Dado que el visitante está en la landing page <br>Y llega a la sección “Cómo funciona” <br>Cuando lee el contenido de esa sección <br>Entonces comprenderá los pasos para usar SafeCycle. | EP01 |
+| US25 | Sección Porque Nosotros | Como visitante de ambos segmentos objetivos, quiero saber por qué debería elegir SafeCycle sobre otras opciones para tomar una decisión informada. | **Escenario 1: Conocer los diferenciales de SafeCycle** <br>Dado que el visitante está en la landing page <br>Y llega a la sección “Por qué nosotros” <br>Cuando lee el contenido de esa sección <br>Entonces comprenderá las ventajas y razones por las que SafeCycle es una buena elección. | EP01 |
+| US26 | Footer | Como visitante de ambos segmentos quiero ver información útil en el footer de la página para acceder rápidamente a redes sociales. | **Escenario 1: Consultar información desde el footer** <br>Dado que el visitante está en la parte inferior de la página <br>Cuando visualiza el footer <br>Entonces encontrará enlaces a redes sociales | EP01 |
+| US27 | Cambio de lenguaje a ingles y español en Landing Page | Como visitante de ambos segmentos objetivos quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el visitante tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la landing page <br>Entonces todo el contenido del sitio se mostrará en el idioma del navegador. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el visitante tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la landing page <br>Entonces todo el contenido del sitio se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el visitante se encuentra en la landing page <br>Cuando selecciona el botón “EN” o “ES” de la parte inferior derecha <br>Entonces todo el contenido del sitio se mostrará en el idioma elegido. | EP01 |
+| US28 | Atributos Aria | Como visitante de ambos segmentos objetivos quiero que el sitio sea accesible para navegarlo con lectores de pantalla. | **Escenario 1: Usar atributos ARIA para accesibilidad** <br>Dado que el visitante navega con un lector de pantalla <br>Cuando interactúa con los elementos de la interfaz <br>Entonces el lector de pantalla describirá correctamente los elementos gracias a los atributos ARIA. | EP01 |
+| US29 | Actualizar información de pago | Cómo usuario  de ambos segmentos objetivos quiero actualizar mi información de pago para agilizar y asegurar las transacciones | **Escenario 1: Visualizar opción para actualizar información de pago** <br>Dado que el usuario ha iniciado sesión en la aplicación <br>Cuando el usuario navega a la sección de “Información de pago” en la ventana emergente que se visualiza <br>Cuando se da clic en el botón superior derecho del header <br>Entonces el sistema muestra la información de pago actual del usuario  <br>**Escenario 2: Formulario de actualización de pago** <br>Dado que el usuario ha iniciado sesión en la aplicación <br>Y el usuario está en la sección de  “Información de pago” <br>Cuando el usuario hace clic en la opción “Actualizar información de pago” <br>Entonces el sistema redirecciona al formulario para ingresar nuevos datos de pago  <br>**Escenario 3: Actualizar información de pago** <br>Dado que el usuario ha accedido al formulario de actualización de pago <br>Y el usuario ha ingresado correctamente la nueva información de pago <br>Cuando el usuario hace clic en el botón  “Guardar información de pago” <br>Entonces el sistema guarda la nueva información de pago <br>Y muestra un mensaje de confirmación “Tu información de pago ha sido actualizada exitosamente” | EP05 |
+| **US30** | Ver actuales tarifas | Como usuario de ambos segmentos objetivos quiero visualizar las tarifas actuales de uso para conocer los costos antes de realizar una reserva o alquiler. | **Escenario 1: Acceder a la sección de tarifas** <br>Dado que el usuario ha iniciado sesión en la aplicación<br>Cuando el usuario navega a la sección de “Tarifas” desde el header <br>Entonces el sistema muestra dos tarjetas informativas con las tarifas actuales diferenciadas por tipo de usuario (General y Estudiante)  | EP05 |
+| **US31** | Acceder a Landing page desde cualquier dispositivo | Como visitante de ambos segmentos objetivos quiero acceder a la landing page de SafeCycle desde cualquier dispositivo para informarme sobre el servicio sin necesidad de descargar la app. | **Escenario 1: Acceso a la landing page desde diferentes dispositivos** <br>Dado que un visitante ingresa a la landing de SafeCycle desde un navegador web <br>Cuando el visitante accede desde un dispositivo móvil, tablet o computadora <br>Entonces el sistema muestra la landing page adaptada automáticamente al tamaño de pantalla del dispositivo | EP01 |
+| **US32** | Cambio de lenguaje a ingles y español en aplicación | Como usuario de ambos segmentos objetivos  quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el usuario tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma preferido. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el usuario tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el usuario se encuentra en su perfil <br>Y ubica la sección de idioma <br>Cuando selecciona el botón de  botón “EN” o “ES”  <br>Entonces todo el contenido de la pagina se mostrará en el idioma elegido. | EP03 |
+| **US33** | Sección planes | Como visitante de ambos segmentos objetivos quiero explorar los planes disponibles para elegir el que mejor se adapte a mis necesidades antes de registrarme. | **Escenario 1: Acceder a la sección de planes** <br>Dado que el visitante se encuentra en la página principal de SafeCycle <br>Cuando el visitante hace scroll o selecciona la opción “Planes” desde el menú <br>Entonces el sistema muestra dos tarjetas destacadas con los planes disponibles: Student Plan y Tourist Plan, bajo el título “A plan tailored to your needs” <br>**Escenario 2: Visualizar detalles del Student Plan** <br>Dado que el visitante del segmento objetivo de estudiantes está visualizando la sección “Planes”<br>Cuando el visitante observa la tarjeta del Student Plan<br>Entonces se muestran los beneficios que ofrece SafeCycle para estudiantes (Alquileres rápidos, Bajo costo, pago con tarjeta, descuento estudiantil) <br>**Escenario 3: Visualizar detalles del Tourist Plan** <br>Dado que el visitante del segmento objetivo de turistas está visualizando la sección “Planes” <br>Cuando el visitante observa la tarjeta del Tourist Plan <br>Entonces se muestran los beneficios que ofrece SafeCycle para turistas (viaja libremente como un local, turismo en grupo, paga con PayPal desde cualquier lugar)  | EP01 |
+| US34 | Need Finding | Como equipo de desarrollo de SafeCycle, queremos identificar las necesidades y frustraciones de los usuarios objetivo (estudiantes y turistas) para diseñar una solución que responda efectivamente a sus problemas de transporte urbano | **Escenario 1: Necesidades del estudiante**<br>Dado que el usuario pertenece al segmento de estudiantes universitarios<br>Cuando se le consulta sobre sus medios de transporte actuales<br>Entonces expresa su necesidad de contar con una alternativa económica, rápida y flexible.<br>**Escenario 2: Necesidades del turista**<br>Dado que el usuario pertenece al segmento de turistas<br>Cuando se le pregunta por sus opciones de movilidad<br>Entonces manifiesta la necesidad de explorar la ciudad de forma libre y segura.<br>**Escenario 3: Identificación de puntos de dolor**<br>Dado que se realizaron entrevistas y observaciones<br>Cuando se recopila la información<br>Entonces se identifican problemas como acceso limitado a bicicletas o métodos de pago. | EP07 |
+| US35 | User Task Matrix | Como equipo de diseño de SafeCycle, queremos mapear las tareas principales que realizan nuestros usuarios objetivo (estudiantes y turistas) para priorizar las funcionalidades que la aplicación debe ofrecerles | **Escenario 1: Tareas del estudiante**<br>Dado que se analizan los comportamientos del estudiante<br>Cuando se identifican sus objetivos<br>Entonces se registran tareas como registro, alquiler y consulta de tarifas.<br>**Escenario 2: Tareas del turista**<br>Dado que se analizan sus hábitos<br>Cuando se definen sus necesidades<br>Entonces se identifican tareas como reservar tours, pagar con PayPal y encontrar estaciones.<br> | EP07 |
+| US36 | User Journey Map | Como equipo de UX de SafeCycle, queremos visualizar el recorrido completo de los usuarios desde el descubrimiento hasta el uso del servicio para detectar oportunidades de mejora en su experiencia | **Escenario 1: Estudiante**<br>Dado que busca transporte económico<br>Cuando usa la app desde la landing hasta el alquiler<br>Entonces se identifican puntos críticos en validación de identidad y tarifas.<br>**Escenario 2: Turista**<br>Dado que quiere explorar la ciudad<br>Cuando navega y reserva un tour<br>Entonces se detectan oportunidades de mejora en claridad de pasos y pagos.<br>**Escenario 3: Oportunidades**<br>Dado que se trazó el recorrido<br>Cuando se analizan emociones y acciones<br>Entonces se identifican mejoras para la navegación. | EP07 |
+| US37 | Empathy Mapping | Como equipo de SafeCycle, queremos identificar lo que piensan, sienten, dicen y hacen nuestros usuarios para diseñar una solución que conecte empáticamente con sus motivaciones y frustraciones | **Escenario 1: Estudiante**<br>Dado que busca comodidad y ahorro<br>Cuando comparte sus experiencias<br>Entonces se detectan frustraciones como el tiempo y estrés de movilizarse.<br>**Escenario 2: Turista**<br>Dado que busca orientación y seguridad<br>Cuando relata su experiencia<br>Entonces se detecta su deseo de libertad y accesibilidad.<br>**Escenario 3: Insights**<br>Dado que se mapeó el perfil<br>Cuando se consolidan sus emociones<br>Entonces se identifican oportunidades de diseño centrado. | EP07 |
+| US38 | Scenario Mapping | Como equipo de análisis de SafeCycle, queremos mapear la experiencia actual (As-Is) y la experiencia ideal (To-Be) de los usuarios para identificar mejoras claras en su recorrido | **Escenario 1: Estudiante - As-Is**<br>Dado que usa transporte público<br>Cuando intenta llegar puntual<br>Entonces experimenta estrés y retrasos.<br>**Escenario 2: Estudiante - To-Be**<br>Dado que usa SafeCycle<br>Cuando alquila con tarifa estudiantil<br>Entonces gana tiempo y flexibilidad.<br>**Escenario 3: Turista - As-Is**<br>Dado que depende de taxis<br>Cuando recorre la ciudad<br>Entonces enfrenta demoras y falta de control.<br>**Escenario 4: Turista - To-Be**<br>Dado que accede a SafeCycle<br>Cuando reserva un tour<br>Entonces explora libremente y paga desde su país. | EP07 |
+| US39 | Impact Mapping | Como equipo estratégico de SafeCycle, queremos construir un mapa de impacto para alinear objetivos de negocio con acciones técnicas y funcionalidades que generen valor real para los usuarios | **Escenario 1: Identificar actores**<br>Dado que se analizan los segmentos<br>Cuando se definen estudiantes y turistas<br>Entonces se relacionan con objetivos del negocio.<br>**Escenario 2: Relación con objetivos**<br>Dado que se priorizan funcionalidades<br>Cuando se trazan conexiones entre usuarios y resultados<br>Entonces se identifica qué acciones generan mayor impacto.<br>**Escenario 3: Roadmap**<br>Dado que se tiene el mapa<br>Cuando se ordenan los entregables<br>Entonces se define el MVP a desarrollar. | EP07 |
+| US40 | Product Backlog | Como equipo de producto de SafeCycle, queremos construir y priorizar un backlog que contenga las funcionalidades esenciales para estudiantes y turistas, a fin de entregar valor desde las primeras versiones del producto | **Escenario 1: Backlog inicial**<br>Dado que se conocen las necesidades<br>Cuando se listan funcionalidades clave<br>Entonces se documentan como historias de usuario.<br>**Escenario 2: MVP**<br>Dado que se busca lanzar lo esencial<br>Cuando se prioriza por valor y complejidad<br>Entonces se define lo más urgente.<br>**Escenario 3: Validación**<br>Dado que se revisa con el equipo<br>Cuando se presentan prioridades<br>Entonces se ajustan si es necesario. | EP07 |
+| US41 | Modelado C4 | Como equipo técnico de SafeCycle, queremos representar la arquitectura de la aplicación utilizando el modelo C4 para entender mejor la relación entre contexto, contenedores y componentes del sistema | **Escenario 1: Creación**<br>Dado que se desea visualizar la arquitectura<br>Cuando se definen los niveles de los contextos, contenedores y componentes <br>Entonces se elabora un modelo técnico claro.<br>**Escenario 2: Demostración**<br>Dado que el modelo está listo<br>Cuando se presenta al equipo<br>Entonces se valida su claridad y consistencia. | EP07 |
+| US42 | Diagrama de Clases | Como equipo de desarrollo de SafeCycle, queremos crear un diagrama de clases que represente las entidades principales del dominio y sus relaciones, para guiar la implementación orientada a objetos del sistema | **Escenario 1: Construcción**<br>Dado que se identificaron las entidades<br>Cuando se modelan atributos y relaciones<br>Entonces se genera un diagrama UML útil para el desarrollo.<br>**Escenario 2: Validación**<br>Dado que el modelo está elaborado<br>Cuando se revisa con el equipo<br>Entonces se confirma que cumple con los requerimientos del sistema. | EP07 |
+| US43 | Diagrama de Base de Datos | Como equipo de backend de SafeCycle, queremos diseñar un diagrama de base de datos que refleje cómo se almacenan y relacionan los datos de usuarios, bicicletas, reservas y pagos, para facilitar la implementación y escalabilidad del sistema | **Escenario 1: Modelado**<br>Dado que se conocen las entidades<br>Cuando se definen las tablas y relaciones<br>Entonces se genera un diagrama ER claro.<br>**Escenario 2: Validación**<br>Dado que el diseño está hecho<br>Cuando se compara con los requerimientos<br>Entonces se aprueba para implementación. | EP07 |
+| **TS01** | Funcionalidad CRUD en la interfaz | Como developer quiero implementar funcionalidades CRUD (Crear, leer, actualizar, eliminar)  en la interfaz para gestionar los recursos de manera dinamica desde el frontend | **Escenario 1:**<br>Dado que el developer prueba la sección de rentBike<br>Cuando crea un nueva renta<br>Entonces inmediatamente se debe crear y mostrar los detalles sin necesidad de recargar la página <br>**Escenario 2:**<br>Dado que el developer sigue realizando pruebas y decide eliminar o editar la renta realizada<br>Cuando presiona el botón eliminar o editar<br>Entonces los cambios realizados se deben mostrar en la interfaz y el estado de la  aplicación  | EP06 |
+| **TS02** | Despliegue de la aplicación  | Como developer quiero desplegar la aplicación en un entorno accesible públicamente para que otros usuarios puedan probar su funcionamiento |**Escenario 1:**<br>Dado que el repositorio principal contiene la última versión estable del proyecto<br>Cuando se ejecuta el proceso de despliegue<br>Entonces la aplicación debe estar disponible en una URL pública sin errores <br>**Escenario 2:**<br>Dado que el entorno de producción está activo Cuando un usuario accede a la aplicación<br>Entonces la carga debe completarse en un tiempo optimo | EP06 |
+| **TS03** | Validación de datos recibidos desde la Fake API | Como developer, quiero validar que los datos recibidos desde la Fake API cumplan con el formato esperado, para evitar errores en la visualización o manipulación  | **Escenario 1:**<br>Dado que la aplicación recibe datos de una Fake API<br>Cuando el formato de un campo no es el esperado<br>Entonces debe mostrarse un mensaje de error en la interfaz de la aplicación<br>**Escenario 2:**<br>Dado que un dato importante está ausente (por ejemplo, ID o nombre)<br>Cuando se intenta renderizar en pantalla<br>Entonces el componente debe mostrar un mensaje de "dato incorrecto" | EP06 |
+| **TS04** | Configuración de las rutas principales  | Como developer, quiero configurar las rutas principales de la aplicación para permitir la navegación entre las diferentes vistas de forma fluida  | **Escenario 1:**<br>Dado que el usuario accede a la ruta principal<br>Cuando la URL es ingresada o se hace clic en un enlace<br>Entonces debe cargarse la vista principal sin recargar la página<br>**Escenario 2:**<br>Dado que el usuario accede a una ruta no definida como /xyz Cuando se produce un error en las rutas de navegación Entonces debe mostrarse una página 404 personalizada.  | EP06 |
+| **TS05** | CRUD Users  | Como developer quiero obtener la información de los usuarios mediante la funcionalidad CRUD para monitorear y convalidar a nuestros usuarios  | **Escenario 1: Registro exitoso**<br>Dado que tengo acceso a la funcionalidad de creación de usuarios <br>Cuando ingreso los datos válidos de un nuevo usuario<br>Entonces el usuario se guarda correctamente y aparece en la lista de usuarios<br> **Escenario 2: Edición de datos inválidos**<br>Dado que tengo acceso a la funcionalidad de edición de usuarios<br>Cuando intento actualizar un usuario con campos inválidos o vacíos<br>Entonces recibo un mensaje de error indicando los campos incorrectos <br>**Escenario 3: Visualización y edición del perfil**<br> Dado que los usuarios tienen la funcionalidad de visualizar y editar los datos de sus perfiles <br>Cuando un usuario inicia sesión y entra a su perfil <br> Entonces puede visualizar, cambiar su nombre y correo correctamente  | EP06 |
+| **TS06** | CRUD Bikes | Como developer de la aplicación, quiero implementar la funcionalidad CRUD para las bicicletas para registrar nuevas unidades, actualizar su estado o eliminarlas cuando se dé de baja | **Escenario 1: Visualización de bicicletas disponibles**<br>Dado que tengo acceso a la funcionalidad de lectura de bicicletas<br>Cuando consulto la lista de bicicletas<br>Entonces obtengo un listado actualizado con su disponibilidad y estado <br>**Escenario 2: Eliminación correcta**<br>Dado que tengo acceso a la funcionalidad de eliminación de bicicletas<br>Cuando elimino una bicicleta con ID válido<br>Entonces desaparece del sistema y no aparece en la vista de selección  | EP06 |
+| **TS07** | CRUD Bike Station | Como developer de la app, quiero implementar funcionalidades CRUD sobre estaciones de bicicletas para administrar sus ubicaciones y capacidades | **Escenario 1: Registro exitoso de estación**<br>Dado que tengo acceso a la funcionalidad de creación de estaciones<br>Cuando ingreso una nueva estación con datos válidos<br>Entonces se guarda y aparece en el mapa de estaciones <br>**Escenario 2: Edición con datos incompletos**<br>Dado que tengo acceso a la funcionalidad de actualización de estaciones<br>Cuando intento guardar cambios con campos obligatorios vacíos<br>Entonces recibo un mensaje de validación indicando los errores  | EP06 |
+| **TS08** | CRUD Touring | Como developer de la aplicación, quiero poder administrar la información de los recorridos turísticos (tourings) usando operaciones CRUD para actualizar o eliminar recorridos obsoletos y mostrar los vigentes | **Escenario 1: Visualización correcta de tourings**<br>Dado que tengo acceso a la funcionalidad de lectura de tourings<br>Cuando consulto la lista de tourings<br>Entonces obtengo una lista con los recorridos disponibles y su información <br>**Escenario 2: Eliminación de touring existente**<br>Dado que tengo acceso a la funcionalidad de eliminación de tourings<br>Cuando elimino un touring con ID válido<br>Entonces se elimina correctamente y desaparece del listado  | EP06 |
+| **TS09** | CRUD Bookings | Como developer, quiero implementar operaciones CRUD para que los usuarios puedan gestionar sus reservas de bicicletas o tourings de forma sencilla | **Escenario 1: Creación de reserva exitosa**<br>Dado que tengo acceso a la funcionalidad de creación de reservas<br>Cuando el usuario selecciona una bicicleta y una estación<br>Entonces se crea la reserva y se muestra en su historial <br>**Escenario 2: Cancelación de reserva**<br>Dado que tengo acceso a la funcionalidad de eliminación de reservas<br>Cuando el usuario decide cancelar una reserva<br>Entonces esta se elimina del historial y se libera la bicicleta  | EP06 |
+| **TS10** | CRUD Payments  | Como developer que trabaja en la aplicación, quiero implementar la funcionalidad CRUD para los métodos de pago para que los usuarios puedan registrar, actualizar o eliminar tarjetas u otros medios asociados a sus cuentas | **Escenario 1: Registro exitoso de método de pago**<br>Dado que tengo acceso a la funcionalidad de creación de métodos de pago<br>Cuando un usuario ingresa los datos válidos de una tarjeta o medio de pago<br>Entonces el método se guarda correctamente y aparece en su perfil <br>**Escenario 2: Eliminación de método de pago**<br>Dado que tengo acceso a la funcionalidad de eliminación de métodos de pago<br>Cuando el usuario elimina un método de pago válido<br>Entonces este desaparece del listado de medios disponibles <br>**Escenario 3: Edición de método de pago**<br>Dado que tengo acceso a la funcionalidad de actualización de métodos de pago<br>Cuando el usuario edita los datos de un método de pago previamente registrado<br>Entonces los cambios se guardan correctamente y el método actualizado se refleja en su cuenta  | EP06 |
+| TS11 | Endpoint para Usuarios | Como developer, quiero implementar un endpoint RESTful para gestionar usuarios, permitiendo operaciones de registro, obtención, actualización y eliminación | **Escenario 1: Registro exitoso**<br>Dado que el cliente envía datos válidos<br>Cuando hace POST a /users<br>Entonces el usuario es creado y retorna su ID.<br>**Escenario 2: Consulta de usuarios**<br>Dado que hay usuarios registrados<br>Cuando se hace GET a /users<br>Entonces se retorna una lista de usuarios.<br>**Escenario 3: Edición de usuario**<br>Dado que el usuario existe<br>Cuando se hace PUT a /users/{id}<br>Entonces se actualizan los datos correspondientes.<br>**Escenario 4: Eliminación**<br>Dado que el usuario existe<br>Cuando se hace DELETE a /users/{id}<br>Entonces el usuario es eliminado del sistema. | EP06 |
+| TS12 | Endpoint para Tours | Como developer, quiero exponer un endpoint que permita listar, crear y eliminar recorridos turísticos para mantener actualizados los tours disponibles | **Escenario 1: Visualización de tours**<br>Dado que hay tours registrados<br>Cuando se hace GET a /tours<br>Entonces se muestra una lista con sus detalles.<br>**Escenario 2: Creación de tour**<br>Dado que se recibe un body válido<br>Cuando se hace POST a /tours<br>Entonces el tour se guarda correctamente.<br>**Escenario 3: Eliminación de tour**<br>Dado que el tour existe<br>Cuando se hace DELETE a /tours/{id}<br>Entonces el tour es eliminado del sistema. | EP06 |
+| TS13 | Endpoint para TourBooking | Como developer, quiero implementar un endpoint que permita a los usuarios reservar un tour y cancelar la reserva si es necesario | **Escenario 1: Crear reserva de tour**<br>Dado que se envían datos válidos<br>Cuando se hace POST a /tour-bookings<br>Entonces se crea la reserva correctamente.<br>**Escenario 2: Cancelar reserva**<br>Dado que la reserva existe<br>Cuando se hace DELETE a /tour-bookings/{id}<br>Entonces la reserva se elimina del sistema.<br>**Escenario 3: Consultar reservas por usuario**<br>Dado que el usuario tiene reservas<br>Cuando se hace GET a /tour-bookings?userId={id}<br>Entonces se devuelve su historial de reservas. | EP06 |
+| TS14 | Endpoint para Bikes | Como developer, quiero exponer un endpoint para gestionar bicicletas, permitiendo su creación, modificación, consulta y eliminación | **Escenario 1: Crear bicicleta**<br>Dado que se envía información válida<br>Cuando se hace POST a /bikes<br>Entonces la bicicleta es registrada.<br>**Escenario 2: Editar bicicleta**<br>Dado que la bicicleta existe<br>Cuando se hace PUT a /bikes/{id}<br>Entonces se actualiza su estado.<br>**Escenario 3: Consultar bicicletas**<br>Dado que se accede al endpoint<br>Cuando se hace GET a /bikes<br>Entonces se muestra el listado.<br>**Escenario 4: Eliminar bicicleta**<br>Dado que la bicicleta existe<br>Cuando se hace DELETE a /bikes/{id}<br>Entonces se elimina del sistema. | EP06 |
+| TS15 | Endpoint para Bike Station | Como developer, quiero desarrollar un endpoint para administrar las estaciones de bicicletas, permitiendo operaciones CRUD completas | **Escenario 1: Crear estación**<br>Dado que se envían datos válidos<br>Cuando se hace POST a /stations<br>Entonces se crea una nueva estación.<br>**Escenario 2: Obtener estaciones**<br>Dado que hay estaciones registradas<br>Cuando se hace GET a /stations<br>Entonces se muestran todas las estaciones.<br>**Escenario 3: Editar estación**<br>Dado que una estación existe<br>Cuando se hace PUT a /stations/{id}<br>Entonces se actualiza correctamente.<br>**Escenario 4: Eliminar estación**<br>Dado que existe<br>Cuando se hace DELETE a /stations/{id}<br>Entonces se elimina la estación. | EP06 |
+| TS16 | Endpoint para Payment | Como developer, quiero implementar un endpoint para registrar pagos de alquiler o tours, asociando la transacción al usuario y enviando confirmación | **Escenario 1: Registrar pago**<br>Dado que el usuario completa un alquiler o reserva<br>Cuando se hace POST a /payments<br>Entonces se guarda la transacción con éxito.<br>**Escenario 2: Consultar historial de pagos**<br>Dado que el usuario desea ver sus pagos<br>Cuando hace GET a /payments?userId={id}<br>Entonces se devuelve el historial correspondiente. | EP06 |
+| TS17 | Endpoint para Payment Information | Como developer, quiero permitir que los usuarios gestionen su información de pago (tarjetas, métodos), pudiendo registrar, actualizar o eliminar estos datos | **Escenario 1: Registrar método de pago**<br>Dado que el usuario quiere guardar un nuevo método<br>Cuando se hace POST a /payment-info<br>Entonces se registra correctamente.<br>**Escenario 2: Editar método**<br>Dado que el método ya existe<br>Cuando se hace PUT a /payment-info/{id}<br>Entonces los datos se actualizan.<br>**Escenario 3: Eliminar método**<br>Dado que el usuario desea borrarlo<br>Cuando se hace DELETE a /payment-info/{id}<br>Entonces desaparece del perfil.<br>**Escenario 4: Obtener métodos guardados**<br>Dado que el usuario accede a su configuración<br>Cuando se hace GET a /payment-info?userId={id}<br>Entonces ve sus métodos registrados. | EP06 |
 
 ## 3.3 Impact Mapping
 
-![impact-mapping](/assets/images/impact-mapping/Impactmapping.jpg)
+![impact-mapping](assets/images/impact-mapping/impactmap1.png)
+![impact-mapping](assets/images/impact-mapping/impactmap2.png)
+![impact-mapping](assets/images/impact-mapping/impactmap3.png)
 
 
 ## 3.4 Product Backlog
@@ -705,41 +762,68 @@ JIRA URL: [https://carlos123q.atlassian.net/jira/software/projects/SAF/boards/3/
 
 ### Product Backlog Tablas
 
-| # Orden | User Story Id | Título | Descripción | Story Points |
-| :---- | :---- | :---- | :---- | :---- |
-| 1 | US01 | Ver logo y eslogan | Como visitante deseo ver el logo y eslogan para saber de qué trata Safecycle. | 1 |
-| 2 | US02 | Ver funcionalidades | Como visitante deseo ver las funcionalidades principales para saber qué hace la aplicación. | 3 |
-| 3 | US03 | Ver precios y tarifas | Como visitante deseo ver precios y tarifas para saber si me conviene usar el servicio. | 5 |
-| 4 | US23 | Navigation Bar | Como visitante deseo navegar rápidamente por la página. | 3 |
-| 5 | US24 | How does it work | Como visitante deseo saber cómo funciona la app para entender el proceso. | 3 |
-| 6 | US25 | ¿Por qué nosotros? | Como visitante deseo conocer los beneficios de Safecycle frente a otras opciones. | 5 |
-| 7 | US26 | Footer de la landing | Como visitante deseo ver información útil al pie de la página para acceder a enlaces de interés. | 1 |
-| 8 | US27 | Cambio de idioma landing | Como visitante deseo cambiar el idioma para entender mejor la información. | 2 |
-| 9 | US28 | Atributos ARIA | Como usuario con discapacidad deseo acceder a una web accesible mediante lector de pantalla. | 5 |
-| 10 | US31 | Responsive design | Como visitante deseo que la web funcione bien desde cualquier dispositivo. | 8 |
-| 11 | US33 | Sección Planes | Como visitante deseo ver los planes disponibles para comparar y elegir uno. | 3 |
-| 12 | US04 | Botón empieza ahora | Como visitante deseo tener un botón visible para iniciar el registro. | 1 |
-| 13 | US05 | Login desde landing | Como visitante deseo iniciar sesión fácilmente desde la landing. | 2 |
-| 14 | US06 | Registro estudiante | Como estudiante deseo registrarme desde la web para empezar a usar la app. | 5 |
-| 15 | US07 | Registro turista | Como turista deseo registrarme rápido para comenzar a alquilar bicicletas. | 2 |
-| 16 | US08 | Registro usuario turista | Como turista deseo registrarme en la plataforma para acceder al servicio. | 2 |
-| 17 | US09 | Registro usuario estudiante | Como estudiante deseo registrarme y acceder a beneficios exclusivos. | 2 |
-| 18 | US10 | Login usuario | Como usuario deseo iniciar sesión en mi cuenta para gestionar mis reservas. | 1 |
-| 19 | US20 | Editar perfil | Como usuario deseo actualizar mis datos personales. | 3 |
-| 20 | US22 | Cerrar sesión | Como usuario deseo cerrar sesión para proteger mi cuenta. | 2 |
-| 21 | US32 | Cambio de idioma app | Como usuario deseo cambiar el idioma dentro de la app web. | 2 |
-| 22 | US11 | Alquiler bicicleta | Como usuario deseo alquilar una bicicleta para movilizarme. | 3 |
-| 23 | US12 | Elegir punto de recojo | Como usuario deseo seleccionar el punto más cercano para retirar la bici. | 5 |
-| 24 | US15 | Reservar bicicleta | Como usuario deseo hacer una reserva con anticipación. | 5 |
-| 25 | US16 | Cancelar reserva | Como usuario deseo cancelar una reserva que ya no necesito. | 3 |
-| 26 | US19 | Ver rutas turísticas | Como turista deseo ver rutas sugeridas para explorar la ciudad. | 8 |
-| 27 | US13 | Notificación de mora | Como usuario deseo recibir una alerta si excedo el tiempo de alquiler. | 2 |
-| 28 | US14 | Confirmación de pago | Como usuario deseo recibir confirmación después de pagar. | 3 |
-| 29 | US29 | Actualizar método de pago | Como usuario deseo actualizar mis datos de pago para futuras reservas. | 2 |
-| 30 | US30 | Ver tarifas actuales | Como usuario deseo consultar las tarifas actualizadas antes de alquilar. | 2 |
-| 31 | US17 | Administrar bicicletas | Como administrador deseo gestionar el inventario de bicicletas. | 3 |
-| 32 | US18 | Administrar estaciones | Como administrador deseo editar la información de las estaciones. | 5 |
-| 33 | US21 | Acceder a panel de control | Como administrador deseo ingresar al panel para ver métricas generales. | 2 |
+| Orden | User Story Id | Título | Descripción | Story Points |
+| :---- | :------------- | :----- | :---------- | :------------ |
+| 1 | US01 | Ver el nombre, logo y eslogan de la aplicación | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder visualizar el nombre y eslogan de la aplicación para saber de qué se trata a primera vista | 1 |
+| 2 | US02 | Visualizar principales funciones | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder ver las funcionalidades que ofrece la aplicación para saber que beneficios puedo tener | 2 |
+| 3 | US03 | Visualizar precios y tarifas | Como visitante de ambos segmentos objetivos estudiante y turista, quiero poder visualizar los precios y las tarifas que ofrece la aplicación para saber si me conviene comprar sus servicios | 2 |
+| 4 | US04 | Visualizar botón destacado “Empieza ahora” | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Empieza ahora” en la sección principal para comenzar el proceso de registro sin perder tiempo | 1 |
+| 5 | US23 | Navigation Bar | Como visitante de ambos segmentos objetivos quiero acceder a la barra de navegación para moverme rápidamente a cualquier sección de la página | 1 |
+| 6 | US24 | Sección How does it work | Como visitante de ambos segmentos objetivos quiero saber como funciona la aplicación para saber si es de fácil uso | 2 |
+| 7 | US25 | Sección Porque Nosotros | Como visitante de ambos segmentos objetivos, quiero saber por qué debería elegir SafeCycle sobre otras opciones para tomar una decisión informada | 1 |
+| 8 | US26 | Footer | Como visitante de ambos segmentos quiero ver información útil en el footer de la página para acceder rápidamente a redes sociales | 1 |
+| 9 | US27 | Cambio de lenguaje a ingles y español en Landing Page | Como visitante de ambos segmentos objetivos quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido | 2 |
+| 10 | US28 | Atributos Aria | Como visitante de ambos segmentos objetivos quiero que el sitio sea accesible para navegarlo con lectores de pantalla | 1 |
+| 11 | US31 | Acceder a Landing page desde cualquier dispositivo | Como visitante de ambos segmentos objetivos  quiero acceder a la landing page de SafeCycle desde cualquier dispositivo para informarme sobre el servicio sin necesidad de descargar la app | 1 |
+| 12 | US33 | Sección planes | Como visitante de ambos segmentos objetivos quiero explorar los planes disponibles para elegir el que mejor se adapte a mis necesidades antes de registrarme | 2 |
+| 13 | US05 | Acceder a la página inicio de sesión | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Iniciar sesión” en el header para comenzar el proceso de inicio de sesión sin perder tiempo | 1 |
+| 14 | US06 | Acceder a la página de registro de estudiante | Como visitante del segmento objetivo de estudiantes, quiero poder registrarme rápidamente como un estudiante para comenzar el proceso de registro sin perder tiempo | 1 |
+| 15 | US07 | Acceder a la página de registro de turista | Como visitante del segmento objetivo de turistas, quiero poder registrarme rápidamente como un turista para comenzar el proceso de registro sin perder tiempo | 1 |
+| 16 | US34 | Need Finding | Como equipo de desarrollo de SafeCycle, queremos identificar las necesidades y frustraciones de los usuarios objetivo (estudiantes y turistas) para diseñar una solución que responda efectivamente a sus problemas de transporte urbano | 1 |
+| 17 | US35 | User Task Matrix | Como equipo de UX de SafeCycle, queremos visualizar el recorrido completo de los usuarios desde el descubrimiento hasta el uso del servicio para detectar oportunidades de mejora en su experiencia | 1 |
+| 18 | US36 | User Journey Map | Como equipo de UX de SafeCycle, queremos visualizar el recorrido completo de los usuarios desde el descubrimiento hasta el uso del servicio para detectar oportunidades de mejora en su experiencia | 1 |
+| 19 | US37 | Empathy Mapping | Como equipo de SafeCycle, queremos identificar lo que piensan, sienten, dicen y hacen nuestros usuarios para diseñar una solución que conecte empáticamente con sus motivaciones y frustraciones | 1 |
+| 20 | US38 | Scenario Mapping | Como equipo de análisis de SafeCycle, queremos mapear la experiencia actual (As-Is) y la experiencia ideal (To-Be) de los usuarios para identificar mejoras claras en su recorrido | 2 |
+| 21 | US39 | Impact Mapping | Como equipo estratégico de SafeCycle, queremos construir un mapa de impacto para alinear objetivos de negocio con acciones técnicas y funcionalidades que generen valor real para los usuarios | 2 |
+| 22 | US40 | Product Backlog | Como equipo de producto de SafeCycle, queremos construir y priorizar un backlog que contenga las funcionalidades esenciales para estudiantes y turistas, a fin de entregar valor desde las primeras versiones del producto | 1 |
+| 23 | US41 | Modelado C4 | Como equipo técnico de SafeCycle, queremos representar la arquitectura de la aplicación utilizando el modelo C4 para entender mejor la relación entre contexto, contenedores y componentes del sistema | 2 |
+| 24 | US42 | Diagrama de Clases | Como equipo de desarrollo de SafeCycle, queremos crear un diagrama de clases que represente las entidades principales del dominio y sus relaciones, para guiar la implementación orientada a objetos del sistema | 2 |
+| 25 | US43 | Diagrama de Base de Datos | Como equipo de backend de SafeCycle, queremos diseñar un diagrama de base de datos que refleje cómo se almacenan y relacionan los datos de usuarios, bicicletas, reservas y pagos, para facilitar la implementación y escalabilidad del sistema | 2 |
+| 26 | TS02 | Despliegue de la aplicación | Como developer quiero desplegar la aplicación en un entorno accesible públicamente para que otros usuarios puedan probar su funcionamiento | 2 | 
+| 27 | TS04 | Configuración de las rutas principales | Como developer, quiero configurar las rutas principales de la aplicación para permitir la navegación entre las diferentes vistas de forma fluida | 2 | 
+| 28 | US11 | Alquiler de bicicleta | Como usuario de ambos segmentos objetivos quiero poder alquilar una bicicleta para transportarme rápidamente | 3 |
+| 29 | US12 | Elección de puntos de recojo | Como usuario de ambos segmentos objetivos quiero poder elegir el punto de recojo de mi bicicleta para dirigirse a esta fácilmente | 2 |
+| 30 | US13 | Recibir notificación de mora | Como usuario de ambos segmentos objetivos quiero recibir una notificación <br>Cuando exceda el tiempo de alquiler para estar informado de la penalización | 2 |
+| 31 | US14 | Recibir confirmación del pago | Como usuario de ambos segmentos objetivos  quiero recibir una confirmación luego de realizar el pago para asegurarme que fue exitoso | 2 |
+| 32 | US15 | Realizar reservas de bicicletas | Cómo usuario de ambos segmentos objetivos  quiero tener la habilidad de reservar una bicicleta con varios días de anticipación para poder usarla en una fecha específica | 3 |
+| 33 | US16 | Cancelar una reserva | Cómo usuario  de ambos segmentos objetivos deseo tener la habilidad de cancelar mi reserva para los casos en los que ya no requiera el servicio | 2 |
+| 34 | US19 | Rutas turísticas | Cómo turista quiero realizar un tour para explorar la ciudad con puntos turísticos importantes | 3 |
+| 35 | US30 | Ver actuales tarifas | Como usuario de ambos segmentos objetivos quiero visualizar las tarifas actuales de uso para conocer los costos antes de realizar una reserva o alquiler | 1 |
+| 36 | US32 | Cambio de lenguaje a ingles y español en aplicación | Como usuario de ambos segmentos objetivos  quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido | 2 |
+| 37 | US29 | Actualizar información de pago | Cómo usuario  de ambos segmentos objetivos quiero actualizar mi información de pago para agilizar y asegurar las transacciones | 2 |
+| 38 | TS03 | Validación de datos recibidos desde la Fake API | Como developer, quiero validar que los datos recibidos desde la Fake API cumplan con el formato esperado, para evitar errores en la visualización o manipulación | 3 | 
+| 39 | TS01 | Funcionalidad CRUD en la interfaz | Como developer quiero implementar funcionalidades CRUD (Crear, leer, actualizar, eliminar)  en la interfaz para gestionar los recursos de manera dinamica desde el frontend | 5 | 
+| 40 | TS06 | CRUD Bikes | Como developer de la aplicación, quiero implementar la funcionalidad CRUD para las bicicletas para registrar nuevas unidades, actualizar su estado o eliminarlas cuando se dé de baja | 2 |
+| 41 | US17 | Administración de bicicletas | Cómo administrador de Safecycle quiero administrar las bicicletas de cada estación para manejar de forma eficiente las bicicletas | 2 |
+| 42 | TS07 | CRUD Bike Station | Como developer de la app, quiero implementar funcionalidades CRUD sobre estaciones de bicicletas para administrar sus ubicaciones y capacidades | 2 |
+| 43 | US18 | Administración estaciones de bicicletas | Cómo developer de Safecycle quiero recibir información acerca de las estaciones para poder visualizarlas más fácilmente | 2 |
+| 44 | TS08 | CRUD Touring | Como developer de la aplicación, quiero poder administrar la información de los recorridos turísticos (tourings) usando operaciones CRUD para actualizar o eliminar recorridos obsoletos y mostrar los vigentes | 2 |
+| 45 | TS09 | CRUD Bookings | Como developer, quiero implementar operaciones CRUD para que los usuarios puedan gestionar sus reservas de bicicletas o tourings de forma sencilla | 3 |
+| 46 | TS10 | CRUD Payments | Como developer que trabaja en la aplicación, quiero implementar la funcionalidad CRUD para los métodos de pago para que los usuarios puedan registrar, actualizar o eliminar tarjetas u otros medios asociados a sus cuentas | 3 |
+| 47 | TS12 | Endpoint para Tours | Como developer, quiero exponer un endpoint que permita listar, crear y eliminar recorridos turísticos para mantener actualizados los tours disponibles | 2 |
+| 48 | TS13 | Endpoint para TourBooking | Como developer, quiero implementar un endpoint que permita a los usuarios reservar un tour y cancelar la reserva si es necesario | 2 |
+| 49 | TS14 | Endpoint para Bikes | Como developer, quiero exponer un endpoint para gestionar bicicletas, permitiendo su creación, modificación, consulta y eliminación | 2 |
+| 50 | TS15 | Endpoint para Bike Station | Como developer, quiero desarrollar un endpoint para administrar las estaciones de bicicletas, permitiendo operaciones CRUD completas | 2 |
+| 51 | TS16 | Endpoint para Payment | Como developer, quiero implementar un endpoint para registrar pagos de alquiler o tours, asociando la transacción al usuario y enviando confirmación | 2 |
+| 52 | TS17 | Endpoint para Payment Information | Como developer, quiero permitir que los usuarios gestionen su información de pago (tarjetas, métodos), pudiendo registrar, actualizar o eliminar estos datos | 2 |
+| 53 | TS05 | CRUD Users | Como developer quiero obtener la información de los usuarios mediante la funcionalidad CRUD para monitorear y convalidar a nuestros usuarios | 3 |
+| 54 | TS11 | Endpoint para Usuarios | Como developer, quiero implementar un endpoint RESTful para gestionar usuarios, permitiendo operaciones de registro, obtención, actualización y eliminación | 2 |
+| 55 | US08 | Registro de usuario turista | Como usuario turista quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | 3 |
+| 56 | US09 | Registro de usuario estudiante | omo usuario estudiante quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | 3 |
+| 57 | US10 | Iniciar sesión en cuenta personal | Como usuario de ambos segmentos objetivos estudiante y turista de SafeCycle quiero poder iniciar sesion en la aplicación para acceder a mi cuenta personal | 3 |
+| 58 | US20 | Actualizar información de perfil | Como usuario  de ambos segmentos objetivos quiero tener la opción de actualizar la información en mi perfil para poder cambiar mis datos en cualquier momento | 2 |
+| 59 | US22 | Cerrar sesión | Cómo usuario de ambos segmentos objetivos e quiero tener la opción de cerrar mi sesión para mantener mi cuenta segura | 1 | 
+
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
@@ -998,7 +1082,7 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 <img src="assets/images/UXUI/wireflows/2.png" width="400" alt="Wireflow" />
 <img src="assets/images/UXUI/wireflows/3.png" width="400" alt="Wireflow" />
 
-[link a wireflow diagrams](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
+link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -1043,7 +1127,9 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 <img src="assets/images/UXUI/user%20flows/signup.png" width="400" alt="Flujo de registro" />
 <img src="assets/images/UXUI/user%20flows/touring.png" width="400" alt="Flujo de tour" />
 
+
 [link a user flow diagrams](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4) [https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?viewport_loc=-3492%2C-4847%2C10317%2C6222%2CJ~k~kbGCtyzJ&invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4](https://lucid.app/lucidchart/3d73b82d-4c20-4e09-afa9-4c03fc615e97/edit?viewport_loc=-3492%2C-4847%2C10317%2C6222%2CJ~k~kbGCtyzJ&invitationId=inv_dede9743-a201-4f73-9f0d-7a9a8f3cedb4)
+
 
 ## 4.5. Web Applications Prototyping
 
@@ -1056,6 +1142,7 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 
 <img src="assets/images/C4/C4-1.png" width="600" alt="SoftwareArchitectureContextDiagram" />
 
+
 ### 4.6.2. Software Architecture Container Diagrams
 
 <img src="assets/images/C4/C4-2.png" width="600" alt="SoftwareArchitectureContainerDiagrams" />
@@ -1063,49 +1150,239 @@ La estructura de navegación de SafeCycle está diseñada para facilitar el acce
 ### 4.6.3. Software Architecture Components Diagrams
 
 <img src="assets/images/C4/C4-3.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
+<img src="assets/images/C4/C4-4.png" width="600" alt="SoftwareArchitectureComponentsDiagramsBackend" />
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
-<img src="assets/images/diagram-class/diagram-class.png" width="600" alt="diagram class" />
+#### Safecycle Frontend Class Diagram
+
+<img src="assets/images/diagram-class/diagram-class.png" width="1000" alt="diagram class" />
+
+- Renting Bounded Context
+<img src="assets/images/diagram-class/diagram-class2.png" width="1000" alt="diagram class2" />
+
+- Booking Bounded Context
+<img src="assets/images/diagram-class/diagram-class3.png" width="1000" alt="diagram class3" />
+
+- Users Bounded Context
+<img src="assets/images/diagram-class/diagram-class4.png" width="1000" alt="diagram class4" />
+
+- Touring Bounded Context
+<img src="assets/images/diagram-class/diagram-class5.png" width="1000" alt="diagram class5" />
 
 ### 4.7.2. Class Dictionary
-| Clase | Nombre de Atributo | Descripción | Tipo de Dato |
-| ----- | ----- | ----- | ----- |
-| Usuario | nombre | Nombre del usuario | string |
-|  | correo | Correo electrónico del usuario | string |
-|  | fecha\_registro | Fecha de registro del usuario | date |
-| Reserva | reserva | ID de la reserva | int |
-|  | fecha\_reserva | Fecha en que se hizo la reserva | date |
-|  | tiempo\_inicio | Hora de inicio de la reserva | date |
-|  | tiempo\_termina | Hora de finalización de la reserva | date |
-| Pago | pago | ID del pago | int |
-|  | tiempo\_pago | Fecha y hora del pago | date |
-|  | stripe | Código de transacción de Stripe | string |
-| Touring | nombre | Nombre del recorrido | string |
-|  | distancia | Distancia del recorrido | double |
-|  | precio | Precio del recorrido | money |
-|  | tiempo | Duración total del recorrido | time |
-|  | estacion | Nombre de la estación asociada | string |
-|  | tiempo\_inicio | Hora de inicio del recorrido | date |
-|  | tiempo\_termina | Hora de fin del recorrido | date |
-| Alquiler | alquiler | ID del alquiler | int |
-|  | punto\_entrega | Punto donde se entrega la bicicleta | string |
-|  | tiempo\_de\_alquiler | Fecha del alquiler | date |
-| Registro | registro | ID del registro | int |
-|  | condicion\_entrega | Condición de entrega del objeto | string |
-|  | fecha\_entrega | Fecha en que se hizo la entrega | date |
-| Bicicleta | bicicleta | ID de la bicicleta | int |
-|  | condicion | Condición de la bicicleta | string |
-|  | punto\_recogo | Punto de recogida de la bicicleta | string |
-| Almacen | almacen | ID del almacén | int |
-|  | cantidad | Cantidad de bicicletas en el almacén | int |
-|  | capacidad | Capacidad máxima del almacén | int |
-| Identificacion | nacionalidad | Nacionalidad del usuario | string |
-|  | tipoDocumento | Tipo de documento (DNI, pasaporte, etc.) | string |
-| Penalidad | penalidad | ID de la penalidad | int |
-|  | precio\_total | Monto total de la penalidad | double |
+
+## Booking Bounded Context
+
+### Class: `Book`  
+**Package:** `Booking.components`
+
+**Attributes:**
+- `start_date: Date` – Start date of the booking.
+- `start_hour: String` – Start time of the booking.
+- `end_date: Date` – End date of the booking.
+- `end_hour: String` – End time of the booking.
+- `selectedStation: String` – Station chosen by the user.
+- `station: String` – Station assigned to the booking.
+- `bookingImage: String` – Image related to the booking.
+
+**Methods:**
+- `calculate(): void` – Calculates booking duration or cost.
+- `cancelBooking(): void` – Cancels the booking.
+- `confirmBooking(): void` – Confirms and finalizes the booking.
+
+**Relationships:**
+- Uses `RentingServices` to check bike availability.
+- Uses `UsersServices` to validate the user.
+- Used by `TouringBook` to generate bookings.
+
+---
+
+## Renting Bounded Context
+
+### Class: `Rent`  
+**Package:** `Renting.components`
+
+**Attributes:**
+- `name: String` – Name of the form or field.
+- `type: String` – Rental type (e.g., hourly, daily).
+- `inputType: String` – Type of user input.
+- `placeholder: String` – Placeholder for inputs.
+- `initialValue: String` – Default value for the field.
+
+**Methods:**
+- `onFormSubmit(): void` – Submits rental form.
+- `chooseRent(): void` – Selects rental options.
+- `confirmRent(): void` – Confirms a rental.
+- `cancelRent(): void` – Cancels a rental.
+- `startRent(): void` – Starts the rental session.
+- `endRent(): void` – Ends the rental session.
+
+**Relationships:**
+- Uses `RentingServices`.
+- Accesses `UsersServices` to validate users.
+
+### Class: `RentingServices`  
+**Package:** `Renting.services`
+
+**Methods:**
+- `getAvailableBikesByStationId(stationId: String): List<String>` – Returns list of available bikes.
+- `getBikeStations(): List<String>` – Returns all bike stations.
+
+---
+
+## Touring Bounded Context
+
+### Class: `TouringBook`  
+**Package:** `Touring.components`
+
+**Methods:**
+- `getDetails(): void` – Gets detailed tour info.
+- `sendSuccess(): void` – Sends confirmation or success event.
+
+**Relationships:**
+- Uses `TourBookApiService` to retrieve bookings.
+- Uses `UsersServices` to identify user.
+- Uses `Book` to create related reservation.
+
+### Class: `TouringDetails`  
+**Package:** `Touring.components`
+
+**Methods:**
+- `fetchTourBook(): void` – Fetches tour booking from backend.
+
+### Class: `Touring`  
+**Package:** `Touring.model`
+
+**Attributes:**
+- `id: String` – Unique tour identifier.
+- `name: String` – Name of the tour.
+- `hour: String` – Tour start hour.
+- `img: String` – Tour image.
+- `price: Double` – Tour cost.
+
+### Class: `TourBook`  
+**Package:** `Touring.model`
+
+**Attributes:**
+- `id: String` – Booking ID.
+- `name: String` – Name of the tour.
+- `start_hour: String` – Start hour.
+- `start_date: Date` – Start date.
+- `bike_station: String` – Station associated.
+- `duration: Int` – Duration in hours.
+- `cost: Double` – Total cost.
+
+### Class: `TourApiService`  
+**Package:** `Touring.services`
+
+**Methods:**
+- `getAllTours(): List<Touring>` – Returns all tours.
+- `getTourById(id: String): Touring` – Returns tour by ID.
+
+### Class: `TourBookApiService`  
+**Package:** `Touring.services`
+
+**Methods:**
+- `getAllTourBook(): List<TourBook>` – Returns all tour bookings.
+- `GetTourBook(id: String): TourBook` – Returns booking by ID.
+
+---
+
+## UserManagement Bounded Context
+
+### Class: `Student`  
+**Package:** `UserManagement.model`
+
+**Attributes:**
+- `id: String`
+- `username: String`
+- `type: String`
+- `email: String`
+- `password: String`
+- `maxDailyReservationHours: Int`
+- `paymentInformation: String`
+
+### Class: `Tourist`  
+**Package:** `UserManagement.model`
+
+**Attributes:**
+- `id: String`
+- `username: String`
+- `email: String`
+- `type: String`
+- `passport: String`
+- `maxDailyReservationHours: Int`
+- `password: String`
+- `paymentInformation: String`
+
+### Class: `UsersServices`  
+**Package:** `UserManagement.services`
+
+**Methods:**
+- `getByEmail(email: String): Object` – Fetch user by email.
+- `getUserByEmailAndPassword(email: String, password: String): Object` – Authenticates user.
+- `create(userData: Object): void` – Registers a new user.
+
+**Relationships:**
+- Used by `Book`, `Rent`, `TouringBook`, and registration components.
+
+### Class: `Profile`  
+**Package:** `UserManagement.components`
+
+**Attributes:**
+- `username: String`
+- `email: String`
+- `password: String`
+
+**Methods:**
+- `goChangePass(): void`
+- `goEditProfile(): void`
+- `changeLanguage(): void`
+
+### Class: `RegisterStudent`  
+**Package:** `UserManagement.components`
+
+**Attributes:**
+- `educationalEmail: String`
+- `username: String`
+- `password: String`
+
+**Methods:**
+- `noEmailRegistered(): void`
+- `wrongPassword(): void`
+
+### Class: `RegisterTourist`  
+**Package:** `UserManagement.components`
+
+**Attributes:**
+- `email: String`
+- `passport: String`
+- `password: String`
+- `username: String`
+
+**Methods:**
+- `noEmailRegistered(): void`
+- `wrongPassword(): void`
+
+### Class: `Payments`  
+**Package:** `UserManagement.components`
+
+**Attributes:**
+- `cardNumber: String`
+- `cardType: String`
+- `holderName: String`
+
+**Methods:**
+- `editPayment(): void`
+
+### Class: `EditPayments`  
+**Package:** `UserManagement.components`
+
+**Methods:**
+- `saveChanges(): void`
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
@@ -1430,15 +1707,13 @@ A continuación se muestran los commits realizados por los integrantes del equip
 <img src="assets/images/collabEvidence/Landing-page-Touring.png" width=800>
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
-
+  Dentro de este primer sprint no se contempló el uso de servicios
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
 
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 2. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
 
-<img src="assets/images/deployment-sprint2/github.png" alt="deployment evidence in github">
-<img src="assets/images/deployment-sprint2/azure.jpeg" alt="deployment evidence in azure">
-<img src="assets/images/deployment-sprint2/azure2.jpeg" alt="deployment evidence in azure">
 <img src="assets/images/deployment-sprint2/1.png" alt="deployment evidence 1" width=800>
 <img src="assets/images/deployment-sprint2/2.png" alt="deployment evidence 2" width=800>
 <img src="assets/images/deployment-sprint2/3.png" alt="deployment evidence 3" width=800>
@@ -1456,6 +1731,18 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
 <img src="assets/images/deployment-sprint2/15.png" alt="deployment evidence 15" width=800>
 <img src="assets/images/deployment-sprint2/16.png" alt="deployment evidence 16" width=800>
 
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+No se emplearon servicios adicionales, ya que este primer sprint se centró exclusivamente en la implementación de la primera versión del web application.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
+
+<img src="assets/images/deployment-sprint2/github.png" alt="deployment evidence in github">
+<img src="assets/images/deployment-sprint2/azure.jpeg" alt="deployment evidence in azure">
+<img src="assets/images/deployment-sprint2/azure2.jpeg" alt="deployment evidence in azure">
+
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 | Participante | Actividades de implementación |
@@ -1467,6 +1754,577 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
 
 <img src="assets/images/deployment-sprint2/teamInsights.png" alt="team insights 1" width=800>
 <img src="assets/images/deployment-sprint2/teamInsights2.png" alt="team insights 2" width=800>
+
+### 5.2.3. Sprint 3
+#### 5.2.3.1.Sprint Planning 3.
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name)  | GitHub Username | Back-End Development| Documentation | Page Deployment | 
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | L                                                                                             |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | L                                       | C                                            | C                                                                                             |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | C                                       | L                                            | C                                                                                             |
+| Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                                                             |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 3</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned To</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS05</td>
+    <td rowspan="1">CRUD Users</td>
+    <td>T01</td>
+    <td>CRUD usuario - lectura y edición</td>
+    <td>Soporte backend para editar y obtener datos de usuario desde panel.</td>
+    <td>5</td>
+    <td>Diego Mora</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS11</td>
+    <td rowspan="2">Endpoint para IAM</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación del método POST y Delete</td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos getById, getByUser, getByTourist, getAllUsers </td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS08</td>
+    <td rowspan="1">CRUD Touring</td>
+    <td>T01</td>
+    <td>Soporte CRUD tours</td>
+    <td>Soporte backend para editar y obtener datos de recorridos turísticos.</td>
+    <td>5</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS12</td>
+    <td rowspan="2">Endpoint para Tours</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST</td>
+    <td>3</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos getById, getAllTours </td>
+    <td>2</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS13</td>
+    <td rowspan="2">Endpoint para TourBooking</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST, GetByID y PUT</td>
+    <td>3</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos  GetById, GetAll </td>
+    <td>2</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS16</td>
+    <td rowspan="2">Endpoint para Bike Station</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST, /td>
+    <td>4</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+    <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos GetAll ,GetByID, GetAvailableCarStations </td>
+    <td>2</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS06</td>
+    <td rowspan="1">CRUD Bikes</td>
+    <td>T01</td>
+    <td>Soporte CRUD bicicletas</td>
+    <td>Soporte backend para registrar, leer y eliminar bicicletas para uso del sistema.</td>
+    <td>2</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS14</td>
+    <td rowspan="2">Endpoint para Bikes</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST</td>
+    <td>3</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos GetAll, GetByID, GetAvailableCars </td>
+    <td>2</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS10</td>
+    <td rowspan="1">CRUD Payments</td>
+    <td>T01</td>
+    <td>Soporte CRUD métodos de pago</td>
+    <td>Crear backend para registrar y gestionar métodos de pago.</td>
+    <td>4</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS15</td>
+    <td rowspan="2">Endpoint para Payment</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST y Delete</td>
+    <td>2</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos GetAll, GetById </td>
+    <td>2</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS16</td>
+    <td rowspan="2">Endpoint para Payment Information</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación de los métodos POST, UPDATE y DELETE </td>
+    <td>4</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+   </tr>
+    <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos GetAll, GetById </td>
+    <td>2</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">US32</td>
+    <td rowspan="1">Cambio de lenguaje a inglés y español en la aplicación</td>
+    <td>T01</td>
+    <td>Añadir cambios de lenguaje</td>
+    <td>Implementación de i18n a la aplicación</td>
+    <td>6</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US34</td>
+    <td rowspan="2">Need Finding</td>
+    <td>T01</td>
+    <td>Recopilar información cualitativa</td>
+    <td>Entrevistar usuarios y recopilar insights</td>
+    <td>4</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Consolidar insights y documentar</td>
+    <td>Elaborar documento con necesidades identificadas</td>
+    <td>3</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US35</td>
+    <td rowspan="2">User Task Matrix</td>
+    <td>T01</td>
+    <td>Identificar tareas clave por segmento</td>
+    <td>Analizar y listar tareas de estudiantes y turistas</td>
+    <td>4</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Elaborar matriz de tareas por rol</td>
+    <td>Diseñar matriz visual de tareas</td>
+    <td>3</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US36</td>
+    <td rowspan="2">User Journey Map</td>
+    <td>T01</td>
+    <td>Diseñar journey map del estudiante</td>
+    <td>Mapear pasos y emociones del usuario estudiante</td>
+    <td>4</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Diseñar journey map del turista</td>
+    <td>Mapear pasos y emociones del turista</td>
+    <td>4</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US37</td>
+    <td rowspan="2">Empathy Mapping</td>
+    <td>T19</td>
+    <td>Empathy Map: segmento estudiante</td>
+    <td>Construir mapa de empatía para estudiantes</td>
+    <td>3</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T20</td>
+    <td>Empathy Map: segmento turista</td>
+    <td>Construir mapa de empatía para turistas</td>
+    <td>3</td>
+    <td>Carlos Matthew</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US38</td>
+    <td rowspan="2">Scenario Mapping</td>
+    <td>T01</td>
+    <td>Definir escenarios As-Is</td>
+    <td>Documentar procesos actuales de los usuarios</td>
+    <td>3</td>
+    <td>Gabriel Sanchez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Definir escenarios To-Be</td>
+    <td>Definir escenarios ideales con SafeCycle</td>
+    <td>3</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done/td>
+  </tr>
+  <tr>
+    <td rowspan="2">US39</td>
+    <td rowspan="2">Impact Mapping</td>
+    <td>T23</td>
+    <td>Identificar objetivos y actores</td>
+    <td>Listar objetivos de negocio y actores clave</td>
+    <td>3</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T24</td>
+    <td>Mapear conexiones impacto-funcionalidad</td>
+    <td>Construir mapa de impacto con funcionalidades</td>
+    <td>4</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US40</td>
+    <td rowspan="2">Product Backlog</td>
+    <td>T25</td>
+    <td>Crear versión inicial del backlog</td>
+    <td>Crear backlog inicial en formato .md</td>
+    <td>3</td>
+    <td>Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T26</td>
+    <td>Validar backlog con equipo</td>
+    <td>Revisar y validar prioridades de backlog</td>
+    <td>3</td>
+    <td>Giancarlo Castañedae</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US41</td>
+    <td rowspan="3">Modelado C4</td>
+    <td>T27</td>
+    <td>Crear diagrama de contexto </td>
+    <td>Modelar nivel contexto del sistema</td>
+    <td>2</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T28</td>
+    <td>Crear diagrama de contenedores </td>
+    <td>Modelar nivel contenedores de la app</td>
+    <td>2</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T29</td>
+    <td>Crear diagrama de componentes </td>
+    <td>Modelar nivel componentes</td>
+    <td>2</td>
+    <td>Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US42</td>
+    <td rowspan="2">Diagrama de Clases</td>
+    <td>T01</td>
+    <td>Modelar clases principales</td>
+    <td>Diseñar diagrama UML de clases del sistema</td>
+    <td>2</td>
+    <td> Giancarlo Castañeda </td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Revisar y validar diagrama</td>
+    <td>Revisión conjunta del modelo de clases</td>
+    <td>3</td>
+    <td> Giancarlo Castañeda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">US43</td>
+    <td rowspan="2">Diagrama de Base de Datos</td>
+    <td>T01</td>
+    <td>Modelar tablas y relaciones</td>
+    <td>Diseñar diagrama ER de la base de datos</td>
+    <td>4</td>
+    <td>Carlos Matthew, Diego Mora, Gabriel Sanchez, Giancarlo Castañeda, Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Validar estructura del ERD</td>
+    <td>Validación conjunta del ERD</td>
+    <td>3</td>
+    <td>Carlos Matthew, Diego Mora, Gabriel Sanchez, Giancarlo Castañeda, Oliver Jonseck</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+
+A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
+
+| Repository                                  | Branch                | Commit Id | Commit Message                                     | Commit Message Body | Commited on      |
+|---------------------------------------------|-----------------------|-----------|----------------------------------------------------|---------------------|------------------|
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 3. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
+
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+
+### 5.3.2. Registro de Entrevistas
+
+| Segmento Objetivo | Estudiantes |
+| ----- | ----- |
+| **Número de registro** | **Datos del entrevistado** |
+| 01 | **Nombre:**  <br>**Edad:**  <br>**Profesión:**  **Distrito:**  <br>**Inicio \- Duración:** \- <br> ![interview-image]() |
+|  | **Resumen:**   |
+| 02 | **Nombre:**  <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:**  <br>**Inicio \- Duración:**  \-  <br> ![interview-image]() |
+|  | **Resumen:** |
+| 03 | **Nombre:**   <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:**  <br>**Inicio \- Duración:** \-  <br> ![interview-image]() |
+|  | **Resumen:** |
+| **Segmento Objetivo** | **Turistas** |
+| **04** | **Nombre:**  <br>**Edad:**  <br>**Profesión:** <br>**Distrito:**  <br>**Inicio \- Duración:**  \-  <br> ![interview-image]()|
+|  | **Resumen:** |
+| **05** | **Nombre:**  <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:**  <br>**Inicio \- Duración:** \-   <br> ![interview-image]()|
+|  | **Resumen:**  |
+|**06**| **Nombre:**  <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:** **Inicio \- Duración:**  \-  <br> ![interview-image]() |
+|  | **Resumen:** |
+| Link de la entrevista |  | 
+
+### 5.3.3. Evaluaciones según heuristicas
+
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA            	: Ingeniería de Software**  
+**CURSO                	: Aplicaciones Web**  
+**SECCIÓN              	:** 4374
+
+**PROFESORES      	: Alberto Wilmer Sanchez Seña**
+
+**AUDITOR            	:** Cuys TM
+**CLIENTE(S)          	:** Nombre de las personas que participan en la sesión
+
+*NOTA: Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.*
+
+***SITE o APP A EVALUAR:***
+
+*Nombre de App*
+
+***TAREAS A EVALUAR:***
+
+*El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:*
+
+1\.     *Registro de un usuario nuevo*
+
+2\.     *Publicación de un post*
+
+3\.     *Búsqueda de un paquete turístico*
+
+4\.     *Reserva de un viaje*
+
+5\.     *Cancelación de una reserva*
+
+6\.     *Agregar ítems a un pedido*
+
+7\.     *Pago de un paquete turístico*
+
+8\.     *Etc.*
+
+*No están incluidas en esta versión de la evaluación las siguientes tareas:*
+
+1\.     *Compartir reservas entre usuarios*
+
+2\.     *Presentar ofertas de último minuto*
+
+3\.     *Administrar puntos del programa de fidelización de viajes*
+
+4\.     *Guardar “alerta de paquetes”*
+
+5\.     *Etc.*
+
+***ESCALA DE SEVERIDAD:***
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*  
+ 
+
+| Nivel | Descripción |
+| :---- | :---- |
+| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+
+***TABLA RESUMEN:***
+
+| \# | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :---: | ----- | ----- | :---- |
+| 1 | No hay un control que permita regresar a la tienda durante el trámite de compra | 3 | Usability: Libertad y control del usuario |
+| 2 | Se repiten constantemente algunas opciones | 1 | Usability: Consistencia y estándares |
+| 3 | Imágenes sin atributo “alt” | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | Incluye un botón “Ver más” pero no existe contenido al que dirigirse | 3 | Information Architecture: Is it usable? |
+| 5 | No incluye información de los planes de servicio | 2 | Information Architecture: Is it findable? |
+| … | …. |   |   |
+
+Etc.
+
+***DESCRIPCIÓN DE PROBLEMAS:*** 
+
+*PROBLEMA \#1: No hay un control que permita regresar a la tienda durante el trámite de compra*
+
+*Severidad: 3*
+
+*Heurística violada: Usabilidad \- Libertad y control del usuario*
+
+*Problema:*
+
+*Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.*
+
+*(Incluir además una captura de pantalla ilustrando el problema).*
+
+*Recomendación:*
+
+*La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras.*  
+
+### 5.4. Video About the Product
 
 ## 6. Conclusiones y recomendaciones
     
@@ -1517,28 +2375,30 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 ## Anexo A: Diseño y Landing: 
 
 ### Figma
-- [Figmas diseño UX](//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1)
+- Figmas diseño UX: [//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1](//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1)
 
 ### Encuesta How Much de 5W2H
-- [Encuensta 5W2H](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
+- Encuensta 5W2H: [https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
 
 ### User Persona
-- [Link a UXpresia de Anne Guillen](https://uxpressia.com/w/2JtXc/p/tbFfu)
-- [Link a UXpresia de Mateo Smith](https://uxpressia.com/w/2JtXc/p/Wfgtx)
+- Link a UXpresia de Anne Guillen [https://uxpressia.com/w/2JtXc/p/tbFfu](https://uxpressia.com/w/2JtXc/p/tbFfu)
+- Link a UXpresia de Mateo Smith [https://uxpressia.com/w/2JtXc/p/Wfgtx](https://uxpressia.com/w/2JtXc/p/Wfgtx)
 
 ### Landing Page
-- [Landing Page desplegada](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
+- Landing Page desplegada[https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
 
 ### Domain-Driven Software Architecture / C4 Diagrams
-- [Link a Structurizr](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
+- Link a Structurizr[https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
 
 
 ### Flujos y Prototype
 
-- [link a wireflow diagrams](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
+- link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6](https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90863b26fd98/edit?invitationId=inv_2f936f9b-5515-424e-93a7-8ea7595ce4e6)
 
-- [link a prototype](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
+- link a prototype[https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
 
 ## Anexo B: Videos de exposiciones: 
-- [Link a video de exposición de TB1 en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
 
+- Link a video de exposición de TB1 en Microsoft Stream[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
+- Link a video de exposición de TP1 en Microsoft Stream[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH)
+- Link a video de exposición de TB2 en Microsoft Stream
