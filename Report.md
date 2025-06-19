@@ -49,6 +49,8 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :---- | :---- | :---- | :---- |
 | 1.0 | 24/04/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Estructura del informe Capítulo I: Introducción Capítulo II: Requirements Elicitation & Analysis Capítulo III: Requirements Specification Capítulo IV: Product Design Capítulo V: Product Implementation, Validation & Deployment Landing Page Conclusiones Bibliografía Recomendaciones Anexos  |
+| 2.0 | 16/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 2: Deploy del FrontEnd, desarrollo del FrontEnd, Insights  |
+| 3.0 | 15/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 3: Deploy del Backend, conexión con la base de datos y el FrontEnd |
 
 # Project Report Collaboration Insights
 
@@ -69,6 +71,21 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 | Integrante | Tareas Asignadas |
 | :---- | :---- |
 | Sanchez Gonzales | Correción Lean UX Problem Statements Correción User Flows Correción Figma Correción entrevistas Software Deployment Evidence for Sprint Review. Team Collaboration Insights during Sprint. Programación de Application Web |
+| Mora Blas, Diego Alonzo | Docomuntación del Sprint 3, Programación de Application Web |
+| Castañeda Guimas, Giancarlo Santiago | Deployment de la pagina. Docomuntación del Sprint 3. Programación de Application Web |
+| Gonzales Valverde, Carlos Matthew | Programación de Application Web |
+| Jonseck Choque, Oliver | Diseño y correción de Diagramas |
+
+## **TB2:**
+
+| Integrante | Tareas Asignadas |
+| :---- | :---- |
+| Sanchez Gonzales | Programación del BackEnd. Validation Interviews Heuristics |
+| Mora Blas, Diego Alonzo | Programación del BackEnd |
+| Castañeda Guimas, Giancarlo Santiago | Programación del BackEnd. Correción de los diagramas de clase, datos y modelado C4 |
+| Gonzales Valverde, Carlos Matthew | Programación del BackEnd |
+| Jonseck Choque, Oliver | Programación del BackEnd. Implementación del idioma ingles y español al FrontEnd |
+
 
 **Link de la pagina deployada:** 
 
@@ -310,15 +327,15 @@ El problema se lleva a cabo cuando miles de personas en Lima metropolitana inten
 
 Medimos la magnitud del problema a través de entrevistas realizadas a un público de 30 personas que transitan diariamente en Lima Metropolitana
 
-<img src="/assets/images/charts/1.png" width=800>
+<img src="assets/images/charts/1.png" width=800>
 
-<img src="/assets/images/charts/2.png" width=800>
+<img src="assets/images/charts/2.png" width=800>
 
-<img src="/assets/images/charts/3.png" width=800>
+<img src="assets/images/charts/3.png" width=800>
 
-<img src="/assets/images/charts/4.png" width=800>
+<img src="assets/images/charts/4.png" width=800>
 
-<img src="/assets/images/charts/5.png" width=800>
+<img src="assets/images/charts/5.png" width=800>
 
 Link a encuesta enviada: [https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog](https://docs.google.com/forms/d/e/1FAIpQLSeA6pLs-rQHjfQKjtP-qf2gnkVFpHTSa95WKuD-IgsjbufGUw/viewform?usp=dialog)
 
@@ -380,7 +397,7 @@ Los turistas buscan maximizar su tiempo explorando nuevas partes de la ciudad de
 | :---- | :---- |
 | ¿Por qué llevar a cabo este análisis?  | Deseamos analizar a nuestros competidores para buscar en qué puntos podemos mejorar, contra que nos estamos enfrentando en el mercado y como nos distinguimos de estos |
 
-|  |  | ![Logo Safe Cycle](/assets/images/Logos/LogoSafeCycle.png)  Safecycle | ![Logo City Bike Lima](/assets/images/Logos/CityBikeLimaLogo.png) CityBikeLima | ![Logo Barranco Bikes](/assets/images/Logos/BarrancoBikesLogo.jpg) Barrancobikes | ![Logo Mira Bici](/assets/images/Logos/MiraBiciLogo.png) Mirabiciperu |
+|  |  | ![Logo Safe Cycle](assets/images/Logos/LogoSafeCycle.png)  Safecycle | ![Logo City Bike Lima](assets/images/Logos/CityBikeLimaLogo.png) CityBikeLima | ![Logo Barranco Bikes](assets/images/Logos/BarrancoBikesLogo.jpg) Barrancobikes | ![Logo Mira Bici](assets/images/Logos/MiraBiciLogo.png) Mirabiciperu |
 | :---- | :---- | ----- | :---- | :---- | :---- |
 | Perfil | Overview Ventaja competitiva  | Plataforma direccionada hacia la renta por minuto de las bicicletas, las cuales se pueden reservar desde la aplicación y posteriormente. | Servicio presencial en el cual se rentan bicicletas por un tiempo de 30 minutos gratis a través de pases mensuales, anuales o diarios y pagados por la pantalla de la bicicleta. | Una plataforma en la que puedes pagar por una bicicleta por horas, días o semanas alrededor de Barranco | Plataforma que ofrece una reservas de bicicletas a través de rutas turísticas |
 |  | ¿Qué valor ofrece a los clientes? | • Devolución de bicicletas en cualquier estación. <br>• Cobro por minuto. <br>• Seguro automatico. <br>• Paquetes de descuento a estudiantes | • Tarjeta con pases anuales <br>• Desbloqueo de bicicleta con código o tarjeta <br>• Devolución de bicicletas en cualquier estación. <br>• Servicio de pausa de la bicicleta | • Renta de bicicletas por horas, días y semanas <br>• Proporciona elementos de seguridad Delivery de bicicleta | • 3 rutas de turismo  <br>• Ofrece una renta de bicicleta por duración de tour  |
@@ -490,18 +507,18 @@ Después de solicitarles sus datos personales básicos como nombres, apellidos, 
 | Segmento Objetivo | Estudiantes |
 | ----- | ----- |
 | **Número de registro** | **Datos del entrevistado** |
-| 01 | **Nombre:** Masaru Nikaido <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario **Distrito:** San Borja <br>**Inicio \- Duración:** 0:00 \- 9:39<br> ![interview-image](/assets/images/interview-images/interview-image1.png) |
+| 01 | **Nombre:** Masaru Nikaido <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario **Distrito:** San Borja <br>**Inicio \- Duración:** 0:00 \- 9:39<br> ![interview-image](assets/images/interview-images/interview-image1.png) |
 |  | **Resumen:** Primero nos cuenta que tiene varias opciones a la hora de elegir su transporte, con las cuales aproximadamente se demora entre 20 y 1 hora en llegar a su destino. Nos cuenta que uso la bicicleta en manera de hacer ejercicio y de manera recreativa más que todo, además nos cuenta que sus principales dificultades al momento de transportarse es el tráfico.En cuanto a nuestra aplicación, menciona que es una buena idea al tratarse de una alternativa ecológica y barata comparado a otros competidores y lo consideraría si en un futuro existieran.  |
-| 02 | **Nombre:** Sebastian Rubio <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** San Juan de Miraflores <br>**Inicio \- Duración:** 9:39 \- 13:23 <br> ![interview-image](/assets/images/interview-images/interview-image2.png) |
+| 02 | **Nombre:** Sebastian Rubio <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** San Juan de Miraflores <br>**Inicio \- Duración:** 9:39 \- 13:23 <br> ![interview-image](assets/images/interview-images/interview-image2.png) |
 |  | **Resumen:** Al comenzar la entrevista se le hace la pregunta como se suele movilizar a lo que él responde que en auto, por lo cual normalmente y sin trafico suele trasladarse a su destino entre 15 a 30 minutos. Nos cuenta que ademas del trafico, sus dificultades al transportarse por la ciudad es por la forma de las carreteras al no poder girar hacia un lado, cometes un error y no hay mucho que hacer. Ademas nos cuenta que ya habia visto una idea similar a la nuestra y si le interesaria utilizarla en algun momento como una alternativa a su transporte actual|
-| 03 | **Nombre:**  Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 13:23 \- 18:50 <br> ![interview-image](/assets/images/interview-images/interview-image3.png) |
+| 03 | **Nombre:**  Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 13:23 \- 18:50 <br> ![interview-image](assets/images/interview-images/interview-image3.png) |
 |  | **Resumen:** Daniel nos cuenta que tiene carro y se moviliza a todas partes con eso, suele demorar entre 20 a 25 minutos algunas veces un poco más por el tráfico. Nos dice que si ha usado bicicletas anteriormente, pero mayormente cuando salía a pasear como un método de recreación. Uno de los problemas principales que tiene al moverse por la ciudad sería el tráfico. Le interesa mucho nuestra aplicación ya que lo podría necesitar para tramos cortos que no necesiten carro y pueda llegar a tiempo a su destino sin tráfico y ahorrando en gasolina|
 | **Segmento Objetivo** | **Turistas** |
-| **04** | **Nombre:** Juan Diego Sersen <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 18:50 \- 23:00 <br> ![interview-image](/assets/images/interview-images/interview-image4.png)|
+| **04** | **Nombre:** Juan Diego Sersen <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 18:50 \- 23:00 <br> ![interview-image](assets/images/interview-images/interview-image4.png)|
 |  | **Resumen:** Se menciona que se tarda en llegar media hora hacia su destino, luego nos menciona que se suele transportar mucho en bicicleta, de hecho nos cuenta que en uno de sus viajes a Paises Bajos se dio cuenta que varias personas usaban la bicicleta como medio de transporte mucho mas que los autos asi que el tambien tuvo que acostumbrarse. También al mencionarle de un precio aproximado para que utilice nuestra aplicación seria de 3 a 5 soles y tambien le pareceria genial que hubiera una sección de ratings y comentarios para saber que opina la gente sobre nuestra aplicación, finalmente comentó que le pareceria buena idea implementar nuestra app en el país. |
-| **05** | **Nombre:** Santiago Valdivia <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 23:00 \- 28:55  <br> ![interview-image](/assets/images/interview-images/interview-image5.png)|
+| **05** | **Nombre:** Santiago Valdivia <br>**Edad:** 19 <br>**Profesión:** Estudiante Universitario <br>**Distrito:** Santiago de Surco <br>**Inicio \- Duración:** 23:00 \- 28:55  <br> ![interview-image](assets/images/interview-images/interview-image5.png)|
 |  | **Resumen:** Nos comenta que se suele transportar por la linea 1 del metro o en algunos casos usa el metropolitano y aproximadamente se demora en llegar entre 20 minutos y en casos mas extremos 1 hora a su destino. Usaba bicicleta de manera recreativa y ademas cuenta que su mayor dificultad a la hora de movilizarse es el trafico cuando usa el metropolitano. Al momento de preguntarle sobre el transporte mas comodo que ha usado nos habla cuando estaba en Argentina y utilizaba el Subterraneo mas que todo por las conexiones que cuenta este, donde se puede movilizar a todos los lugares del país, ademas nos comenta de un servicio parecido al nuestro el cual se encuentra en los bosques de Palermo, donde puedes pedir una bicicleta rentada y usarla por cuanto tiempo quieras. Al momento de consultarle sobre si podria parecerle buena idea implementar acá en Perú dijo que si pero tendria que ser en lugar mas urbanos como Miraflores y que le pareceria interesante llegar a usarlo.  |
-|**06**| **Nombre:** Itzel Vargas <br>**Edad:** 19 <br>**Profesión:** Estudiante de intercambio <br>**Distrito:** Miraflores **Inicio \- Duración:** 28:55 \- 32:25 <br> ![interview-image](/assets/images/interview-images/interview-image6.png) |
+|**06**| **Nombre:** Itzel Vargas <br>**Edad:** 19 <br>**Profesión:** Estudiante de intercambio <br>**Distrito:** Miraflores **Inicio \- Duración:** 28:55 \- 32:25 <br> ![interview-image](assets/images/interview-images/interview-image6.png) |
 |  | **Resumen:** Nos comenta que se mueve en taxi normalmente por aplicativos, se suele tardar entre 40 minutos. Si usa bicicletas ya que suele movilizarse así en su ciudad La Paz lo ve algo muy práctico. También comenta que en Perú más que todo en la capital(Lima) hay mucho tráfico. En escala del 1 al 5 pone un 4 ya que si estaría dispuesta a usar un servicio de préstamo de bicicletas más que todo si cuenta con estaciones bien ubicadas. Entre la semana gasta 100 a 150 soles. |
 
 ### 2.2.3 Análisis de entrevistas.
@@ -513,12 +530,12 @@ En resumen, el analisis de las entrevistas revela que existe una necesidad o má
 ## 2.3 Needfinding
 
 ### *Estudiante*: 
-![User Persona Anne Guillen](/assets/images/user-personas/Anne.png)
+![User Persona Anne Guillen](assets/images/user-personas/Anne.png)
 [Link a UXpresia de Anne Guillen: ](https://uxpressia.com/w/2JtXc/p/tbFfu)[https://uxpressia.com/w/2JtXc/p/tbFfu](https://uxpressia.com/w/2JtXc/p/tbFfu)
 <br>
 
 ### *Turista*: 
-![User Persona Mateo Smith](/assets/images/user-personas/Mateo.png)
+![User Persona Mateo Smith](assets/images/user-personas/Mateo.png)
 [Link a UXpresia de Mateo Smith: ](https://uxpressia.com/w/2JtXc/p/Wfgtx) [https://uxpressia.com/w/2JtXc/p/Wfgtx](https://uxpressia.com/w/2JtXc/p/Wfgtx)
 
 ## 2.3.2 User Task Matrix.
@@ -733,9 +750,9 @@ Link a To-be: [https://lucid.app/lucidchart/177d57bf-a831-48b8-b097-39f6b0eb2b89
 
 ## 3.3 Impact Mapping
 
-![impact-mapping](/assets/images/impact-mapping/impactmap1.png)
-![impact-mapping](/assets/images/impact-mapping/impactmap2.png)
-![impact-mapping](/assets/images/impact-mapping/impactmap3.png)
+![impact-mapping](assets/images/impact-mapping/impactmap1.png)
+![impact-mapping](assets/images/impact-mapping/impactmap2.png)
+![impact-mapping](assets/images/impact-mapping/impactmap3.png)
 
 
 ## 3.4 Product Backlog
