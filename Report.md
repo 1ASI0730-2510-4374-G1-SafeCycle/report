@@ -2326,6 +2326,10 @@ Etc.
 
 ### 5.4. Video About the Product
 
+- Link al video en Microsoft Stream [https://upcedupe-my.sharepoint.com/:v:/r/personal/u202310601_upc_edu_pe/Documents/upc-pre-202510-1asi0730-4374-cuystm-aboutthe-product-sprint-3.mp4?csf=1&web=1&e=AB5p0B](https://upcedupe-my.sharepoint.com/:v:/r/personal/u202310601_upc_edu_pe/Documents/upc-pre-202510-1asi0730-4374-cuystm-aboutthe-product-sprint-3.mp4?csf=1&web=1&e=AB5p0B)
+
+- Link al video en youtube [https://youtu.be/Y8otcjddEDc](https://youtu.be/Y8otcjddEDc)
+
 ## 6. Conclusiones y recomendaciones
     
 **1. Conclusiones**
