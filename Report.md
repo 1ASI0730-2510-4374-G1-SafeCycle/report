@@ -2193,16 +2193,25 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
 
+
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+![](assets/images/deploy%20Evidence/1.png)
+![](assets/images/deploy%20Evidence/2.png)
+![](assets/images/deploy%20Evidence/3.png)
+
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
 | Participante | Actividades de implementación |
 | :---- | :---- |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| **Diego Mora** | \- CRUD IAM <br> \- Impact Mapping <br> \- Base de datos <br> |
+| **Gabriel Sanchez** | \- CRUD Touring y Bike Station <br> \- Need Finding: entrevistas y documentación <br>  \- Base de datos <br> \- Correción heuristicas |
+| **Oliver Jonseck** | \- Endpoint TourBooking <br> \- Cambio de lenguaje <br> \- Modelado C4 <br> \- Base de datos |
+| **Giancarlo Castañeda** | \- CRUD Bikes <br> \- Product Backlog <br> \- Diagrama de Clases <br> \- Base de datos <br> \- Correción heuristicas|
+| **Carlos Matthew** | \- CRUD Payments <br> \- Endpoint Payment y Payment Info |
+
+![](assets/images/insights-sprint-3.png)
 
 ### 5.3. Validation Interviews
 
