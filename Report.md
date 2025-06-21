@@ -1758,7 +1758,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
 ### 5.2.3. Sprint 3
 #### 5.2.3.1.Sprint Planning 3.
 #### 5.2.3.2. Aspect Leaders and Collaborators.
-| Team Member (Last Name, First Name)  | GitHub Username | Back-End Development| Documentation | Page Deployment | 
+| Team Member (Last Name, First Name)  | GitHub Username | Back-End Development | Documentation | Page Deployment | 
 | ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | L                                                                                             |
 | Mora Blas, Diego Alonzo              | diegoalonzomora | L                                       | C                                            | C                                                                                             |
@@ -2236,23 +2236,23 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 
 ### 5.3.2. Registro de Entrevistas
 
-| Segmento Objetivo | Estudiantes |
 | ----- | ----- |
 | **Número de registro** | **Datos del entrevistado** |
-| 01 | **Nombre:**  <br>**Edad:**  <br>**Profesión:**  **Distrito:**  <br>**Inicio \- Duración:** \- <br> ![interview-image]() |
-|  | **Resumen:**   |
-| 02 | **Nombre:**  <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:**  <br>**Inicio \- Duración:**  \-  <br> ![interview-image]() |
-|  | **Resumen:** |
-| 03 | **Nombre:**   <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:**  <br>**Inicio \- Duración:** \-  <br> ![interview-image]() |
-|  | **Resumen:** |
-| **Segmento Objetivo** | **Turistas** |
-| **04** | **Nombre:**  <br>**Edad:**  <br>**Profesión:** <br>**Distrito:**  <br>**Inicio \- Duración:**  \-  <br> ![interview-image]()|
-|  | **Resumen:** |
-| **05** | **Nombre:**  <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:**  <br>**Inicio \- Duración:** \-   <br> ![interview-image]()|
-|  | **Resumen:**  |
-|**06**| **Nombre:**  <br>**Edad:**  <br>**Profesión:**  <br>**Distrito:** **Inicio \- Duración:**  \-  <br> ![interview-image]() |
-|  | **Resumen:** |
-| Link de la entrevista |  | 
+| 01 | **Nombre:** Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante  **Distrito:** Santiago de Surco  <br>**Inicio \- Duración:** 00:00 /- 11:50 <br> ![interview-image]() |
+|  | **Resumen:** Daniel comenta que la pagina en si le parece interesante, el como puede rentar y ver las diferentes ubicaciones en el mapa le parece lo mejor que tenemos, pero a su vez ve tambien muchas fallas como lo vacio que se veia al entrar al frontend 
+o que en algunas partes faltaban imagenes, ademas de que aun no se estaban guardando los datos de los usuarios como se corresponde, por otra parte mencionaba que aunque faltara eso la idea se le hacia innovadora y que le gustaria probarlo cuando este completa|
+| 02 | **Nombre:** Masaru Nikaido  <br>**Edad:** 20 <br>**Profesión:** Estudiante extranjero  <br>**Distrito:** San Borja <br>**Inicio \- Duración:**  11:50 \- 23:05  <br> ![interview-image]() |
+|  | **Resumen:** Masaru nos comenta que en si la pagina no le resulta tan atractiva y que se deberia mejorar el aspecto de esta, lo siente vacio y ni bien entrar no se ve tan convincente, despues nos comenta que la propuesta es buena y la idea es interesante
+al tratarse de nuestro segmento turista nos enfocamos mas en lo que viene a ser Touring y esa parte le parecio buena idea, aunque quisiera que podamos agregar mas zonas turisticas en un futuro |
+| 03 | **Nombre:** Sebastian Rubio  <br>**Edad:** 19  <br>**Profesión:** Estudiante  <br>**Distrito:** San Juan de Miraflores  <br>**Inicio \- Duración:** 23:05 \- 34:27  <br> ![interview-image]() |
+|  | **Resumen:** En la entrevista de Sebastian Rubio este nos dijo que la pagina en si podria estar mejor adornada y al menos tener colores mas vivaces, que resalten la pagina en si, ademas nos comenta que dificilmente utilizaria la aplicación ya que no hay
+estaciones de bicicletas cerca de el lo cual al comentarle que pensamos en un futuro añadir mas de estas le parecio buena idea.|
+| **04** | **Nombre:** Sebastian Hernandez <br>**Edad:** 20 <br>**Profesión:** Estudiante <br>**Distrito:** San Juan de Lurigancho <br>**Inicio \- Duración:** 34:27 \- 42:49  <br> ![interview-image]()|
+|  | **Resumen:** Seba Hernandez nos comenta que la pagina en si deberia ser mejorada para que en un futuro se mire mas llamativa, ademas, nos comenta que es necesario que el logo nos deberia redireccionar a la pagina principal, luego en la parte de booking se dio
+cuenta que ocurria unos pequeños errores en la parte de las fuentes lo cual nos encargaremos a futuro de corregirlo, finalmente menciono que la idea le parece interesante y que si se ve plasmada correctamente seguro el lo usaria|
+| Link de la entrevista |  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EfQ7iyTzQ3ZErqwLKns8oZ4BW77PbqjyYj5KgYyXJU_fxQ?e=y1ulRL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EfQ7iyTzQ3ZErqwLKns8oZ4BW77PbqjyYj5KgYyXJU_fxQ?e=y1ulRL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)| 
+
+En general, todos los entrevistados consideran que la idea de la plataforma es innovadora e interesante, con buen potencial, especialmente para el segmento turista. Sin embargo, coinciden en que la apariencia actual del sitio es poco atractiva y se ve vacía, faltan imágenes, colores más vivos y un diseño más llamativo. Además, se mencionaron algunos problemas técnicos, como la falta de persistencia de datos, errores en la sección de reservas (booking) y en la navegación (por ejemplo, el logo que no redirige correctamente). También se sugirió incluir más estaciones o zonas turísticas para ampliar el alcance del servicio. A pesar de estos puntos de mejora, la mayoría mostró interés en probar la plataforma una vez esté más completa.
 
 ### 5.3.3. Evaluaciones según heuristicas
 
