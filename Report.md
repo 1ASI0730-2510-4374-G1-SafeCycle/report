@@ -2332,25 +2332,159 @@ En general, todos los entrevistados consideran que la idea de la plataforma es i
 | 7 | Falta de cosas o funcionalidades en “Touring”, deseo de tener mas lugares a los que ir o más actividades que hacer en esta función  | 2 | Flexibilidad y eficiencia de uso  |
 | 8 | Al entrar a la aplicación web esta se ve muy poco llamativa e interesante, mostrando poco interés en los usuarios entrevistados y describiendolo como que se siente vacío  | 1 | Estética y diseño minimalistaEstética y diseño minimalista  | 
 
-Etc.
+***DESCRIPCIÓN DE PROBLEMAS:***
 
-***DESCRIPCIÓN DE PROBLEMAS:*** 
+*PROBLEMA \#1:* No hay alguna parte que informe al usuario en donde se encuentra en el sistema a través de un encabezado o una indicación visual
 
-*PROBLEMA \#1: No hay un control que permita regresar a la tienda durante el trámite de compra*
+Severidad: 3
 
-*Severidad: 3*
+Heurística violada: Visibilidad del estado del sistema
 
-*Heurística violada: Usabilidad \- Libertad y control del usuario*
+**Problema:**
 
-*Problema:*
+Cuando el usuario se encuentra de alguna de las pantallas puede perderse fácilmente entre estas puesto que no hay algún indicador como un encabezado de la ubicación en el sistema, lo cual resulta en el usuario sintiéndose desorientado especialmente en los casos donde se navega entre diferentes secciones
 
-*Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envié al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.*
+![heuristicas](assets/images/heuristicas/img20.jpg)
+![heuristicas](assets/images/heuristicas/img24.jpg)
+ 
 
-*(Incluir además una captura de pantalla ilustrando el problema).*
+**Recomendación:**
 
-*Recomendación:*
+ Incluir encabezados que ayuden a la navegación del usuario en cada sección de la aplicación. Estos encabezados deben ser breves, coherentes y fáciles de entender que finalmente puedan mejorar la orientación y navegación.
 
-*La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras.*  
+![heuristicas](assets/images/heuristicas/img27.jpg)
+![heuristicas](assets/images/heuristicas/img28.jpg)
+
+*PROBLEMA \#2:* No existe un rastreador de progreso de las acciones que realiza el usuario
+
+Severidad: 2
+
+Heurística violada: Coincidencia entre el sistema y el mundo real
+
+**Problema:**
+
+Cuando el usuario empieza una acción no puede ver el progreso del mismo y menos saber cuanto falta para terminarlo. En consecuencia, el usuario tiene incertidumbre acerca del proceso, y es poco probable que lo termine especialmente con la cantidad de pantallas intermedias que hay.
+
+ ![heuristicas](assets/images/heuristicas/img31.jpg)
+![heuristicas](assets/images/heuristicas/img34.jpg)
+
+ **Recomendación:**
+
+Implementar una barra de progreso visual que simbolice los pasos completados y pasos faltantes en el flujo de acción. Esta barra debe ser visible durante todo el progreso y puede ser representada a través de números o títulos que no sobrecarguen la interfaz. 
+
+![heuristicas](assets/images/heuristicas/img37.jpg)
+
+*PROBLEMA \#3:* Error en imágenes de la aplicación 
+
+Severidad: 1
+
+Heurística violada: Estética y diseño minimalista
+
+**Problema:**
+
+Cuando el usuario entra a secciones donde se contienen archivos con la url de la pagina imgbb estas no se logran visualizar correctamente como el caso de rents al momento de confirmar la renta
+
+![heuristicas](assets/images/heuristicas/img40.jpg)
+
+
+ **Recomendación:**
+
+Implementar o actualizar la imagen en la url, si no es el caso añadir la imagen en los assets de la aplicación frontend donde sea necesario.
+
+![heuristicas](assets/images/heuristicas/img41.jpg)
+
+*PROBLEMA \#4: Actualización en ubicación de botones para cambiar idioma, deberian verse a simple vista en vez de estar entrando al perfil a cambiarlos*
+
+Severidad: 2
+
+Heurística violada: Control y libertad del usuario
+
+**Problema:**
+
+Cuando el usuario quiere cambiar de idioma tiene que irse hasta perfil y presionar los botones de “es” o “en” cómo lo vea necesario, pero esto se ve contraproducente y poco efecto, limitando la libertad de los usuarios al momento de utilizar la aplicación ya que deberian poder verse en todo momento
+
+
+![heuristicas](assets/images/heuristicas/img44.jpg)
+
+ **Recomendación:**
+
+Cambiar de ubicación los botones, hacerlos más fáciles de ver y que estén a la mano del usuario en cualquier momento a simple vista
+
+
+*PROBLEMA \#5: Permitir que el logo te envíe a la página de inicio sería una manera práctica y coherente de resolver problemas de flujo*
+
+Severidad: 1
+
+Heurística violada: Control y libertad del usuario
+
+**Problema:**
+
+Actualmente, en la aplicación web, el logo de la marca o aplicación no funciona como un enlace a la página de inicio (home).
+
+Esto genera un problema en el flujo de navegación, ya que los usuarios no cuentan con un acceso rápido y consistente para volver al inicio.
+
+![heuristicas](assets/images/heuristicas/img47.jpg)
+
+ **Recomendación:**
+
+Permitir que hacer clic en el logo de la aplicación envíe al usuario a la página principal, respetando los estándares comunes de diseño
+
+*PROBLEMA \#6: Hay pocas estaciones de bicicletas en el mapa asignadas quitando la inmersión y simulación que tendría que brindar esta función*
+
+Severidad: 1
+
+Heurística violada: Visibilidad del estado del sistema
+
+**Problema:**
+
+En el mapa de la aplicación web se visualizan muy pocas estaciones de bicicletas.
+
+Esto genera una experiencia de baja inversión, afectando la sensación de simulación e interactividad que esta función debería brindar
+
+![heuristicas](assets/images/heuristicas/img50.jpg)
+
+ **Recomendación:**
+
+Incrementar el número de estaciones mostradas (datos reales o simulados) y asegurar que el mapa transmita una red activa y atractiva, favoreciendo la inmersión y motivando la interacción del usuario.
+
+*PROBLEMA \#7: Falta de cosas o funcionalidades en “Touring”, deseo de tener mas lugares a los que ir o más actividades que hacer en esta función*
+
+Severidad: 1
+
+Heurística violada: Flexibilidad y eficiencia de uso
+
+**Problema:**
+
+La sección de “Touring” actualmente carece de contenido o funcionalidades suficientes.
+
+Los usuarios sienten que hay pocos lugares que visitar o pocas actividades disponibles, reduciendo el valor percibido de esta función
+
+
+![heuristicas](assets/images/heuristicas/img53.jpg)
+
+
+ **Recomendación:**
+
+Ampliar el contenido de la función “Touring” (más lugares, más actividades, rutas recomendadas)
+
+*PROBLEMA \#8: Al entrar a la aplicación web esta se ve muy poco llamativa e interesante, mostrando poco interes en los usuarios entrevistados y describiendolo como que se siente vacio*
+
+Severidad: 1
+
+Heurística violada: Estética y diseño minimalista
+
+**Problema:**
+
+Al entrar por primera vez a la aplicación web, esta se percibe como **poco llamativa**, **poco atractiva visualmente** y **vacía**.
+
+Los usuarios entrevistados reportaron **falta de interés** y una sensación de que "no es muy interesante a la vista", lo que desincentiva la exploración.
+
+![heuristicas](assets/images/heuristicas/img56.jpg)
+
+ **Recomendación:**
+
+Mejorar la primera impresión visual de la aplicación web mediante un diseño más atractivo y dinámico que comunique claramente las funcionalidades disponibles desde el primer acceso. Es importante que al entrar esta no se sienta vacía, sino que ofrezca elementos visuales (imágenes, banners, secciones destacadas)
+
 
 ### 5.4. Video About the Product
 
