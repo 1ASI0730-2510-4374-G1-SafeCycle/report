@@ -2208,6 +2208,32 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 
 #### 5.3.1. Diseño de Entrevistas
 
+**Generales:**
+- ¿En qué parte harías clic primero?
+- ¿Te queda claro lo que hace la aplicación?¿Hay algo que no entiendas?
+- ¿Te parece que los segmentos objetivos están marcados?
+- ¿Sientes que esta app te sería útil? ¿Por qué?
+#### **Estudiantes:**
+- ¿Te gustaría tener esta opción disponible en tu universidad?
+- ¿Qué tan seguido crees que la usarías?
+- ¿Te parece bien la tarifa propuesta?
+- ¿Te parece útil poder reservar una bicicleta antes de salir de casa o de clases?
+- ¿Cuál método de pago usarías tú? (Tarjeta, Yape)
+- ¿Crees que esto te ayudaría a llegar más puntual o ahorrar tiempo?
+- ¿Te parece más cómodo que otros medios de transporte?
+- ¿Te sentirías seguro usando estas bicicletas? ¿Por qué?
+- ¿Qué es lo que más te gusta? ¿Y qué mejorarías?
+#### **Turista:**
+- ¿Te parece útil esta app para moverte por la ciudad?
+- ¿Sientes que puedes recorrer la ciudad como un local?
+- ¿Te animarías a usarla en tus viajes? ¿Por qué sí o por qué no?
+- ¿Te parece bien la tarifa propuesta?
+- ¿Qué método de pago usarías tú?
+- ¿Te parece más económico, práctico o más cómodo que un taxi o bus?
+- ¿Qué tan seguro te parece el sistema? ¿Qué le mejorarías?
+- ¿Te animarías a usar la función de “Touring”?
+
+
 ### 5.3.2. Registro de Entrevistas
 
 | Segmento Objetivo | Estudiantes |
@@ -2237,7 +2263,7 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 **CURSO                	: Aplicaciones Web**  
 **SECCIÓN              	:** 4374
 
-**PROFESORES      	: Alberto Wilmer Sanchez Seña**
+**PROFESORES      	: TODOS ** 
 
 **AUDITOR            	:** Cuys TM
 **CLIENTE(S)          	:** Nombre de las personas que participan en la sesión
@@ -2297,12 +2323,14 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 
 | \# | Problema | Escala de severidad | Heurística/Principio violada(o) |
 | :---: | ----- | ----- | :---- |
-| 1 | No hay un control que permita regresar a la tienda durante el trámite de compra | 3 | Usability: Libertad y control del usuario |
-| 2 | Se repiten constantemente algunas opciones | 1 | Usability: Consistencia y estándares |
-| 3 | Imágenes sin atributo “alt” | 3 | Inclusive Design: Proporciona experiencias comparables |
-| 4 | Incluye un botón “Ver más” pero no existe contenido al que dirigirse | 3 | Information Architecture: Is it usable? |
-| 5 | No incluye información de los planes de servicio | 2 | Information Architecture: Is it findable? |
-| … | …. |   |   |
+| 1 | No hay alguna parte que informe al usuario en donde se encuentra en el sistema a través de un encabezado o una indicación visual | 3 | Usability: Visibilidad del estado del sistema |
+| 2 | No existe un rastreador de progreso de las acciones que realiza el usuario | 2 | Usability: Coincidencia entre el sistema y el mundo real |
+| 3 | Error en imágenes de la aplicación | 1 | Inclusive Design: Estética y diseño minimalistas |
+| 4 | Actualización en ubicación de botones para cambiar idioma, deberían verse a simple vista en vez de estar entrando al perfil a cambiarlos | 2 | Control y libertad del usuario|
+| 5 | Permitir que el logo te envíe a la página de inicio sería una manera práctica y coherente de resolver problemas de flujo | 1 | Control y libertad del usuario |
+| 6 | Hay pocas estaciones de bicicletas en el mapa asignadas quitando la inmersión y simulación que tendría que brindar esta función | 1 | Visibilidad del estado del sistema  |
+| 7 | Falta de cosas o funcionalidades en “Touring”, deseo de tener mas lugares a los que ir o más actividades que hacer en esta función  | 2 | Flexibilidad y eficiencia de uso  |
+| 8 | Al entrar a la aplicación web esta se ve muy poco llamativa e interesante, mostrando poco interés en los usuarios entrevistados y describiendolo como que se siente vacío  | 1 | Estética y diseño minimalistaEstética y diseño minimalista  | 
 
 Etc.
 
