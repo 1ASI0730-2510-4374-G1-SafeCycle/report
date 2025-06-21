@@ -1707,7 +1707,7 @@ A continuación se muestran los commits realizados por los integrantes del equip
 <img src="assets/images/collabEvidence/Landing-page-Touring.png" width=800>
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
-  Dentro de este primer sprint no se contempló el uso de servicios
+  Dentro de este segundo sprint no se contempló el uso de servicios
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 Para el despliegue de nuestra aplicación web decidimos utilizar los servicios de Azure, más específicamente **Azure Static Web Apps**, un servicio que nos permite interactuar con la aplicación a través de un enlace público.
@@ -2192,7 +2192,33 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
-
+| Endpoint                 | Operaciones       | Parámetros            | URL                                      |
+|--------------------------|-------------------|------------------------|------------------------------------------|
+| BikeStation              | POST              | –                      | /api/v1/BikeStation                       |
+|                          | GET               | {id}                   | /api/v1/BikeStation/{id}                 |
+|                          | PUT               | {id}                   | /api/v1/BikeStation/{id}                 |
+| Bikes                   | POST              | –                      | /api/v1/Bikes                             |
+|                          | GET               | {id}                   | /api/v1/Bikes/{id}                        |
+|                          | PUT               | {id}                   | /api/v1/Bikes/{id}                        |
+|                          | GET               | –                      | /api/v1/Bikes/available                   |
+| Payment                 | POST              | –                      | /api/v1/Payment                           |
+|                          | GET               | {id}                   | /api/v1/Payment/by-id/{id}               |
+|                          | GET               | {price}                | /api/v1/Payment/by-price/{price}         |
+| PaymentInformation      | POST              | –                      | /api/v1/PaymentInformation                |
+|                          | GET               | {id}                   | /api/v1/PaymentInformation/by-id/{id}    |
+|                          | GET               | {holder}               | /api/v1/PaymentInformation/by-holder/{holder} |
+|                          | PUT               | {id}                   | /api/v1/PaymentInformation/{id}          |
+| Rent                    | POST              | –                      | /api/v1/Rent                              |
+|                          | GET               | {id}                   | /api/v1/Rent/{id}                         |
+| Tour                    | POST              | –                      | /api/v1/Tour                              |
+|                          | GET               | {id}                   | /api/v1/Tour/{id}                         |
+|                          | PUT               | {id}                   | /api/v1/Tour/{id}                         |
+| TourBooking             | POST              | –                      | /api/TourBooking                          |
+|                          | GET               | {id}                   | /api/TourBooking/{id}                     |
+| User                    | POST              | –                      | /api/v1/User                              |
+|                          | GET               | –                      | /api/v1/User                              |
+|                          | GET               | {id}                   | /api/v1/User/{id}                         |
+|                          | DELETE            | {id}                   | /api/v1/User/{id}                         |
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
