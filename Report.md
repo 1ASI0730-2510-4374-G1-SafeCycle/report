@@ -1756,6 +1756,19 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
 
 ### 5.2.3. Sprint 3
 #### 5.2.3.1.Sprint Planning 3.
+| Sprint \# | 3 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-14-06 |
+| Time | 12:00 PM |
+| Location | Discord |
+| Prepared by | Giancarlo Castañeda |
+| Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
+| Sprint n – 3 Review Summary | Se logró una primera integración de frontend con mock APIs y se avanzó en la estructura de base de datos; además, se ajustaron los endpoints a la arquitectura final definida. |
+| Sprint n – 3 Retrospective Summary | Consolidar una mejor coordinación entre frontend y backend para garantizar integraciones más rápidas. Aumentar la calidad de los tests unitarios en los endpoints. |
+| Sprint 3 Goal | En este Sprint, nuestro objetivo es tener implementados los endpoints principales, asegurar la conexión estable con el frontend y avanzar en la documentación técnica completa del backend. Esto se validará cuando los endpoints estén funcionales y documentados, y exista una integración estable entre backend y frontend. |
+| Sprint 3 Velocity | Para este sprint nuestro equipo puende aceptar hasta 30 story points |
+| Sum of Story Points | Para este sprint haremos 27 story points |
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 | Team Member (Last Name, First Name)  | GitHub Username | Back-End Development | Documentation | Page Deployment | 
 | ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
