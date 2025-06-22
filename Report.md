@@ -89,11 +89,15 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 **Link de la pagina deployada:** 
 
-https://white-mud-04527db10.6.azurestaticapps.net/
+[https://white-mud-04527db10.6.azurestaticapps.net/](https://white-mud-04527db10.6.azurestaticapps.net/)
 
 **Link del repositorio-Informe:** 
 
-**Link de los repositorios de la organización:** [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
+[https://github.com/1ASI0730-2510-4374-G1-SafeCycle/report](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/report)
+
+**Link de los repositorios de la organización:** 
+
+[https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
 
 A continuación se visualiza el diagrama de barras que representa la cantidad de commits realizados por el equipo de trabajo:
 <img src="assets/images/insights-report/insightsreport.PNG" width=800>
@@ -283,7 +287,9 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
     - [Landing Page](#landing-page)
     - [Domain-Driven Software Architecture / C4 Diagrams](#domain-driven-software-architecture--c4-diagrams)
     - [Flujos y Prototype](#flujos-y-prototype)
+    - [Videos de Proyecto](#videos-de-proyecto)
   - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
+  - [Anexo C: Repositorios:](#anexo-c-repositorios)
   
 
 # Student Outcome
@@ -2624,6 +2630,8 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 -   Mejorar el diseño de la aplicación web para un futuro si es requerido
 
+<hr style="page-break-after: always;">
+
 ## 7. Bibliografia
 
 - Estudios Económicos y Estadística, G. (2024). Lima es la ciudad con mayor congestión vehicular en América Latina. https://aap.org.pe/observatorio-aap/ranking-de-congestion-vehicular-enero2024/ranking-de-congestion-vehicular-enero2024.pdf
@@ -2658,6 +2666,8 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 - link a prototype[https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1](https://www.figma.com/proto/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=2362-1253&p=f&t=lIyIwAwyr9eGUpbR-1&scaling=scale-down&content-scaling=responsive&page-id=13%3A501&starting-point-node-id=2362%3A1866&show-proto-sidebar=1)
 
+### Videos de Proyecto
+
 - Video About The Team Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EV7bMqv907lKrvwA216rzqUBo9191Y550nqWXU63BcCTIQ?e=c4FWhd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EV7bMqv907lKrvwA216rzqUBo9191Y550nqWXU63BcCTIQ?e=c4FWhd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
 - Video About The Team Youtube: [https://youtu.be/ztW3a2As0HY](https://youtu.be/ztW3a2As0HY)
@@ -2666,9 +2676,32 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 - Video About The Product en youtube [https://youtu.be/Y8otcjddEDc](https://youtu.be/Y8otcjddEDc)
 
+<hr style="page-break-after: always;">
+
 ## Anexo B: Videos de exposiciones: 
 
 - Link a video de exposición de TB1 en Microsoft Stream[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
 - Link a video de exposición de TP1 en Microsoft Stream
   [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH)
 - Link a video de exposición de TB2 en Microsoft Stream [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/ETX0ZOrEG_tBozIbNjzGc9QB0br3e44dZYSg7SxcINTU7w?e=bfjzMn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/ETX0ZOrEG_tBozIbNjzGc9QB0br3e44dZYSg7SxcINTU7w?e=bfjzMn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  
+<hr style="page-break-after: always;">
+
+## Anexo C: Repositorios:
+
+**Link del repositorio-Informe:** 
+
+[https://github.com/1ASI0730-2510-4374-G1-SafeCycle/report](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/report)
+
+**Link del frontend:** 
+
+[https://github.com/1ASI0730-2510-4374-G1-SafeCycle/front-end](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/front-end)
+
+
+**Link del backend:** 
+
+[https://github.com/1ASI0730-2510-4374-G1-SafeCycle/backend](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/backend)
+
+**Link del landing page:** 
+
+[https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing_page](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing_page)
