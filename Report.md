@@ -1140,16 +1140,16 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
-<img src="assets/images/C4/C4-v2-1.jpeg" width="600" alt="SoftwareArchitectureContextDiagram" />
+<img src="assets/images/C4/C4-v2-1.jpeg" width="1000" alt="SoftwareArchitectureContextDiagram" />
 
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-<img src="assets/images/C4/C4-v2-2.jpeg" width="600" alt="SoftwareArchitectureContainerDiagrams" />
+<img src="assets/images/C4/C4-v2-2.jpeg" width="1000" alt="SoftwareArchitectureContainerDiagrams" />
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-<img src="assets/images/C4/C4-v2-3.png" width="600" alt="SoftwareArchitectureComponentsDiagrams" />
+<img src="assets/images/C4/C4-v2-3.png" width="1000" alt="SoftwareArchitectureComponentsDiagrams" />
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1386,7 +1386,7 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 
 ### 4.8.1. Database Diagram
 
-<img src= "assets/images/database/database-diagram.jpeg" widt= "600" alt="Database-Diagram"/>
+<img src= "assets/images/database/Diagrama de datos.jpeg" widt= "1000" alt="Database-Diagram"/>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
