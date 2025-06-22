@@ -2273,20 +2273,17 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 
 ### 5.3.2. Registro de Entrevistas
 
-| ----- | ----- |
+
 | **Número de registro** | **Datos del entrevistado** |
-| 01 | **Nombre:** Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante  **Distrito:** Santiago de Surco  <br>**Inicio \- Duración:** 00:00 /- 11:50 <br> ![interview-image]() |
-|  | **Resumen:** Daniel comenta que la pagina en si le parece interesante, el como puede rentar y ver las diferentes ubicaciones en el mapa le parece lo mejor que tenemos, pero a su vez ve tambien muchas fallas como lo vacio que se veia al entrar al frontend 
-o que en algunas partes faltaban imagenes, ademas de que aun no se estaban guardando los datos de los usuarios como se corresponde, por otra parte mencionaba que aunque faltara eso la idea se le hacia innovadora y que le gustaria probarlo cuando este completa|
-| 02 | **Nombre:** Masaru Nikaido  <br>**Edad:** 20 <br>**Profesión:** Estudiante extranjero  <br>**Distrito:** San Borja <br>**Inicio \- Duración:**  11:50 \- 23:05  <br> ![interview-image]() |
-|  | **Resumen:** Masaru nos comenta que en si la pagina no le resulta tan atractiva y que se deberia mejorar el aspecto de esta, lo siente vacio y ni bien entrar no se ve tan convincente, despues nos comenta que la propuesta es buena y la idea es interesante
-al tratarse de nuestro segmento turista nos enfocamos mas en lo que viene a ser Touring y esa parte le parecio buena idea, aunque quisiera que podamos agregar mas zonas turisticas en un futuro |
-| 03 | **Nombre:** Sebastian Rubio  <br>**Edad:** 19  <br>**Profesión:** Estudiante  <br>**Distrito:** San Juan de Miraflores  <br>**Inicio \- Duración:** 23:05 \- 34:27  <br> ![interview-image]() |
-|  | **Resumen:** En la entrevista de Sebastian Rubio este nos dijo que la pagina en si podria estar mejor adornada y al menos tener colores mas vivaces, que resalten la pagina en si, ademas nos comenta que dificilmente utilizaria la aplicación ya que no hay
-estaciones de bicicletas cerca de el lo cual al comentarle que pensamos en un futuro añadir mas de estas le parecio buena idea.|
-| **04** | **Nombre:** Sebastian Hernandez <br>**Edad:** 20 <br>**Profesión:** Estudiante <br>**Distrito:** San Juan de Lurigancho <br>**Inicio \- Duración:** 34:27 \- 42:49  <br> ![interview-image]()|
-|  | **Resumen:** Seba Hernandez nos comenta que la pagina en si deberia ser mejorada para que en un futuro se mire mas llamativa, ademas, nos comenta que es necesario que el logo nos deberia redireccionar a la pagina principal, luego en la parte de booking se dio
-cuenta que ocurria unos pequeños errores en la parte de las fuentes lo cual nos encargaremos a futuro de corregirlo, finalmente menciono que la idea le parece interesante y que si se ve plasmada correctamente seguro el lo usaria|
+| ----- | ----- |
+| 01 | **Nombre:** Daniel Rodriguez <br>**Edad:** 19 <br>**Profesión:** Estudiante  **Distrito:** Santiago de Surco  <br>**Inicio \- Duración:** 00:00 /- 11:50 <br>  |
+|  | **Resumen:** Daniel comenta que la pagina en si le parece interesante, el como puede rentar y ver las diferentes ubicaciones en el mapa le parece lo mejor que tenemos, pero a su vez ve tambien muchas fallas como lo vacio que se veia al entrar al frontend o que en algunas partes faltaban imagenes, ademas de que aun no se estaban guardando los datos de los usuarios como se corresponde, por otra parte mencionaba que aunque faltara eso la idea se le hacia innovadora y que le gustaria probarlo cuando este completa|
+| 02 | **Nombre:** Masaru Nikaido  <br>**Edad:** 20 <br>**Profesión:** Estudiante extranjero  <br>**Distrito:** San Borja <br>**Inicio \- Duración:**  11:50 \- 23:05  <br>  |
+|  | **Resumen:** Masaru nos comenta que en si la pagina no le resulta tan atractiva y que se deberia mejorar el aspecto de esta, lo siente vacio y ni bien entrar no se ve tan convincente, despues nos comenta que la propuesta es buena y la idea es interesante al tratarse de nuestro segmento turista nos enfocamos mas en lo que viene a ser Touring y esa parte le parecio buena idea, aunque quisiera que podamos agregar mas zonas turisticas en un futuro |
+| 03 | **Nombre:** Sebastian Rubio  <br>**Edad:** 19  <br>**Profesión:** Estudiante  <br>**Distrito:** San Juan de Miraflores  <br>**Inicio \- Duración:** 23:05 \- 34:27  <br> |
+|  | **Resumen:** En la entrevista de Sebastian Rubio este nos dijo que la pagina en si podria estar mejor adornada y al menos tener colores mas vivaces, que resalten la pagina en si, ademas nos comenta que dificilmente utilizaria la aplicación ya que no hay estaciones de bicicletas cerca de el lo cual al comentarle que pensamos en un futuro añadir mas de estas le parecio buena idea.|
+| **04** | **Nombre:** Sebastian Hernandez <br>**Edad:** 20 <br>**Profesión:** Estudiante <br>**Distrito:** San Juan de Lurigancho <br>**Inicio \- Duración:** 34:27 \- 42:49  <br> |
+|  | **Resumen:** Seba Hernandez nos comenta que la pagina en si deberia ser mejorada para que en un futuro se mire mas llamativa, ademas, nos comenta que es necesario que el logo nos deberia redireccionar a la pagina principal, luego en la parte de booking se dio cuenta que ocurria unos pequeños errores en la parte de las fuentes lo cual nos encargaremos a futuro de corregirlo, finalmente menciono que la idea le parece interesante y que si se ve plasmada correctamente seguro el lo usaria|
 | Link de la entrevista |  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EfQ7iyTzQ3ZErqwLKns8oZ4BW77PbqjyYj5KgYyXJU_fxQ?e=y1ulRL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EfQ7iyTzQ3ZErqwLKns8oZ4BW77PbqjyYj5KgYyXJU_fxQ?e=y1ulRL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)| 
 
 En general, todos los entrevistados consideran que la idea de la plataforma es innovadora e interesante, con buen potencial, especialmente para el segmento turista. Sin embargo, coinciden en que la apariencia actual del sitio es poco atractiva y se ve vacía, faltan imágenes, colores más vivos y un diseño más llamativo. Además, se mencionaron algunos problemas técnicos, como la falta de persistencia de datos, errores en la sección de reservas (booking) y en la navegación (por ejemplo, el logo que no redirige correctamente). También se sugirió incluir más estaciones o zonas turísticas para ampliar el alcance del servicio. A pesar de estos puntos de mejora, la mayoría mostró interés en probar la plataforma una vez esté más completa.
@@ -2303,47 +2300,23 @@ En general, todos los entrevistados consideran que la idea de la plataforma es i
 **PROFESORES      	: TODOS ** 
 
 **AUDITOR            	:** Cuys TM
-**CLIENTE(S)          	:** Nombre de las personas que participan en la sesión
+**CLIENTE(S)          	:** Daniel Rodriguez, Sebastian Hernandez, Sebastian Rubio, Masaru Nikaido
 
-*NOTA: Los contenidos de este formato (en color plomo) son referidos a un sitio web de ejemplo. Use este formato como referencia de la estructura que tiene que ser entregada y elimine el contenido en plomo. Coloque su contenido con color azul.*
 
-***SITE o APP A EVALUAR:***
+**SITE o APP A EVALUAR:**
 
-*Nombre de App*
+*Cuys TM*
 
-***TAREAS A EVALUAR:***
+TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-*El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:*
+1.  Renta de una bicicleta
 
-1\.     *Registro de un usuario nuevo*
+No están incluidas en esta versión de la evaluación las siguientes tareas:
 
-2\.     *Publicación de un post*
+Validación y Compra con Método de Pago
 
-3\.     *Búsqueda de un paquete turístico*
-
-4\.     *Reserva de un viaje*
-
-5\.     *Cancelación de una reserva*
-
-6\.     *Agregar ítems a un pedido*
-
-7\.     *Pago de un paquete turístico*
-
-8\.     *Etc.*
-
-*No están incluidas en esta versión de la evaluación las siguientes tareas:*
-
-1\.     *Compartir reservas entre usuarios*
-
-2\.     *Presentar ofertas de último minuto*
-
-3\.     *Administrar puntos del programa de fidelización de viajes*
-
-4\.     *Guardar “alerta de paquetes”*
-
-5\.     *Etc.*
-
-***ESCALA DE SEVERIDAD:***
+**ESCALA DE SEVERIDAD:**
 
 *Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*  
  
@@ -2382,6 +2355,9 @@ Heurística violada: Visibilidad del estado del sistema
 Cuando el usuario se encuentra de alguna de las pantallas puede perderse fácilmente entre estas puesto que no hay algún indicador como un encabezado de la ubicación en el sistema, lo cual resulta en el usuario sintiéndose desorientado especialmente en los casos donde se navega entre diferentes secciones
 
 ![heuristicas](assets/images/heuristicas/img20.jpg)
+
+- Correción
+  
 ![heuristicas](assets/images/heuristicas/img24.jpg)
  
 
@@ -2390,6 +2366,9 @@ Cuando el usuario se encuentra de alguna de las pantallas puede perderse fácilm
  Incluir encabezados que ayuden a la navegación del usuario en cada sección de la aplicación. Estos encabezados deben ser breves, coherentes y fáciles de entender que finalmente puedan mejorar la orientación y navegación.
 
 ![heuristicas](assets/images/heuristicas/img27.jpg)
+
+- Correción
+  
 ![heuristicas](assets/images/heuristicas/img28.jpg)
 
 *PROBLEMA \#2:* No existe un rastreador de progreso de las acciones que realiza el usuario
@@ -2403,6 +2382,9 @@ Heurística violada: Coincidencia entre el sistema y el mundo real
 Cuando el usuario empieza una acción no puede ver el progreso del mismo y menos saber cuanto falta para terminarlo. En consecuencia, el usuario tiene incertidumbre acerca del proceso, y es poco probable que lo termine especialmente con la cantidad de pantallas intermedias que hay.
 
  ![heuristicas](assets/images/heuristicas/img31.jpg)
+ 
+- Correción
+  
 ![heuristicas](assets/images/heuristicas/img34.jpg)
 
  **Recomendación:**
@@ -2608,4 +2590,4 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 - Link a video de exposición de TB1 en Microsoft Stream[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EXTIZ0eWKRlGvCWSXGR1MKsBIj1zFsSVmcwDxCPgLsc7Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=D1dRUU)
 - Link a video de exposición de TP1 en Microsoft Stream[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH)
-- Link a video de exposición de TB2 en Microsoft Stream
+- Link a video de exposición de TB2 en Microsoft Stream []()
