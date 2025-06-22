@@ -2173,29 +2173,19 @@ A continuación se muestran los commits realizados por los integrantes del equip
 
 | Repository                                  | Branch                | Commit Id | Commit Message                                     | Commit Message Body | Commited on      |
 |---------------------------------------------|-----------------------|-----------|----------------------------------------------------|---------------------|------------------|
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
-
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/TourBooking | af7dbb6 | chore: changed Dbset<Tourbooking> | * No aplica | 15 hours ago   |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/TourBooking | 8d58a8c | chore: move Tourbooking into Tours directory | * No aplica  | 19 hours ago   |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/TourBooking | da137fb | feat: added TourBooking API | * No aplica  |  2 weeks ago  |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Tours | e48c7d2 | fix: wrong namespace | * No aplica |  2 weeks ago  |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Tours | fa1ed7b | feat: add logic for DB Creation | * No aplica | 2 weeks ago   |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Tours | ce0708c | feat: add tours bounded context | * No aplica   | 2 weeks ago |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Tours | b1a1767 | feat: add UpdateBikeStation Command | * No aplica   2 weeks ago |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Bikes | 7d48248 | feat: add tour booking audit | * No aplica   | 8 hours ago  |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Bikes | dd68e8a | feat: add tourbooking endpoint| * No aplica  | 8 hours ago   |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Bikes | a291272 | feat: include user in paymentinformation endpoint | * No aplica  | 17 hours ago   |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Bikes | 302b698 | chore: change payments bounded context name | * No aplica    |  17 hours ago  |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Bikes | 7ee279f | chore: update services and command | * No aplica  |  yesterday  |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | feature/Bikes | bca79df | chore: change appsettings | * No aplica   |  2 days ago  |
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
