@@ -1210,6 +1210,40 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 - Touring Bounded Context
 <img src="assets/images/diagram-class/diagram-class5.png" width="1000" alt="diagram class5" />
 
+#### Safecycle Backend class diagram
+
+- Bike Bounded Context
+  
+<img src="assets/images/diagram-class/Bike1.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/Bike2.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/Bike3.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/Bike4.PNG" width="1000" alt="diagram class" />
+
+- IAM Bounded Context
+  
+<img src="assets/images/diagram-class/IAM1.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/IAM2.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/IAM3.PNG" width="1000" alt="diagram class" />
+
+- Payment Bounded Context
+  
+<img src="assets/images/diagram-class/Payment1.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/Payment2.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/Payment3.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/Payment4.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/Payment5.PNG" width="1000" alt="diagram class" />
+
+- Renting Bounded Context
+<img src="assets/images/diagram-class/Renting1.PNG" width="1000" alt="diagram class" />
+<img src="assets/images/diagram-class/Renting2.PNG" width="1000" alt="diagram class" />
+
+- Tours Bounded Context
+<img src="assets/images/diagram-class/Tours1.PNG" width="1000" alt="diagram class" /> 
+<img src="assets/images/diagram-class/Tours2.PNG" width="1000" alt="diagram class" /> 
+<img src="assets/images/diagram-class/Tours3.PNG" width="1000" alt="diagram class" /> 
+<img src="assets/images/diagram-class/Tours4.PNG" width="1000" alt="diagram class" /> 
+<img src="assets/images/diagram-class/Tours5.PNG" width="1000" alt="diagram class" /> 
+
 ### 4.7.2. Class Dictionary
 
 ## Booking Bounded Context
