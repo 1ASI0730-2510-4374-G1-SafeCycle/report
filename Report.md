@@ -2641,7 +2641,7 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 ## 8. Anexos
 
-## Anexo A: Diseño y Landing: 
+## Anexo A: Links Importantes: 
 
 ### Figma
 - Figmas diseño UX: [//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1](//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1)
@@ -2652,9 +2652,6 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 ### User Persona
 - Link a UXpresia de Anne Guillen [https://uxpressia.com/w/2JtXc/p/tbFfu](https://uxpressia.com/w/2JtXc/p/tbFfu)
 - Link a UXpresia de Mateo Smith [https://uxpressia.com/w/2JtXc/p/Wfgtx](https://uxpressia.com/w/2JtXc/p/Wfgtx)
-
-### Landing Page
-- Landing Page desplegada[https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
 
 ### Domain-Driven Software Architecture / C4 Diagrams
 - Link a Structurizr[https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
@@ -2705,3 +2702,20 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 **Link del landing page:** 
 
 [https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing_page](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing_page)
+
+<hr style="page-break-after: always;">
+
+## Anexo D: Links de Deployment:
+
+### Aplicacion Web
+
+Aplicacion Web desplegada: [https://white-mud-04527db10.6.azurestaticapps.net](https://white-mud-04527db10.6.azurestaticapps.net)
+
+### Landing Page
+
+Landing Page desplegada: [https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
+
+### Backend
+
+Backend OnRender desplegado: [https://backend-vtnl.onrender.com](https://backend-vtnl.onrender.com)
+
