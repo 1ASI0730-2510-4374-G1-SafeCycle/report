@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <strong style="font-size:25px;">Universidad Informe de Trabajo Final</strong>
+  <strong style="font-size:25px;">Informe de Trabajo Final</strong>
 </h1>
 
 ---
@@ -16,9 +16,9 @@
 
 ---
 
-<p align="center"><strong>Código: </strong>1ASI0730</p>
+<p align="center"><strong>Código: </strong> 1ASI0730</p>
 <p align="center"><strong>Curso:</strong> Aplicaciones Web</p>
-<p align="center"><strong>Sección:</strong> 4374</p>
+<p align="center"><strong>NRC:</strong> 4374</p>
 
 <p align="center"><strong>Docente:</strong> Alberto Wilmer Sanchez Seña</p>
 
@@ -42,7 +42,7 @@
 </div>
 
 
-<p align="center">Abril 2025</p>
+<p align="center">Julio 2025</p>
 
 # Registro de Versiones del Informe
 
@@ -126,8 +126,8 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [1.1.2.5 Oliver Jonseck Choque](#1125-oliver-jonseck-choque)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.  Process](#122-lean-ux-process)
+      - [1.2.2.1.  Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
@@ -394,8 +394,8 @@ Gracias a las encuestas realizadas se observó que un 86.7% no cuenta con un tra
 #### 1.2.2.1. Lean UX Problem Statements
 Los servicios actuales no pueden abordar de forma correcta el problema de los escasos medios de transporte rápidos, económicos y seguros para los ciudadanos de Lima Metropolitana que no cuentan con un transporte fijo. Estos grupos enfrentan dificultades para llegar puntualmente a sus destinos debido al tráfico concurrente en horas pico. En consecuencia, los usuarios suelen pagar altos costos de servicios como los taxis para poder llegar a su destino. Además, el transporte público muchas veces no los deja cerca de su destino final, generando pérdida de tiempo y fatiga al tener que caminar.
 Nuestro servicio abordará esta necesidad mediante una plataforma de alquiler de bicicletas por minuto, que permita a los usuarios movilizarse de manera eficiente, económica y además sostenible al medio ambiente.
-Nuestro enfoque inicial será estudiantes universitarios y turistas en zonas urbanas congestionadas, los cuales cuentan particularmente en Lima Metropolitana.
-
+Nuestro enfoque inicial será estudiantes universitarios y turistas en zonas urbanas congestionadas, los cuales estan particularmente en Lima Metropolitana.
+¿Cómo podríamos reducir el tiempo de traslado para estudiantes y turistas en zonas urbanas congestionadas como Lima, brindando una alternativa rápida para el último tramo del viaje?
 
 #### 1.2.2.2. Lean UX Assumptions
 
