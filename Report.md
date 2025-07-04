@@ -3,7 +3,7 @@
   <strong style="font-size:25px;">Informe de Trabajo Final</strong>
 </h1>
 
----
+
 
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
@@ -14,7 +14,6 @@
 <p align="center">Ingenieria de Software</p>
 <p align="center">5to ciclo</p>
 
----
 
 <p align="center"><strong>Código: </strong> 1ASI0730</p>
 <p align="center"><strong>Curso:</strong> Aplicaciones Web</p>
@@ -30,13 +29,22 @@
 ## Integrantes:
 <div align="center">
 
-| Nombres y Apellidos                  | Codigo     |
-| ------------------------------------ | ---------- |
-| Sanchez Gonzales                     | U202310609 |
-| Mora Blas,  Diego Alonzo             | U20231c069 |
-| Castañeda Guimas, Giancarlo Santiago | U202310601 |
-| Gonzales Valverde, Carlos Matthew  | U202314130 |
-| Jonseck Choque, Oliver | U202312912 |
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Nombres y Apellidos</th>
+      <th>Código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Sanchez Gonzales</td><td>U202310609</td></tr>
+    <tr><td>Mora Blas,  Diego Alonzo</td><td>U20231c069</td></tr>
+     <tr><td>Castañeda Guimas, Giancarlo Santiago</td><td>U202310601</td></tr>
+     <tr><td>Gonzales Valverde, Carlos Matthew</td><td>U202314130</td></tr>
+    <tr><td>Jonseck Choque, Oliver</td><td>U202312912</td></tr>
+  </tbody>
+</table>
 
 
 </div>
