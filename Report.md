@@ -60,7 +60,7 @@
 | :---- | :---- | :---- | :---- |
 | 1.0 | 24/04/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Estructura del informe Capítulo I: Introducción Capítulo II: Requirements Elicitation & Analysis Capítulo III: Requirements Specification Capítulo IV: Product Design Capítulo V: Product Implementation, Validation & Deployment Landing Page Conclusiones Bibliografía Recomendaciones Anexos  |
 | 2.0 | 16/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 2: Deploy del FrontEnd, desarrollo del FrontEnd, Insights  |
-| 3.0 | 15/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 3: Deploy del Backend, conexión con la base de datos y el FrontEnd |
+| 3.0 | 15/06/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 3: Deploy del Backend, conexión con la base de datos y el FrontEnd |
 
 # Project Report Collaboration Insights
 
