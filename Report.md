@@ -52,6 +52,8 @@
 
 <p align="center">Julio 2025</p>
 
+<hr style="page-break-after: always;">
+
 # Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de modificación |
