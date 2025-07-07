@@ -1476,7 +1476,7 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 
 ### 4.8.1. Database Diagram
 
-<img src= "assets/images/database/Diagrama de datos.jpeg" widt= "1000" alt="Database-Diagram"/>
+<img src= "assets/images/database/database-diagram.png" widt= "1000" alt="Database-Diagram"/>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
