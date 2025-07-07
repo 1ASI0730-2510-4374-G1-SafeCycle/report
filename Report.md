@@ -61,6 +61,7 @@
 | 1.0 | 24/04/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Estructura del informe Capítulo I: Introducción Capítulo II: Requirements Elicitation & Analysis Capítulo III: Requirements Specification Capítulo IV: Product Design Capítulo V: Product Implementation, Validation & Deployment Landing Page Conclusiones Bibliografía Recomendaciones Anexos  |
 | 2.0 | 16/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 2: Deploy del FrontEnd, desarrollo del FrontEnd, Insights  |
 | 3.0 | 15/06/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 3: Deploy del Backend, conexión con la base de datos y el FrontEnd |
+| 4.0 | 06/07/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 4: Implementación del IAM, conexiones frontend-backend, funcionalidad completa del frontend recibiendo datos del backend |
 
 # Project Report Collaboration Insights
 
@@ -95,6 +96,16 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 | Castañeda Guimas, Giancarlo Santiago | Programación del BackEnd. Correción de los diagramas de clase, datos y modelado C4 |
 | Gonzales Valverde, Carlos Matthew | Programación del BackEnd |
 | Jonseck Choque, Oliver | Programación del BackEnd. Implementación del idioma ingles y español al FrontEnd |
+
+## **TF:**
+
+| Integrante | Tareas Asignadas |
+| :---- | :---- |
+| Sanchez Gonzales | Programación del BackEnd, Conexión FrontEnd-BackEnd, Correciones |
+| Mora Blas, Diego Alonzo |  Programación del BackEnd, Conexión FrontEnd-BackEnd, Correciones |
+| Castañeda Guimas, Giancarlo Santiago | Correción de los diagramas de clase, datos y modelado C4 |
+| Gonzales Valverde, Carlos Matthew | Correciones |
+| Jonseck Choque, Oliver | Correciones |
 
 
 **Link de la pagina deployada:** 
@@ -309,8 +320,8 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1 me encargue de la programación de la aplicación e implementación de la Fake API en conjunto con cambios y correcciones en el documento <br><br>   **Sanchez Gonzales Gabriel: *TB2***<br>  Para la entrega de la TB2 me encargue del Diseño de Entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Evaluaciones según heurísticas, correcciones en front-end y programación del backend <br>  <br> **Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también  conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br> <br> **Mora Blas, Diego Alonzo: *TP1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en realizar el apartado del Touring Booking trabajado en Vue js<br><br> **Mora Blas, Diego Alonzo: *TB2***<br> Durante el transcurso de este sprint mi enfoque principal se centró en realizar el apartado del Backend trabajando con la base de datos SQL Server, donde estaremos modelando nuestra REST API con sus respectivos end points**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web <br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> En esta entrega realice actualizaciones para las user stories, product backlog, los diagramas de clase y trabaje en el backend haciendo los contextos <br>**Jonseck Choque, Oliver *TB1***<br> Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones <br>**Jonseck Choque, Oliver *TB2***<br>Durante esta entrega me encargue de realizar correciones a la parte frontend y añadir partes que faltaban, además de realizar el diagrama C4 de nuestra web app y sus componentes, junto al diagrama de base de datos y ayudar en la creación del Backend.<br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.  | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1, colaboré con el equipo encargándome de la programación de la aplicación y la implementación de la Fake API. Además, apoyé en los cambios y correcciones del documento, participando activamente en la coordinación del trabajo y en la toma de decisiones técnicas junto a mis compañeros<br><br> **Sanchez Gonzales Gabriel: *TB2***<br>  En la TB2, diseñé entrevistas, aporté evidencia para el sprint, evalué según heurísticas y trabajé en front y backend. Todas las decisiones fueron discutidas en equipo, demostrando un liderazgo compartido y constante colaboración. <br><br> <br>**Mora Blas, Diego Alonzo: *TB1***<br> En nuestro equipo el liderazgo es compartido: generamos diálogos abiertos, escuchamos todas las perspectivas y elegimos juntos la opción más viable. Cada quien aporta su experiencia sin reservas, lo que potencia la creatividad y refuerza la confianza mutua. Así, las decisiones se vuelven más sólidas y el resultado final refleja el esfuerzo colectivo. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo, logramos una plenitud de ideas como grupo, al dialogar, tener reuniones compartiendo información las cuales refuerzan las ideas dadas. <br>**Mora Blas, Diego Alonzo: *TP1***<br> En nuestro grupo practicamos un liderazgo colaborativo: fomentamos conversaciones francas, consideramos todas las visiones y seleccionamos de manera conjunta la alternativa más adecuada. Cada miembro comparte sin titubeos su conocimiento, elevando la creatividad y fortaleciendo la confianza mutua. De este modo, las decisiones ganan en solidez y el resultado final refleja el compromiso de todos.<br><br>**Mora Blas, Diego Alonzo: *TB2***<br> En nuestro equipo practicamos un liderazgo solidario: promovemos un espacio de diálogo abierto, valoramos cada punto de vista y acordamos juntos la alternativa más acertada. Todos aportan libremente su experiencia, lo cual impulsa la innovación y refuerza la confianza entre nosotros. Así, las decisiones se apoyan en una base más firme y el resultado final es fruto del esfuerzo compartido.<br> <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br> Como grupo, volvimos a hacer un trabajo en conjunto y en comunicación, compartiendo dialogo e ideas para resolver dificultades acerca del curso <br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> Como team, nos enfocamos asertivamente a aportar continuinamente al proyecto siempre manteniendo el orden y buen ambiente  <br> **Jonseck Choque, Oliver *TB1***<br> Cómo equipo mantuvimos una comunicación estable y continua nos repartimos los trabajos de acuerdo a nuestra disponibilidad y responsabilidad. Siempre revisamos los trabajos de cada uno aportando ideas y críticas constructivas. <br> **Jonseck Choque, Oliver *TB2***<br> Cómo equipo nos enfocamos en mejorar lo que previamente creamos, al encargarnos las tareas de acuerdo de la eficiencia de cada uno y sus habilidades.<br>**Carlos Matthew, Gonzales *TB1***<br>Como equipo tuvimos un muy buen ambiente y comunicación, nos pudimos dividir los trabajos y establecernos límites entre nosotros para poder cumplir nuestras actividades a tiempo. Siempre estamos en constante revisión de las partes en los trabajos.  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1 me encargue de la programación de la aplicación e implementación de la Fake API en conjunto con cambios y correcciones en el documento <br><br>   **Sanchez Gonzales Gabriel: *TB2***<br>  Para la entrega de la TB2 me encargue del Diseño de Entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Evaluaciones según heurísticas, correcciones en front-end y programación del backend <br>  <br> **Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Mora Blas, Diego Alonzo: *TP1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software, donde realizo design patterns para el Front End trabajado en Vue js <br><br>**Mora Blas, Diego Alonzo: *TB2***<br> Durante el transcurso de este sprint mi enfoque principal se centró en el apartado del Backend sobre todo de la representacion de tablas y la designacion de clases a modelar <br> <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1  <br> **Castañeda Guimas, Giancarlo Santiago: *TP1***<br> En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> **Jonseck Choque, Oliver *TB1***<br>Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones.<br>**Jonseck Choque, Oliver *TB2*** <br>Durante esta entrega me encargue de realizar correciones a la parte frontend y añadir partes que faltaban, además de realizar el diagrama C4 de nuestra web app y sus componentes, junto al diagrama de base de datos y ayudar en la creación del Backend.<br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.    | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. <br> **Sanchez Gonzales Gabriel: *TP1***<br> Durante el desarrollo de la TP1, contribuí a crear un entorno colaborativo al coordinarme con el equipo para definir metas claras y planificar las tareas necesarias. A través de una comunicación constante y abierta, logramos distribuir responsabilidades equitativamente con los objetivos establecidos dentro del plazo previsto por el equipo. <br>  <br> **Sanchez Gonzales Gabriel: *TB2***<br>   En la TB2, colaboré activamente en la organización de tareas, el diseño de entrevistas y el seguimiento de avances durante el sprint, fomentando un trabajo inclusivo y enfocado en metas de desarrollo entre todos.<br><br> <br>**Mora Blas, Diego Alonzo: *TB1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br>**Mora Blas, Diego Alonzo: *TP1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br><br>**Mora Blas, Diego Alonzo: *TB2***<br> En equipo definimos metas precisas y asignamos responsabilidades; al establecernos plazos internos para cada parte del capítulo, optimizamos nuestra organización y avanzamos de manera coordinada y sin contratiempos. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo decidimos tener nuestras metas claras y concisas con lo que debemos realizar, pensamos que realizar todo a tiempo seria lo mejor y obviamente el trabajo en equipo es lo primordial  <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>Como grupo tuvimos que dejar algunas cosas claras sobretodo a la hora de la planificación para que todos podamos seguir adelante conociendo nuestras limitaciones en el momento<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> Como grupo pudimos crear una idea y ampliarla para mejorar nuestras entregas a tiempo, a su vez corregimos y obtuvimos mejores resultados a los planeados<br>**Jonseck Choque, Oliver *TB1***<br> Cómo grupo decidimos crear un plan para entregar partes del trabajo a tiempo, esto para que sean revisadas y corregidas por todos, siempre mostrando un entorno agradable de apoyo.<br>**Jonseck Choque,Oliver *TB2*** <br>Cómo grupo mantuvimos una gran conversación además de coordinar las diferentes partes que cada uno tenia de encargarse, además de verificar ciertas correciones necesarias para el frontend <br>**Carlos Matthew, Gonzales *TB1***<br>Como grupo hemos creado un plan entre nosotros para entregar los trabajos a tiempo, que viene siendo limites puestos por nosotros mismos así podemos organizarnos mejor y ayudarnos por si falta algo en la última semana de entrega, para así poder pulir y entregar un trabajo impecable, siempre comunicándonos todo. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1 me encargue de la programación de la aplicación e implementación de la Fake API en conjunto con cambios y correcciones en el documento <br><br>   **Sanchez Gonzales Gabriel: *TB2***<br>  Para la entrega de la TB2 me encargue del Diseño de Entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Evaluaciones según heurísticas, correcciones en front-end y programación del backend <br>  <br> **Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también  conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br> <br> **Mora Blas, Diego Alonzo: *TP1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en realizar el apartado del Touring Booking trabajado en Vue js<br><br> **Mora Blas, Diego Alonzo: *TB2***<br> Durante el transcurso de este sprint mi enfoque principal se centró en realizar el apartado del Backend trabajando con la base de datos SQL Server, donde estaremos modelando nuestra REST API con sus respectivos end points<br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web <br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> En esta entrega realice actualizaciones para las user stories, product backlog, los diagramas de clase y trabaje en el backend haciendo los contextos <br>**Castañeda Guimas, Giancarlo Santiago: TF**<br> En esta entrega realice correciones a los diagramas y ademas ayude realizando la documentación final del proyecto. <br>**Jonseck Choque, Oliver *TB1***<br> Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones <br>**Jonseck Choque, Oliver *TB2***<br>Durante esta entrega me encargue de realizar correciones a la parte frontend y añadir partes que faltaban, además de realizar el diagrama C4 de nuestra web app y sus componentes, junto al diagrama de base de datos y ayudar en la creación del Backend.<br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros. <br>Carlos Matthew, Gonzales TP1<br> En esta entrega del Trabajo Parcial Realice lo que viene siendo la mejora en el apartado del frontend, haciendolo responsive y apoyando a mis compañeros con respecto al informe. Carlos Matthew, Gonzales TB2<br> En esta entrega del TB2 realice lo que viene siendo el apartado del frontend corrigiendo para las heuristicas, agregando los pequeños detales y necesarios para que la aplicacion se vea de la mejor forma y sea accesible para el usuario, tambien realice el apartado del backend el endpoint Payment, luego apoye a mis compañeros con respecto al informe por si faltaban cosas. TF**<br> En esta ultima entrega para el TF(Trabajo Final) me toco realizar la mejora del diagrama de base de datos y luego ayude con las correciones del backend como tambien del informe.  | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1, colaboré con el equipo encargándome de la programación de la aplicación y la implementación de la Fake API. Además, apoyé en los cambios y correcciones del documento, participando activamente en la coordinación del trabajo y en la toma de decisiones técnicas junto a mis compañeros<br><br> **Sanchez Gonzales Gabriel: *TB2***<br>  En la TB2, diseñé entrevistas, aporté evidencia para el sprint, evalué según heurísticas y trabajé en front y backend. Todas las decisiones fueron discutidas en equipo, demostrando un liderazgo compartido y constante colaboración.  <br>**Mora Blas, Diego Alonzo: *TB1***<br> En nuestro equipo el liderazgo es compartido: generamos diálogos abiertos, escuchamos todas las perspectivas y elegimos juntos la opción más viable. Cada quien aporta su experiencia sin reservas, lo que potencia la creatividad y refuerza la confianza mutua. Así, las decisiones se vuelven más sólidas y el resultado final refleja el esfuerzo colectivo.  <br>**Mora Blas, Diego Alonzo: *TP1***<br> En nuestro grupo practicamos un liderazgo colaborativo: fomentamos conversaciones francas, consideramos todas las visiones y seleccionamos de manera conjunta la alternativa más adecuada. Cada miembro comparte sin titubeos su conocimiento, elevando la creatividad y fortaleciendo la confianza mutua. De este modo, las decisiones ganan en solidez y el resultado final refleja el compromiso de todos.<br><br>**Mora Blas, Diego Alonzo: *TB2***<br> En nuestro equipo practicamos un liderazgo solidario: promovemos un espacio de diálogo abierto, valoramos cada punto de vista y acordamos juntos la alternativa más acertada. Todos aportan libremente su experiencia, lo cual impulsa la innovación y refuerza la confianza entre nosotros. Así, las decisiones se apoyan en una base más firme y el resultado final es fruto del esfuerzo compartido.<br> <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo, logramos una plenitud de ideas como grupo, al dialogar, tener reuniones compartiendo información las cuales refuerzan las ideas dadas.<br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br> Como grupo, volvimos a hacer un trabajo en conjunto y en comunicación, compartiendo dialogo e ideas para resolver dificultades acerca del curso <br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> Como team, nos enfocamos asertivamente a aportar continuinamente al proyecto siempre manteniendo el orden y buen ambiente  <br> **Castañeda Guimas, Giancarlo Santiago: TF**<br> Como equipo, logramos un flujo constante de colaboración, donde el diálogo y las reuniones fueron clave para consolidar nuestras ideas y resolver las dificultades del curso. Mantuvimos un ambiente ordenado y proactivo, asegurando que cada miembro contribuyera de manera asertiva, lo que nos permitió avanzar de forma coordinada y reforzar nuestro aprendizaje grupal <br>**Jonseck Choque, Oliver *TB1***<br> Cómo equipo mantuvimos una comunicación estable y continua nos repartimos los trabajos de acuerdo a nuestra disponibilidad y responsabilidad. Siempre revisamos los trabajos de cada uno aportando ideas y críticas constructivas. <br> **Jonseck Choque, Oliver *TB2***<br> Cómo equipo nos enfocamos en mejorar lo que previamente creamos, al encargarnos las tareas de acuerdo de la eficiencia de cada uno y sus habilidades.<br>**Carlos Matthew, Gonzales *TB1***<br>Como equipo tuvimos un muy buen ambiente y comunicación, nos pudimos dividir los trabajos y establecernos límites entre nosotros para poder cumplir nuestras actividades a tiempo. Siempre estamos en constante revisión de las partes en los trabajos. <br>Carlos Matthew, Gonzales TP1<br> Como equipo tuvimos una muy buena comunicacion para el Trabajo Parcial y lo pudimos subir a tiempo, pero tuvimos un pequeño problema con la entrega que nos afecto un poco en la nota pero aun asi nosotros lo corregimos y aprendimos de ello por lo cual ahora estamos mucho mejor que antes con el tema de la comunicacion y el ambiente es muy amigable. <br>Carlos Matthew, Gonzales TB2<br> En esta entrega como equipo pudimos realizar todos lo que viene siendo el apartado del backend cumplimos con nuestras metas para la entrega y nos comunicamos de uno a otro por si teniamos problemas con el trabajo. <br>Carlos Matthew, Gonzales TF1<br> Sobre esta ultima entrega pudimos estar al tanto de revisar las ultimas partes con las corecciones que todo este bien para no tener ni un error y poder subir el trabajo a tiempo conforme comunicandonos siempre como equipo y manteniendo un muy buen ambiente entre nosotros.  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1 me encargue de la programación de la aplicación e implementación de la Fake API en conjunto con cambios y correcciones en el documento <br><br>   **Sanchez Gonzales Gabriel: *TB2***<br>  Para la entrega de la TB2 me encargue del Diseño de Entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Evaluaciones según heurísticas, correcciones en front-end y programación del backend <br>  <br> **Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Mora Blas, Diego Alonzo: *TP1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software, donde realizo design patterns para el Front End trabajado en Vue js <br><br>**Mora Blas, Diego Alonzo: *TB2***<br> Durante el transcurso de este sprint mi enfoque principal se centró en el apartado del Backend sobre todo de la representacion de tablas y la designacion de clases a modelar <br> <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1  <br> **Castañeda Guimas, Giancarlo Santiago: *TP1***<br> En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br>En esta entrega realice actualizaciones para las user stories, product backlog, los diagramas de clase y trabaje en el backend haciendo los contextos <br> **Castañeda Guimas, Giancarlo Santiago: TF**<br>En esta entrega realice correciones para el diagrama de clases concordando con lo que tenemos en el backend, ademas tambien actualice nuestra base de datos<br> **Jonseck Choque, Oliver *TB1***<br>Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones.<br>**Jonseck Choque, Oliver *TB2*** <br>Durante esta entrega me encargue de realizar correciones a la parte frontend y añadir partes que faltaban, además de realizar el diagrama C4 de nuestra web app y sus componentes, junto al diagrama de base de datos y ayudar en la creación del Backend.<br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros. <br>Carlos Matthew, Gonzales TP1<br> En esta entrega del Trabajo Parcial Realice lo que viene siendo la mejora en el apartado del frontend, haciendolo responsive y apoyando a mis compañeros con respecto al informe. Carlos Matthew, Gonzales TB2<br> En esta entrega del TB2 realice lo que viene siendo el apartado del frontend corrigiendo para las heuristicas, agregando los pequeños detales y necesarios para que la aplicacion se vea de la mejor forma y sea accesible para el usuario, tambien realice el apartado del backend el endpoint Payment, luego apoye a mis compañeros con respecto al informe por si faltaban cosas. TF**<br> En esta ultima entrega para el TF(Trabajo Final) me toco realizar la mejora del diagrama de base de datos y luego ayude con las correciones del backend como tambien del informe.    | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. <br> **Sanchez Gonzales Gabriel: *TP1***<br> Durante el desarrollo de la TP1, contribuí a crear un entorno colaborativo al coordinarme con el equipo para definir metas claras y planificar las tareas necesarias. A través de una comunicación constante y abierta, logramos distribuir responsabilidades equitativamente con los objetivos establecidos dentro del plazo previsto por el equipo. <br>  <br> **Sanchez Gonzales Gabriel: *TB2***<br>   En la TB2, colaboré activamente en la organización de tareas, el diseño de entrevistas y el seguimiento de avances durante el sprint, fomentando un trabajo inclusivo y enfocado en metas de desarrollo entre todos.<br><br> <br>**Mora Blas, Diego Alonzo: *TB1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br>**Mora Blas, Diego Alonzo: *TP1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br><br>**Mora Blas, Diego Alonzo: *TB2***<br> En equipo definimos metas precisas y asignamos responsabilidades; al establecernos plazos internos para cada parte del capítulo, optimizamos nuestra organización y avanzamos de manera coordinada y sin contratiempos. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo decidimos tener nuestras metas claras y concisas con lo que debemos realizar, pensamos que realizar todo a tiempo seria lo mejor y obviamente el trabajo en equipo es lo primordial  <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>Como grupo tuvimos que dejar algunas cosas claras sobretodo a la hora de la planificación para que todos podamos seguir adelante conociendo nuestras limitaciones en el momento<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> Como grupo pudimos crear una idea y ampliarla para mejorar nuestras entregas a tiempo, a su vez corregimos y obtuvimos mejores resultados a los planeados<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br>Como equipo, establecimos metas claras y una planificación eficiente, priorizando la entrega oportuna y el trabajo colaborativo. Reconocimos nuestras limitaciones y las superamos mediante una comunicación constante, lo que nos permitió refinar nuestras ideas, mejorar los resultados iniciales y alcanzar objetivos incluso más allá de lo planeado <br>**Jonseck Choque, Oliver *TB1***<br> Cómo grupo decidimos crear un plan para entregar partes del trabajo a tiempo, esto para que sean revisadas y corregidas por todos, siempre mostrando un entorno agradable de apoyo.<br>**Jonseck Choque,Oliver *TB2*** <br>Cómo grupo mantuvimos una gran conversación además de coordinar las diferentes partes que cada uno tenia de encargarse, además de verificar ciertas correciones necesarias para el frontend <br>**Carlos Matthew, Gonzales *TB1***<br>Como grupo hemos creado un plan entre nosotros para entregar los trabajos a tiempo, que viene siendo limites puestos por nosotros mismos así podemos organizarnos mejor y ayudarnos por si falta algo en la última semana de entrega, para así poder pulir y entregar un trabajo impecable, siempre comunicándonos todo. <br>Carlos Matthew, Gonzales TP1<br> Como equipo tuvimos una muy buena comunicacion para el Trabajo Parcial y lo pudimos subir a tiempo, pero tuvimos un pequeño problema con la entrega que nos afecto un poco en la nota pero aun asi nosotros lo corregimos y aprendimos de ello por lo cual ahora estamos mucho mejor que antes con el tema de la comunicacion y el ambiente es muy amigable. <br>Carlos Matthew, Gonzales TB2<br> En esta entrega como equipo pudimos realizar todos lo que viene siendo el apartado del backend cumplimos con nuestras metas para la entrega y nos comunicamos de uno a otro por si teniamos problemas con el trabajo. <br>Carlos Matthew, Gonzales TF1<br> Sobre esta ultima entrega pudimos estar al tanto de revisar las ultimas partes con las corecciones que todo este bien para no tener ni un error y poder subir el trabajo a tiempo conforme comunicandonos siempre como equipo y manteniendo un muy buen ambiente entre nosotros. |
 
 
 
@@ -1218,17 +1229,141 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 
 <img src="assets/images/diagram-class/diagram-class.png" width="1000" alt="diagram class" />
 
-- Renting Bounded Context
-<img src="assets/images/diagram-class/diagram-class2.png" width="1000" alt="diagram class2" />
+### Safecycle backend Class Diagram
 
-- Booking Bounded Context
-<img src="assets/images/diagram-class/diagram-class3.png" width="1000" alt="diagram class3" />
+#### Bikes Bounded Context
 
-- Users Bounded Context
-<img src="assets/images/diagram-class/diagram-class4.png" width="1000" alt="diagram class4" />
+##### Aplication
 
-- Touring Bounded Context
-<img src="assets/images/diagram-class/diagram-class5.png" width="1000" alt="diagram class5" />
+<img src="assets/images/diagram-class/Bikes/Bikes Application.png" width="1000" alt="Bikes Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/Bikes/Bikes Domain Model.png" width="1000" alt="Bikes Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/Bikes/Bikes Domain Services Repos.png" width="1000" alt="Bikes Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/Bikes/Bikes Infrastructure.png" width="1000" alt="Bikes Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesControllers.png" width="1000" alt="Bikes Interfaces Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesResources.png" width="1000" alt="Bikes Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesTransform.png" width="1000" alt="Bikes Infrastructure Transform" />
+
+#### IAM Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/IAM/IAM Application.png" width="1000" alt="IAM Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/IAM/IAM Domain Model.png" width="1000" alt="IAM Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/IAM/IAM Domain Services Repos.png " width="1000" alt="Bikes Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/IAM/IAM Infrastructure.png" width="1000" alt="IAM Infrastructure" />
+
+##### Interfaces
+
+<img src="assets/images/diagram-class/IAM/IAM Interfaces.png" width="1000" alt="IAM Interfaces" />
+
+#### Payment Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/Payment/Payment Application.png" width="1000" alt="Payment Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/Payment/Payment Domain Model.png" width="1000" alt="Payment Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/Payment/Payment Domain RS.png" width="1000" alt="Payment Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/Payment/Payment Infrastructure.png" width="1000" alt="Payment Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Controllers.png" width="1000" alt="Payment Interfaces Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Resources.png" width="1000" alt="Payment Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Transform.png" width="1000" alt="Payment Infrastructure Transform" />
+
+#### Renting Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/renting/Renting Application.png" width="1000" alt="Renting Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/renting/Renting Domain Model.png" width="1000" alt="Renting Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/renting/Renting Domain RS.png" width="1000" alt="Renting Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/renting/Renting Infrastructure.png" width="1000" alt="Renting Infrastructure" />
+
+##### Interfaces
+
+<img src="assets/images/diagram-class/renting/Renting Interfaces.png" width="1000" alt="Renting Interfaces " />
+
+#### Tours Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/tours/Tours Application.png" width="1000" alt="Tours Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/tours/Tours Domain Model.png" width="1000" alt="Tours Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/tours/Tours Domain RS.png" width="1000" alt="Tours Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/tours/Tours Infrastructure.png" width="1000" alt="Tours Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/tours/Tours Controller.png" width="1000" alt="Payment Tours Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/tours/Tours Interfaces Resources.png" width="1000" alt="Tours Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/tours/Tours Interfaces Transform.png" width="1000" alt="Tours Infrastructure Transform" />
 
 #### Safecycle Backend class diagram
 
@@ -1479,7 +1614,7 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 
 ### 4.8.1. Database Diagram
 
-<img src= "assets/images/database/Diagrama de datos.jpeg" widt= "1000" alt="Database-Diagram"/>
+<img src= "assets/images/database/database-diagram.png" widt= "1000" alt="Database-Diagram"/>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -1908,7 +2043,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación del método POST y Delete</td>
-    <td>2</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -1916,7 +2051,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos getById, getByUser, getByTourist, getAllUsers </td>
-    <td>2</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -1936,7 +2071,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -1944,7 +2079,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos getById, getAllTours </td>
-    <td>2</td>
+    <td>5</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -1954,7 +2089,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST, GetByID y PUT</td>
-    <td>3</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -1962,7 +2097,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos  GetById, GetAll </td>
-    <td>2</td>
+    <td>5</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -1980,7 +2115,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll ,GetByID, GetAvailableCarStations </td>
-    <td>2</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -1990,7 +2125,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Soporte CRUD bicicletas</td>
     <td>Soporte backend para registrar, leer y eliminar bicicletas para uso del sistema.</td>
-    <td>2</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2000,7 +2135,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2009,7 +2144,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetByID, GetAvailableCars </td>
-    <td>2</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2029,7 +2164,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST y Delete</td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2038,7 +2173,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetById </td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2057,7 +2192,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetById </td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2067,7 +2202,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Añadir cambios de lenguaje</td>
     <td>Implementación de i18n a la aplicación</td>
-    <td>6</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2085,7 +2220,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Consolidar insights y documentar</td>
     <td>Elaborar documento con necesidades identificadas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2103,7 +2238,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Elaborar matriz de tareas por rol</td>
     <td>Diseñar matriz visual de tareas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2131,7 +2266,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T19</td>
     <td>Empathy Map: segmento estudiante</td>
     <td>Construir mapa de empatía para estudiantes</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2139,7 +2274,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T20</td>
     <td>Empathy Map: segmento turista</td>
     <td>Construir mapa de empatía para turistas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2149,7 +2284,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Definir escenarios As-Is</td>
     <td>Documentar procesos actuales de los usuarios</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2157,7 +2292,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Definir escenarios To-Be</td>
     <td>Definir escenarios ideales con SafeCycle</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done/td>
   </tr>
@@ -2167,7 +2302,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T23</td>
     <td>Identificar objetivos y actores</td>
     <td>Listar objetivos de negocio y actores clave</td>
-    <td>3</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -2185,7 +2320,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T25</td>
     <td>Crear versión inicial del backlog</td>
     <td>Crear backlog inicial en formato .md</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2193,7 +2328,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T26</td>
     <td>Validar backlog con equipo</td>
     <td>Revisar y validar prioridades de backlog</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañedae</td>
     <td>Done</td>
   </tr>
@@ -2203,7 +2338,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T27</td>
     <td>Crear diagrama de contexto </td>
     <td>Modelar nivel contexto del sistema</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2211,7 +2346,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T28</td>
     <td>Crear diagrama de contenedores </td>
     <td>Modelar nivel contenedores de la app</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2219,7 +2354,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T29</td>
     <td>Crear diagrama de componentes </td>
     <td>Modelar nivel componentes</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2229,7 +2364,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Modelar clases principales</td>
     <td>Diseñar diagrama UML de clases del sistema</td>
-    <td>2</td>
+    <td>4</td>
     <td> Giancarlo Castañeda </td>
     <td>Done</td>
   </tr>
@@ -2237,7 +2372,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Revisar y validar diagrama</td>
     <td>Revisión conjunta del modelo de clases</td>
-    <td>3</td>
+    <td>4</td>
     <td> Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2255,11 +2390,10 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Validar estructura del ERD</td>
     <td>Validación conjunta del ERD</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew, Diego Mora, Gabriel Sanchez, Giancarlo Castañeda, Oliver Jonseck</td>
     <td>Done</td>
   </tr>
-</table>
 
 
 A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
@@ -2334,6 +2468,129 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 
 ![](assets/images/insights-sprint-3.png)
 
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1.Sprint Planning 4.
+| Sprint \# | 4 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-01-07 |
+| Time | 12:00 PM |
+| Location | Discord |
+| Prepared by | Giancarlo Castañeda |
+| Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
+| Sprint n – 4 Review Summary | Se dicidio actualizar nuestro bounded context "IAM" en el cual se encuentra todo lo relacionado al registro y inicio de sesión del usuario, añadiendo las respectivas tokens y utilizando elementos de seguridad como JWT|
+| Sprint n – 4 Retrospective Summary | Creemos que hay oportunidad de hacer una mejor planificación de tiempos para la integraciones y revisiones  |
+| Sprint Goal & User Stories |  |
+| Sprint 4 Goal | El objetivo de este sprint es la implementación de los endpoints para el registro y logeo de los usuarios mediante la conexión del frontend con el backend  |
+| Sprint 4 Velocity | Para este sprint nuestro equipo puende aceptar hasta  story points |
+| Sum of Story Points | Para este sprint haremos  story points |
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name)  | GitHub Username | Back-End Development| Documentation | Page Deployment | 
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | L                                                                                             |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | L                                       | C                                            | C                                                                                             |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | C                                       | L                                            | C                                                                                             |
+| Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                                                             |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
+
+
+#### 5.2.4.3.Sprint Backlog 4.
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 4</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned To</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS05</td>
+    <td rowspan="1">CRUD Users</td>
+    <td>T01</td>
+    <td>CRUD usuario - lectura y edición</td>
+    <td>Soporte backend para editar y obtener datos de usuario desde panel.</td>
+    <td>5</td>
+    <td>Diego Mora</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS11</td>
+    <td rowspan="2">Endpoint para IAM</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación del método POST y Delete</td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos getById, getByUser, getByTourist, getAllUsers </td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
+
+| Repository                                  | Branch                | Commit Id | Commit Message                                     | Commit Message Body | Commited on      |
+|---------------------------------------------|-----------------------|-----------|----------------------------------------------------|---------------------|------------------|
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+
+
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 4. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
+
+
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
