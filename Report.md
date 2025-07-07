@@ -2040,7 +2040,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación del método POST y Delete</td>
-    <td>2</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -2048,7 +2048,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos getById, getByUser, getByTourist, getAllUsers </td>
-    <td>2</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -2068,7 +2068,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2076,7 +2076,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos getById, getAllTours </td>
-    <td>2</td>
+    <td>5</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2086,7 +2086,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST, GetByID y PUT</td>
-    <td>3</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2094,7 +2094,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos  GetById, GetAll </td>
-    <td>2</td>
+    <td>5</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2112,7 +2112,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll ,GetByID, GetAvailableCarStations </td>
-    <td>2</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2122,7 +2122,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Soporte CRUD bicicletas</td>
     <td>Soporte backend para registrar, leer y eliminar bicicletas para uso del sistema.</td>
-    <td>2</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2132,7 +2132,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2141,7 +2141,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetByID, GetAvailableCars </td>
-    <td>2</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2161,7 +2161,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST y Delete</td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2170,7 +2170,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetById </td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2189,7 +2189,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetById </td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2199,7 +2199,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Añadir cambios de lenguaje</td>
     <td>Implementación de i18n a la aplicación</td>
-    <td>6</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2217,7 +2217,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Consolidar insights y documentar</td>
     <td>Elaborar documento con necesidades identificadas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2235,7 +2235,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Elaborar matriz de tareas por rol</td>
     <td>Diseñar matriz visual de tareas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2263,7 +2263,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T19</td>
     <td>Empathy Map: segmento estudiante</td>
     <td>Construir mapa de empatía para estudiantes</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2271,7 +2271,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T20</td>
     <td>Empathy Map: segmento turista</td>
     <td>Construir mapa de empatía para turistas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2281,7 +2281,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Definir escenarios As-Is</td>
     <td>Documentar procesos actuales de los usuarios</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2289,7 +2289,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Definir escenarios To-Be</td>
     <td>Definir escenarios ideales con SafeCycle</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done/td>
   </tr>
@@ -2299,7 +2299,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T23</td>
     <td>Identificar objetivos y actores</td>
     <td>Listar objetivos de negocio y actores clave</td>
-    <td>3</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -2317,7 +2317,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T25</td>
     <td>Crear versión inicial del backlog</td>
     <td>Crear backlog inicial en formato .md</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2325,7 +2325,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T26</td>
     <td>Validar backlog con equipo</td>
     <td>Revisar y validar prioridades de backlog</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañedae</td>
     <td>Done</td>
   </tr>
@@ -2335,7 +2335,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T27</td>
     <td>Crear diagrama de contexto </td>
     <td>Modelar nivel contexto del sistema</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2343,7 +2343,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T28</td>
     <td>Crear diagrama de contenedores </td>
     <td>Modelar nivel contenedores de la app</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2351,7 +2351,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T29</td>
     <td>Crear diagrama de componentes </td>
     <td>Modelar nivel componentes</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2361,7 +2361,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Modelar clases principales</td>
     <td>Diseñar diagrama UML de clases del sistema</td>
-    <td>2</td>
+    <td>4</td>
     <td> Giancarlo Castañeda </td>
     <td>Done</td>
   </tr>
@@ -2369,7 +2369,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Revisar y validar diagrama</td>
     <td>Revisión conjunta del modelo de clases</td>
-    <td>3</td>
+    <td>4</td>
     <td> Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2387,11 +2387,10 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Validar estructura del ERD</td>
     <td>Validación conjunta del ERD</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew, Diego Mora, Gabriel Sanchez, Giancarlo Castañeda, Oliver Jonseck</td>
     <td>Done</td>
   </tr>
-</table>
 
 
 A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
@@ -2466,7 +2465,9 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 
 ![](assets/images/insights-sprint-3.png)
 
+
 ### 5.2.4. Sprint 4
+
 #### 5.2.4.1.Sprint Planning 4.
 | Sprint \# | 4 |
 | :---- | :---- |
@@ -2491,7 +2492,8 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 | Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                                                             |
 | Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
 
-#### 5.2.3.3.Sprint Backlog 3.
+
+#### 5.2.4.3.Sprint Backlog 4.
 
 <table>
   <tr>
@@ -2540,9 +2542,6 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
- 
-
-
 A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
 
 | Repository                                  | Branch                | Commit Id | Commit Message                                     | Commit Message Body | Commited on      |
@@ -2573,7 +2572,7 @@ A continuación se muestran los commits realizados por los integrantes del equip
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 
-En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 3. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 4. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
 
 
 #### 5.2.4.6.Services Documentation Evidence for Sprint Review.
