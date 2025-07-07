@@ -1215,17 +1215,141 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 
 <img src="assets/images/diagram-class/diagram-class.png" width="1000" alt="diagram class" />
 
-- Renting Bounded Context
-<img src="assets/images/diagram-class/diagram-class2.png" width="1000" alt="diagram class2" />
+### Safecycle backend Class Diagram
 
-- Booking Bounded Context
-<img src="assets/images/diagram-class/diagram-class3.png" width="1000" alt="diagram class3" />
+#### Bikes Bounded Context
 
-- Users Bounded Context
-<img src="assets/images/diagram-class/diagram-class4.png" width="1000" alt="diagram class4" />
+##### Aplication
 
-- Touring Bounded Context
-<img src="assets/images/diagram-class/diagram-class5.png" width="1000" alt="diagram class5" />
+<img src="assets/images/diagram-class/Bikes/Bikes Application.png" width="1000" alt="Bikes Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/Bikes/Bikes Domain Model.png" width="1000" alt="Bikes Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/Bikes/Bikes Domain Services Repos.png" width="1000" alt="Bikes Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/Bikes/Bikes Infrastructure.png" width="1000" alt="Bikes Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesControllers.png" width="1000" alt="Bikes Interfaces Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesResources.png" width="1000" alt="Bikes Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesTransform.png" width="1000" alt="Bikes Infrastructure Transform" />
+
+#### IAM Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/IAM/IAM Application.png" width="1000" alt="IAM Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/IAM/IAM Domain Model.png" width="1000" alt="IAM Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/IAM/IAM Domain Services Repos.png " width="1000" alt="Bikes Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/IAM/IAM Infrastructure.png" width="1000" alt="IAM Infrastructure" />
+
+##### Interfaces
+
+<img src="assets/images/diagram-class/IAM/IAM Interfaces.png" width="1000" alt="IAM Interfaces" />
+
+#### Payment Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/Payment/Payment Application.png" width="1000" alt="Payment Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/Payment/Payment Domain Model.png" width="1000" alt="Payment Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/Payment/Payment Domain RS.png" width="1000" alt="Payment Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/Payment/Payment Infrastructure.png" width="1000" alt="Payment Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Controllers.png" width="1000" alt="Payment Interfaces Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Resources.png" width="1000" alt="Payment Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Transform.png" width="1000" alt="Payment Infrastructure Transform" />
+
+#### Renting Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/renting/Renting Application.png" width="1000" alt="Renting Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/renting/Renting Domain Model.png" width="1000" alt="Renting Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/renting/Renting Domain RS.png" width="1000" alt="Renting Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/renting/Renting Infrastructure.png" width="1000" alt="Renting Infrastructure" />
+
+##### Interfaces
+
+<img src="assets/images/diagram-class/renting/Renting Interfaces.png" width="1000" alt="Renting Interfaces " />
+
+#### Tours Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/tours/Tours Application.png" width="1000" alt="Tours Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/tours/Tours Domain Model.png" width="1000" alt="Tours Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/tours/Tours Domain RS.png" width="1000" alt="Tours Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/tours/Tours Infrastructure.png" width="1000" alt="Tours Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/tours/Tours Controller.png" width="1000" alt="Payment Tours Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/tours/Tours Interfaces Resources.png" width="1000" alt="Tours Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/tours/Tours Interfaces Transform.png" width="1000" alt="Tours Infrastructure Transform" />
 
 #### Safecycle Backend class diagram
 
