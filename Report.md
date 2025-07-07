@@ -134,6 +134,7 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
   - [**TB1**](#tb1)
   - [**TP1:**](#tp1)
   - [**TB2:**](#tb2)
+  - [**TF:**](#tf)
 - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -231,11 +232,48 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams](#471-class-diagrams)
       - [Safecycle Frontend Class Diagram](#safecycle-frontend-class-diagram)
-      - [Safecycle Backend class diagram](#safecycle-backend-class-diagram)
+    - [Safecycle backend Class Diagram](#safecycle-backend-class-diagram)
+      - [Bikes Bounded Context](#bikes-bounded-context)
+        - [Aplication](#aplication)
+        - [Domain/Model](#domainmodel)
+        - [Domain/Model/RS](#domainmodelrs)
+        - [Infrastructure](#infrastructure)
+        - [Interfaces/Controllers](#interfacescontrollers)
+        - [Interfaces/Resources](#interfacesresources)
+        - [Interfaces/Transform](#interfacestransform)
+      - [IAM Bounded Context](#iam-bounded-context)
+        - [Aplication](#aplication-1)
+        - [Domain/Model](#domainmodel-1)
+        - [Domain/Model/RS](#domainmodelrs-1)
+        - [Infrastructure](#infrastructure-1)
+        - [Interfaces](#interfaces)
+      - [Payment Bounded Context](#payment-bounded-context)
+        - [Aplication](#aplication-2)
+        - [Domain/Model](#domainmodel-2)
+        - [Domain/Model/RS](#domainmodelrs-2)
+        - [Infrastructure](#infrastructure-2)
+        - [Interfaces/Controllers](#interfacescontrollers-1)
+        - [Interfaces/Resources](#interfacesresources-1)
+        - [Interfaces/Transform](#interfacestransform-1)
+      - [Renting Bounded Context](#renting-bounded-context)
+        - [Aplication](#aplication-3)
+        - [Domain/Model](#domainmodel-3)
+        - [Domain/Model/RS](#domainmodelrs-3)
+        - [Infrastructure](#infrastructure-3)
+        - [Interfaces](#interfaces-1)
+      - [Tours Bounded Context](#tours-bounded-context)
+        - [Aplication](#aplication-4)
+        - [Domain/Model](#domainmodel-4)
+        - [Domain/Model/RS](#domainmodelrs-4)
+        - [Infrastructure](#infrastructure-4)
+        - [Interfaces/Controllers](#interfacescontrollers-2)
+        - [Interfaces/Resources](#interfacesresources-2)
+        - [Interfaces/Transform](#interfacestransform-2)
+      - [Safecycle Backend class diagram](#safecycle-backend-class-diagram-1)
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [Booking Bounded Context](#booking-bounded-context)
     - [Class: `Book`](#class-book)
-  - [Renting Bounded Context](#renting-bounded-context)
+  - [Renting Bounded Context](#renting-bounded-context-1)
     - [Class: `Rent`](#class-rent)
     - [Class: `RentingServices`](#class-rentingservices)
   - [Touring Bounded Context](#touring-bounded-context)
@@ -291,6 +329,14 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [5.2.3.6.Services Documentation Evidence for Sprint Review.](#5236services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1.Sprint Planning 4.](#5241sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3.Sprint Backlog 4.](#5243sprint-backlog-4)
+      - [5.2.4.5.Execution Evidence for Sprint Review.](#5245execution-evidence-for-sprint-review)
+      - [5.2.4.6.Services Documentation Evidence for Sprint Review.](#5246services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7.Software Deployment Evidence for Sprint Review.](#5247software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8.Team Collaboration Insights during Sprint.](#5248team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [**Estudiantes:**](#estudiantes)
@@ -1210,16 +1256,16 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
-<img src="assets/images/C4/C4-v2-1.jpeg" width="1000" alt="SoftwareArchitectureContextDiagram" />
+<img src="assets/images/c4/context.png" width="1000" alt="SoftwareArchitectureContextDiagram" />
 
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-<img src="assets/images/C4/C4-v2-2.jpeg" width="1000" alt="SoftwareArchitectureContainerDiagrams" />
+<img src="assets/images/c4/content.png" width="1000" alt="SoftwareArchitectureContainerDiagrams" />
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-<img src="assets/images/C4/C4-v2-3.png" width="1000" alt="SoftwareArchitectureComponentsDiagrams" />
+<img src="assets/images/c4/componentes.png" width="1000" alt="SoftwareArchitectureComponentsDiagrams" />
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2924,7 +2970,7 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 - Link a UXpresia de Mateo Smith [https://uxpressia.com/w/2JtXc/p/Wfgtx](https://uxpressia.com/w/2JtXc/p/Wfgtx)
 
 ### Domain-Driven Software Architecture / C4 Diagrams
-- Link a Structurizr[https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
+- Link a Structurizr[https://structurizr.com/share/104286/d5b18c26-096d-41bb-b10e-db6bdf5f7efb](https://structurizr.com/share/104286/d5b18c26-096d-41bb-b10e-db6bdf5f7efb)
 
 
 ### Flujos y Prototype
