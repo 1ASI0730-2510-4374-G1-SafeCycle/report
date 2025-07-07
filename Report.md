@@ -136,8 +136,8 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [1.1.2.5 Oliver Jonseck Choque](#1125-oliver-jonseck-choque)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2.  Process](#122-lean-ux-process)
-      - [1.2.2.1.  Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
@@ -290,16 +290,19 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
   - [6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
   - [7. Bibliografia](#7-bibliografia)
   - [8. Anexos](#8-anexos)
-  - [Anexo A: Diseño y Landing:](#anexo-a-diseño-y-landing)
+  - [Anexo A: Links Importantes:](#anexo-a-links-importantes)
     - [Figma](#figma)
     - [Encuesta How Much de 5W2H](#encuesta-how-much-de-5w2h)
     - [User Persona](#user-persona)
-    - [Landing Page](#landing-page)
     - [Domain-Driven Software Architecture / C4 Diagrams](#domain-driven-software-architecture--c4-diagrams)
     - [Flujos y Prototype](#flujos-y-prototype)
     - [Videos de Proyecto](#videos-de-proyecto)
   - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
   - [Anexo C: Repositorios:](#anexo-c-repositorios)
+  - [Anexo D: Links de Deployment:](#anexo-d-links-de-deployment)
+    - [Aplicacion Web](#aplicacion-web)
+    - [Landing Page](#landing-page)
+    - [Backend](#backend)
   
 
 # Student Outcome
@@ -2675,13 +2678,13 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 ### Videos de Proyecto
 
-- Video About The Team Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EV7bMqv907lKrvwA216rzqUBo9191Y550nqWXU63BcCTIQ?e=c4FWhd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EV7bMqv907lKrvwA216rzqUBo9191Y550nqWXU63BcCTIQ?e=c4FWhd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Video About The Team Microsoft Stream: []() 
 
-- Video About The Team Youtube: [https://youtu.be/ztW3a2As0HY](https://youtu.be/ztW3a2As0HY)
+- Video About The Team Youtube: [https://youtu.be/aYWcJasvF2o](https://youtu.be/aYWcJasvF2o)
 
-- Video About The Product en Microsoft Stream [https://upcedupe-my.sharepoint.com/:v:/r/personal/u202310601_upc_edu_pe/Documents/upc-pre-202510-1asi0730-4374-cuystm-aboutthe-product-sprint-3.mp4?csf=1&web=1&e=AB5p0B](https://upcedupe-my.sharepoint.com/:v:/r/personal/u202310601_upc_edu_pe/Documents/upc-pre-202510-1asi0730-4374-cuystm-aboutthe-product-sprint-3.mp4?csf=1&web=1&e=AB5p0B)
+- Video About The Product en Microsoft Stream []()
 
-- Video About The Product en youtube [https://youtu.be/Y8otcjddEDc](https://youtu.be/Y8otcjddEDc)
+- Video About The Product en youtube [youtu.be/Dop7eRZqa1s](youtu.be/Dop7eRZqa1s)
 
 <hr style="page-break-after: always;">
 
