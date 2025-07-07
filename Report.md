@@ -2455,6 +2455,129 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 
 ![](assets/images/insights-sprint-3.png)
 
+### 5.2.4. Sprint 4
+#### 5.2.4.1.Sprint Planning 4.
+| Sprint \# | 4 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-01-07 |
+| Time | 12:00 PM |
+| Location | Discord |
+| Prepared by | Giancarlo Castañeda |
+| Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
+| Sprint n – 4 Review Summary | Se dicidio actualizar nuestro bounded context "IAM" en el cual se encuentra todo lo relacionado al registro y inicio de sesión del usuario, añadiendo las respectivas tokens y utilizando elementos de seguridad como JWT|
+| Sprint n – 4 Retrospective Summary | Creemos que hay oportunidad de hacer una mejor planificación de tiempos para la integraciones y revisiones  |
+| Sprint Goal & User Stories |  |
+| Sprint 4 Goal | El objetivo de este sprint es la implementación de los endpoints para el registro y logeo de los usuarios mediante la conexión del frontend con el backend  |
+| Sprint 4 Velocity | Para este sprint nuestro equipo puende aceptar hasta  story points |
+| Sum of Story Points | Para este sprint haremos  story points |
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name)  | GitHub Username | Back-End Development| Documentation | Page Deployment | 
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | L                                                                                             |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | L                                       | C                                            | C                                                                                             |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | C                                       | L                                            | C                                                                                             |
+| Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                                                             |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 4</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned To</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS05</td>
+    <td rowspan="1">CRUD Users</td>
+    <td>T01</td>
+    <td>CRUD usuario - lectura y edición</td>
+    <td>Soporte backend para editar y obtener datos de usuario desde panel.</td>
+    <td>5</td>
+    <td>Diego Mora</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS11</td>
+    <td rowspan="2">Endpoint para IAM</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación del método POST y Delete</td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos getById, getByUser, getByTourist, getAllUsers </td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+ 
+
+
+A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
+
+| Repository                                  | Branch                | Commit Id | Commit Message                                     | Commit Message Body | Commited on      |
+|---------------------------------------------|-----------------------|-----------|----------------------------------------------------|---------------------|------------------|
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end    | |    |  | * No aplica         |    |
+
+
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 3. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
+
+
+#### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8.Team Collaboration Insights during Sprint.
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
