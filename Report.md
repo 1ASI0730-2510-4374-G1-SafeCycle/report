@@ -119,9 +119,8 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
 
-A continuación se visualiza el diagrama de barras que representa la cantidad de commits realizados por el equipo de trabajo:
-<img src="assets/images/insights-report/insightsreport.PNG" width=800>
-A continuación se mostrará un línea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo y el network graph:
+# Insights
+
 <img src="assets/images/insights-report/insightsreport1.PNG" width=800>
 <img src="assets/images/insights-report/insightsreport2.PNG" width=800>
 
@@ -134,6 +133,7 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
   - [**TP1:**](#tp1)
   - [**TB2:**](#tb2)
   - [**TF:**](#tf)
+- [Insights](#insights)
 - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -2514,7 +2514,9 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 ![](assets/images/insights-sprint-3.png)
 
 
+
 ### 5.2.4 Sprint 4
+
 
 #### 5.2.4.1 Sprint Planning 4.
 | Sprint \# | 4 |
