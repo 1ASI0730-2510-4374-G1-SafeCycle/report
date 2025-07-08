@@ -2658,8 +2658,8 @@ A continuación se muestran los commits realizados por los integrantes del equip
 
 | Participante | Actividades de implementación |
 | :---- | :---- |
-| Diego | Implementación de Tours, Payments y Payments Information. También trabajó en Rents. |
-| Gabriel | Implementación de Rents. Desarrollo de lógica de autenticación: JSON Web Tokens (JWT), login, sign up. Realización del modelo C4. |
+| Diego | Implementación de Tours, Payments y Payments Information, IAM. También trabajó en Rents. |
+| Gabriel | Implementación de Rents, login, sign up. Realización del modelo C4. |
 | Giancarlo | Encargado de la mayoría del informe del proyecto. |
 | Carlos | Elaboración del diagrama de base de datos. |
 
