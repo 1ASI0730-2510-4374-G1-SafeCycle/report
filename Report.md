@@ -1,9 +1,9 @@
 
 <h1 align="center">
-  <strong style="font-size:25px;">Universidad Informe de Trabajo Final</strong>
+  <strong style="font-size:25px;">Informe de Trabajo Final</strong>
 </h1>
 
----
+
 
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
@@ -14,11 +14,10 @@
 <p align="center">Ingenieria de Software</p>
 <p align="center">5to ciclo</p>
 
----
 
-<p align="center"><strong>Código: </strong>1ASI0730</p>
+<p align="center"><strong>Código: </strong> 1ASI0730</p>
 <p align="center"><strong>Curso:</strong> Aplicaciones Web</p>
-<p align="center"><strong>Sección:</strong> 4374</p>
+<p align="center"><strong>NRC:</strong> 4374</p>
 
 <p align="center"><strong>Docente:</strong> Alberto Wilmer Sanchez Seña</p>
 
@@ -30,19 +29,30 @@
 ## Integrantes:
 <div align="center">
 
-| Nombres y Apellidos                  | Codigo     |
-| ------------------------------------ | ---------- |
-| Sanchez Gonzales                     | U202310609 |
-| Mora Blas,  Diego Alonzo             | U20231c069 |
-| Castañeda Guimas, Giancarlo Santiago | U202310601 |
-| Gonzales Valverde, Carlos Matthew  | U202314130 |
-| Jonseck Choque, Oliver | U202312912 |
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Nombres y Apellidos</th>
+      <th>Código</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Sanchez Gonzales</td><td>U202310609</td></tr>
+    <tr><td>Mora Blas,  Diego Alonzo</td><td>U20231c069</td></tr>
+     <tr><td>Castañeda Guimas, Giancarlo Santiago</td><td>U202310601</td></tr>
+     <tr><td>Gonzales Valverde, Carlos Matthew</td><td>U202314130</td></tr>
+    <tr><td>Jonseck Choque, Oliver</td><td>U202312912</td></tr>
+  </tbody>
+</table>
 
 
 </div>
 
 
-<p align="center">Abril 2025</p>
+<p align="center">Julio 2025</p>
+
+<hr style="page-break-after: always;">
 
 # Registro de Versiones del Informe
 
@@ -50,7 +60,8 @@
 | :---- | :---- | :---- | :---- |
 | 1.0 | 24/04/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Estructura del informe Capítulo I: Introducción Capítulo II: Requirements Elicitation & Analysis Capítulo III: Requirements Specification Capítulo IV: Product Design Capítulo V: Product Implementation, Validation & Deployment Landing Page Conclusiones Bibliografía Recomendaciones Anexos  |
 | 2.0 | 16/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 2: Deploy del FrontEnd, desarrollo del FrontEnd, Insights  |
-| 3.0 | 15/05/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 3: Deploy del Backend, conexión con la base de datos y el FrontEnd |
+| 3.0 | 15/06/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 3: Deploy del Backend, conexión con la base de datos y el FrontEnd |
+| 4.0 | 06/07/2025 | Sanchez, Mora, Castañeda, Jonseck, Gonzales | Sprint 4: Implementación del IAM, conexiones frontend-backend, funcionalidad completa del frontend recibiendo datos del backend |
 
 # Project Report Collaboration Insights
 
@@ -86,6 +97,15 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 | Gonzales Valverde, Carlos Matthew | Programación del BackEnd |
 | Jonseck Choque, Oliver | Programación del BackEnd. Implementación del idioma ingles y español al FrontEnd |
 
+## **TF:**
+
+| Integrante | Tareas Asignadas |
+| :---- | :---- |
+| Sanchez Gonzales | Programación del BackEnd, Conexión FrontEnd-BackEnd, Correciones |
+| Mora Blas, Diego Alonzo |  Programación del BackEnd, Conexión FrontEnd-BackEnd, Correciones |
+| Castañeda Guimas, Giancarlo Santiago | Correción de los diagramas de clase, datos y modelado C4 |
+| Gonzales Valverde, Carlos Matthew | Correciones |
+
 
 **Link de la pagina deployada:** 
 
@@ -99,9 +119,8 @@ Para el desarrollo de la TP1 nos hemos dividido como equipo diferentes tareas pa
 
 [https://github.com/1ASI0730-2510-4374-G1-SafeCycle](https://github.com/1ASI0730-2510-4374-G1-SafeCycle)
 
-A continuación se visualiza el diagrama de barras que representa la cantidad de commits realizados por el equipo de trabajo:
-<img src="assets/images/insights-report/insightsreport.PNG" width=800>
-A continuación se mostrará un línea de tiempo con flujo de los commits realizados por cada miembro del equipo en un intervalo de tiempo y el network graph:
+# Insights
+
 <img src="assets/images/insights-report/insightsreport1.PNG" width=800>
 <img src="assets/images/insights-report/insightsreport2.PNG" width=800>
 
@@ -113,6 +132,8 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
   - [**TB1**](#tb1)
   - [**TP1:**](#tp1)
   - [**TB2:**](#tb2)
+  - [**TF:**](#tf)
+- [Insights](#insights)
 - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -210,11 +231,48 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
   - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams](#471-class-diagrams)
       - [Safecycle Frontend Class Diagram](#safecycle-frontend-class-diagram)
-      - [Safecycle Backend class diagram](#safecycle-backend-class-diagram)
+    - [Safecycle backend Class Diagram](#safecycle-backend-class-diagram)
+      - [Bikes Bounded Context](#bikes-bounded-context)
+        - [Aplication](#aplication)
+        - [Domain/Model](#domainmodel)
+        - [Domain/Model/RS](#domainmodelrs)
+        - [Infrastructure](#infrastructure)
+        - [Interfaces/Controllers](#interfacescontrollers)
+        - [Interfaces/Resources](#interfacesresources)
+        - [Interfaces/Transform](#interfacestransform)
+      - [IAM Bounded Context](#iam-bounded-context)
+        - [Aplication](#aplication-1)
+        - [Domain/Model](#domainmodel-1)
+        - [Domain/Model/RS](#domainmodelrs-1)
+        - [Infrastructure](#infrastructure-1)
+        - [Interfaces](#interfaces)
+      - [Payment Bounded Context](#payment-bounded-context)
+        - [Aplication](#aplication-2)
+        - [Domain/Model](#domainmodel-2)
+        - [Domain/Model/RS](#domainmodelrs-2)
+        - [Infrastructure](#infrastructure-2)
+        - [Interfaces/Controllers](#interfacescontrollers-1)
+        - [Interfaces/Resources](#interfacesresources-1)
+        - [Interfaces/Transform](#interfacestransform-1)
+      - [Renting Bounded Context](#renting-bounded-context)
+        - [Aplication](#aplication-3)
+        - [Domain/Model](#domainmodel-3)
+        - [Domain/Model/RS](#domainmodelrs-3)
+        - [Infrastructure](#infrastructure-3)
+        - [Interfaces](#interfaces-1)
+      - [Tours Bounded Context](#tours-bounded-context)
+        - [Aplication](#aplication-4)
+        - [Domain/Model](#domainmodel-4)
+        - [Domain/Model/RS](#domainmodelrs-4)
+        - [Infrastructure](#infrastructure-4)
+        - [Interfaces/Controllers](#interfacescontrollers-2)
+        - [Interfaces/Resources](#interfacesresources-2)
+        - [Interfaces/Transform](#interfacestransform-2)
+      - [Safecycle Backend class diagram](#safecycle-backend-class-diagram-1)
     - [4.7.2. Class Dictionary](#472-class-dictionary)
   - [Booking Bounded Context](#booking-bounded-context)
     - [Class: `Book`](#class-book)
-  - [Renting Bounded Context](#renting-bounded-context)
+  - [Renting Bounded Context](#renting-bounded-context-1)
     - [Class: `Rent`](#class-rent)
     - [Class: `RentingServices`](#class-rentingservices)
   - [Touring Bounded Context](#touring-bounded-context)
@@ -270,6 +328,14 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
       - [5.2.3.6.Services Documentation Evidence for Sprint Review.](#5236services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
+    - [5.2.4 Sprint 4](#524-sprint-4)
+      - [5.2.4.1 Sprint Planning 4.](#5241-sprint-planning-4)
+      - [5.2.4.2 Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3 Sprint Backlog 4.](#5243-sprint-backlog-4)
+      - [5.2.4.5 Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6 Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7 Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8 Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [**Estudiantes:**](#estudiantes)
@@ -280,24 +346,27 @@ A continuación se mostrará un línea de tiempo con flujo de los commits realiz
   - [6. Conclusiones y recomendaciones](#6-conclusiones-y-recomendaciones)
   - [7. Bibliografia](#7-bibliografia)
   - [8. Anexos](#8-anexos)
-  - [Anexo A: Diseño y Landing:](#anexo-a-diseño-y-landing)
+  - [Anexo A: Links Importantes:](#anexo-a-links-importantes)
     - [Figma](#figma)
     - [Encuesta How Much de 5W2H](#encuesta-how-much-de-5w2h)
     - [User Persona](#user-persona)
-    - [Landing Page](#landing-page)
     - [Domain-Driven Software Architecture / C4 Diagrams](#domain-driven-software-architecture--c4-diagrams)
     - [Flujos y Prototype](#flujos-y-prototype)
     - [Videos de Proyecto](#videos-de-proyecto)
   - [Anexo B: Videos de exposiciones:](#anexo-b-videos-de-exposiciones)
   - [Anexo C: Repositorios:](#anexo-c-repositorios)
+  - [Anexo D: Links de Deployment:](#anexo-d-links-de-deployment)
+    - [Aplicacion Web](#aplicacion-web)
+    - [Landing Page](#landing-page)
+    - [Backend](#backend)
   
 
 # Student Outcome
 
 | Criterio Especifico | Acciones Realizadas | Conclusiones |
 | :---- | :---- | :---- |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1 me encargue de la programación de la aplicación e implementación de la Fake API en conjunto con cambios y correcciones en el documento <br><br>   **Sanchez Gonzales Gabriel: *TB2***<br>  Para la entrega de la TB2 me encargue del Diseño de Entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Evaluaciones según heurísticas, correcciones en front-end y programación del backend <br>  <br> **Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también  conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web <br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> En esta entrega realice actualizaciones para las user stories, product backlog, los diagramas de clase y trabaje en el backend haciendo los contextos <br>**Jonseck Choque, Oliver *TB1***<br> Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones <br>**Jonseck Choque, Oliver *TB2***<br>Durante esta entrega me encargue de realizar correciones a la parte frontend y añadir partes que faltaban, además de realizar el diagrama C4 de nuestra web app y sus componentes, junto al diagrama de base de datos y ayudar en la creación del Backend.<br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.  | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1, colaboré con el equipo encargándome de la programación de la aplicación y la implementación de la Fake API. Además, apoyé en los cambios y correcciones del documento, participando activamente en la coordinación del trabajo y en la toma de decisiones técnicas junto a mis compañeros<br><br> **Sanchez Gonzales Gabriel: *TB2***<br>  En la TB2, diseñé entrevistas, aporté evidencia para el sprint, evalué según heurísticas y trabajé en front y backend. Todas las decisiones fueron discutidas en equipo, demostrando un liderazgo compartido y constante colaboración. <br><br> <br>**Mora Blas, Diego Alonzo: *TB1***<br> En nuestro equipo el liderazgo es compartido: generamos diálogos abiertos, escuchamos todas las perspectivas y elegimos juntos la opción más viable. Cada quien aporta su experiencia sin reservas, lo que potencia la creatividad y refuerza la confianza mutua. Así, las decisiones se vuelven más sólidas y el resultado final refleja el esfuerzo colectivo. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo, logramos una plenitud de ideas como grupo, al dialogar, tener reuniones compartiendo información las cuales refuerzan las ideas dadas. <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br> Como grupo, volvimos a hacer un trabajo en conjunto y en comunicación, compartiendo dialogo e ideas para resolver dificultades acerca del curso <br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> Como team, nos enfocamos asertivamente a aportar continuinamente al proyecto siempre manteniendo el orden y buen ambiente  <br> **Jonseck Choque, Oliver *TB1***<br> Cómo equipo mantuvimos una comunicación estable y continua nos repartimos los trabajos de acuerdo a nuestra disponibilidad y responsabilidad. Siempre revisamos los trabajos de cada uno aportando ideas y críticas constructivas. <br> **Jonseck Choque, Oliver *TB2***<br> Cómo equipo nos enfocamos en mejorar lo que previamente creamos, al encargarnos las tareas de acuerdo de la eficiencia de cada uno y sus habilidades.<br>**Carlos Matthew, Gonzales *TB1***<br>Como equipo tuvimos un muy buen ambiente y comunicación, nos pudimos dividir los trabajos y establecernos límites entre nosotros para poder cumplir nuestras actividades a tiempo. Siempre estamos en constante revisión de las partes en los trabajos.  |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1 me encargue de la programación de la aplicación e implementación de la Fake API en conjunto con cambios y correcciones en el documento <br><br>   **Sanchez Gonzales Gabriel: *TB2***<br>  Para la entrega de la TB2 me encargue del Diseño de Entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Evaluaciones según heurísticas, correcciones en front-end y programación del backend <br>  <br> **Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1  <br> **Castañeda Guimas, Giancarlo Santiago: *TP1***<br> En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> **Jonseck Choque, Oliver *TB1***<br>Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones.<br>**Jonseck Choque, Oliver *TB2*** <br>Durante esta entrega me encargue de realizar correciones a la parte frontend y añadir partes que faltaban, además de realizar el diagrama C4 de nuestra web app y sus componentes, junto al diagrama de base de datos y ayudar en la creación del Backend.<br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros.    | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. <br> **Sanchez Gonzales Gabriel: *TP1***<br> Durante el desarrollo de la TP1, contribuí a crear un entorno colaborativo al coordinarme con el equipo para definir metas claras y planificar las tareas necesarias. A través de una comunicación constante y abierta, logramos distribuir responsabilidades equitativamente con los objetivos establecidos dentro del plazo previsto por el equipo. <br>  <br> **Sanchez Gonzales Gabriel: *TB2***<br>   En la TB2, colaboré activamente en la organización de tareas, el diseño de entrevistas y el seguimiento de avances durante el sprint, fomentando un trabajo inclusivo y enfocado en metas de desarrollo entre todos.<br><br> <br>**Mora Blas, Diego Alonzo: *TB1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo decidimos tener nuestras metas claras y concisas con lo que debemos realizar, pensamos que realizar todo a tiempo seria lo mejor y obviamente el trabajo en equipo es lo primordial  <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>Como grupo tuvimos que dejar algunas cosas claras sobretodo a la hora de la planificación para que todos podamos seguir adelante conociendo nuestras limitaciones en el momento<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> Como grupo pudimos crear una idea y ampliarla para mejorar nuestras entregas a tiempo, a su vez corregimos y obtuvimos mejores resultados a los planeados<br>**Jonseck Choque, Oliver *TB1***<br> Cómo grupo decidimos crear un plan para entregar partes del trabajo a tiempo, esto para que sean revisadas y corregidas por todos, siempre mostrando un entorno agradable de apoyo.<br>**Jonseck Choque,Oliver *TB2*** <br>Cómo grupo mantuvimos una gran conversación además de coordinar las diferentes partes que cada uno tenia de encargarse, además de verificar ciertas correciones necesarias para el frontend <br>**Carlos Matthew, Gonzales *TB1***<br>Como grupo hemos creado un plan entre nosotros para entregar los trabajos a tiempo, que viene siendo limites puestos por nosotros mismos así podemos organizarnos mejor y ayudarnos por si falta algo en la última semana de entrega, para así poder pulir y entregar un trabajo impecable, siempre comunicándonos todo. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1 me encargue de la programación de la aplicación e implementación de la Fake API en conjunto con cambios y correcciones en el documento <br><br>   **Sanchez Gonzales Gabriel: *TB2***<br>  Para la entrega de la TB2 me encargue del Diseño de Entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Evaluaciones según heurísticas, correcciones en front-end y programación del backend <br><br> **Sanchez Gonzales Gabriel: *TF1***<br> Para la TF1 me encargue del C4, Documentación, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, correcciones en front-end y programación del backend <br><br> **Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también  conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br> <br> **Mora Blas, Diego Alonzo: *TP1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en realizar el apartado del Touring Booking trabajado en Vue js<br><br> **Mora Blas, Diego Alonzo: *TB2***<br> Durante el transcurso de este sprint mi enfoque principal se centró en realizar el apartado del Backend trabajando con la base de datos SQL Server, donde estaremos modelando nuestra REST API con sus respectivos end points<br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1 <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web <br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> En esta entrega realice actualizaciones para las user stories, product backlog, los diagramas de clase y trabaje en el backend haciendo los contextos <br>**Castañeda Guimas, Giancarlo Santiago: TF**<br> En esta entrega realice correciones a los diagramas y ademas ayude realizando la documentación final del proyecto. <br>**Jonseck Choque, Oliver *TB1***<br> Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones <br>**Jonseck Choque, Oliver *TB2***<br>Durante esta entrega me encargue de realizar correciones a la parte frontend y añadir partes que faltaban, además de realizar el diagrama C4 de nuestra web app y sus componentes, junto al diagrama de base de datos y ayudar en la creación del Backend.<br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros. <br>Carlos Matthew, Gonzales TP1<br> En esta entrega del Trabajo Parcial Realice lo que viene siendo la mejora en el apartado del frontend, haciendolo responsive y apoyando a mis compañeros con respecto al informe. Carlos Matthew, Gonzales TB2<br> En esta entrega del TB2 realice lo que viene siendo el apartado del frontend corrigiendo para las heuristicas, agregando los pequeños detales y necesarios para que la aplicacion se vea de la mejor forma y sea accesible para el usuario, tambien realice el apartado del backend el endpoint Payment, luego apoye a mis compañeros con respecto al informe por si faltaban cosas. TF**<br> En esta ultima entrega para el TF(Trabajo Final) me toco realizar la mejora del diagrama de base de datos y luego ayude con las correciones del backend como tambien del informe.  | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos tener un liderazgo de forma conjunto, puesto que, siempre discutimos acerca de las ideas con el fin de encontrar la mejor solución viable. Todos colaboramos en dar nuestras opiniones e ideas, logrando así un trabajo en conjunto exitoso. <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1, colaboré con el equipo encargándome de la programación de la aplicación y la implementación de la Fake API. Además, apoyé en los cambios y correcciones del documento, participando activamente en la coordinación del trabajo y en la toma de decisiones técnicas junto a mis compañeros<br><br> **Sanchez Gonzales Gabriel: *TB2***<br>  En la TB2, diseñé entrevistas, aporté evidencia para el sprint, evalué según heurísticas y trabajé en front y backend. Todas las decisiones fueron discutidas en equipo, demostrando un liderazgo compartido y constante colaboración. <br>Considero que cumplí con el criterio de crear un entorno colaborativo e inclusivo, establecer metas, planificar tareas y cumplir objetivos, ya que participé activamente en la organización del equipo, definimos juntos los entregables del sprint y planificamos nuestras tareas de forma coordinada. Contribuí con el modelo C4, documentación, despliegue del software, mejoras en el front-end y desarrollo en el back-end, asegurando siempre que se cumplieran los objetivos propuestos.<br> **Sanchez Gonzales Gabriel: *TF1***<br> En la TF1 considero que cumplí con el criterio de trabajar en equipo para proporcionar liderazgo en forma conjunta, ya que asumí tareas clave como el modelo C4, la documentación, el despliegue del software, correcciones en el front-end y desarrollo en el back-end. Todas las decisiones fueron discutidas en equipo, lo que refleja un liderazgo compartido y constante colaboración durante el desarrollo. <br>**Mora Blas, Diego Alonzo: *TB1***<br> En nuestro equipo el liderazgo es compartido: generamos diálogos abiertos, escuchamos todas las perspectivas y elegimos juntos la opción más viable. Cada quien aporta su experiencia sin reservas, lo que potencia la creatividad y refuerza la confianza mutua. Así, las decisiones se vuelven más sólidas y el resultado final refleja el esfuerzo colectivo.  <br>**Mora Blas, Diego Alonzo: *TP1***<br> En nuestro grupo practicamos un liderazgo colaborativo: fomentamos conversaciones francas, consideramos todas las visiones y seleccionamos de manera conjunta la alternativa más adecuada. Cada miembro comparte sin titubeos su conocimiento, elevando la creatividad y fortaleciendo la confianza mutua. De este modo, las decisiones ganan en solidez y el resultado final refleja el compromiso de todos.<br><br>**Mora Blas, Diego Alonzo: *TB2***<br> En nuestro equipo practicamos un liderazgo solidario: promovemos un espacio de diálogo abierto, valoramos cada punto de vista y acordamos juntos la alternativa más acertada. Todos aportan libremente su experiencia, lo cual impulsa la innovación y refuerza la confianza entre nosotros. Así, las decisiones se apoyan en una base más firme y el resultado final es fruto del esfuerzo compartido.<br> <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo, logramos una plenitud de ideas como grupo, al dialogar, tener reuniones compartiendo información las cuales refuerzan las ideas dadas.<br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br> Como grupo, volvimos a hacer un trabajo en conjunto y en comunicación, compartiendo dialogo e ideas para resolver dificultades acerca del curso <br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> Como team, nos enfocamos asertivamente a aportar continuinamente al proyecto siempre manteniendo el orden y buen ambiente  <br> **Castañeda Guimas, Giancarlo Santiago: TF**<br> Como equipo, logramos un flujo constante de colaboración, donde el diálogo y las reuniones fueron clave para consolidar nuestras ideas y resolver las dificultades del curso. Mantuvimos un ambiente ordenado y proactivo, asegurando que cada miembro contribuyera de manera asertiva, lo que nos permitió avanzar de forma coordinada y reforzar nuestro aprendizaje grupal <br>**Jonseck Choque, Oliver *TB1***<br> Cómo equipo mantuvimos una comunicación estable y continua nos repartimos los trabajos de acuerdo a nuestra disponibilidad y responsabilidad. Siempre revisamos los trabajos de cada uno aportando ideas y críticas constructivas. <br> **Jonseck Choque, Oliver *TB2***<br> Cómo equipo nos enfocamos en mejorar lo que previamente creamos, al encargarnos las tareas de acuerdo de la eficiencia de cada uno y sus habilidades.<br>**Carlos Matthew, Gonzales *TB1***<br>Como equipo tuvimos un muy buen ambiente y comunicación, nos pudimos dividir los trabajos y establecernos límites entre nosotros para poder cumplir nuestras actividades a tiempo. Siempre estamos en constante revisión de las partes en los trabajos. <br>Carlos Matthew, Gonzales TP1<br> Como equipo tuvimos una muy buena comunicacion para el Trabajo Parcial y lo pudimos subir a tiempo, pero tuvimos un pequeño problema con la entrega que nos afecto un poco en la nota pero aun asi nosotros lo corregimos y aprendimos de ello por lo cual ahora estamos mucho mejor que antes con el tema de la comunicacion y el ambiente es muy amigable. <br>Carlos Matthew, Gonzales TB2<br> En esta entrega como equipo pudimos realizar todos lo que viene siendo el apartado del backend cumplimos con nuestras metas para la entrega y nos comunicamos de uno a otro por si teniamos problemas con el trabajo. <br>Carlos Matthew, Gonzales TF1<br> Sobre esta ultima entrega pudimos estar al tanto de revisar las ultimas partes con las corecciones que todo este bien para no tener ni un error y poder subir el trabajo a tiempo conforme comunicandonos siempre como equipo y manteniendo un muy buen ambiente entre nosotros.  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Sanchez Gonzales Gabriel: *TB1***<br> Dentro de esta entrega me enfoque en avanzar con La redacción del Lean UX Problem Statements, Hypothesis Statements y Canvas. También desarrolle preguntas para el diseño de entrevistas, los user personas y user task matrix. Finalmente, Realice el análisis competitivo, diseño de entrevistas y As-is Scenario Mapping, Style Guidelines, Landing Page UI Design y Web Applications UX/UI Design <br> **Sanchez Gonzales Gabriel: *TP1***<br> Para la entrega de la TP1 me encargue de la programación de la aplicación e implementación de la Fake API en conjunto con cambios y correcciones en el documento <br><br>   **Sanchez Gonzales Gabriel: *TB2***<br>  Para la entrega de la TB2 me encargue del Diseño de Entrevistas, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, Evaluaciones según heurísticas, correcciones en front-end y programación del backend <br><br> **Sanchez Gonzales Gabriel: *TF1***<br> Para la TF1 me encargue del C4, Documentación, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint, correcciones en front-end y programación del backend <br><br> **Mora Blas, Diego Alonzo: *TB1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software sobre todo en los Software Architecture Diagramas y Class Diagram, también conté con participación en la experiencia de usuario como el Impact Mapping,  partes de la Landing Page, Lean UX <br>**Mora Blas, Diego Alonzo: *TP1***<br> Durante el transcurso de este sprint mi enfoque principal se centró en la arquitectura del software, donde realizo design patterns para el Front End trabajado en Vue js <br><br>**Mora Blas, Diego Alonzo: *TB2***<br> Durante el transcurso de este sprint mi enfoque principal se centró en el apartado del Backend sobre todo de la representacion de tablas y la designacion de clases a modelar <br> <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> En esta entrega realice la redacción de la idea principal de la startup, poniéndola en palabras en la descripción, también hice los segmentos objetivos delimitando hacia que nichos nos ibamos a adentrar, conté con participación en las entrevistas, realice el To-Be, el Ubiquitous Lenguage, el Class Diagram, todo lo que vendria a ser Software Configuration Management. Y finalmente realice el Sprint Planning 1  <br> **Castañeda Guimas, Giancarlo Santiago: *TP1***<br> En esta entrega realice las correcciones en los user stories, product backlog y C4 ademas de encargarme del despliegue de la pagina atravez de azure, el sprint planning 2 y realice correcciones en partes de la App Web<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br>En esta entrega realice actualizaciones para las user stories, product backlog, los diagramas de clase y trabaje en el backend haciendo los contextos <br> **Castañeda Guimas, Giancarlo Santiago: TF**<br>En esta entrega realice correciones para el diagrama de clases concordando con lo que tenemos en el backend, ademas tambien actualice nuestra base de datos<br> **Jonseck Choque, Oliver *TB1***<br>Durante esta entrega me enfoque principalmente en las ideas para el trabajo, para ello propuse e investigue para poder formular la idea del proyecto, realice los antecedentes y la problemática, diseñe y rellene los empathy maps, cree la 2nda mitad de los user stories, cree el diagrama de contenedor, la base de datos, conclusiones y las recomendaciones.<br>**Jonseck Choque, Oliver *TB2*** <br>Durante esta entrega me encargue de realizar correciones a la parte frontend y añadir partes que faltaban, además de realizar el diagrama C4 de nuestra web app y sus componentes, junto al diagrama de base de datos y ayudar en la creación del Backend.<br>**Carlos Matthew, Gonzales *TB1***<br>En esta entrega realice la estrategia y análisis frente a competidores, apoye en las ideas con mis compañeros, tambien hice el registro de entrevistas, el User Journey Mapping, el Product Backlog completo, los SEO Tags and Meta Tags y por último el Software Deployment Configuration, apoye con lo que faltaba realizar a mis compañeros. <br>Carlos Matthew, Gonzales TP1<br> En esta entrega del Trabajo Parcial Realice lo que viene siendo la mejora en el apartado del frontend, haciendolo responsive y apoyando a mis compañeros con respecto al informe. Carlos Matthew, Gonzales TB2<br> En esta entrega del TB2 realice lo que viene siendo el apartado del frontend corrigiendo para las heuristicas, agregando los pequeños detales y necesarios para que la aplicacion se vea de la mejor forma y sea accesible para el usuario, tambien realice el apartado del backend el endpoint Payment, luego apoye a mis compañeros con respecto al informe por si faltaban cosas. TF**<br> En esta ultima entrega para el TF(Trabajo Final) me toco realizar la mejora del diagrama de base de datos y luego ayude con las correciones del backend como tambien del informe.    | **Sanchez Gonzales Gabriel: *TB1***<br> Como equipo logramos establecernos metas y tareas, creemos que al autoimponerse fechas para terminar de realizar ciertas secciones dentro del capítulo, nos ayudó a planificar y avanzar en conjunto. <br> **Sanchez Gonzales Gabriel: *TP1***<br> Durante el desarrollo de la TP1, contribuí a crear un entorno colaborativo al coordinarme con el equipo para definir metas claras y planificar las tareas necesarias. A través de una comunicación constante y abierta, logramos distribuir responsabilidades equitativamente con los objetivos establecidos dentro del plazo previsto por el equipo. <br>  <br> **Sanchez Gonzales Gabriel: *TB2***<br>   En la TB2, colaboré activamente en la organización de tareas, el diseño de entrevistas y el seguimiento de avances durante el sprint, fomentando un trabajo inclusivo y enfocado en metas de desarrollo entre todos.<br><br> <br>**Mora Blas, Diego Alonzo: *TB1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br>**Mora Blas, Diego Alonzo: *TP1***<br> Como grupo nos marcamos objetivos claros y repartimos tareas; al ponernos nuestras propias fechas límite para cada sección del capítulo, logramos organizarnos mejor y avanzar juntos de forma fluida. <br><br>**Mora Blas, Diego Alonzo: *TB2***<br> En equipo definimos metas precisas y asignamos responsabilidades; al establecernos plazos internos para cada parte del capítulo, optimizamos nuestra organización y avanzamos de manera coordinada y sin contratiempos. <br>**Castañeda Guimas, Giancarlo Santiago: *TB1***<br> Como grupo decidimos tener nuestras metas claras y concisas con lo que debemos realizar, pensamos que realizar todo a tiempo seria lo mejor y obviamente el trabajo en equipo es lo primordial  <br>**Castañeda Guimas, Giancarlo Santiago: *TP1***<br>Como grupo tuvimos que dejar algunas cosas claras sobretodo a la hora de la planificación para que todos podamos seguir adelante conociendo nuestras limitaciones en el momento<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br> Como grupo pudimos crear una idea y ampliarla para mejorar nuestras entregas a tiempo, a su vez corregimos y obtuvimos mejores resultados a los planeados<br>**Castañeda Guimas, Giancarlo Santiago: TB2**<br>Como equipo, establecimos metas claras y una planificación eficiente, priorizando la entrega oportuna y el trabajo colaborativo. Reconocimos nuestras limitaciones y las superamos mediante una comunicación constante, lo que nos permitió refinar nuestras ideas, mejorar los resultados iniciales y alcanzar objetivos incluso más allá de lo planeado <br>**Jonseck Choque, Oliver *TB1***<br> Cómo grupo decidimos crear un plan para entregar partes del trabajo a tiempo, esto para que sean revisadas y corregidas por todos, siempre mostrando un entorno agradable de apoyo.<br>**Jonseck Choque,Oliver *TB2*** <br>Cómo grupo mantuvimos una gran conversación además de coordinar las diferentes partes que cada uno tenia de encargarse, además de verificar ciertas correciones necesarias para el frontend <br>**Carlos Matthew, Gonzales *TB1***<br>Como grupo hemos creado un plan entre nosotros para entregar los trabajos a tiempo, que viene siendo limites puestos por nosotros mismos así podemos organizarnos mejor y ayudarnos por si falta algo en la última semana de entrega, para así poder pulir y entregar un trabajo impecable, siempre comunicándonos todo. <br>Carlos Matthew, Gonzales TP1<br> Como equipo tuvimos una muy buena comunicacion para el Trabajo Parcial y lo pudimos subir a tiempo, pero tuvimos un pequeño problema con la entrega que nos afecto un poco en la nota pero aun asi nosotros lo corregimos y aprendimos de ello por lo cual ahora estamos mucho mejor que antes con el tema de la comunicacion y el ambiente es muy amigable. <br>Carlos Matthew, Gonzales TB2<br> En esta entrega como equipo pudimos realizar todos lo que viene siendo el apartado del backend cumplimos con nuestras metas para la entrega y nos comunicamos de uno a otro por si teniamos problemas con el trabajo. <br>Carlos Matthew, Gonzales TF1<br> Sobre esta ultima entrega pudimos estar al tanto de revisar las ultimas partes con las corecciones que todo este bien para no tener ni un error y poder subir el trabajo a tiempo conforme comunicandonos siempre como equipo y manteniendo un muy buen ambiente entre nosotros. |
 
 
 
@@ -394,8 +463,8 @@ Gracias a las encuestas realizadas se observó que un 86.7% no cuenta con un tra
 #### 1.2.2.1. Lean UX Problem Statements
 Los servicios actuales no pueden abordar de forma correcta el problema de los escasos medios de transporte rápidos, económicos y seguros para los ciudadanos de Lima Metropolitana que no cuentan con un transporte fijo. Estos grupos enfrentan dificultades para llegar puntualmente a sus destinos debido al tráfico concurrente en horas pico. En consecuencia, los usuarios suelen pagar altos costos de servicios como los taxis para poder llegar a su destino. Además, el transporte público muchas veces no los deja cerca de su destino final, generando pérdida de tiempo y fatiga al tener que caminar.
 Nuestro servicio abordará esta necesidad mediante una plataforma de alquiler de bicicletas por minuto, que permita a los usuarios movilizarse de manera eficiente, económica y además sostenible al medio ambiente.
-Nuestro enfoque inicial será estudiantes universitarios y turistas en zonas urbanas congestionadas, los cuales cuentan particularmente en Lima Metropolitana.
-
+Nuestro enfoque inicial será estudiantes universitarios y turistas en zonas urbanas congestionadas, los cuales estan particularmente en Lima Metropolitana.
+¿Cómo podríamos reducir el tiempo de traslado para estudiantes y turistas en zonas urbanas congestionadas como Lima, brindando una alternativa rápida para el último tramo del viaje?
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -729,42 +798,40 @@ Link a To-be: [https://lucid.app/lucidchart/177d57bf-a831-48b8-b097-39f6b0eb2b89
 
 ### 2. User Stories
 
-      
-
 | Story ID | Título | Descripción | Criterios de aceptación | EPIC ID |
 | :---- | :---- | :---- | :---- | :---- |
-| US01 | Ver el nombre, logo y eslogan de la aplicación | Como visitante de ambos segmentos objetivos , quiero poder visualizar el nombre y eslogan de la aplicación para saber de qué se trata a primera vista | **Escenario 1: Ver logo en header** <br>Dado que el visitante se encuentra en la página del landing page de SafeCycle <br>Cuando el visitante mire hacia la parte del header <br>Entonces el visitante podrá visualizar el logo de SafeCycle arriba a la izquierda. <br>**Escenario 2: Ver logo y slogan principal** <br>Dado que el visitante se encuentra en la página del landing page de SafeCycle <br>Cuando el visitante mire la sección principal <br>Entonces visualizará el logo de SafeCycle y su eslogan  | EP01 |
+| US01 | Ver el nombre, logo y eslogan de la aplicación | Como visitante de ambos segmentos objetivos , quiero poder visualizar el nombre y eslogan de la aplicación para saber de qué se trata a primera vista | **Escenario 1: Ver logo en header** <br>Dado que el visitante se encuentra en la página del landing page de SafeCycle <br>Cuando el visitante observe la parte del header <br>Entonces el visitante podrá visualizar el logo de SafeCycle arriba a la izquierda. <br>**Escenario 2: Ver logo y slogan principal** <br>Dado que el visitante se encuentra en la página del landing page de SafeCycle <br>Cuando el visitante observe la sección principal <br>Entonces visualizará el logo de SafeCycle y su eslogan  | EP01 |
 | US02 | Visualizar principales funciones | Como visitante de ambos segmentos objetivos , quiero poder ver las funcionalidades que ofrece la aplicación para saber que beneficios puedo tener | **Escenario 1: Ver funcionalidades de SafeCycle** <br>Dado que el visitante accede al landing page de SafeCycle <br>Cuando el visitante observa la sección "Qué ofrecemos" desplazándose hacia abajo. <br>Entonces podrá visualizar tarjetas con con descripciones acerca de lo que se ofrece dentro de la aplicación. <br>**Escenario 2: Ver beneficios para estudiantes** <br>Dado que el visitante del segmento objetivo de estudiantes se encuentra en la landing page <br>Cuando el visitante del segmento objetivo de estudiantes baje a la sección de planes <br>Entonces verá los beneficios para estudiantes como tarifas más bajas y pagos nacionales. <br>**Escenario 3: Ver beneficios para turistas** <br>Dado que el visitante del segmento objetivo de turistas y se encuentra en la landing page <br>Cuando el visitante del segmento objetivo de turistas baje a la sección de planes <br>Entonces verá los beneficios para turistas como turismo en grupo y pagos con Paypal. | EP01 |
-| US03 | Visualizar precios y tarifas | Como visitante de ambos segmentos objetivos , quiero poder visualizar los precios y las tarifas que ofrece la aplicación para saber si me conviene comprar sus servicios. | **Escenario 1: Ver tarifas generales** <br>Dado que el visitante se encuentra navegando en la landing page de SafeCycle <br>Cuando da click en  “Tarifas” en el header  O se desplaza hasta la sección correspondiente <br>Entonces podrá ver las tarjetas con las tarifas por minuto de general <br>**Escenario 2: Ver tarifas estudiantiles** <br>Dado que el visitante se encuentra navegando en la landing page de SafeCycle <br>Cuando da click en  “Tarifas” en el header  O se desplaza hasta la sección correspondiente <br>Entonces podrá ver las tarjetas con las tarifas por minuto estudiantiles | EP01 |
-| US04 | Visualizar botón destacado “Empieza ahora” en la sección principal del landing | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Empieza ahora” en la sección principal para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Presionar botón empieza ahora** <br>Dado que el visitante se encuentra en la sección principal del landing page  <br>Y ubica el botón con el texto “Empieza ahora” <br>Cuando hace clic en el botón con el texto “Empieza ahora”<br>Entonces será redirigido a la página de registro de la aplicación. | EP02 |
-| US05 | Acceder a la página inicio de sesión desde el botón “Iniciar sesión” | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver un botón llamativo de “Iniciar sesión” en el header para comenzar el proceso de inicio de sesión sin perder tiempo. | **Escenario 1: Presionar botón Iniciar Sesión** <br>Dado que el visitante se encuentra en la sección principal del landing page  <br>Y se dirige al header <br>Y ubica el botón con el texto “Iniciar Sesión” <br>Cuando hace clic en el botón con el texto “Iniciar sesión”<br>Entonces será redirigido a la página de inicio de sesión de la aplicación. | EP02 |
-| US06 | Acceder a la página de registro de estudiante a través de botón “Aplicar para tarifa estudiante” | Como visitante del segmento objetivo de estudiantes, quiero poder registrarme rápidamente como un estudiante para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Presionar botón “Aplicar para tarifa estudiante”** <br>Dado que el visitante se encuentra en la sección de precios y tarifas <br>Y ubica el botón “Aplicar para tarifa estudiante” <br>Cuando hace clic en el botón “Aplicar para tarifa estudiante”. <br>Entonces será redirigido a la página de registro como estudiante de la aplicación | EP02 |
-| US07 | Acceder a la página de registro de turista a través de botón “Empezar como turista” | Como visitante del segmento objetivo de turistas, quiero poder registrarme rápidamente como un turista para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Presionar botón “Empezar como turista”** <br>Dado que el visitante se encuentra en la sección de precios y tarifas <br>Y ubica el botón “Empezar como turista” <br>Cuando hace clic en el botón “Empezar como turista”. <br>Entonces será redirigido a la página de registro como turista de la aplicación | EP02 |
-| US08 | Registro de usuario turista | Como usuario turista quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para turista** <br>Dado que el turista ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Turista"<br>Cuando el turista visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email, pasaporte, contraseña y un campo para repetir la contraseña.<br>Y se muestra el botón “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesion” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña y la ha repetido correctamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema crea una nueva cuenta de turista <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el turista ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email o número de pasaporte inválido <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
-| US09 | Registro de usuario estudiante | Como usuario estudiante quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para estudiante** <br>Dado que el estudiante ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Estudiante"<br>Cuando el estudiante visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email institucional, contraseña y un campo para repetir la contraseña.<br>Y se muestra el botón “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesión” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el estudiante ha ingresado un email institucional válido, contraseña y la ha repetido correctamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema crea una nueva cuenta de estudiante   <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el estudiante ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email institucional inválido <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el estudiante ha ingresado un email institucional válido y una contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando presiona el botón “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
-| US10 | Iniciar sesión en cuenta personal | Como usuario de ambos segmentos objetivos  quiero poder iniciar sesion en la aplicación para acceder a mi cuenta personal | **Escenario 1: Iniciar sesión con datos válidos** <br>Dado que el turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado su email y contraseña correctamente <br>Cuando presiona el botón “Iniciar Sesión” <br>Entonces será redirigido a su cuenta personal dentro de la aplicación   <br>**Escenario 2: Ingresar datos inválidos** <br>Dado que el usuario turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado un email no registrado o una contraseña incorrecta <br>Cuando presiona el botón “Iniciar Sesión” <br>Entonces el sistema mostrará un mensaje de error indicando que las credenciales son inválidas | EP03 |
-| US11 | Alquiler de bicicleta | Como usuario de ambos segmentos objetivos quiero poder alquilar una bicicleta para transportarme rápidamente | **Escenario 1: Renta de bicicletas** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema calculará y mostrará el costo del viaje dependiendo del tiempo. <br>**Escenario 2: Renta de bicicleta y tiempo de estudiante sin tiempo en cuenta** <br>Dado que el estudiante está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Y no tiene suficientes minutos restantes de renta diarios. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que el usuario no tiene el tiempo restante suficiente en su cuenta por el día. <br>**Escenario 3: Ingreso de datos incompletos o inválidos** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y deja vacío el campo de minutos. <br>Cuando presiona el botón “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que debe ingresar una cantidad de minutos | EP04 |
+| US03 | Visualizar precios y tarifas | Como visitante de ambos segmentos objetivos , quiero poder visualizar los precios y las tarifas que ofrece la aplicación para saber si me conviene comprar sus servicios. | **Escenario 1: Ver tarifas generales** <br>Dado que el visitante se encuentra navegando en la landing page de SafeCycle <br>Cuando selecciona la opción de “Tarifas” en el header  O se desplaza hasta la sección correspondiente <br>Entonces podrá ver las tarjetas con las tarifas por minuto de general <br>**Escenario 2: Ver tarifas estudiantiles** <br>Dado que el visitante se encuentra navegando en la landing page de SafeCycle <br>Cuando accede a “Tarifas” en el header  O se desplaza hasta la sección correspondiente <br>Entonces podrá ver las tarjetas con las tarifas por minuto estudiantiles | EP01 |
+| US04 | Visualizar opción “Empieza ahora” en la sección principal del landing | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver una opción llamativa “Empieza ahora” en la sección principal para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Iniciar la opción empieza ahora** <br>Dado que el visitante se encuentra en la sección principal del landing page  <br>Y ubica la opción con el texto “Empieza ahora” <br>Cuando se accede a la opción con el texto “Empieza ahora”<br>Entonces será redirigido a la página de registro de la aplicación. | EP02 |
+| US05 | Acceder a la página inicio de sesión desde la opción “Iniciar sesión” | Como visitante del segmento objetivo de estudiantes y turistas, quiero ver una opción llamativa para “Iniciar sesión” en el header para comenzar el proceso de inicio de sesión sin perder tiempo. | **Escenario 1: Ingresar opción Iniciar Sesión** <br>Dado que el visitante se encuentra en la sección principal del landing page  <br>Y se dirige al header <br>Y ubica la opción con el texto “Iniciar Sesión” <br>Cuando acceda a la opción con el texto “Iniciar sesión”<br>Entonces será redirigido a la página de inicio de sesión de la aplicación. | EP02 |
+| US06 | Acceder a la página de registro de estudiante a través de la opción “Aplicar para tarifa estudiante” | Como visitante del segmento objetivo de estudiantes, quiero poder registrarme rápidamente como un estudiante para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Ingresar a la opción “Aplicar para tarifa estudiante”** <br>Dado que el visitante se encuentra en la sección de precios y tarifas <br>Y ubica la opción “Aplicar para tarifa estudiante” <br>Cuando selecciona la opción de “Aplicar para tarifa estudiante”. <br>Entonces será redirigido a la página de registro como estudiante de la aplicación | EP02 |
+| US07 | Acceder a la página de registro de turista a través de la opción “Empezar como turista” | Como visitante del segmento objetivo de turistas, quiero poder registrarme rápidamente como un turista para comenzar el proceso de registro sin perder tiempo. | **Escenario 1: Seleccionar la opción de “Empezar como turista”** <br>Dado que el visitante se encuentra en la sección de precios y tarifas <br>Y ubica la opción de “Empezar como turista” <br>Cuando selecciona la opción de “Empezar como turista”. <br>Entonces será redirigido a la página de registro como turista de la aplicación | EP02 |
+| US08 | Registro de usuario turista | Como usuario turista quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para turista** <br>Dado que el turista ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Turista"<br>Cuando el turista visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email, pasaporte, contraseña y un campo para repetir la contraseña.<br>Y se visualiza la opción de “Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesion” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña y la ha repetido correctamente <br>Cuando selecciona la opción de “Registrarse” <br>Entonces el sistema crea una nueva cuenta de turista <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el turista ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email o número de pasaporte inválido <br>Cuando selecciona la opción de“Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el turista ha ingresado un email válido, número de pasaporte, contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando selecciona la opción de “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
+| US09 | Registro de usuario estudiante | Como usuario estudiante quiero poder registrarme en la aplicación para acceder a las funcionalidades que me ofrece con mi cuenta personal | **Escenario 1: Ver formulario de registro para estudiante** <br>Dado que el estudiante ha accedido a la pantalla de registro<br>Y ha seleccionado la opción "Estudiante"<br>Cuando el estudiante visualiza el formulario<br>Entonces se muestran los siguientes campos para completar: email institucional, contraseña y un campo para repetir la contraseña.<br>Y se visualiza la opción de“Registrarse” debajo del formulario<br>Y el enlace “¿<br>Ya eres miembro? Inicia sesión” <br>**Escenario 2: Enviar el formulario de registro** <br>Dado que el estudiante ha ingresado un email institucional válido, contraseña y la ha repetido correctamente <br>Cuando selecciona la opción de “Registrarse” <br>Entonces el sistema crea una nueva cuenta de estudiante   <br>**Escenario 3: Ingresar datos inválidos en el formulario** <br>Dado que el estudiante ha llenado con la contraseña y la ha repetido correctamente <br>Y ha ingresado un email institucional inválido <br>Cuando selecciona la opción de “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Los datos ingresados no son válidos” <br>Y no permitirá el envío del formulario. <br>**Escenario 4: Contraseñas no coinciden** <br>Dado que el estudiante ha ingresado un email institucional válido y una contraseña <br>Y ha ingresado la repetición de la contraseña incorrectamente <br>Cuando selecciona la opción de “Registrarse” <br>Entonces el sistema mostrará un mensaje de error con el texto “Las contraseñas no coinciden” <br>Y no permitirá el envío del formulario. | EP03 |
+| US10 | Iniciar sesión en cuenta personal | Como usuario de ambos segmentos objetivos  quiero poder iniciar sesion en la aplicación para acceder a mi cuenta personal | **Escenario 1: Iniciar sesión con datos válidos** <br>Dado que el turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado su email y contraseña correctamente <br>Cuando selecciona la opción de Iniciar Sesión” <br>Entonces será redirigido a su cuenta personal dentro de la aplicación   <br>**Escenario 2: Ingresar datos inválidos** <br>Dado que el usuario turista ha accedido a la pantalla de inicio de sesión <br>Y ha ingresado un email no registrado o una contraseña incorrecta <br>Cuando selecciona la opción de “Iniciar Sesión” <br>Entonces el sistema mostrará un mensaje de error indicando que las credenciales son inválidas | EP03 |
+| US11 | Alquiler de bicicleta | Como usuario de ambos segmentos objetivos quiero poder alquilar una bicicleta para transportarme rápidamente | **Escenario 1: Renta de bicicletas** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Cuando se selecciona la opción “Calcular” <br>Entonces el sistema calculará y mostrará el costo del viaje dependiendo del tiempo. <br>**Escenario 2: Renta de bicicleta y tiempo de estudiante sin tiempo en cuenta** <br>Dado que el estudiante está en la sección de Rentar de SafeCycle <br>Y esta en la sección de “Rentar” <br>Y ha brin<br>Dado acceso a su localización actual <br>Y no tiene suficientes minutos restantes de renta diarios. <br>Cuando e selecciona la opción de “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que el usuario no tiene el tiempo restante suficiente en su cuenta por el día. <br>**Escenario 3: Ingreso de datos incompletos o inválidos** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y deja vacío el campo de minutos. <br>Cuando selecciona la opción “Calcular” <br>Entonces el sistema mostrará un mensaje de error indicando que debe ingresar una cantidad de minutos | EP04 |
 | US12 | Elección de puntos de recojo alquilar una bicicleta | Como usuario de ambos segmentos objetivos quiero poder elegir el punto de recojo de mi bicicleta para dirigirse a esta fácilmente | **Escenario 1: Visualizar puntos de recojo** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y ha rellenado el formulario de renta de bicicletas. <br>Cuando el sistema calcule el precio estimado de la ruta. <br>Entonces el sistema mostrará las estaciones de bicicletas cercanas para recogerlo. <br>**Escenario 2: Elegir puntos de recojo** <br>Dado que el usuario está en la sección de Rentar de SafeCycle <br>Y ha rellenado y enviado el formulario de renta de bicicletas. <br>Cuando el usuario elija la estacion <br>Entonces el sistema procederá la renta con la estación elegida | EP04 |
 | US13 | Recibir notificación de mora si excedo el tiempo | Como usuario de ambos segmentos objetivos quiero recibir una notificación <br>Cuando exceda el tiempo de alquiler para estar informado de la penalización. | **Escenario 1: Notificación de tiempo excedido**<br>Dado que el usuario ha alquilado una bicicleta<br>Y el tiempo límite de alquiler ha sido superado, <br>Cuando el sistema detecte el exceso de tiempo <br>Entonces envía una notificación alertando sobre la mora aplicable <br>**Escenario 2: Cálculo automático de mora**<br>Dado que el usuario ha excedido el tiempo acor<br>Dado<br>Cuando el sistema actualice la duración del préstamo<br>Entonces el sistema calcula el monto adicional a pagar por el exceso de tiempo | EP05 |
 | US14 | Recibir confirmación del pago realizado | Como usuario de ambos segmentos objetivos  quiero recibir una confirmación luego de realizar el pago para asegurarme que fue exitoso. | **Escenario 1: Confirmación visual inmediata**<br>Dado que el usuario ha completado el pago de una renta o alquiler<br>Cuando el sistema procese la transacción<br>Entonces se mostrará una pantalla con mensaje de éxito y detalles del pago <br>**Escenario 2: Confirmación vía correo electrónico**<br>Dado que el pago fue realizado correctamente<br>Cuando el sistema registre la transacción<br>Entonces se enviará un correo electrónico con el comprobante del pago |  EP05 |
 | US15 | Realizar reservas de bicicletas | Cómo usuario de ambos segmentos objetivos  quiero tener la habilidad de reservar una bicicleta con varios días de anticipación para poder usarla en una fecha específica. | **Escenario 1: Reserva de bicicleta** <br>Dado a que el usuario está en la pantalla de reserva <br>Cuando ingresa los datos de la reserva como (Fecha inicio y fin, Hora inicio y fin, y la estación de la que desea recoger) <br>Y la aplicación calcula el monto aproximado de la reserva <br>Y el usuario confirma la reserva <br>Entonces se la bicicleta se marca como reservada y se separa de las bicicletas disponibles <br>**Escenario 2: Reserva con 2 o menos  días de anticipación** <br>Dado a que el usuario realiza una reserva con 2 o menos días de anticipación. <br>Cuando se confirma la reserva. <br>Entonces se le envía una confirmación, se separará la bicicleta de las disponibles en el sistema  y se separará la bicicleta de las disponibles en la estación  y se realiza el pago. <br>**Escenario 3: Reserva con más de 2 días de anticipación** <br>Dado a que el usuario realiza una reserva con más de 2 días de anticipación. <br>Cuando se confirma la reserva. <br>Entonces se le envía una confirmación, se separará la bicicleta de las disponibles en el sistema  <br>Y se separará la bicicleta de las disponibles en la estación  <br>Y se realiza el pago.  <br>Y se cobra una cantidad extra según la cantidad de días de anticipación. | EP04 |
-| US16 | Cancelar una reserva | Cómo usuario  de ambos segmentos objetivos deseo tener la habilidad de cancelar mi reserva para los casos en los que ya no requiera el servicio | **Escenario 1: El usuario cancela su reserva** <br>Dado a que el usuario reservo una bicicleta <br>Y ya no requiere de la bicicleta que previamente reservó. <br>Y va a la seccion de “Current Rental” <br>Cuando selecciona el botón de “Cancelar reserva”. <br>Entonces se cancelará la reserva y la bicicleta vuelve a entrar al sistema como disponible**.** | EP04 |
-| US17 | Administración de bicicletas | Cómo administrador de Safecycle quiero administrar las bicicletas de cada estación para manejar de forma eficiente las bicicletas. | **Escenario 1: Visualizar información de cada bicicleta** <br>Dado que el administrador ha iniciado sesión <br>Y se encuentra en el Panel de Control \> Manejar Bicicletas <br>Cuando escoja un estación de bicicletas <br>Entonces en el panel de control se visualizan las bicicletas de esa estación de bicicletas. <br>**Escenario 2: Formulario para modificar información de bicicleta desde panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación <br>Y esta en la sección de “Administrar bicicletas”  <br>Y escoge una estación. <br>Cuando hace clic al botón “Modificar información de bicicleta” <br>Entonces aparece un formulario para cambiar su información (disponibilidad, condición, número de serie)  <br>**Escenario 3: Guardar cambios en la información de bicicleta** <br>Dado que el administrador de SafeCycle ha accedido al formulario de modificación de bicicleta<br>Y ha actualizado uno o más campos (disponibilidad, condición, número de serie)<br>Cuando hace clic en el botón “Guardar cambios”<br>Entonces el sistema actualiza la información de la bicicleta en la base de datos <br>Y muestra un mensaje de confirmación: “La información de la bicicleta ha sido actualizada correctamente”  | EP06 |
-| US18 | Administración estaciones de bicicletas | Cómo developer de Safecycle quiero recibir información acerca de las estaciones para poder visualizarlas más fácilmente  | **Escenario 1: Estado de cada estación de bicicletas** <br>Dado a que el developer de Safecycle tiene acceso a la API de SafeCycle. <br>Cuando envía la solicitud de ver la información de cada estación. <br>Entonces en el panel de control se muestra cada estación y su información. <br>**Escenario 4: Cambiar información de una** estación de bicicleta <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación <br>Y está en la sección “Administrar estaciones de bicicleta”  <br>Y llena el formulario en el cual puede modificar los datos de una estación de bicicleta <br>Cuando hace clic al botón de “Guardar cambios” <br>Entonces el sistema actualiza la información de esta estación de bicicleta. | EP06 |
-| US19 | Rutas turísticas | Cómo turista quiero realizar un tour para explorar la ciudad con puntos turísticos importantes | **Escenario 1: Seleccionar Tour** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Cuando selecciona uno de los “Viajes turísticos” disponibles. <br>Entonces el sistema visualiza un formulario para agendar el tour <br>**Escenario 2: Envío de formulario para tour correcto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con los datos de dia de origen, hora de inicio y fin correctamente <br>Y selecciona el botón “Reservar” <br>Entonces el sistema guarda la reserva del tour  <br>**Escenario 3: Envío de formulario para tour incorrecto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con los datos de dia de origen, hora de inicio y fin  incorrectamente <br>Y selecciona el botón “Reservar” <br>Entonces el sistema visualiza un sistema de error con el mensaje “Los campos ingresados son incorrectos” <br>**Escenario 4: Envío de formulario para tour incompleto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con solo algunos datos como día de origen, hora de inicio y fin  <br>Y selecciona el botón “Reservar” <br>Entonces el sistema visualiza un sistema de error con el mensaje “Es necesario rellenar todas las casillas”.   | EP04 |
+| US16 | Cancelar una reserva | Cómo usuario  de ambos segmentos objetivos deseo tener la habilidad de cancelar mi reserva para los casos en los que ya no requiera el servicio | **Escenario 1: El usuario cancela su reserva** <br>Dado a que el usuario reservo una bicicleta <br>Y ya no requiere de la bicicleta que previamente reservó. <br>Y va a la seccion de “Current Rental” <br>Cuando selecciona la opción de “Cancelar reserva”. <br>Entonces se cancelará la reserva y la bicicleta vuelve a entrar al sistema como disponible**.** | EP04 |
+| US17 | Administración de bicicletas | Cómo administrador de Safecycle quiero administrar las bicicletas de cada estación para manejar de forma eficiente las bicicletas. | **Escenario 1: Visualizar información de cada bicicleta** <br>Dado que el administrador ha iniciado sesión <br>Y se encuentra en el Panel de Control \> Manejar Bicicletas <br>Cuando escoja un estación de bicicletas <br>Entonces en el panel de control se visualizan las bicicletas de esa estación de bicicletas. <br>**Escenario 2: Formulario para modificar información de bicicleta desde panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación <br>Y esta en la sección de “Administrar bicicletas”  <br>Y escoge una estación. <br>Cuando se selecciona la opción “Modificar información de bicicleta” <br>Entonces aparece un formulario para cambiar su información (disponibilidad, condición, número de serie)  <br>**Escenario 3: Guardar cambios en la información de bicicleta** <br>Dado que el administrador de SafeCycle ha accedido al formulario de modificación de bicicleta<br>Y ha actualizado uno o más campos (disponibilidad, condición, número de serie)<br>Cuando se selecciona la opción de “Guardar cambios”<br>Entonces el sistema actualiza la información de la bicicleta en la base de datos <br>Y muestra un mensaje de confirmación: “La información de la bicicleta ha sido actualizada correctamente”  | EP06 |
+| US18 | Administración estaciones de bicicletas | Cómo developer de Safecycle quiero recibir información acerca de las estaciones para poder visualizarlas más fácilmente  | **Escenario 1: Estado de cada estación de bicicletas** <br>Dado a que el developer de Safecycle tiene acceso a la API de SafeCycle. <br>Cuando envía la solicitud de ver la información de cada estación. <br>Entonces en el panel de control se muestra cada estación y su información. <br>**Escenario 4: Cambiar información de una** estación de bicicleta <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación <br>Y está en la sección “Administrar estaciones de bicicleta”  <br>Y llena el formulario en el cual puede modificar los datos de una estación de bicicleta <br>Cuando se selecciona la opción de “Guardar cambios” <br>Entonces el sistema actualiza la información de esta estación de bicicleta. | EP06 |
+| US19 | Rutas turísticas | Cómo turista quiero realizar un tour para explorar la ciudad con puntos turísticos importantes | **Escenario 1: Seleccionar Tour** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Cuando selecciona uno de los “Viajes turísticos” disponibles. <br>Entonces el sistema visualiza un formulario para agendar el tour <br>**Escenario 2: Envío de formulario para tour correcto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con los datos de dia de origen, hora de inicio y fin correctamente <br>Y selecciona la opción “Reservar” <br>Entonces el sistema guarda la reserva del tour  <br>**Escenario 3: Envío de formulario para tour incorrecto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con los datos de dia de origen, hora de inicio y fin  incorrectamente <br>Y selecciona la opción“Reservar” <br>Entonces el sistema visualiza un sistema de error con el mensaje “Los campos ingresados son incorrectos” <br>**Escenario 4: Envío de formulario para tour incompleto** <br>Dado a que el turista ingresa a la opción exclusiva de “Viaje turístico” <br>Y selecciona uno de los “Viajes turísticos” disponibles. <br>Y el sistema visualiza un formulario para agendar el tour <br>Cuando el turista llena el formulario con solo algunos datos como día de origen, hora de inicio y fin  <br>Y selecciona la opción “Reservar” <br>Entonces el sistema visualiza un sistema de error con el mensaje “Es necesario rellenar todas las casillas”.   | EP04 |
 | US20 | Actualizar información de perfil | Como usuario  de ambos segmentos objetivos quiero tener la opción de actualizar la información en mi perfil para poder cambiar mis datos en cualquier momento. | **Escenario 1: Actualizar información de perfil** <br>Dado que el usuario está en la pantalla de perfil <br>Cuando ingresa a la opción “actualizar perfil”,  <br>Y modifica los campos su información personal (nombre, apellidos)  <br>Y presiona “Guardar cambios”. <br>Entonces recibe un mensaje diciendo “Cambios guar<br>Dados”. <br>Y el sistema guarda los cambios <br>**Escenario 2: Actualizar información de perfil con campos vacíos** <br>Dado que el usuario está en la pantalla de perfil <br>Cuando ingresa a la opción “actualizar perfil”,  <br>Y modifica los campos su información personal (nombre, apellidos)  <br>Y deja alguno de los campos vacíos <br>Y presiona “Guardar cambios”. <br>Entonces recibe un mensaje diciendo “Es obligatorio rellenar todos los campos”. | EP03 |
-| US21 | Acceder a panel de control | Cómo administrador de SafeCycle quiero acceder al panel de control para tener un manejo de lo que ocurre en la aplicación. | **Escenario 1: Visualizar panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación. <br>Cuando el administrador visualiza la sección de header <br>Entonces el sistema visualiza un botón “Panel de control” **Escenario 1: Ingresar a panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación. <br>Y el administrador visualiza la sección de header <br>Cuando el administrador hace clic en el botón “Panel de control” <br>Entonces el sistema lo redirecciona al panel de control | EP06 |
-| US22 | Cerrar sesión | Cómo usuario de ambos segmentos objetivos e quiero tener la opción de cerrar mi sesión para mantener mi cuenta segura | **Escenario 1: Se presiona el botón “Cerrar sesión”** <br>Dado que el usuario está en la aplicación de SafeCycle <br>Y tiene la cuenta abierta <br>Cuando presiona el botón “Cerrar sesión” <br>Entonces se cierra la sesión del usuario. | EP03 |
-| US23 | Navigation Bar | Como visitante de ambos segmentos objetivos quiero acceder a la barra de navegación para moverme rápidamente a cualquier sección de la página. | **Escenario 1: Ver la barra de navegación en la parte superior** <br>Dado que el visitante está en la landing page <br>Cuando hace clic en el enlace de navegación <br>Entonces el visitante será redirigido a la sección correspondiente de la misma página. | EP01 |
+| US21 | Acceder a panel de control | Cómo administrador de SafeCycle quiero acceder al panel de control para tener un manejo de lo que ocurre en la aplicación. | **Escenario 1: Visualizar panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación. <br>Cuando el administrador visualiza la sección de header <br>Entonces el sistema visualiza una opción llamada “Panel de control” **Escenario 1: Ingresar a panel de control** <br>Dado que el administrador de SafeCycle inicia sesión en la aplicación. <br>Y el administrador visualiza la sección de header <br>Cuando el administrador acceda al “Panel de control” <br>Entonces el sistema lo redirecciona al panel de control | EP06 |
+| US22 | Cerrar sesión | Cómo usuario de ambos segmentos objetivos e quiero tener la opción de cerrar mi sesión para mantener mi cuenta segura | **Escenario 1: Se dirige a la opción “Cerrar sesión”** <br>Dado que el usuario está en la aplicación de SafeCycle <br>Y tiene la cuenta abierta <br>Cuando decida “Cerrar sesión” <br>Entonces se cierra la sesión del usuario. | EP03 |
+| US23 | Navigation Bar | Como visitante de ambos segmentos objetivos quiero acceder a la barra de navegación para moverme rápidamente a cualquier sección de la página. | **Escenario 1: Ver la barra de navegación en la parte superior** <br>Dado que el visitante está en la landing page <br>Cuando selecciona en el enlace de navegación <br>Entonces el visitante será redirigido a la sección correspondiente de la misma página. | EP01 |
 | US24 | Sección How does it work | Como visitante de ambos segmentos objetivos quiero saber como funciona la aplicación para saber si es de fácil uso | **Escenario 1: Conocer como funciona SafeCycle** <br>Dado que el visitante está en la landing page <br>Y llega a la sección “Cómo funciona” <br>Cuando lee el contenido de esa sección <br>Entonces comprenderá los pasos para usar SafeCycle. | EP01 |
 | US25 | Sección Porque Nosotros | Como visitante de ambos segmentos objetivos, quiero saber por qué debería elegir SafeCycle sobre otras opciones para tomar una decisión informada. | **Escenario 1: Conocer los diferenciales de SafeCycle** <br>Dado que el visitante está en la landing page <br>Y llega a la sección “Por qué nosotros” <br>Cuando lee el contenido de esa sección <br>Entonces comprenderá las ventajas y razones por las que SafeCycle es una buena elección. | EP01 |
 | US26 | Footer | Como visitante de ambos segmentos quiero ver información útil en el footer de la página para acceder rápidamente a redes sociales. | **Escenario 1: Consultar información desde el footer** <br>Dado que el visitante está en la parte inferior de la página <br>Cuando visualiza el footer <br>Entonces encontrará enlaces a redes sociales | EP01 |
-| US27 | Cambio de lenguaje a ingles y español en Landing Page | Como visitante de ambos segmentos objetivos quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el visitante tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la landing page <br>Entonces todo el contenido del sitio se mostrará en el idioma del navegador. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el visitante tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la landing page <br>Entonces todo el contenido del sitio se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el visitante se encuentra en la landing page <br>Cuando selecciona el botón “EN” o “ES” de la parte inferior derecha <br>Entonces todo el contenido del sitio se mostrará en el idioma elegido. | EP01 |
+| US27 | Cambio de lenguaje a ingles y español en Landing Page | Como visitante de ambos segmentos objetivos quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el visitante tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la landing page <br>Entonces todo el contenido del sitio se mostrará en el idioma del navegador. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el visitante tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la landing page <br>Entonces todo el contenido del sitio se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el visitante se encuentra en la landing page <br>Cuando elija entre las opciones “EN” o “ES” de la parte inferior derecha <br>Entonces todo el contenido del sitio se mostrará en el idioma elegido. | EP01 |
 | US28 | Atributos Aria | Como visitante de ambos segmentos objetivos quiero que el sitio sea accesible para navegarlo con lectores de pantalla. | **Escenario 1: Usar atributos ARIA para accesibilidad** <br>Dado que el visitante navega con un lector de pantalla <br>Cuando interactúa con los elementos de la interfaz <br>Entonces el lector de pantalla describirá correctamente los elementos gracias a los atributos ARIA. | EP01 |
-| US29 | Actualizar información de pago | Cómo usuario  de ambos segmentos objetivos quiero actualizar mi información de pago para agilizar y asegurar las transacciones | **Escenario 1: Visualizar opción para actualizar información de pago** <br>Dado que el usuario ha iniciado sesión en la aplicación <br>Cuando el usuario navega a la sección de “Información de pago” en la ventana emergente que se visualiza <br>Cuando se da clic en el botón superior derecho del header <br>Entonces el sistema muestra la información de pago actual del usuario  <br>**Escenario 2: Formulario de actualización de pago** <br>Dado que el usuario ha iniciado sesión en la aplicación <br>Y el usuario está en la sección de  “Información de pago” <br>Cuando el usuario hace clic en la opción “Actualizar información de pago” <br>Entonces el sistema redirecciona al formulario para ingresar nuevos datos de pago  <br>**Escenario 3: Actualizar información de pago** <br>Dado que el usuario ha accedido al formulario de actualización de pago <br>Y el usuario ha ingresado correctamente la nueva información de pago <br>Cuando el usuario hace clic en el botón  “Guardar información de pago” <br>Entonces el sistema guarda la nueva información de pago <br>Y muestra un mensaje de confirmación “Tu información de pago ha sido actualizada exitosamente” | EP05 |
+| US29 | Actualizar información de pago | Cómo usuario  de ambos segmentos objetivos quiero actualizar mi información de pago para agilizar y asegurar las transacciones | **Escenario 1: Visualizar opción para actualizar información de pago** <br>Dado que el usuario ha iniciado sesión en la aplicación <br>Cuando el usuario navega a la sección de “Información de pago” en la ventana emergente que se visualiza <br>Cuando se acceda a la opción de la superior derecho del header <br>Entonces el sistema muestra la información de pago actual del usuario  <br>**Escenario 2: Formulario de actualización de pago** <br>Dado que el usuario ha iniciado sesión en la aplicación <br>Y el usuario está en la sección de  “Información de pago” <br>Cuando el usuario hace selecciona la opción “Actualizar información de pago” <br>Entonces el sistema redirecciona al formulario para ingresar nuevos datos de pago  <br>**Escenario 3: Actualizar información de pago** <br>Dado que el usuario ha accedido al formulario de actualización de pago <br>Y el usuario ha ingresado correctamente la nueva información de pago <br>Cuando el usuario acceda a la opción “Guardar información de pago” <br>Entonces el sistema guarda la nueva información de pago <br>Y muestra un mensaje de confirmación “Tu información de pago ha sido actualizada exitosamente” | EP05 |
 | **US30** | Ver actuales tarifas | Como usuario de ambos segmentos objetivos quiero visualizar las tarifas actuales de uso para conocer los costos antes de realizar una reserva o alquiler. | **Escenario 1: Acceder a la sección de tarifas** <br>Dado que el usuario ha iniciado sesión en la aplicación<br>Cuando el usuario navega a la sección de “Tarifas” desde el header <br>Entonces el sistema muestra dos tarjetas informativas con las tarifas actuales diferenciadas por tipo de usuario (General y Estudiante)  | EP05 |
 | **US31** | Acceder a Landing page desde cualquier dispositivo | Como visitante de ambos segmentos objetivos quiero acceder a la landing page de SafeCycle desde cualquier dispositivo para informarme sobre el servicio sin necesidad de descargar la app. | **Escenario 1: Acceso a la landing page desde diferentes dispositivos** <br>Dado que un visitante ingresa a la landing de SafeCycle desde un navegador web <br>Cuando el visitante accede desde un dispositivo móvil, tablet o computadora <br>Entonces el sistema muestra la landing page adaptada automáticamente al tamaño de pantalla del dispositivo | EP01 |
-| **US32** | Cambio de lenguaje a ingles y español en aplicación | Como usuario de ambos segmentos objetivos  quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el usuario tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma preferido. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el usuario tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el usuario se encuentra en su perfil <br>Y ubica la sección de idioma <br>Cuando selecciona el botón de  botón “EN” o “ES”  <br>Entonces todo el contenido de la pagina se mostrará en el idioma elegido. | EP03 |
+| **US32** | Cambio de lenguaje a ingles y español en aplicación | Como usuario de ambos segmentos objetivos  quiero cambiar el idioma del sitio entre inglés y español para entender mejor el contenido. | **Escenario 1: Visualizar en idioma de navegador de inglés o español** <br>Dado que el usuario tiene el idioma de su navegador configurado a ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma preferido. <br>**Escenario 2: Visualizar en idioma de navegador de otro idioma** <br>Dado que el usuario tiene el idioma de su navegador configurado a uno que no es ingles o espanol <br>Cuando entra a la aplicación <br>Entonces todo el contenido de la aplicación se mostrará en el idioma inglés por defecto. <br>**Escenario 3: Cambiar el idioma del sitio** <br>Dado que el usuario se encuentra en su perfil <br>Y ubica la sección de idioma <br>Cuando selecciona la opción “EN” o “ES”  <br>Entonces todo el contenido de la pagina se mostrará en el idioma elegido. | EP03 |
 | **US33** | Sección planes | Como visitante de ambos segmentos objetivos quiero explorar los planes disponibles para elegir el que mejor se adapte a mis necesidades antes de registrarme. | **Escenario 1: Acceder a la sección de planes** <br>Dado que el visitante se encuentra en la página principal de SafeCycle <br>Cuando el visitante hace scroll o selecciona la opción “Planes” desde el menú <br>Entonces el sistema muestra dos tarjetas destacadas con los planes disponibles: Student Plan y Tourist Plan, bajo el título “A plan tailored to your needs” <br>**Escenario 2: Visualizar detalles del Student Plan** <br>Dado que el visitante del segmento objetivo de estudiantes está visualizando la sección “Planes”<br>Cuando el visitante observa la tarjeta del Student Plan<br>Entonces se muestran los beneficios que ofrece SafeCycle para estudiantes (Alquileres rápidos, Bajo costo, pago con tarjeta, descuento estudiantil) <br>**Escenario 3: Visualizar detalles del Tourist Plan** <br>Dado que el visitante del segmento objetivo de turistas está visualizando la sección “Planes” <br>Cuando el visitante observa la tarjeta del Tourist Plan <br>Entonces se muestran los beneficios que ofrece SafeCycle para turistas (viaja libremente como un local, turismo en grupo, paga con PayPal desde cualquier lugar)  | EP01 |
 | US34 | Need Finding | Como equipo de desarrollo de SafeCycle, queremos identificar las necesidades y frustraciones de los usuarios objetivo (estudiantes y turistas) para diseñar una solución que responda efectivamente a sus problemas de transporte urbano | **Escenario 1: Necesidades del estudiante**<br>Dado que el usuario pertenece al segmento de estudiantes universitarios<br>Cuando se le consulta sobre sus medios de transporte actuales<br>Entonces expresa su necesidad de contar con una alternativa económica, rápida y flexible.<br>**Escenario 2: Necesidades del turista**<br>Dado que el usuario pertenece al segmento de turistas<br>Cuando se le pregunta por sus opciones de movilidad<br>Entonces manifiesta la necesidad de explorar la ciudad de forma libre y segura.<br>**Escenario 3: Identificación de puntos de dolor**<br>Dado que se realizaron entrevistas y observaciones<br>Cuando se recopila la información<br>Entonces se identifican problemas como acceso limitado a bicicletas o métodos de pago. | EP07 |
 | US35 | User Task Matrix | Como equipo de diseño de SafeCycle, queremos mapear las tareas principales que realizan nuestros usuarios objetivo (estudiantes y turistas) para priorizar las funcionalidades que la aplicación debe ofrecerles | **Escenario 1: Tareas del estudiante**<br>Dado que se analizan los comportamientos del estudiante<br>Cuando se identifican sus objetivos<br>Entonces se registran tareas como registro, alquiler y consulta de tarifas.<br>**Escenario 2: Tareas del turista**<br>Dado que se analizan sus hábitos<br>Cuando se definen sus necesidades<br>Entonces se identifican tareas como reservar tours, pagar con PayPal y encontrar estaciones.<br> | EP07 |
@@ -776,23 +843,25 @@ Link a To-be: [https://lucid.app/lucidchart/177d57bf-a831-48b8-b097-39f6b0eb2b89
 | US41 | Modelado  | Como equipo técnico de SafeCycle, queremos representar la arquitectura de la aplicación utilizando el modelo  para entender mejor la relación entre contexto, contenedores y componentes del sistema | **Escenario 1: Creación**<br>Dado que se desea visualizar la arquitectura<br>Cuando se definen los niveles de los contextos, contenedores y componentes <br>Entonces se elabora un modelo técnico claro.<br>**Escenario 2: Demostración**<br>Dado que el modelo está listo<br>Cuando se presenta al equipo<br>Entonces se valida su claridad y consistencia. | EP07 |
 | US42 | Diagrama de Clases | Como equipo de desarrollo de SafeCycle, queremos crear un diagrama de clases que represente las entidades principales del dominio y sus relaciones, para guiar la implementación orientada a objetos del sistema | **Escenario 1: Construcción**<br>Dado que se identificaron las entidades<br>Cuando se modelan atributos y relaciones<br>Entonces se genera un diagrama UML útil para el desarrollo.<br>**Escenario 2: Validación**<br>Dado que el modelo está elaborado<br>Cuando se revisa con el equipo<br>Entonces se confirma que cumple con los requerimientos del sistema. | EP07 |
 | US43 | Diagrama de Base de Datos | Como equipo de backend de SafeCycle, queremos diseñar un diagrama de base de datos que refleje cómo se almacenan y relacionan los datos de usuarios, bicicletas, reservas y pagos, para facilitar la implementación y escalabilidad del sistema | **Escenario 1: Modelado**<br>Dado que se conocen las entidades<br>Cuando se definen las tablas y relaciones<br>Entonces se genera un diagrama ER claro.<br>**Escenario 2: Validación**<br>Dado que el diseño está hecho<br>Cuando se compara con los requerimientos<br>Entonces se aprueba para implementación. | EP07 |
-| **TS01** | Funcionalidad CRUD en la interfaz | Como developer quiero implementar funcionalidades CRUD (Crear, leer, actualizar, eliminar)  en la interfaz para gestionar los recursos de manera dinamica desde el frontend | **Escenario 1:**<br>Dado que el developer prueba la sección de rentBike<br>Cuando crea un nueva renta<br>Entonces inmediatamente se debe crear y mostrar los detalles sin necesidad de recargar la página <br>**Escenario 2:**<br>Dado que el developer sigue realizando pruebas y decide eliminar o editar la renta realizada<br>Cuando presiona el botón eliminar o editar<br>Entonces los cambios realizados se deben mostrar en la interfaz y el estado de la  aplicación  | EP06 |
+| **TS01** | Funcionalidad CRUD en la interfaz | Como developer quiero implementar funcionalidades CRUD (Crear, leer, actualizar, eliminar)  en la interfaz para gestionar los recursos de manera dinamica desde el frontend | **Escenario 1:**<br>Dado que el developer prueba la sección de rentBike<br>Cuando crea un nueva renta<br>Entonces inmediatamente se debe crear y mostrar los detalles sin necesidad de recargar la página <br>**Escenario 2:**<br>Dado que el developer sigue realizando pruebas y decide eliminar o editar la renta realizada<br>Cuando se decida entre las opciones eliminar o editar<br>Entonces los cambios realizados se deben mostrar en la interfaz y el estado de la  aplicación  | EP06 |
 | **TS02** | Despliegue de la aplicación  | Como developer quiero desplegar la aplicación en un entorno accesible públicamente para que otros usuarios puedan probar su funcionamiento |**Escenario 1:**<br>Dado que el repositorio principal contiene la última versión estable del proyecto<br>Cuando se ejecuta el proceso de despliegue<br>Entonces la aplicación debe estar disponible en una URL pública sin errores <br>**Escenario 2:**<br>Dado que el entorno de producción está activo Cuando un usuario accede a la aplicación<br>Entonces la carga debe completarse en un tiempo optimo | EP06 |
 | **TS03** | Validación de datos recibidos desde la Fake API | Como developer, quiero validar que los datos recibidos desde la Fake API cumplan con el formato esperado, para evitar errores en la visualización o manipulación  | **Escenario 1:**<br>Dado que la aplicación recibe datos de una Fake API<br>Cuando el formato de un campo no es el esperado<br>Entonces debe mostrarse un mensaje de error en la interfaz de la aplicación<br>**Escenario 2:**<br>Dado que un dato importante está ausente (por ejemplo, ID o nombre)<br>Cuando se intenta renderizar en pantalla<br>Entonces el componente debe mostrar un mensaje de "dato incorrecto" | EP06 |
-| **TS04** | Configuración de las rutas principales  | Como developer, quiero configurar las rutas principales de la aplicación para permitir la navegación entre las diferentes vistas de forma fluida  | **Escenario 1:**<br>Dado que el usuario accede a la ruta principal<br>Cuando la URL es ingresada o se hace clic en un enlace<br>Entonces debe cargarse la vista principal sin recargar la página<br>**Escenario 2:**<br>Dado que el usuario accede a una ruta no definida como /xyz Cuando se produce un error en las rutas de navegación Entonces debe mostrarse una página 404 personalizada.  | EP06 |
+| **TS04** | Configuración de las rutas principales  | Como developer, quiero configurar las rutas principales de la aplicación para permitir la navegación entre las diferentes vistas de forma fluida  | **Escenario 1:**<br>Dado que el usuario accede a la ruta principal<br>Cuando la URL es ingresada o se hace ingresa en un enlace<br>Entonces debe cargarse la vista principal sin recargar la página<br>**Escenario 2:**<br>Dado que el usuario accede a una ruta no definida como /xyz Cuando se produce un error en las rutas de navegación Entonces debe mostrarse una página 404 personalizada.  | EP06 |
 | **TS05** | CRUD Users  | Como developer quiero obtener la información de los usuarios mediante la funcionalidad CRUD para monitorear y convalidar a nuestros usuarios  | **Escenario 1: Registro exitoso**<br>Dado que tengo acceso a la funcionalidad de creación de usuarios <br>Cuando ingreso los datos válidos de un nuevo usuario<br>Entonces el usuario se guarda correctamente y aparece en la lista de usuarios<br> **Escenario 2: Edición de datos inválidos**<br>Dado que tengo acceso a la funcionalidad de edición de usuarios<br>Cuando intento actualizar un usuario con campos inválidos o vacíos<br>Entonces recibo un mensaje de error indicando los campos incorrectos <br>**Escenario 3: Visualización y edición del perfil**<br> Dado que los usuarios tienen la funcionalidad de visualizar y editar los datos de sus perfiles <br>Cuando un usuario inicia sesión y entra a su perfil <br> Entonces puede visualizar, cambiar su nombre y correo correctamente  | EP06 |
 | **TS06** | CRUD Bikes | Como developer de la aplicación, quiero implementar la funcionalidad CRUD para las bicicletas para registrar nuevas unidades, actualizar su estado o eliminarlas cuando se dé de baja | **Escenario 1: Visualización de bicicletas disponibles**<br>Dado que tengo acceso a la funcionalidad de lectura de bicicletas<br>Cuando consulto la lista de bicicletas<br>Entonces obtengo un listado actualizado con su disponibilidad y estado <br>**Escenario 2: Eliminación correcta**<br>Dado que tengo acceso a la funcionalidad de eliminación de bicicletas<br>Cuando elimino una bicicleta con ID válido<br>Entonces desaparece del sistema y no aparece en la vista de selección  | EP06 |
 | **TS07** | CRUD Bike Station | Como developer de la app, quiero implementar funcionalidades CRUD sobre estaciones de bicicletas para administrar sus ubicaciones y capacidades | **Escenario 1: Registro exitoso de estación**<br>Dado que tengo acceso a la funcionalidad de creación de estaciones<br>Cuando ingreso una nueva estación con datos válidos<br>Entonces se guarda y aparece en el mapa de estaciones <br>**Escenario 2: Edición con datos incompletos**<br>Dado que tengo acceso a la funcionalidad de actualización de estaciones<br>Cuando intento guardar cambios con campos obligatorios vacíos<br>Entonces recibo un mensaje de validación indicando los errores  | EP06 |
 | **TS08** | CRUD Touring | Como developer de la aplicación, quiero poder administrar la información de los recorridos turísticos (tourings) usando operaciones CRUD para actualizar o eliminar recorridos obsoletos y mostrar los vigentes | **Escenario 1: Visualización correcta de tourings**<br>Dado que tengo acceso a la funcionalidad de lectura de tourings<br>Cuando consulto la lista de tourings<br>Entonces obtengo una lista con los recorridos disponibles y su información <br>**Escenario 2: Eliminación de touring existente**<br>Dado que tengo acceso a la funcionalidad de eliminación de tourings<br>Cuando elimino un touring con ID válido<br>Entonces se elimina correctamente y desaparece del listado  | EP06 |
 | **TS09** | CRUD Bookings | Como developer, quiero implementar operaciones CRUD para que los usuarios puedan gestionar sus reservas de bicicletas o tourings de forma sencilla | **Escenario 1: Creación de reserva exitosa**<br>Dado que tengo acceso a la funcionalidad de creación de reservas<br>Cuando el usuario selecciona una bicicleta y una estación<br>Entonces se crea la reserva y se muestra en su historial <br>**Escenario 2: Cancelación de reserva**<br>Dado que tengo acceso a la funcionalidad de eliminación de reservas<br>Cuando el usuario decide cancelar una reserva<br>Entonces esta se elimina del historial y se libera la bicicleta  | EP06 |
 | **TS10** | CRUD Payments  | Como developer que trabaja en la aplicación, quiero implementar la funcionalidad CRUD para los métodos de pago para que los usuarios puedan registrar, actualizar o eliminar tarjetas u otros medios asociados a sus cuentas | **Escenario 1: Registro exitoso de método de pago**<br>Dado que tengo acceso a la funcionalidad de creación de métodos de pago<br>Cuando un usuario ingresa los datos válidos de una tarjeta o medio de pago<br>Entonces el método se guarda correctamente y aparece en su perfil <br>**Escenario 2: Eliminación de método de pago**<br>Dado que tengo acceso a la funcionalidad de eliminación de métodos de pago<br>Cuando el usuario elimina un método de pago válido<br>Entonces este desaparece del listado de medios disponibles <br>**Escenario 3: Edición de método de pago**<br>Dado que tengo acceso a la funcionalidad de actualización de métodos de pago<br>Cuando el usuario edita los datos de un método de pago previamente registrado<br>Entonces los cambios se guardan correctamente y el método actualizado se refleja en su cuenta  | EP06 |
-| TS11 | Endpoint para Usuarios | Como developer, quiero implementar un endpoint RESTful para gestionar usuarios, permitiendo operaciones de registro, obtención, actualización y eliminación | **Escenario 1: Registro exitoso**<br>Dado que el cliente envía datos válidos<br>Cuando hace POST a /users<br>Entonces el usuario es creado y retorna su ID.<br>**Escenario 2: Consulta de usuarios**<br>Dado que hay usuarios registrados<br>Cuando se hace GET a /users<br>Entonces se retorna una lista de usuarios.<br>**Escenario 3: Edición de usuario**<br>Dado que el usuario existe<br>Cuando se hace PUT a /users/{id}<br>Entonces se actualizan los datos correspondientes.<br>**Escenario 4: Eliminación**<br>Dado que el usuario existe<br>Cuando se hace DELETE a /users/{id}<br>Entonces el usuario es eliminado del sistema. | EP06 |
-| TS12 | Endpoint para Tours | Como developer, quiero exponer un endpoint que permita listar, crear y eliminar recorridos turísticos para mantener actualizados los tours disponibles | **Escenario 1: Visualización de tours**<br>Dado que hay tours registrados<br>Cuando se hace GET a /tours<br>Entonces se muestra una lista con sus detalles.<br>**Escenario 2: Creación de tour**<br>Dado que se recibe un body válido<br>Cuando se hace POST a /tours<br>Entonces el tour se guarda correctamente.<br>**Escenario 3: Eliminación de tour**<br>Dado que el tour existe<br>Cuando se hace DELETE a /tours/{id}<br>Entonces el tour es eliminado del sistema. | EP06 |
-| TS13 | Endpoint para TourBooking | Como developer, quiero implementar un endpoint que permita a los usuarios reservar un tour y cancelar la reserva si es necesario | **Escenario 1: Crear reserva de tour**<br>Dado que se envían datos válidos<br>Cuando se hace POST a /tour-bookings<br>Entonces se crea la reserva correctamente.<br>**Escenario 2: Cancelar reserva**<br>Dado que la reserva existe<br>Cuando se hace DELETE a /tour-bookings/{id}<br>Entonces la reserva se elimina del sistema.<br>**Escenario 3: Consultar reservas por usuario**<br>Dado que el usuario tiene reservas<br>Cuando se hace GET a /tour-bookings?userId={id}<br>Entonces se devuelve su historial de reservas. | EP06 |
-| TS14 | Endpoint para Bikes | Como developer, quiero exponer un endpoint para gestionar bicicletas, permitiendo su creación, modificación, consulta y eliminación | **Escenario 1: Crear bicicleta**<br>Dado que se envía información válida<br>Cuando se hace POST a /bikes<br>Entonces la bicicleta es registrada.<br>**Escenario 2: Editar bicicleta**<br>Dado que la bicicleta existe<br>Cuando se hace PUT a /bikes/{id}<br>Entonces se actualiza su estado.<br>**Escenario 3: Consultar bicicletas**<br>Dado que se accede al endpoint<br>Cuando se hace GET a /bikes<br>Entonces se muestra el listado.<br>**Escenario 4: Eliminar bicicleta**<br>Dado que la bicicleta existe<br>Cuando se hace DELETE a /bikes/{id}<br>Entonces se elimina del sistema. | EP06 |
-| TS15 | Endpoint para Bike Station | Como developer, quiero desarrollar un endpoint para administrar las estaciones de bicicletas, permitiendo operaciones CRUD completas | **Escenario 1: Crear estación**<br>Dado que se envían datos válidos<br>Cuando se hace POST a /stations<br>Entonces se crea una nueva estación.<br>**Escenario 2: Obtener estaciones**<br>Dado que hay estaciones registradas<br>Cuando se hace GET a /stations<br>Entonces se muestran todas las estaciones.<br>**Escenario 3: Editar estación**<br>Dado que una estación existe<br>Cuando se hace PUT a /stations/{id}<br>Entonces se actualiza correctamente.<br>**Escenario 4: Eliminar estación**<br>Dado que existe<br>Cuando se hace DELETE a /stations/{id}<br>Entonces se elimina la estación. | EP06 |
-| TS16 | Endpoint para Payment | Como developer, quiero implementar un endpoint para registrar pagos de alquiler o tours, asociando la transacción al usuario y enviando confirmación | **Escenario 1: Registrar pago**<br>Dado que el usuario completa un alquiler o reserva<br>Cuando se hace POST a /payments<br>Entonces se guarda la transacción con éxito.<br>**Escenario 2: Consultar historial de pagos**<br>Dado que el usuario desea ver sus pagos<br>Cuando hace GET a /payments?userId={id}<br>Entonces se devuelve el historial correspondiente. | EP06 |
-| TS17 | Endpoint para Payment Information | Como developer, quiero permitir que los usuarios gestionen su información de pago (tarjetas, métodos), pudiendo registrar, actualizar o eliminar estos datos | **Escenario 1: Registrar método de pago**<br>Dado que el usuario quiere guardar un nuevo método<br>Cuando se hace POST a /payment-info<br>Entonces se registra correctamente.<br>**Escenario 2: Editar método**<br>Dado que el método ya existe<br>Cuando se hace PUT a /payment-info/{id}<br>Entonces los datos se actualizan.<br>**Escenario 3: Eliminar método**<br>Dado que el usuario desea borrarlo<br>Cuando se hace DELETE a /payment-info/{id}<br>Entonces desaparece del perfil.<br>**Escenario 4: Obtener métodos guardados**<br>Dado que el usuario accede a su configuración<br>Cuando se hace GET a /payment-info?userId={id}<br>Entonces ve sus métodos registrados. | EP06 |
+| **TS11** | Endpoint para Usuarios | Como developer, quiero implementar un endpoint RESTful para gestionar usuarios, permitiendo operaciones de registro, obtención y eliminación | **Escenario 1: Registro exitoso**<br>Dado que el cliente envía datos válidos<br>Cuando hace `POST /users`<br>Entonces el usuario es creado y retorna su ID con un **201 Created**. Si los datos son inválidos, se recibe un **400 Bad Request**.<br>**Escenario 2: Consulta de usuarios**<br>Dado que hay usuarios registrados<br>Cuando se hace `GET /users`<br>Entonces se retorna una lista con un **200 OK**.<br>**Escenario 3: Eliminación**<br>Dado que el usuario existe<br>Cuando se hace `DELETE /users/{id}`<br>Entonces el usuario es eliminado con un **204 No Content**. | EP06 |
+| **TS12** | Endpoint para Tours | Como developer, quiero exponer un endpoint que permita listar, crear y consultar recorridos turísticos para mantener actualizados los tours disponibles | **Escenario 1: Visualización de tours**<br>Dado que hay tours registrados<br>Cuando se hace `GET /tours/{id}`<br>Entonces se devuelve el tour con un **200 OK**. Si no existe, se recibe un **404 Not Found**.<br>**Escenario 2: Creación de tour**<br>Dado que se recibe un body válido<br>Cuando se hace `POST /tours`<br>Entonces el tour se guarda correctamente con un **201 Created**. Si hay errores, se recibe un **400 Bad Request**. | EP06 |
+| **TS13** | Endpoint para TourBooking | Como developer, quiero implementar un endpoint que permita a los usuarios reservar un tour y consultar su reserva | **Escenario 1: Crear reserva de tour**<br>Dado que se envían datos válidos<br>Cuando se hace `POST /tour-bookings`<br>Entonces se crea la reserva correctamente con un **201 Created**. Si los datos son inválidos, se recibe un **400 Bad Request**.<br>**Escenario 2: Consultar reservas por ID**<br>Dado que existe una reserva<br>Cuando se hace `GET /tour-bookings/{id}`<br>Entonces se devuelve la reserva con un **200 OK**. Si no se encuentra, se recibe un **404 Not Found**. | EP06 |
+| **TS14** | Endpoint para Bikes | Como developer, quiero exponer un endpoint para gestionar bicicletas, permitiendo su creación, modificación y consulta | **Escenario 1: Crear bicicleta**<br>Dado que se envía información válida<br>Cuando se hace `POST /bikes`<br>Entonces la bicicleta es registrada y se recibe un **201 Created**. Si los datos son inválidos, se recibe un **400 Bad Request**.<br>**Escenario 2: Editar bicicleta**<br>Dado que la bicicleta existe<br>Cuando se hace `PUT /bikes/{id}`<br>Entonces se actualiza su estado y se recibe un **200 OK**. Si los datos son inválidos, se recibe un **400 Bad Request**. Si la bicicleta no existe, se recibe un **404 Not Found**.<br>**Escenario 3: Consultar bicicletas disponibles**<br>Dado que se accede al endpoint<br>Cuando se hace `GET /bikes/available/{stationId}`<br>Entonces se muestra el listado con un **200 OK**. | EP06 |
+| **TS15** | Endpoint para Bike Station | Como developer, quiero desarrollar un endpoint para administrar las estaciones de bicicletas, permitiendo operaciones CRUD completas | **Escenario 1: Crear estación**<br>Dado que se envían datos válidos<br>Cuando se hace `POST /stations`<br>Entonces se crea una nueva estación y se recibe un **201 Created**. Si los datos son inválidos, se recibe un **400 Bad Request**.<br>**Escenario 2: Obtener estaciones**<br>Dado que hay estaciones registradas<br>Cuando se hace `GET /stations`<br>Entonces se muestran todas las estaciones con un **200 OK**.<br>**Escenario 3: Editar estación**<br>Dado que una estación existe<br>Cuando se hace `PUT /stations/{id}`<br>Entonces se actualiza correctamente y se recibe un **200 OK**. Si no existe, se recibe un **404 Not Found**. Si los datos son inválidos, se recibe un **400 Bad Request**. | EP06 |
+| **TS16** | Endpoint para Payment | Como developer, quiero implementar un endpoint para registrar pagos de alquiler o tours, asociando la transacción al usuario y enviando confirmación | **Escenario 1: Registrar pago**<br>Dado que el usuario completa un alquiler o reserva<br>Cuando se hace `POST /payments`<br>Entonces se guarda la transacción con éxito y se recibe un **201 Created**. Si hay error en los datos, se recibe un **400 Bad Request**.<br>**Escenario 2: Consultar historial de pagos**<br>Dado que el usuario desea ver sus pagos<br>Cuando hace `GET /payments/by-id/{id}` o `GET /payments/by-price/{price}`<br>Entonces se devuelve la información con un **200 OK**. Si no se encuentra, se devuelve un **404 Not Found**. | EP06 |
+| **TS17** | Endpoint para Payment Information | Como developer, quiero permitir que los usuarios gestionen su información de pago (tarjetas, métodos), pudiendo registrar, actualizar y consultar estos datos | **Escenario 1: Registrar método de pago**<br>Dado que el usuario quiere guardar un nuevo método<br>Cuando se hace `POST /payment-info`<br>Entonces se registra correctamente con un **201 Created**. Si hay error en los datos, se recibe un **400 Bad Request**.<br>**Escenario 2: Editar método**<br>Dado que el método ya existe<br>Cuando se hace `PUT /payment-info/{id}`<br>Entonces los datos se actualizan con un **200 OK**. Si no existe, se devuelve un **404 Not Found**.<br>**Escenario 3: Obtener métodos guardados**<br>Dado que el usuario accede a su configuración<br>Cuando se hace `GET /payment-info/by-id/{id}` o `GET /payment-info/by-holder/{holder}`<br>Entonces ve sus métodos registrados con un **200 OK**. Si no se encuentra, se devuelve un **404 Not Found**. | EP06 |
+| **TS18** | Endpoint para Rent | Como developer, quiero implementar un endpoint para registrar y consultar rentas de bicicletas para que el sistema pueda guardar los alquileres realizados por los usuarios | **Escenario 1: Crear renta**<br>Dado que el usuario finaliza el proceso de renta<br>Cuando se hace `POST /rents`<br>Entonces la renta se guarda con éxito con un **201 Created**. Si hay errores en el envío, se recibe un **400 Bad Request**.<br>**Escenario 2: Obtener renta por ID**<br>Dado que existe una renta registrada<br>Cuando se hace `GET /rents/{id}`<br>Entonces se devuelve la información con un **200 OK**. Si la renta no existe, se devuelve un **404 Not Found**. | EP06 |
+
 
 ## 3.3 Impact Mapping
 
@@ -1186,16 +1255,16 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
-<img src="assets/images/C4/C4-v2-1.jpeg" width="1000" alt="SoftwareArchitectureContextDiagram" />
+<img src="assets/images/c4/context.png" width="1000" alt="SoftwareArchitectureContextDiagram" />
 
 
 ### 4.6.2. Software Architecture Container Diagrams
 
-<img src="assets/images/C4/C4-v2-2.jpeg" width="1000" alt="SoftwareArchitectureContainerDiagrams" />
+<img src="assets/images/c4/content.png" width="1000" alt="SoftwareArchitectureContainerDiagrams" />
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-<img src="assets/images/C4/C4-v2-3.png" width="1000" alt="SoftwareArchitectureComponentsDiagrams" />
+<img src="assets/images/c4/componentes.png" width="1000" alt="SoftwareArchitectureComponentsDiagrams" />
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1205,17 +1274,141 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 
 <img src="assets/images/diagram-class/diagram-class.png" width="1000" alt="diagram class" />
 
-- Renting Bounded Context
-<img src="assets/images/diagram-class/diagram-class2.png" width="1000" alt="diagram class2" />
+### Safecycle backend Class Diagram
 
-- Booking Bounded Context
-<img src="assets/images/diagram-class/diagram-class3.png" width="1000" alt="diagram class3" />
+#### Bikes Bounded Context
 
-- Users Bounded Context
-<img src="assets/images/diagram-class/diagram-class4.png" width="1000" alt="diagram class4" />
+##### Aplication
 
-- Touring Bounded Context
-<img src="assets/images/diagram-class/diagram-class5.png" width="1000" alt="diagram class5" />
+<img src="assets/images/diagram-class/Bikes/Bikes Application.png" width="1000" alt="Bikes Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/Bikes/Bikes Domain Model.png" width="1000" alt="Bikes Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/Bikes/Bikes Domain Services Repos.png" width="1000" alt="Bikes Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/Bikes/Bikes Infrastructure.png" width="1000" alt="Bikes Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesControllers.png" width="1000" alt="Bikes Interfaces Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesResources.png" width="1000" alt="Bikes Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/Bikes/Bikes InterfacesTransform.png" width="1000" alt="Bikes Infrastructure Transform" />
+
+#### IAM Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/IAM/IAM Application.png" width="1000" alt="IAM Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/IAM/IAM Domain Model.png" width="1000" alt="IAM Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/IAM/IAM Domain Services Repos.png " width="1000" alt="Bikes Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/IAM/IAM Infrastructure.png" width="1000" alt="IAM Infrastructure" />
+
+##### Interfaces
+
+<img src="assets/images/diagram-class/IAM/IAM Interfaces.png" width="1000" alt="IAM Interfaces" />
+
+#### Payment Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/Payment/Payment Application.png" width="1000" alt="Payment Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/Payment/Payment Domain Model.png" width="1000" alt="Payment Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/Payment/Payment Domain RS.png" width="1000" alt="Payment Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/Payment/Payment Infrastructure.png" width="1000" alt="Payment Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Controllers.png" width="1000" alt="Payment Interfaces Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Resources.png" width="1000" alt="Payment Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/Payment/Payment Interfaces Transform.png" width="1000" alt="Payment Infrastructure Transform" />
+
+#### Renting Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/renting/Renting Application.png" width="1000" alt="Renting Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/renting/Renting Domain Model.png" width="1000" alt="Renting Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/renting/Renting Domain RS.png" width="1000" alt="Renting Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/renting/Renting Infrastructure.png" width="1000" alt="Renting Infrastructure" />
+
+##### Interfaces
+
+<img src="assets/images/diagram-class/renting/Renting Interfaces.png" width="1000" alt="Renting Interfaces " />
+
+#### Tours Bounded Context
+
+##### Aplication
+
+<img src="assets/images/diagram-class/tours/Tours Application.png" width="1000" alt="Tours Application" />
+
+##### Domain/Model
+
+<img src="assets/images/diagram-class/tours/Tours Domain Model.png" width="1000" alt="Tours Domain Model" />
+
+##### Domain/Model/RS
+
+<img src="assets/images/diagram-class/tours/Tours Domain RS.png" width="1000" alt="Tours Domain RS" />
+
+##### Infrastructure
+
+<img src="assets/images/diagram-class/tours/Tours Infrastructure.png" width="1000" alt="Tours Infrastructure" />
+
+##### Interfaces/Controllers
+
+<img src="assets/images/diagram-class/tours/Tours Controller.png" width="1000" alt="Payment Tours Controllers" />
+
+##### Interfaces/Resources
+
+<img src="assets/images/diagram-class/tours/Tours Interfaces Resources.png" width="1000" alt="Tours Infrastructure Resources" />
+
+##### Interfaces/Transform
+
+<img src="assets/images/diagram-class/tours/Tours Interfaces Transform.png" width="1000" alt="Tours Infrastructure Transform" />
 
 #### Safecycle Backend class diagram
 
@@ -1466,7 +1659,7 @@ link a wireflow diagrams[https://lucid.app/lucidchart/007fe905-b01c-4089-9f21-90
 
 ### 4.8.1. Database Diagram
 
-<img src= "assets/images/database/Diagrama de datos.jpeg" widt= "1000" alt="Database-Diagram"/>
+<img src= "assets/images/database/database-diagram.png" widt= "1000" alt="Database-Diagram"/>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -1846,7 +2039,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
 | Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
 | Sprint n – 3 Review Summary | Se logró una primera integración de frontend con mock APIs y se avanzó en la estructura de base de datos; además, se ajustaron los endpoints a la arquitectura final definida. |
 | Sprint n – 3 Retrospective Summary | Consolidar una mejor coordinación entre frontend y backend para garantizar integraciones más rápidas. Aumentar la calidad de los tests unitarios en los endpoints. |
-| Sprint 3 Goal | En este Sprint, nuestro objetivo es tener implementados los endpoints principales, asegurar la conexión estable con el frontend y avanzar en la documentación técnica completa del backend. Esto se validará cuando los endpoints estén funcionales y documentados, y exista una integración estable entre backend y frontend. |
+| Sprint 3 Goal | En este Sprint, nuestro objetivo es tener implementados los endpoints principales, asegurar la conexión estable con el frontend y avanzar en la documentación técnica completa del backend. Esto se validará cuando los endpoints estén desplegados, funcionales y documentados, y exista una integración estable entre backend y frontend. Además, se implementaron los videos about the products y about the team dentro de la landing page |
 | Sprint 3 Velocity | Para este sprint nuestro equipo puende aceptar hasta 30 story points |
 | Sum of Story Points | Para este sprint haremos 27 story points |
 #### 5.2.3.2. Aspect Leaders and Collaborators.
@@ -1895,7 +2088,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación del método POST y Delete</td>
-    <td>2</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -1903,7 +2096,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos getById, getByUser, getByTourist, getAllUsers </td>
-    <td>2</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -1923,7 +2116,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -1931,7 +2124,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos getById, getAllTours </td>
-    <td>2</td>
+    <td>5</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -1941,7 +2134,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST, GetByID y PUT</td>
-    <td>3</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -1949,7 +2142,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos  GetById, GetAll </td>
-    <td>2</td>
+    <td>5</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -1967,7 +2160,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll ,GetByID, GetAvailableCarStations </td>
-    <td>2</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -1977,7 +2170,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Soporte CRUD bicicletas</td>
     <td>Soporte backend para registrar, leer y eliminar bicicletas para uso del sistema.</td>
-    <td>2</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -1987,7 +2180,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -1996,7 +2189,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetByID, GetAvailableCars </td>
-    <td>2</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2016,7 +2209,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Creación del métodos para funcionalidades</td>
     <td>Creación de los métodos POST y Delete</td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2025,7 +2218,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetById </td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2044,7 +2237,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Creación de metodos GET </td>
     <td> Creación de metodos GetAll, GetById </td>
-    <td>2</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2054,7 +2247,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Añadir cambios de lenguaje</td>
     <td>Implementación de i18n a la aplicación</td>
-    <td>6</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2072,7 +2265,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Consolidar insights y documentar</td>
     <td>Elaborar documento con necesidades identificadas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2090,7 +2283,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Elaborar matriz de tareas por rol</td>
     <td>Diseñar matriz visual de tareas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2118,7 +2311,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T19</td>
     <td>Empathy Map: segmento estudiante</td>
     <td>Construir mapa de empatía para estudiantes</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2126,7 +2319,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T20</td>
     <td>Empathy Map: segmento turista</td>
     <td>Construir mapa de empatía para turistas</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew</td>
     <td>Done</td>
   </tr>
@@ -2136,7 +2329,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Definir escenarios As-Is</td>
     <td>Documentar procesos actuales de los usuarios</td>
-    <td>3</td>
+    <td>4</td>
     <td>Gabriel Sanchez</td>
     <td>Done</td>
   </tr>
@@ -2144,7 +2337,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Definir escenarios To-Be</td>
     <td>Definir escenarios ideales con SafeCycle</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done/td>
   </tr>
@@ -2154,7 +2347,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T23</td>
     <td>Identificar objetivos y actores</td>
     <td>Listar objetivos de negocio y actores clave</td>
-    <td>3</td>
+    <td>4</td>
     <td>Diego Mora</td>
     <td>Done</td>
   </tr>
@@ -2172,7 +2365,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T25</td>
     <td>Crear versión inicial del backlog</td>
     <td>Crear backlog inicial en formato .md</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2180,7 +2373,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T26</td>
     <td>Validar backlog con equipo</td>
     <td>Revisar y validar prioridades de backlog</td>
-    <td>3</td>
+    <td>4</td>
     <td>Giancarlo Castañedae</td>
     <td>Done</td>
   </tr>
@@ -2190,7 +2383,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T27</td>
     <td>Crear diagrama de contexto </td>
     <td>Modelar nivel contexto del sistema</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2198,7 +2391,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T28</td>
     <td>Crear diagrama de contenedores </td>
     <td>Modelar nivel contenedores de la app</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2206,7 +2399,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T29</td>
     <td>Crear diagrama de componentes </td>
     <td>Modelar nivel componentes</td>
-    <td>2</td>
+    <td>4</td>
     <td>Oliver Jonseck</td>
     <td>Done</td>
   </tr>
@@ -2216,7 +2409,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T01</td>
     <td>Modelar clases principales</td>
     <td>Diseñar diagrama UML de clases del sistema</td>
-    <td>2</td>
+    <td>4</td>
     <td> Giancarlo Castañeda </td>
     <td>Done</td>
   </tr>
@@ -2224,7 +2417,7 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Revisar y validar diagrama</td>
     <td>Revisión conjunta del modelo de clases</td>
-    <td>3</td>
+    <td>4</td>
     <td> Giancarlo Castañeda</td>
     <td>Done</td>
   </tr>
@@ -2242,11 +2435,10 @@ Para el despliegue de nuestra aplicación web decidimos utilizar los servicios d
     <td>T02</td>
     <td>Validar estructura del ERD</td>
     <td>Validación conjunta del ERD</td>
-    <td>3</td>
+    <td>4</td>
     <td>Carlos Matthew, Diego Mora, Gabriel Sanchez, Giancarlo Castañeda, Oliver Jonseck</td>
     <td>Done</td>
   </tr>
-</table>
 
 
 A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
@@ -2320,6 +2512,156 @@ En esta sección se presentan las evidencias de la ejecución de la aplicación 
 | **Carlos Matthew** | \- CRUD Payments <br> \- Endpoint Payment y Payment Info |
 
 ![](assets/images/insights-sprint-3.png)
+
+
+
+### 5.2.4 Sprint 4
+
+
+#### 5.2.4.1 Sprint Planning 4.
+| Sprint \# | 4 |
+| :---- | :---- |
+| Sprint Planning Background |  |
+| Date | 2025-01-07 |
+| Time | 12:00 PM |
+| Location | Discord |
+| Prepared by | Giancarlo Castañeda |
+| Attendees (to planning meeting) | Carlos Gonzales, Oliver Jonseck, Diego Mora, Sanchez Gonzales  |
+| Sprint n – 4 Review Summary | Se dicidio actualizar nuestro bounded context "IAM" en el cual se encuentra todo lo relacionado al registro y inicio de sesión del usuario, añadiendo las respectivas tokens y utilizando elementos de seguridad como JWT|
+| Sprint n – 4 Retrospective Summary | Creemos que hay oportunidad de hacer una mejor planificación de tiempos para la integraciones y revisiones  |
+| Sprint Goal & User Stories |  |
+| Sprint 4 Goal | El objetivo de este sprint es la implementación de los endpoints para el registro y logeo de los usuarios mediante la conexión del frontend con el backend  |
+| Sprint 4 Velocity | Para este sprint nuestro equipo puende aceptar hasta  story points |
+| Sum of Story Points | Para este sprint haremos  story points |
+
+#### 5.2.4.2 Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name)  | GitHub Username | Back-End Development| Documentation | Page Deployment | 
+| ------------------------------------ | --------------- | --------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Sanchez Gonzales                     | yigabriel       | L                                       | L                                            | L                                                                                             |
+| Mora Blas, Diego Alonzo              | diegoalonzomora | L                                       | C                                            | C                                                                                             |
+| Castañeda Guimas, Giancarlo Santiago | Darksens01      | C                                       | L                                            | C                                                                                             |
+| Jonseck Choque, Oliver               | Olizzy-upc      | C                                       | C                                            | C                                                                                             |
+| Gonzales Valverde, Carlos Matthew    | Carlos12324     | C                                       | C                                            | C                                                                                             |
+
+
+#### 5.2.4.3 Sprint Backlog 4.
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 4</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation (Hours)</strong></td>
+    <td><strong>Assigned To</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="1">TS05</td>
+    <td rowspan="1">CRUD Users</td>
+    <td>T01</td>
+    <td>CRUD usuario - lectura y edición</td>
+    <td>Soporte backend para editar y obtener datos de usuario desde panel.</td>
+    <td>5</td>
+    <td>Diego Mora</td>
+    <td>To Do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS11</td>
+    <td rowspan="2">Endpoint para IAM</td>
+    <td>T01</td>
+    <td>Creación del métodos para funcionalidades</td>
+    <td>Creación del método POST y Delete</td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>T02</td>
+    <td>Creación de metodos GET </td>
+    <td> Creación de metodos getById, getByUser, getByTourist, getAllUsers </td>
+    <td>2</td>
+    <td>Diego Mora</td>
+    <td>Done</td>
+  </tr>
+A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo de la SPA SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | 85c8a5d | fix: payment information cardnumber | \* No aplica | Jul 6, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | 2847d20 | fix: authorization headers | \* No aplica | Jul 4, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | 163d983 | feat: add responses | authorization | \* No aplica | Jul 4, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | 515f431 | chore: add modelbuilderextension on every bounded context | \* No aplica | Jul 3, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | 044d51f | feat: update parameters on SignUp Assembler | \* No aplica | Jul 3, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | ad02625 | chore: add Resource and Transform classes for Auth Controller | \* No aplica | Jul 3, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | fc95c6a | chore: add Resources for User REST API | \* No aplica | Jul 3, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | 2ebfe69 | feat: add token and hashing services | \* No aplica | Jul 2, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | fdded58 | chore: add interfaces for hashing and token services | \* No aplica | Jul 2, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/Tours | 015cc1c | fix: string lenght img in Tours.cs | \* No aplica | Jun 21, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/bikes | 7ee233a | fix: GetAvailableBikesByStationIdQuery.cs | \* No aplica | Jun 21, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/Tours | 7468248 | feat: add tour booking audit | \* No aplica | Jun 20, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/Tours | d6d68ea | feat: add tourbooking endpoint | \* No aplica | Jun 20, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | fb7195c | feat: include user in paymentinformation endpoint | \* No aplica | Jun 20, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/iam | 302b698 | chore: change payments bounded context name | \* No aplica | Jun 20, 2025 |
+| 1ASI0730-2510-4374-G1-SafeCycle back-end | feature/bikes | f04ee5f | feat: add update bike command | \* No aplica | Jun 19, 2025 |
+
+#### 5.2.4.5 Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 4. En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. 
+
+![](assets/images/swagger-ss.png)
+
+
+#### 5.2.4.6 Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint, se utilizaron los siguientes servicios:
+
+*Swagger UI*: Se empleó para la documentación automática de los endpoints del backend. Swagger proporciona una interfaz amigable para desarrolladores, permitiendo ver y probar cada uno de los servicios disponibles.
+
+Evidencias:
+
+Enlace a la documentación Swagger: https://backend-vtnl.onrender.com/swagger/index.html
+
+![](assets/images/swagger-ss.png)
+
+#### 5.2.4.7 Software Deployment Evidence for Sprint Review.
+
+El backend del proyecto fue desplegado exitosamente en la plataforma Render, la cual permite mantener en línea tanto el backend como la base de datos.
+
+Despliegue realizado:
+
+Backend API REST sin documentacion desplegado en:
+https://backend-vtnl.onrender.com
+
+Base de datos: Se configuró en Render utilizando PostgreSQL. Esta base de datos está enlazada directamente con el backend para realizar operaciones CRUD.
+
+![](assets/images/onrender.png)
+
+El frontend del proyecto fue desplegado en Azure como un Web Application:
+
+Aplicacion Web desplegada: [https://white-mud-04527db10.6.azurestaticapps.net](https://white-mud-04527db10.6.azurestaticapps.net)
+
+
+#### 5.2.4.8 Team Collaboration Insights during Sprint.
+
+A continuación se muestran los commits realizados por los integrantes del equipo durante el desarrollo del back y front de SafeCycle. Se han excluido los merges automáticos y repetitivos para mostrar solo los commits funcionales más relevantes.
+
+| Participante | Actividades de implementación |
+| :---- | :---- |
+| Diego | Implementación de Tours, Payments y Payments Information, IAM. También trabajó en Rents. |
+| Gabriel | Implementación de Rents, login, sign up. Realización del modelo C4. |
+| Giancarlo | Encargado de la mayoría del informe del proyecto. |
+| Carlos | Elaboración del diagrama de base de datos. |
 
 ### 5.3. Validation Interviews
 
@@ -2641,7 +2983,7 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 ## 8. Anexos
 
-## Anexo A: Diseño y Landing: 
+## Anexo A: Links Importantes: 
 
 ### Figma
 - Figmas diseño UX: [//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1](//www.figma.com/design/XUOywJac5xiviLZTzQRXVC/Aplicaciones-Web---SafeCycle?node-id=13-501&t=miLetXSzBwb9VPw5-1)
@@ -2653,11 +2995,8 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 - Link a UXpresia de Anne Guillen [https://uxpressia.com/w/2JtXc/p/tbFfu](https://uxpressia.com/w/2JtXc/p/tbFfu)
 - Link a UXpresia de Mateo Smith [https://uxpressia.com/w/2JtXc/p/Wfgtx](https://uxpressia.com/w/2JtXc/p/Wfgtx)
 
-### Landing Page
-- Landing Page desplegada[https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
-
 ### Domain-Driven Software Architecture / C4 Diagrams
-- Link a Structurizr[https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45](https://structurizr.com/share/101562/e1c6f730-70d6-479d-a803-3be58880fd45)
+- Link a Structurizr[https://structurizr.com/share/104286/d5b18c26-096d-41bb-b10e-db6bdf5f7efb](https://structurizr.com/share/104286/d5b18c26-096d-41bb-b10e-db6bdf5f7efb)
 
 
 ### Flujos y Prototype
@@ -2668,13 +3007,13 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 
 ### Videos de Proyecto
 
-- Video About The Team Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EV7bMqv907lKrvwA216rzqUBo9191Y550nqWXU63BcCTIQ?e=c4FWhd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/EV7bMqv907lKrvwA216rzqUBo9191Y550nqWXU63BcCTIQ?e=c4FWhd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Video About The Team Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EeTdVa06oVpAoOhVNLMaqhoBSKL9EMnFNV_DfMB9BFetKg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=voNYBy](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/EeTdVa06oVpAoOhVNLMaqhoBSKL9EMnFNV_DfMB9BFetKg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=voNYBy)
 
-- Video About The Team Youtube: [https://youtu.be/ztW3a2As0HY](https://youtu.be/ztW3a2As0HY)
+- Video About The Team Youtube: [https://youtu.be/aYWcJasvF2o](https://youtu.be/aYWcJasvF2o)
 
-- Video About The Product en Microsoft Stream [https://upcedupe-my.sharepoint.com/:v:/r/personal/u202310601_upc_edu_pe/Documents/upc-pre-202510-1asi0730-4374-cuystm-aboutthe-product-sprint-3.mp4?csf=1&web=1&e=AB5p0B](https://upcedupe-my.sharepoint.com/:v:/r/personal/u202310601_upc_edu_pe/Documents/upc-pre-202510-1asi0730-4374-cuystm-aboutthe-product-sprint-3.mp4?csf=1&web=1&e=AB5p0B)
+- Video About The Product en Microsoft Stream [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/ETT2QyYrszhLoeUyA6vyxYcBHw8ZeqJ8m2UK9vWrp_NCsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eDWS2R](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/ETT2QyYrszhLoeUyA6vyxYcBHw8ZeqJ8m2UK9vWrp_NCsw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eDWS2R)
 
-- Video About The Product en youtube [https://youtu.be/Y8otcjddEDc](https://youtu.be/Y8otcjddEDc)
+- Video About The Product en youtube [youtu.be/Dop7eRZqa1s](youtu.be/Dop7eRZqa1s)
 
 <hr style="page-break-after: always;">
 
@@ -2684,6 +3023,8 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 - Link a video de exposición de TP1 en Microsoft Stream
   [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310601_upc_edu_pe/Ee2GMqLC5pRBllx3hKGaseQBt8vYfLC0hUXe0c6j7FSKJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=TzJ6hH)
 - Link a video de exposición de TB2 en Microsoft Stream [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/ETX0ZOrEG_tBozIbNjzGc9QB0br3e44dZYSg7SxcINTU7w?e=bfjzMn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310609_upc_edu_pe/ETX0ZOrEG_tBozIbNjzGc9QB0br3e44dZYSg7SxcINTU7w?e=bfjzMn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+- Link a video de exposicion de TP1 en Microsoft Stream
   
 <hr style="page-break-after: always;">
 
@@ -2705,3 +3046,20 @@ Posterior a la entrega de este trabajo, para el funcionamiento y mejora de la pl
 **Link del landing page:** 
 
 [https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing_page](https://github.com/1ASI0730-2510-4374-G1-SafeCycle/landing_page)
+
+<hr style="page-break-after: always;">
+
+## Anexo D: Links de Deployment:
+
+### Aplicacion Web
+
+Aplicacion Web desplegada: [https://white-mud-04527db10.6.azurestaticapps.net](https://white-mud-04527db10.6.azurestaticapps.net)
+
+### Landing Page
+
+Landing Page desplegada: [https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/](https://1asi0730-2510-4374-g1-safecycle.github.io/landing_page/)
+
+### Backend
+
+Backend OnRender desplegado: [https://backend-vtnl.onrender.com](https://backend-vtnl.onrender.com)
+
